@@ -23,6 +23,7 @@ app.get('/search', function(req, res) {
 
     // TODO: HELPER FUNCTION -> build inverted index and dictionary
     // NOTE: for inverted index, DO NOT include position
+    // NOTE: apply stemming and stop word here
 
     // TODO: HELPER FUNCTION -> compute cosine similarity score 
 
