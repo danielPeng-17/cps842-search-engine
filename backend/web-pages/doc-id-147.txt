@@ -1,0 +1,15 @@
+ONE MONTH
+
+This page lets you print a single calendar page. You might use it to print a January page for next year, to append to this year's calendar while you
+wait for next year's full calendar to arrive.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [../] / One Month
+email [/mailto/j.gif] [/mailto/?id=j]

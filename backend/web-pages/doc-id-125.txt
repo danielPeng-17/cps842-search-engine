@@ -1,0 +1,117 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+anvil [../resources/anvil.gif]
+
+
+ACME LABS SOFTWARE
+
+ACME Labs is proud to make available a variety of software, all free, some trivial, some massive, all high-quality.
+
+ACME-brand Unix software:
+
+ * ablog [ablog/], a simple personal weblog maker.
+ * acme_chat [acme_chat/], interface to ACME News chat.
+ * bigcal [bigcal/], make a 78-column version of the output of the "cal" command.
+ * bigint [bigint/], large integer package.
+ * blackmilter [blackmilter/], blacklist mail filter module.
+ * brev [brev/], binary file-reversal program. Fun to use on raw sound files.
+ * closest_fractions [closest_fractions/], show the closest rational approximations to a real.
+ * coords [coords/], geographical coordinate conversion routines.
+ * exif_copy [exif_copy/], copy EXIF data from one JPEG to another.
+ * countdown [countdown/], count down a specified time interval.
+ * date_offset [date_offset/], display date and time, with an offset.
+ * date_parse [date_parse/], date-parsing routine and apps.
+ * db [db/], simple database manager.
+ * factor [factor/], prime-factor numbers.
+ * file_date [file_date/], display the date of a given file.
+ * file_stat [file_stat/], display all info for specified files.
+ * find_old_files [find_old_files/], find files older than a specified time-offset.
+ * globe [globe/], show an ASCII graphic of the currently-lighted face of the Earth.
+ * googrep [googrep/], search text using a Google-style pattern.
+ * graymilter [graymilter/], graylist mail filter module.
+ * hgrep [hgrep/], highlight results of a grep.
+ * http_get [http_get/], get the contents of an HTTP URL.
+ * http_load [http_load/], multiprocessing HTTP test client.
+ * http_ping [http_ping/], measure HTTP latency.
+ * http_post [http_post/], do a POST to an HTTP URL.
+ * image_size [image_size/], figure out the size of GIF, JPEG, XBM, or PNG files.
+ * ipizer [ipizer/], improve a sendmail log file by adding IP addresses.
+ * js_httpd [js_httpd/], really small HTTP server in JavaScript.
+ * lam [lam/], laminate two or more files.
+ * libpnmrw [libpnmrw/], pbm/pgm/ppm read/write library.
+ * libsmpw [libsmpw/], self-maintaining getpwuid/getpwnam replacement.
+ * mapext [mapext/], map files from one extension to another via a specified command.
+ * micro_httpd [micro_httpd/], really small HTTP server.
+ * micro_inetd [micro_inetd/], simple network service spawner.
+ * micro_proxy [micro_proxy/], really small HTTP/HTTPS proxy.
+ * mini_httpd [mini_httpd/], small HTTP server.
+ * mini_sendmail [mini_sendmail/], accept email on behalf of real sendmail.
+ * mod_sample [mod_sample/], sample Apache module.
+ * mudecode [mudecode/], turbocharged MIME / UU decoder.
+ * newmail [newmail/], watch for new mail.
+ * oauth_sign [oauth_sign/], generate an OAuth signature.
+ * overlay [overlay/], overlay two or more files. Useful for composing ASCII pictures.
+ * pbmplus [pbmplus/], image file format conversion package.
+ * phoon [phoon/], show an ASCII graphic of the current phase of the moon.
+ * random [random/], print a random number.
+ * randomize [randomize/], shuffle lines in a file.
+ * rcsscripts [rcsscripts/], shell scripts for using RCS.
+ * revl [revl/], reverse lines in a file.
+ * revpar [revpar/], reverse a file by paragraphs.
+ * sample_milter [sample_milter/], example mail filter module.
+ * saytime [saytime/], talking clock for SPARCstations.
+ * saywha [saywha/], front-end for write(1) that records messages.
+ * SecurePage [securepage/], make self-decrypting web pages.
+ * select [select/], extract fields from simple text databases.
+ * sfcmilter [sfcmilter/], sender-forgery-checker mail filter module.
+ * sightliner [sightliner/], find sight lines for the sun and moon.
+ * spfmilter [spfmilter/], SPF mail filter module.
+ * sub_proxy [sub_proxy/], really small HTTP/HTTPS proxy with substitution.
+ * texttohtml [texttohtml/], convert text to HTML.
+ * thttpd [thttpd/], tiny/turbo/throttling HTTP server.
+ * thumbnail_index [thumbnail_index/], make an HTML index file for a bunch of images.
+ * users [users/], list users, with line breaks and highlighting.
+ * weblog_digest [weblog_digest/], summarize traffic bursts in a web log file.
+ * weblog_parse [weblog_parse/], extract specified fields from a web log file.
+ * xantfarm [xantfarm/], simple ant farm for X11.
+ * xbouncebits [xbouncebits/], bitmap animator for X11.
+ * XIP [XIP/], XML Iterative Parsing.
+ * xml2c [xml2c/], convert an XML file into C struct/string declarations.
+ * xmlrpc [xmlrpc/], do an XML-RPC call.
+ * xphoon [xphoon/], phase of moon for X11.
+ * xsleep [xsleep/], trivial program to sleep and exit, for X11.
+ * xsplinefun [xsplinefun/], color doodle for X11.
+ * xsquig [xsquig/], color doodle for X11.
+
+PostScript hacks:
+
+ * cd_cover [cd_cover/], front and back cover sheets for a compact disc.
+ * disk [disk/], a 3.5" floppy disk in PostScript.
+ * dot_crypto [dot_crypto/], cryptographic materials warning diamond for vehicles.
+ * dot_radioactive [dot_radioactive/], radioactive materials warning diamond for vehicles.
+ * fake_ids [fake_ids/], simple fake-i.d. toolkit in PostScript.
+ * nameplate [nameplate/], PostScript for an office nameplate.
+ * worm [worm/], PostScript design for a t-shirt comemerating the Internet Worm.
+
+Modified net-stuff:
+
+ * atob [atob/], faster version of the standard ASCII-to-binary converter.
+ * gv [gv/], stripped-down version of ghostview.
+
+Unmodified net-stuff that I wanted to archive just because it's cool:
+
+ * c.otto.c [c.otto.c/], a palindromic C program.
+ * cc [cc/], a license-multiplexing front-end for the unbundled Solaris C compiler. I didn't write this, I just found it in alt.hackers, supposedly
+   posted by Scott McNealy!
+ * country [country/], a random country-music lyrics generator.
+ * DeCSS [decss/], remove Cascading Style Sheets from HTML files.
+
+Obsolete code that accesses the raw Sun frame buffer - no longer useful but fun to look at:
+
+ * raster_pixrect [raster_pixrect/], Solaris 2.x clone of pixrect, plus screenload and screendump.
+ * screenblank [screenblank/], screen blanker for Solaris 2.x.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [/] / Software
+email [/mailto/wa.gif] [/mailto/?id=wa]

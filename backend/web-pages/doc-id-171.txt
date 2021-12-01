@@ -1,0 +1,343 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ 1. Mozilla [/en-US/docs/Mozilla]
+ 2. Add-ons [/en-US/docs/Mozilla/Add-ons]
+ 3. Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * Key resources
+ * Get started
+ * Concepts
+ * User interface
+ * How to
+ * Firefox workflow
+ * Reference
+
+
+BROWSER EXTENSIONS
+
+Extensions, or add-ons, can modify and enhance the capability of a browser. Extensions for Firefox are built using the WebExtensions API cross-browser
+technology.
+
+The technology for extensions in Firefox is, to a large extent, compatible with the extension API [https://developer.chrome.com/extensions] supported
+by Chromium-based browsers (such as Google Chrome, Microsoft Edge, Opera, Vivaldi). In most cases, extensions written for Chromium-based browsers run
+in Firefox with just a few changes [https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/].
+
+
+KEY RESOURCES
+
+Guides
+
+Whether you’re just beginning or looking for more advanced advice, learn about how extensions work and use the WebExtensions API from our extensive
+range of tutorials and guides [/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions].
+
+References
+
+Get comprehensive details about the methods, properties, types, and events of the WebExtensions APIs
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs] and full details about the manifest keys
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json].
+
+Firefox workflow
+
+Discover how to build and publish extensions for Firefox: get the lowdown on developer tools, publication and distribution, and porting on Extension
+Workshop [https://extensionworkshop.com/].
+
+Note: If you have ideas or questions or need help, you can reach us on the community forum [https://discourse.mozilla.org/c/add-ons] or in the Add-ons
+Room [https://matrix.to/#/!CuzZVoCbeoDHsxMCVJ:mozilla.org?via=mozilla.org&via=matrix.org&via=humanoids.be] on Matrix
+[https://wiki.mozilla.org/Matrix].
+
+
+GET STARTED
+
+Discover what extensions can do [/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions] before building your first extension.
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension] Learn about the anatomy of an extension
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension] and get an overview of the extension development and publication workflow,
+Firefox style [/en-US/docs/Mozilla/Add-ons/WebExtensions/Firefox_workflow_overview]. Explore a little deeper with a comprehensive selection of example
+extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples] that you can run right in Firefox.
+
+
+CONCEPTS
+
+Get detailed information on the concept that underpin extensions from an overview of the JavaScript API
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/API], through content scripts, [/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts] match patterns
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns], working with files [/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_files],
+internationalization [/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization], and content security policy
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy], to more advanced subjects such as native messaging
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging], using the devtools APIs
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools], and native manifests
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests].
+
+
+USER INTERFACE
+
+Discover all the user interface [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface] components you can use in your extensions, with coding
+examples and tips.
+
+
+HOW TO
+
+From patterns you’ll regularly use such as work with the Tabs API [/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API] and adding a
+button to the toolbar [/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar] to more advanced topics such as intercepting HTTP
+requests [/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests] and working with contextual identities
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities], you’ll find a range of tutorials to get you started.
+
+
+FIREFOX WORKFLOW
+
+When you are ready to create your extension for Firefox or port your Chrome extension, head over to Extension Workshop
+[https://extensionworkshop.com/]. It has details on:
+
+ * The Firefox workflow, such as temporarily installing  extensions during development
+   [https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/], debugging
+   [https://extensionworkshop.com/documentation/develop/debugging/], request the right permissions
+   [https://extensionworkshop.com/documentation/develop/request-the-right-permissions/], and more.
+ * The web-ext [https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/] developer tool.
+ * Porting a Google Chrome extension [https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/], differences between
+   desktop and Android [https://extensionworkshop.com/documentation/develop/differences-between-desktop-and-android-extensions/], and more.
+ * Publishing and distribution overview [https://extensionworkshop.com/documentation/publish/], promoting your extension
+   [https://extensionworkshop.com/documentation/publish/promoting-your-extension/], the extension lifecycle best practices
+   [https://extensionworkshop.com/documentation/manage/], and more.
+
+
+REFERENCE
+
+
+
+
+JAVASCRIPT APIS
+
+Get comprehensive details about the methods, properties, types, and events for all the JavaScript APIs
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/API]. There is also detailed information about the compatibility of each API with the major browsers. Most
+reference pages also include coding examples and links to the extension examples that use the API.
+
+
+MANIFEST KEYS
+
+Get full details about the manifest keys [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json], including all their properties and settings.
+There’s also detailed information on the compatibility [/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_compatibility_for_manifest.json] of each key
+with the major browsers.
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/mozilla/add-ons/webextensions/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/index.md]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMozilla%2FAdd-ons%2FWebExtensions%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fmozilla%2Fadd-ons%2Fwebextensions%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMozilla%2FAdd-ons%2FWebExtensions%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fmozilla%2Fadd-ons%2Fwebextensions%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F4745cbfa49dce88d28c6031b93a711edbf92f090%0A*+Document+last+modified%3A+2021-11-27T22%3A01%3A57.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Browser+Extensions%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AWebExt]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Nov 27, 2021, by MDN contributors [/en-US/docs/Mozilla/Add-ons/WebExtensions/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+
+RELATED TOPICS
+
+ 1.  Browser extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+ 2.  Getting started
+      1. What are extensions? [/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions]
+      2. Your first extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension]
+      3. Your second extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension]
+      4. Anatomy of an extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension]
+      5. Example extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples]
+      6. What next? [/en-US/docs/Mozilla/Add-ons/WebExtensions/What_next_]
+
+ 3.  Concepts
+      1. Using the JavaScript APIs [/en-US/docs/Mozilla/Add-ons/WebExtensions/Using_the_JavaScript_APIs]
+      2. Content scripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts]
+      3. Match patterns [/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns]
+      4. Working with files [/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_files]
+      5. Internationalization [/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization]
+      6. Content Security Policy [/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy]
+      7. Native messaging [/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging]
+      8. Differences between API implementations [/en-US/docs/Mozilla/Add-ons/WebExtensions/Differences_between_API_implementations]
+      9. Chrome incompatibilities [/en-US/docs/Mozilla/Add-ons/WebExtensions/Chrome_incompatibilities]
+
+ 4.  User interface
+      1.  User Interface [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface]
+      2.  Toolbar button [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_action]
+      3.  Address bar button [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions]
+      4.  Sidebars [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Sidebars]
+      5.  Context menu items [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Context_menu_items]
+      6.  Options page [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Options_pages]
+      7.  Extension pages [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Extension_pages]
+      8.  Notifications [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Notifications]
+      9.  Address bar suggestions [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Omnibox]
+      10. Developer tools panels [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/devtools_panels]
+
+ 5.  How to
+      1.  Intercept HTTP requests [/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests]
+      2.  Modify a web page [/en-US/docs/Mozilla/Add-ons/WebExtensions/Modify_a_web_page]
+      3.  Insert external content [/en-US/docs/Mozilla/Add-ons/WebExtensions/Safely_inserting_external_content_into_a_page]
+      4.  Share objects with page scripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/Sharing_objects_with_page_scripts]
+      5.  Add a button to the toolbar [/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar]
+      6.  Implement a settings page [/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page]
+      7.  Work with the Tabs API [/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API]
+      8.  Work with the Bookmarks API [/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API]
+      9.  Work with the Cookies API [/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API]
+      10. Work with contextual identities [/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities]
+      11. Interact with the clipboard [/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard]
+      12. Build a cross-browser extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension]
+
+ 6.  Firefox differentiators [/en-US/docs/Mozilla/Add-ons/WebExtensions/Firefox_differentiators]
+ 7.  JavaScript APIs
+      1.  Browser support for JavaScript APIs [/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs]
+      2.  alarms [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms]
+      3.  bookmarks [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks]
+      4.  browserAction [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction]
+      5.  browserSettings [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings]
+      6.  browsingData [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData]
+      7.  captivePortal [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal]
+      8.  clipboard [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/clipboard]
+      9.  commands [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands]
+      10. contentScripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts]
+      11. contextualIdentities [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities]
+      12. cookies [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies]
+      13. devtools [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools]
+      14. dns [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dns]
+      15. downloads [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads]
+      16. events [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events]
+      17. extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension]
+      18. extensionTypes [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes]
+      19. find [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find]
+      20. history [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history]
+      21. i18n [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n]
+      22. identity [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity]
+      23. idle [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle]
+      24. management [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management]
+      25. menus [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus]
+      26. notifications [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications]
+      27. omnibox [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox]
+      28. pageAction [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction]
+      29. permissions [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions]
+      30. pkcs11 [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11]
+      31. privacy [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy]
+      32. proxy [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy]
+      33. runtime [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime]
+      34. search [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search]
+      35. sessions [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions]
+      36. sidebarAction [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction]
+      37. storage [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage]
+      38. tabs [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs]
+      39. theme [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme]
+      40. topSites [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites]
+      41. types [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types]
+      42. userScripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts]
+      43. webNavigation [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation]
+      44. webRequest [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest]
+      45. windows [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows]
+
+ 8.  Manifest keys
+      1. Introduction [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json]
+     
+      1.  author [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/author]
+      2.  background [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background]
+      3.  browser_action [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action]
+      4.  browser_specific_settings [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings]
+      5.  chrome_settings_overrides [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides]
+      6.  chrome_url_overrides [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_url_overrides]
+      7.  commands [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands]
+      8.  content_scripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts]
+      9.  content_security_policy [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy]
+      10. default_locale [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/default_locale]
+      11. description [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/description]
+      12. developer [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/developer]
+      13. devtools_page [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page]
+      14. dictionaries [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/dictionaries]
+      15. externally_connectable [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/externally_connectable]
+      16. homepage_url [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/homepage_url]
+      17. icons [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons]
+      18. incognito [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito]
+      19. manifest_version [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version]
+      20. name [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/name]
+      21. offline_enabled [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/offline_enabled]
+      22. omnibox [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/omnibox]
+      23. optional_permissions [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions]
+      24. options_page [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_page]
+      25. options_ui [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_ui]
+      26. page_action [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action]
+      27. permissions [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions]
+      28. protocol_handlers [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/protocol_handlers]
+      29. short_name [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/short_name]
+      30. sidebar_action [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/sidebar_action]
+      31. storage [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/storage]
+      32. theme [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme]
+      33. theme_experiment [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme_experiment]
+      34. user_scripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/user_scripts]
+      35. version [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version]
+      36. version_name [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version_name]
+      37. web_accessible_resources [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/web_accessible_resources]
+
+ 9.  Extension Workshop
+      1. Develop [https://extensionworkshop.com/documentation/develop/]
+      2. Publish [https://extensionworkshop.com/documentation/publish/]
+      3. Manage [https://extensionworkshop.com/documentation/manage/]
+      4. Enterprise [https://extensionworkshop.com/documentation/enterprise/]
+
+ 10. Contact us [/en-US/docs/Mozilla/Add-ons/Contact_us]
+ 11. Channels
+      1. Add-ons blog [https://blog.mozilla.org/addons]
+      2. Add-ons forum [https://discourse.mozilla.org/c/add-ons]
+      3. Add-ons chat [https://chat.mozilla.org/#/room/%23addons:mozilla.org]
+
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

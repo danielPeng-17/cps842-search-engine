@@ -1,0 +1,23 @@
+What is Hypertext?
+
+
+WHAT IS HYPERTEXT
+
+Hypertext is text which is not constrained to be linear.
+
+Hypertext is text which contains links [Terms.html#link] to other texts. The term was coined by Ted Nelson [Xanadu.html#Nelson] around 1965 (see
+History [../History.html] ).
+
+HyperMedia is a term used for hypertext which is not constrained to be text: it can include graphics, video and sound [Talks/YesWeCan.snd] , for
+example. Apparently Ted Nelson was the first to use this term too.
+
+Hypertext and HyperMedia are concepts, not products.
+
+See also:
+
+ * A list of terms [Terms.html] used in hypertext litterature.
+ * Conferences [../Conferences/Overview.html]
+ * Commercial (and academic) products [../Products/Overview.html]
+ * A newsgroup on hypertext, "alt.hypertext" [news:alt.hypertext] .
+ * WorldWideWeb is a project [TheProject.html] which uses hypertext concepts.
+ * Standards [../Standards/Overview.html] .

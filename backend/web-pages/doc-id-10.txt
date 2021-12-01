@@ -1,0 +1,42 @@
+Overview -- /Daemon
+
+
+W3 SERVER SOFTWARE
+
+A W3 [../TheProject.html] server, like the ftp daemon [../Terms.html#daemon] , is a program which responds to an incoming tcp connection and provides
+a service to the caller.There are many varieties of W3 server software to serve different forms of data.
+
+
+THE BASIC DAEMON
+
+The basic W3 daemon program serves files already in hypertext or plain text. This daemon then is used as a basis for many other types of server and
+gateway. Documentation includes:
+ * User guide [User/Guide.html] .
+ * Internals [Basic.html] -- a description of the code.
+
+Much of the above may also apply in whole or part to other servers mentioned below. Whatever server you are running, you will probably be interested
+in:
+ * Tools for information providers [../Tools/Overview.html]
+
+
+MAKING A NEW SERVER
+
+This daemon is often used as a basis for a more specific server for a given application. A server which allows a world of data to be seen as part of
+the W3 universe is known as a gateway. (Most servers could therefore be regarded as gateways, but the term implies some conversion or mapping between
+dissimilar worlds) . For short tutorials with examples, see:
+ * Writing a server in C [JanetAndJohn.html]
+ * Writing a server as a script [../Provider/ShellScript.html]
+
+It is a good idea to pick the basic daemon or one of the servers below as a starting point when making a new server.
+
+
+OTHER SERVERS AND GATEWAYS
+
+These are servers which provide data extracted from other systems. they are built using code from the basic daemon, or scripts. FIND gateway
+[../FIND/Overview.html] for CERN/VM XFIND which calls a REXX exec to get the information from the XFIND system running on the CERNVM mainframe. VMS
+Help gateway [../VMSHelp/Overview.html] This allows any VMS help files to be made available to WWW clients. Runs on VAX/VMS. WAISGate [WAISGate.html]
+A gateway to information available using the W.A.I.S. protocol. DCLServer [DCLServer.html] A server for VMS systems which allows you to write a
+gateway to your own favorite information system using DCL. System33 [System33/Gateway.html] A (big) csh script server providing data including Xerox
+System33 documents, man pages in plain text, phone numbers, etc. etc...! Oracle [Oracle/Overview.html] A generic server to oracle. Could be used as a
+basis for gateways to specific Oracle databases. Geography [Geography/Overview.html] Gateway to the Geography server at U Michigan Tim BL
+[../../TBL_Disclaimer.html]

@@ -1,0 +1,34 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+logo [logo.jpg]
+
+
+ACME CHUMAKER
+
+Make a custom Frank Chu protest sign!
+
+Any lines you leave blank will be filled in with automatically-generated Chuglish.
+
+
+
+Recent signs. [signs.cgi]
+
+If you use signs from here on your web page (which is the whole point of the ChuMaker!), how about putting up a credit link back to here? Not a
+requirement, just something nice you could do if you feel like it and there's room on your page. Something like:
+
+Sign by ACME ChuMaker [http://acme.com/chumaker/].
+
+For which the HTML code is:
+
+<font size="-1">Sign by <a href="http://acme.com/chumaker/">ACME ChuMaker</a>.</font>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer] Who is Frank Chu?
+[http://en.wikipedia.org/wiki/Frank_Chu]
+The ACME Label Maker [http://acme.com/labelmaker/], License Maker [http://acme.com/licensemaker/], and Heart Maker [http://acme.com/heartmaker/].
+Ryland Sanders' Church Sign Generator [http://www.churchsigngenerator.com/].
+Tombstone Generator [http://tombstone.dogcrap.net/create.php].
+Windows Error Generator [http://atom.smasher.org/error/].
+ACME Labs [../] / ChuMaker
+email [/mailto/wa.gif] [/mailto/?id=wa]

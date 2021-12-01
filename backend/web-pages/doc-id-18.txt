@@ -1,0 +1,14 @@
+Technical Aspects of the World-Wide Web
+
+
+TECHNICAL DETAILS
+
+(See also: W3 project [TheProject.html] ) How to provide data [Provider/Overview.html] How can I make my own data available on the web? Protocols
+[Protocols/RelevantProtocols.html] A description of the network protocols used. HTML format [MarkUp/MarkUp.html] A description of the mark-up language
+used for some documents and for search hit-lists. Addressing [Addressing/Addressing.html] The syntax of W3 document addresses. Design Issues
+[DesignIssues/Overview.html] Discussions of decisions to be made when designing or selecting a hypertext/IR system. See also related products
+[RelatedProducts.html] . Working notes [WorkingNotes/Overview.html] Work in progress at the drawing board. Data sources [../DataSources/ByAccess.html]
+Sources of data on the web itself, including W3 servers [../DataSources/WWW/Servers.html]. News [Newsgroups.html] Some internet/usenet newsgroups of
+possible interest to the WorldWideWeb project. Notation [Notation.html] Explanation of notation used in formal descriptions. Implementation guidelines
+[DesignIssues/DosDonts.html] Rules to be followed by implementers. Coding standards [Project/Coding.html] A basic style guide for W3 code
+contributors. If you write code, read this!

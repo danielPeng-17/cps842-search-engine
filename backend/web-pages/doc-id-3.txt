@@ -1,0 +1,10 @@
+Help for W3 software
+
+
+HELP
+
+Which program are you using for which you want online help? Line Mode Browser [LineMode/Defaults/QuickGuide.html] Using the line mode browser, select
+an option with a number and press RETURN Viola Fpr help on Viola, just press the question-mark (?) icon near the top right-hand corner. NeXTStep
+[NeXT/WorldWideWeb.html] To select help with this browser, use Help from the Info menu or select this option wit the mouse (double click). MidasWWW
+[http://slacvx.slac.stanford.edu:80/MidasWWW/v10/overview.html] For help on this browser, select this option with the mouse. See also the W3 server
+user manual [Daemon/User/Guide.html]. For other questions, browse from the W3 project page [TheProject.html].

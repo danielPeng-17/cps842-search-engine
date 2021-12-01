@@ -1,0 +1,495 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ 1. Web technology for developers [/en-US/docs/Web]
+ 2. HTTP [/en-US/docs/Web/HTTP]
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * Tutorials
+ * Reference
+ * Tools & resources
+
+
+HTTP
+
+Hypertext Transfer Protocol (HTTP) is an application-layer [https://en.wikipedia.org/wiki/Application_Layer] protocol for transmitting hypermedia
+documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP
+follows a classical client-server model [https://en.wikipedia.org/wiki/Client%E2%80%93server_model], with a client opening a connection to make a
+request, then waiting until it receives a response. HTTP is a stateless protocol [https://en.wikipedia.org/wiki/Stateless_protocol], meaning that the
+server does not keep any data (state) between two requests.
+
+
+TUTORIALS
+
+Learn how to use HTTP with guides and tutorials.
+
+Overview of HTTP [/en-US/docs/Web/HTTP/Overview]
+
+The basic features of the client-server protocol: what it can do and its intended uses.
+
+HTTP Cache [/en-US/docs/Web/HTTP/Caching]
+
+Caching is very important for fast Web sites. This article describes different methods of caching and how to use HTTP Headers to control them.
+
+HTTP Cookies [/en-US/docs/Web/HTTP/Cookies]
+
+How cookies work is defined by RFC 6265 [https://datatracker.ietf.org/doc/html/rfc6265]. When serving an HTTP request, a server can send a Set-Cookie
+HTTP header with the response. The client then returns the cookie's value with every request to the same server in the form of a Cookie request
+header. The cookie can also be set to expire on a certain date, or restricted to a specific domain and path.
+
+Cross-Origin Resource Sharing (CORS) [/en-US/docs/Web/HTTP/CORS]
+
+Cross-site HTTP requests are HTTP requests for resources from a different domain than the domain of the resource making the request. For instance, an
+HTML page from Domain A (http://domaina.example/) makes a request for an image on Domain B (http://domainb.foo/image.jpg) via the img element. Web
+pages today very commonly load cross-site resources, including CSS stylesheets, images, scripts, and other resources. CORS allows web developers to
+control how their site reacts to cross-site requests.
+
+Evolution of HTTP [/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP]
+
+A brief description of the changes between the early versions of HTTP, to the modern HTTP/2, the emergent HTTP/3 and beyond.
+
+Mozilla web security guidelines [https://wiki.mozilla.org/Security/Guidelines/Web_Security]
+
+A collection of tips to help operational teams with creating secure web applications.
+
+HTTP Messages [/en-US/docs/Web/HTTP/Messages]
+
+Describes the type and structure of the different kind of messages of HTTP/1.x and HTTP/2.
+
+A typical HTTP session [/en-US/docs/Web/HTTP/Session]
+
+Shows and explains the flow of a usual HTTP session.
+
+Connection management in HTTP/1.x [/en-US/docs/Web/HTTP/Connection_management_in_HTTP_1.x]
+
+Describes the three connection management models available in HTTP/1.x, their strengths, and their weaknesses.
+
+
+REFERENCE
+
+Browse through detailed HTTP reference documentation.
+
+HTTP Headers [/en-US/docs/Web/HTTP/Headers]
+
+HTTP message headers are used to describe a resource, or the behavior of the server or the client. Header fields are kept in an IANA registry
+[https://www.iana.org/assignments/message-headers/message-headers.xhtml#perm-headers]. IANA also maintains a registry of proposed new HTTP message
+headers [https://www.iana.org/assignments/message-headers/message-headers.xhtml#prov-headers].
+
+HTTP Request Methods [/en-US/docs/Web/HTTP/Methods]
+
+The different operations that can be done with HTTP: GET [/en-US/docs/Web/HTTP/Methods/GET], POST [/en-US/docs/Web/HTTP/Methods/POST], and also less
+common requests like OPTIONS [/en-US/docs/Web/HTTP/Methods/OPTIONS], DELETE [/en-US/docs/Web/HTTP/Methods/DELETE], or TRACE
+[/en-US/docs/Web/HTTP/Methods/TRACE].
+
+HTTP Status Response Codes [/en-US/docs/Web/HTTP/Status]
+
+HTTP response codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes: informational
+responses, successful responses, redirections, client errors, and servers errors.
+
+CSP directives [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy]
+
+The Content-Security-Policy [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy] response header fields allows web site administrators to control
+resources the user agent is allowed to load for a given page. With a few exceptions, policies mostly involve specifying server origins and script
+endpoints.
+
+
+TOOLS & RESOURCES
+
+Helpful tools and resources for understanding and debugging HTTP.
+
+Firefox Developer Tools [/en-US/docs/Tools]
+
+Network monitor [/en-US/docs/Tools/Network_Monitor]
+
+Mozilla Observatory [https://observatory.mozilla.org/]
+
+A project designed to help developers, system administrators, and security professionals configure their sites safely and securely.
+
+RedBot [https://redbot.org/]
+
+Tools to check your cache-related headers
+
+How Browsers Work [https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/]
+
+A very comprehensive article on browser internals and request flow through HTTP protocol. A MUST-READ for any web developer.
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/http/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/http/index.md]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FHTTP%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fhttp%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FHTTP%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fhttp%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fdf265b5f36a00589ee99acd5308858a8a1b3fb28%0A*+Document+last+modified%3A+2021-08-13T16%3A17%3A49.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22HTTP%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AHTTP]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Aug 13, 2021, by MDN contributors [/en-US/docs/Web/HTTP/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+
+RELATED TOPICS
+
+ 1.  HTTP [/en-US/docs/Web/HTTP]
+ 2.  Guides:
+ 3.  Resources and URIs
+      1. Identifying resources on the Web [/en-US/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web]
+      2. Data URIs [/en-US/docs/Web/HTTP/Basics_of_HTTP/Data_URIs]
+      3. Introduction to MIME types [/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_Types]
+      4. Common MIME types [/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types]
+      5. Choosing between www and non-www URLs [/en-US/docs/Web/HTTP/Basics_of_HTTP/Choosing_between_www_and_non-www_URLs]
+
+ 4.  HTTP guide
+      1. Basics of HTTP [/en-US/docs/Web/HTTP/Basics_of_HTTP]
+      2. Overview of HTTP [/en-US/docs/Web/HTTP/Overview]
+      3. Evolution of HTTP [/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP]
+      4. HTTP Messages [/en-US/docs/Web/HTTP/Messages]
+      5. A typical HTTP session [/en-US/docs/Web/HTTP/Session]
+      6. Connection management in HTTP/1.x [/en-US/docs/Web/HTTP/Connection_management_in_HTTP_1.x]
+      7. Protocol upgrade mechanism [/en-US/docs/Web/HTTP/Protocol_upgrade_mechanism]
+
+ 5.  HTTP security
+      1. Content Security Policy (CSP) [/en-US/docs/Web/HTTP/CSP]
+      2. HTTP Public Key Pinning (HPKP) [/en-US/docs/Web/HTTP/Public_Key_Pinning]
+      3. HTTP Strict Transport Security (HSTS) [/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security]
+      4. Cookie security [/en-US/docs/Web/HTTP/Cookies#Secure_and_HttpOnly_cookies]
+      5. X-Content-Type-Options [/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options]
+      6. X-Frame-Options [/en-US/docs/Web/HTTP/Headers/X-Frame-Options]
+      7. X-XSS-Protection [/en-US/docs/Web/HTTP/Headers/X-XSS-Protection]
+      8. Mozilla web security guidelines [https://wiki.mozilla.org/Security/Guidelines/Web_Security]
+      9. Mozilla Observatory [https://observatory.mozilla.org/]
+
+ 6.  HTTP access control (CORS) [/en-US/docs/Web/HTTP/CORS]
+ 7.  HTTP authentication [/en-US/docs/Web/HTTP/Authentication]
+ 8.  HTTP caching [/en-US/docs/Web/HTTP/Caching]
+ 9.  HTTP compression [/en-US/docs/Web/HTTP/Compression]
+ 10. HTTP conditional requests [/en-US/docs/Web/HTTP/Conditional_requests]
+ 11. HTTP content negotiation [/en-US/docs/Web/HTTP/Content_negotiation]
+ 12. HTTP cookies [/en-US/docs/Web/HTTP/Cookies]
+ 13. HTTP range requests [/en-US/docs/Web/HTTP/Range_requests]
+ 14. HTTP redirects [/en-US/docs/Web/HTTP/Redirections]
+ 15. HTTP specifications [/en-US/docs/Web/HTTP/Resources_and_specifications]
+ 16. Feature policy [/en-US/docs/Web/HTTP/Feature_Policy]
+ 17. References:
+ 18. HTTP headers
+      1.   Accept-CH-Lifetime [/en-US/docs/Web/HTTP/Headers/Accept-CH-Lifetime]
+      2.   Accept-CH [/en-US/docs/Web/HTTP/Headers/Accept-CH]
+      3.   Accept-Charset [/en-US/docs/Web/HTTP/Headers/Accept-Charset]
+      4.   Accept-Encoding [/en-US/docs/Web/HTTP/Headers/Accept-Encoding]
+      5.   Accept-Language [/en-US/docs/Web/HTTP/Headers/Accept-Language]
+      6.   Accept-Patch [/en-US/docs/Web/HTTP/Headers/Accept-Patch]
+      7.   Accept-Post [/en-US/docs/Web/HTTP/Headers/Accept-Post]
+      8.   Accept-Ranges [/en-US/docs/Web/HTTP/Headers/Accept-Ranges]
+      9.   Accept [/en-US/docs/Web/HTTP/Headers/Accept]
+      10.  Access-Control-Allow-Credentials [/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials]
+      11.  Access-Control-Allow-Headers [/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Headers]
+      12.  Access-Control-Allow-Methods [/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Methods]
+      13.  Access-Control-Allow-Origin [/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin]
+      14.  Access-Control-Expose-Headers [/en-US/docs/Web/HTTP/Headers/Access-Control-Expose-Headers]
+      15.  Access-Control-Max-Age [/en-US/docs/Web/HTTP/Headers/Access-Control-Max-Age]
+      16.  Access-Control-Request-Headers [/en-US/docs/Web/HTTP/Headers/Access-Control-Request-Headers]
+      17.  Access-Control-Request-Method [/en-US/docs/Web/HTTP/Headers/Access-Control-Request-Method]
+      18.  Age [/en-US/docs/Web/HTTP/Headers/Age]
+      19.  Allow [/en-US/docs/Web/HTTP/Headers/Allow]
+      20.  Alt-Svc [/en-US/docs/Web/HTTP/Headers/Alt-Svc]
+      21.  Authorization [/en-US/docs/Web/HTTP/Headers/Authorization]
+      22.  Cache-Control [/en-US/docs/Web/HTTP/Headers/Cache-Control]
+      23.  Clear-Site-Data [/en-US/docs/Web/HTTP/Headers/Clear-Site-Data]
+      24.  Connection [/en-US/docs/Web/HTTP/Headers/Connection]
+      25.  Content-Disposition [/en-US/docs/Web/HTTP/Headers/Content-Disposition]
+      26.  Content-DPR [/en-US/docs/Web/HTTP/Headers/Content-DPR]
+      27.  Content-Encoding [/en-US/docs/Web/HTTP/Headers/Content-Encoding]
+      28.  Content-Language [/en-US/docs/Web/HTTP/Headers/Content-Language]
+      29.  Content-Length [/en-US/docs/Web/HTTP/Headers/Content-Length]
+      30.  Content-Location [/en-US/docs/Web/HTTP/Headers/Content-Location]
+      31.  Content-Range [/en-US/docs/Web/HTTP/Headers/Content-Range]
+      32.  Content-Security-Policy-Report-Only [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy-Report-Only]
+      33.  Content-Security-Policy [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy]
+      34.  Content-Type [/en-US/docs/Web/HTTP/Headers/Content-Type]
+      35.  Cookie [/en-US/docs/Web/HTTP/Headers/Cookie]
+      36.  Cookie2 [/en-US/docs/Web/HTTP/Headers/Cookie2]
+      37.  Cross-Origin-Embedder-Policy [/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy]
+      38.  Cross-Origin-Opener-Policy [/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy]
+      39.  Cross-Origin-Resource-Policy [/en-US/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy]
+      40.  Date [/en-US/docs/Web/HTTP/Headers/Date]
+      41.  Device-Memory [/en-US/docs/Web/HTTP/Headers/Device-Memory]
+      42.  Digest [/en-US/docs/Web/HTTP/Headers/Digest]
+      43.  DNT [/en-US/docs/Web/HTTP/Headers/DNT]
+      44.  Downlink [/en-US/docs/Web/HTTP/Headers/Downlink]
+      45.  DPR [/en-US/docs/Web/HTTP/Headers/DPR]
+      46.  Early-Data [/en-US/docs/Web/HTTP/Headers/Early-Data]
+      47.  ECT [/en-US/docs/Web/HTTP/Headers/ECT]
+      48.  ETag [/en-US/docs/Web/HTTP/Headers/ETag]
+      49.  Expect-CT [/en-US/docs/Web/HTTP/Headers/Expect-CT]
+      50.  Expect [/en-US/docs/Web/HTTP/Headers/Expect]
+      51.  Expires [/en-US/docs/Web/HTTP/Headers/Expires]
+      52.  Feature-Policy [/en-US/docs/Web/HTTP/Headers/Feature-Policy]
+      53.  Forwarded [/en-US/docs/Web/HTTP/Headers/Forwarded]
+      54.  From [/en-US/docs/Web/HTTP/Headers/From]
+      55.  Host [/en-US/docs/Web/HTTP/Headers/Host]
+      56.  If-Match [/en-US/docs/Web/HTTP/Headers/If-Match]
+      57.  If-Modified-Since [/en-US/docs/Web/HTTP/Headers/If-Modified-Since]
+      58.  If-None-Match [/en-US/docs/Web/HTTP/Headers/If-None-Match]
+      59.  If-Range [/en-US/docs/Web/HTTP/Headers/If-Range]
+      60.  If-Unmodified-Since [/en-US/docs/Web/HTTP/Headers/If-Unmodified-Since]
+      61.  Keep-Alive [/en-US/docs/Web/HTTP/Headers/Keep-Alive]
+      62.  Large-Allocation [/en-US/docs/Web/HTTP/Headers/Large-Allocation]
+      63.  Last-Modified [/en-US/docs/Web/HTTP/Headers/Last-Modified]
+      64.  Link [/en-US/docs/Web/HTTP/Headers/Link]
+      65.  Location [/en-US/docs/Web/HTTP/Headers/Location]
+      66.  NEL [/en-US/docs/Web/HTTP/Headers/NEL]
+      67.  Origin [/en-US/docs/Web/HTTP/Headers/Origin]
+      68.  Pragma [/en-US/docs/Web/HTTP/Headers/Pragma]
+      69.  Proxy-Authenticate [/en-US/docs/Web/HTTP/Headers/Proxy-Authenticate]
+      70.  Proxy-Authorization [/en-US/docs/Web/HTTP/Headers/Proxy-Authorization]
+      71.  Public-Key-Pins-Report-Only [/en-US/docs/Web/HTTP/Headers/Public-Key-Pins-Report-Only]
+      72.  Public-Key-Pins [/en-US/docs/Web/HTTP/Headers/Public-Key-Pins]
+      73.  Range [/en-US/docs/Web/HTTP/Headers/Range]
+      74.  Referer [/en-US/docs/Web/HTTP/Headers/Referer]
+      75.  Referrer-Policy [/en-US/docs/Web/HTTP/Headers/Referrer-Policy]
+      76.  Retry-After [/en-US/docs/Web/HTTP/Headers/Retry-After]
+      77.  RTT [/en-US/docs/Web/HTTP/Headers/RTT]
+      78.  Save-Data [/en-US/docs/Web/HTTP/Headers/Save-Data]
+      79.  Sec-Fetch-Dest [/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest]
+      80.  Sec-Fetch-Mode [/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode]
+      81.  Sec-Fetch-Site [/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site]
+      82.  Sec-Fetch-User [/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User]
+      83.  Sec-WebSocket-Accept [/en-US/docs/Web/HTTP/Headers/Sec-WebSocket-Accept]
+      84.  Server-Timing [/en-US/docs/Web/HTTP/Headers/Server-Timing]
+      85.  Server [/en-US/docs/Web/HTTP/Headers/Server]
+      86.  Set-Cookie [/en-US/docs/Web/HTTP/Headers/Set-Cookie]
+      87.  Set-Cookie2 [/en-US/docs/Web/HTTP/Headers/Set-Cookie2]
+      88.  SourceMap [/en-US/docs/Web/HTTP/Headers/SourceMap]
+      89.  Strict-Transport-Security [/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security]
+      90.  TE [/en-US/docs/Web/HTTP/Headers/TE]
+      91.  Timing-Allow-Origin [/en-US/docs/Web/HTTP/Headers/Timing-Allow-Origin]
+      92.  Tk [/en-US/docs/Web/HTTP/Headers/Tk]
+      93.  Trailer [/en-US/docs/Web/HTTP/Headers/Trailer]
+      94.  Transfer-Encoding [/en-US/docs/Web/HTTP/Headers/Transfer-Encoding]
+      95.  Upgrade-Insecure-Requests [/en-US/docs/Web/HTTP/Headers/Upgrade-Insecure-Requests]
+      96.  Upgrade [/en-US/docs/Web/HTTP/Headers/Upgrade]
+      97.  User-Agent [/en-US/docs/Web/HTTP/Headers/User-Agent]
+      98.  Vary [/en-US/docs/Web/HTTP/Headers/Vary]
+      99.  Via [/en-US/docs/Web/HTTP/Headers/Via]
+      100. Viewport-Width [/en-US/docs/Web/HTTP/Headers/Viewport-Width]
+      101. Want-Digest [/en-US/docs/Web/HTTP/Headers/Want-Digest]
+      102. Warning [/en-US/docs/Web/HTTP/Headers/Warning]
+      103. Width [/en-US/docs/Web/HTTP/Headers/Width]
+      104. WWW-Authenticate [/en-US/docs/Web/HTTP/Headers/WWW-Authenticate]
+      105. X-Content-Type-Options [/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options]
+      106. X-DNS-Prefetch-Control [/en-US/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control]
+      107. X-Forwarded-For [/en-US/docs/Web/HTTP/Headers/X-Forwarded-For]
+      108. X-Forwarded-Host [/en-US/docs/Web/HTTP/Headers/X-Forwarded-Host]
+      109. X-Forwarded-Proto [/en-US/docs/Web/HTTP/Headers/X-Forwarded-Proto]
+      110. X-Frame-Options [/en-US/docs/Web/HTTP/Headers/X-Frame-Options]
+      111. X-XSS-Protection [/en-US/docs/Web/HTTP/Headers/X-XSS-Protection]
+
+ 19. HTTP request methods
+      1. CONNECT [/en-US/docs/Web/HTTP/Methods/CONNECT]
+      2. DELETE [/en-US/docs/Web/HTTP/Methods/DELETE]
+      3. GET [/en-US/docs/Web/HTTP/Methods/GET]
+      4. HEAD [/en-US/docs/Web/HTTP/Methods/HEAD]
+      5. OPTIONS [/en-US/docs/Web/HTTP/Methods/OPTIONS]
+      6. PATCH [/en-US/docs/Web/HTTP/Methods/PATCH]
+      7. POST [/en-US/docs/Web/HTTP/Methods/POST]
+      8. PUT [/en-US/docs/Web/HTTP/Methods/PUT]
+      9. TRACE [/en-US/docs/Web/HTTP/Methods/TRACE]
+
+ 20. HTTP response status codes
+      1.  100 Continue [/en-US/docs/Web/HTTP/Status/100]
+      2.  101 Switching Protocols [/en-US/docs/Web/HTTP/Status/101]
+      3.  103 Early Hints [/en-US/docs/Web/HTTP/Status/103]
+      4.  200 OK [/en-US/docs/Web/HTTP/Status/200]
+      5.  201 Created [/en-US/docs/Web/HTTP/Status/201]
+      6.  202 Accepted [/en-US/docs/Web/HTTP/Status/202]
+      7.  203 Non-Authoritative Information [/en-US/docs/Web/HTTP/Status/203]
+      8.  204 No Content [/en-US/docs/Web/HTTP/Status/204]
+      9.  205 Reset Content [/en-US/docs/Web/HTTP/Status/205]
+      10. 206 Partial Content [/en-US/docs/Web/HTTP/Status/206]
+      11. 300 Multiple Choices [/en-US/docs/Web/HTTP/Status/300]
+      12. 301 Moved Permanently [/en-US/docs/Web/HTTP/Status/301]
+      13. 302 Found [/en-US/docs/Web/HTTP/Status/302]
+      14. 303 See Other [/en-US/docs/Web/HTTP/Status/303]
+      15. 304 Not Modified [/en-US/docs/Web/HTTP/Status/304]
+      16. 307 Temporary Redirect [/en-US/docs/Web/HTTP/Status/307]
+      17. 308 Permanent Redirect [/en-US/docs/Web/HTTP/Status/308]
+      18. 400 Bad Request [/en-US/docs/Web/HTTP/Status/400]
+      19. 401 Unauthorized [/en-US/docs/Web/HTTP/Status/401]
+      20. 402 Payment Required [/en-US/docs/Web/HTTP/Status/402]
+      21. 403 Forbidden [/en-US/docs/Web/HTTP/Status/403]
+      22. 404 Not Found [/en-US/docs/Web/HTTP/Status/404]
+      23. 405 Method Not Allowed [/en-US/docs/Web/HTTP/Status/405]
+      24. 406 Not Acceptable [/en-US/docs/Web/HTTP/Status/406]
+      25. 407 Proxy Authentication Required [/en-US/docs/Web/HTTP/Status/407]
+      26. 408 Request Timeout [/en-US/docs/Web/HTTP/Status/408]
+      27. 409 Conflict [/en-US/docs/Web/HTTP/Status/409]
+      28. 410 Gone [/en-US/docs/Web/HTTP/Status/410]
+      29. 411 Length Required [/en-US/docs/Web/HTTP/Status/411]
+      30. 412 Precondition Failed [/en-US/docs/Web/HTTP/Status/412]
+      31. 413 Payload Too Large [/en-US/docs/Web/HTTP/Status/413]
+      32. 414 URI Too Long [/en-US/docs/Web/HTTP/Status/414]
+      33. 415 Unsupported Media Type [/en-US/docs/Web/HTTP/Status/415]
+      34. 416 Range Not Satisfiable [/en-US/docs/Web/HTTP/Status/416]
+      35. 417 Expectation Failed [/en-US/docs/Web/HTTP/Status/417]
+      36. 418 I'm a teapot [/en-US/docs/Web/HTTP/Status/418]
+      37. 422 Unprocessable Entity [/en-US/docs/Web/HTTP/Status/422]
+      38. 425 Too Early [/en-US/docs/Web/HTTP/Status/425]
+      39. 426 Upgrade Required [/en-US/docs/Web/HTTP/Status/426]
+      40. 428 Precondition Required [/en-US/docs/Web/HTTP/Status/428]
+      41. 429 Too Many Requests [/en-US/docs/Web/HTTP/Status/429]
+      42. 431 Request Header Fields Too Large [/en-US/docs/Web/HTTP/Status/431]
+      43. 451 Unavailable For Legal Reasons [/en-US/docs/Web/HTTP/Status/451]
+      44. 500 Internal Server Error [/en-US/docs/Web/HTTP/Status/500]
+      45. 501 Not Implemented [/en-US/docs/Web/HTTP/Status/501]
+      46. 502 Bad Gateway [/en-US/docs/Web/HTTP/Status/502]
+      47. 503 Service Unavailable [/en-US/docs/Web/HTTP/Status/503]
+      48. 504 Gateway Timeout [/en-US/docs/Web/HTTP/Status/504]
+      49. 505 HTTP Version Not Supported [/en-US/docs/Web/HTTP/Status/505]
+      50. 506 Variant Also Negotiates [/en-US/docs/Web/HTTP/Status/506]
+      51. 507 Insufficient Storage [/en-US/docs/Web/HTTP/Status/507]
+      52. 508 Loop Detected [/en-US/docs/Web/HTTP/Status/508]
+      53. 510 Not Extended [/en-US/docs/Web/HTTP/Status/510]
+      54. 511 Network Authentication Required [/en-US/docs/Web/HTTP/Status/511]
+
+ 21. CSP directives
+      1.  CSP: base-uri [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/base-uri]
+      2.  CSP: block-all-mixed-content [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/block-all-mixed-content]
+      3.  CSP: child-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/child-src]
+      4.  CSP: connect-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/connect-src]
+      5.  CSP: default-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/default-src]
+      6.  CSP: font-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/font-src]
+      7.  CSP: form-action [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/form-action]
+      8.  CSP: frame-ancestors [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors]
+      9.  CSP: frame-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-src]
+      10. CSP: img-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/img-src]
+      11. CSP: manifest-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src]
+      12. CSP: media-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/media-src]
+      13. CSP: navigate-to [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/navigate-to]
+      14. CSP: object-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/object-src]
+      15. CSP: plugin-types [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/plugin-types]
+      16. CSP: prefetch-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/prefetch-src]
+      17. CSP: referrer [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/referrer]
+      18. CSP: report-to [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-to]
+      19. CSP: report-uri [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/report-uri]
+      20. CSP: require-sri-for [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/require-sri-for]
+      21. CSP: require-trusted-types-for [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/require-trusted-types-for]
+      22. CSP: sandbox [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/sandbox]
+      23. CSP: script-src-attr [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-attr]
+      24. CSP: script-src-elem [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-elem]
+      25. CSP: script-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src]
+      26. CSP: style-src-attr [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-attr]
+      27. CSP: style-src-elem [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem]
+      28. CSP: style-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src]
+      29. CSP: trusted-types [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/trusted-types]
+      30. CSP: upgrade-insecure-requests [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/upgrade-insecure-requests]
+      31. CSP: worker-src [/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/worker-src]
+
+ 22. CORS errors
+      1.  Reason: CORS header 'Access-Control-Allow-Origin' does not match 'xyz' [/en-US/docs/Web/HTTP/CORS/Errors/CORSAllowOriginNotMatchingOrigin]
+      2.  Reason: CORS request did not succeed [/en-US/docs/Web/HTTP/CORS/Errors/CORSDidNotSucceed]
+      3.  Reason: CORS disabled [/en-US/docs/Web/HTTP/CORS/Errors/CORSDisabled]
+      4.  Reason: CORS request external redirect not allowed [/en-US/docs/Web/HTTP/CORS/Errors/CORSExternalRedirectNotAllowed]
+      5.  Reason: invalid token ‘xyz’ in CORS header ‘Access-Control-Allow-Headers’ [/en-US/docs/Web/HTTP/CORS/Errors/CORSInvalidAllowHeader]
+      6.  Reason: invalid token ‘xyz’ in CORS header ‘Access-Control-Allow-Methods’ [/en-US/docs/Web/HTTP/CORS/Errors/CORSInvalidAllowMethod]
+      7.  Reason: Did not find method in CORS header ‘Access-Control-Allow-Methods’ [/en-US/docs/Web/HTTP/CORS/Errors/CORSMethodNotFound]
+      8.  Reason: expected ‘true’ in CORS header ‘Access-Control-Allow-Credentials’ [/en-US/docs/Web/HTTP/CORS/Errors/CORSMIssingAllowCredentials]
+      9.  Reason: missing token ‘xyz’ in CORS header ‘Access-Control-Allow-Headers’ from CORS preflight channel
+          [/en-US/docs/Web/HTTP/CORS/Errors/CORSMissingAllowHeaderFromPreflight]
+      10. Reason: CORS header 'Access-Control-Allow-Origin' missing [/en-US/docs/Web/HTTP/CORS/Errors/CORSMissingAllowOrigin]
+      11. Reason: Multiple CORS header 'Access-Control-Allow-Origin' not allowed [/en-US/docs/Web/HTTP/CORS/Errors/CORSMultipleAllowOriginNotAllowed]
+      12. Reason: Credential is not supported if the CORS header ‘Access-Control-Allow-Origin’ is ‘*’
+          [/en-US/docs/Web/HTTP/CORS/Errors/CORSNotSupportingCredentials]
+      13. Reason: CORS header ‘Origin’ cannot be added [/en-US/docs/Web/HTTP/CORS/Errors/CORSOriginHeaderNotAdded]
+      14. Reason: CORS preflight channel did not succeed [/en-US/docs/Web/HTTP/CORS/Errors/CORSPreflightDidNotSucceed]
+      15. Reason: CORS request not HTTP [/en-US/docs/Web/HTTP/CORS/Errors/CORSRequestNotHttp]
+
+ 23. Feature-Policy directives
+      1.  Feature-Policy: accelerometer [/en-US/docs/Web/HTTP/Headers/Feature-Policy/accelerometer]
+      2.  Feature-Policy: ambient-light-sensor [/en-US/docs/Web/HTTP/Headers/Feature-Policy/ambient-light-sensor]
+      3.  Feature-Policy: autoplay [/en-US/docs/Web/HTTP/Headers/Feature-Policy/autoplay]
+      4.  Feature-Policy: battery [/en-US/docs/Web/HTTP/Headers/Feature-Policy/battery]
+      5.  Feature-Policy: camera [/en-US/docs/Web/HTTP/Headers/Feature-Policy/camera]
+      6.  Feature-Policy: display-capture [/en-US/docs/Web/HTTP/Headers/Feature-Policy/display-capture]
+      7.  Feature-Policy: document-domain [/en-US/docs/Web/HTTP/Headers/Feature-Policy/document-domain]
+      8.  Feature-Policy: encrypted-media [/en-US/docs/Web/HTTP/Headers/Feature-Policy/encrypted-media]
+      9.  Feature-Policy: fullscreen [/en-US/docs/Web/HTTP/Headers/Feature-Policy/fullscreen]
+      10. Feature-Policy: gamepad [/en-US/docs/Web/HTTP/Headers/Feature-Policy/gamepad]
+      11. Feature-Policy: geolocation [/en-US/docs/Web/HTTP/Headers/Feature-Policy/geolocation]
+      12. Feature-Policy: gyroscope [/en-US/docs/Web/HTTP/Headers/Feature-Policy/gyroscope]
+      13. Feature-Policy: layout-animations [/en-US/docs/Web/HTTP/Headers/Feature-Policy/layout-animations]
+      14. Feature-Policy: legacy-image-formats [/en-US/docs/Web/HTTP/Headers/Feature-Policy/legacy-image-formats]
+      15. Feature-Policy: magnetometer [/en-US/docs/Web/HTTP/Headers/Feature-Policy/magnetometer]
+      16. Feature-Policy: microphone [/en-US/docs/Web/HTTP/Headers/Feature-Policy/microphone]
+      17. Feature-Policy: midi [/en-US/docs/Web/HTTP/Headers/Feature-Policy/midi]
+      18. Feature-Policy: oversized-images [/en-US/docs/Web/HTTP/Headers/Feature-Policy/oversized-images]
+      19. Feature-Policy: payment [/en-US/docs/Web/HTTP/Headers/Feature-Policy/payment]
+      20. Feature-Policy: picture-in-picture [/en-US/docs/Web/HTTP/Headers/Feature-Policy/picture-in-picture]
+      21. Feature-Policy: publickey-credentials-get [/en-US/docs/Web/HTTP/Headers/Feature-Policy/publickey-credentials-get]
+      22. Feature-Policy: screen-wake-lock [/en-US/docs/Web/HTTP/Headers/Feature-Policy/screen-wake-lock]
+      23. Feature-Policy: speaker-selection [/en-US/docs/Web/HTTP/Headers/Feature-Policy/speaker-selection]
+      24. Feature-Policy: sync-xhr [/en-US/docs/Web/HTTP/Headers/Feature-Policy/sync-xhr]
+      25. Feature-Policy: unoptimized-images [/en-US/docs/Web/HTTP/Headers/Feature-Policy/unoptimized-images]
+      26. Feature-Policy: unsized-media [/en-US/docs/Web/HTTP/Headers/Feature-Policy/unsized-media]
+      27. Feature-Policy: usb [/en-US/docs/Web/HTTP/Headers/Feature-Policy/usb]
+      28. web-share [/en-US/docs/Web/HTTP/Headers/Feature-Policy/web-share]
+      29. Feature-Policy: xr-spatial-tracking [/en-US/docs/Web/HTTP/Headers/Feature-Policy/xr-spatial-tracking]
+
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

@@ -1,0 +1,29 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] ACME LABS MAPS
+
+Here's a list of all the map applications available from ACME Laboratories:
+
+Paris Star Forts [/jef/paris_forts/] Paris is surrounded by a ring of large forts built in the mid-1800s. Transpac 2005 Tracks [/jef/transpac2005/]
+Boat tracks from the July 2005 Long Beach - Honolulu race. Metro Map [/metro/] Map and route-finding for Paris's subway system. ACME Planimeter
+[/planimeter/] Measure areas by clicking the perimeter points. Jordan's Outline Maker [/jef/outlines/] An add-on for a home air traffic control radar
+system. USA Hot Springs [/jef/hotsprings/] Displays data for 1,661 hot springs around the USA. Mainly written to demonstrate my Clusterer
+[//acme.com/javascript/#Clusterer] object. ACME GeoRSS Map Viewer [/GeoRSS/] Displays GeoRSS files, which let you define your own custom maps as
+simple XML files instead of writing JavaScript code. Golden Gate Sunsets [/jef/ggs/] Shows locations from which you can view the setting sun exactly
+in the middle of the Golden Gate. This is also a sample GeoRSS map. Bay Area Tunnels [/jef/tunnels/] Pedestrian/bike, road, and train tunnels around
+the Bay Area. East Bay Express: Taste 03Apr2019 [/jef/taste_03apr2019/] The Express's pull-out Taste section for April 3rd 2019. Telegraph Bike Lane
+Blockers [/jef/telegraph/] Locations where I've photographed people blocking the Telegraph Avenue bikelanes. UC Berkeley Plaques [/jef/ucb_plaques/]
+Informational plaques on and around the University of California Berkeley campus. Another GeoRSS map. ACME Mapper [//mapper.acme.com/] General purpose
+high-precision map application. Two Maps One Scale [/same_scale/] View two different locations at the same zoom level, to compare sizes. Where
+[/where.html] Shows where you currently are. That is, it exercises the geolocation feature, on devices which have it. It's fun to use in moving
+vehicles.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+Leaflet.js references [https://leafletjs.com/reference-versions.html]
+Google Maps JavaScript API V3 [https://developers.google.com/maps/documentation/javascript/]
+ACME Labs [/] / Maps
+Email [/mailto/wa.gif] [/mailto/?id=wa]

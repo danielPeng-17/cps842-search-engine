@@ -1,0 +1,26 @@
+[/resources/images/atom_ani.gif]
+
+
+WHAT DOES ACME MEAN?
+
+We get this question a lot, here at ACME Labs.
+
+ * The dictionary definition is: "the top", or "the highest point", or just "perfection". This is straight from Greek. (Greek mythology also includes
+   a nymph named Acme [acme_nymph.html].)
+ * Apparently some early business school textbooks liked to use Acme as a business name in some of their examples.
+ * There's a story that the business school use is an acronym, standing for "A Company Manufacturing Everything". This is probably false etymology.
+ * Sears-Roebuck used Acme as one of their in-house brand names in the early 1900s, just like they use "Craftsman" today. For instance, take a look at
+   this ad for an Acme anvil [/calendar/images/anvil_ad.gif] from the 1902 Sears catalog.
+ * Warner Brothers apparently took the name from Sears and used it for the mail-order company in the Wile E. Coyote
+   [/calendar/images/coyote-harpoon.jpg] cartoons.
+
+Other pages of interest to the student of ACME:
+
+ * Other ACMEs on the Web [http://www.acme.com/other_acmes.html]
+ * The ACME Calendar [http://www.acme.com/calendar/]
+ * The Illustrated Catalog of ACME Products [http://home.nc.rr.com/tuco/looney/acme/acme.html]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Back to ACME Labs. [../]
+[/mailto/wa.gif] [/mailto/?id=wa]

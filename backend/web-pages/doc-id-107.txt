@@ -1,0 +1,13 @@
+The Mail Robot
+
+
+MAIL ROBOT
+
+The mail robot is a program which will accept incoming mail and allow remote users to:
+ * Subscribe to mailing lists (and unsubscribe)
+ * Retrieve information given a W3 addresss (URL)
+
+Originally from UC Berkeley, an enhanced robot is distributed as part of the world-wide web global information initiative [../TheProject.html]. Futhur
+information available is: Help [Help.html] The help file for users of the robot service Installation [Installation.html] Installation instructions for
+unix system managers Bugs [Bugs.html] Lists of improvements requested or needed. Change history [Features.html] A list of features introduced and bugs
+fixed.

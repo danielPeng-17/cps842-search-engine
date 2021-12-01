@@ -1,0 +1,12 @@
+LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] DE-UNICODE
+
+Type or paste some text into the box, get de-coded versions.
+
+
+
+Code points: HTML entities (decimal): HTML entities (hex): code string: UTF-8 code string:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [/] / Unicode [./] / Transformations
+email [/mailto/j.gif] [/mailto/?id=j]

@@ -1,0 +1,10 @@
+atom logo [/resources/images/atom_ani.gif]
+
+
+SEND MAIL
+
+To help prevent spammers from harvesting our email addresses, we now use a hidden address system. The "To:" address you see below is actually an
+image, not text. You can use this form to send your mail, or you are welcome to manually retype the address into your own email program and use that
+instead.
+
+To:email [wa.gif] From: What is 2 plus 9:

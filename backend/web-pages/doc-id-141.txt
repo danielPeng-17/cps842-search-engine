@@ -1,0 +1,60 @@
+YOU MUST ENABLE JAVASCRIPT TO USE THIS PAGE.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+logo [/resources/images/atom_ani.gif]
+
+
+ACME CHARTMAKER
+
+Google has a graph-making facility called Google Chart [http://code.google.com/apis/chart/]. The graphs are very nice but the API is not intended for
+direct use by humans. This page is a front-end that lets you access Google Chart via a nicer point & click interface.
+
+The graph updates itself automatically as you change the settings and data. Once you have your graph set up, you can copy the URL at the bottom into
+your own page and get the same graph there - or just save the image file.
+
+Title: Chart type: Line Graph Bar Chart Pie Chart Venn Diagram Scatter Plot Vertical Horizontal Stacked Groups Flat 3-D Width: Height:
+Background color:
+
+Chart color:
+
+Grid:   - | + Marks Data set 1:
+
+
+
+Data set 2:
+
+Data set 3:
+
+Data set 4:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chart [/resources/images/transpixel.gif]
+
+URL: TinyURL:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+ACME Labs [/] / Chartmaker
+email [/mailto/wa.gif] [/mailto/?id=wa]

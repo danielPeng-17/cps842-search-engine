@@ -1,0 +1,218 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] ACME LABS HTML SAMPLER
+
+HTML is really pretty easy to learn. If you've ever used any sort of text formatting language, such as nroff or Scribe, this is the same idea. Even if
+you haven't, you should be able to pick this up pretty quick; it's just text with <special codes> interspersed to specify the formatting.
+
+This page gives examples of all the basic HTML formatting codes. Read through it as a tutorial; refer back to it as a reference; use the index at the
+end.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Basic document:
+
+> <html>
+>   <!-- Sample document skeleton. -->
+>   <head>
+>     <title>Elmer's Web Page</title>
+>   </head>
+>   <body>
+>     <h2>Elmer's Web Page</h2>
+> 
+>     <p>
+>     Text goes here.
+> 
+>     <hr>
+> 
+>     <a href="prevdoc.html">Back to previous document.</a>
+>     <br>
+>     <address><a href="mailto:efudd@mail.acme.com">Elmer Fudd &lt;efudd@mail.acme.com&gt;</a></address>
+>   </body>
+> </html>
+>     
+
+The <!-- is a comment. <h2> is a medium-sized header; <h1> is the biggest header and <h4> is the smallest. <p> is a paragraph separator. <hr> is a
+"horizontal rule" - a dividing line. <br> is a line break.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Basic images and links.
+
+Text link: Jef's page. [http://acme.com/jef/]
+<a href="http://acme.com/jef/">Jef's page.</a> Image: smiley [http://acme.com/resources/smiley.gif]
+<img src="http://acme.com/resources/smiley.gif"> Image link: smiley [http://acme.com/resources/smiley.gif] [http://acme.com/jef/]
+<a href="http://acme.com/jef/"><img src="http://acme.com/resources/smiley.gif"></a> Image vertical alignment:
+ * smiley [/resources/smiley.gif] align="top"
+ * smiley [/resources/smiley.gif] align="middle"
+ * smiley [/resources/smiley.gif] align="bottom"
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Various text styles:
+
+<em>emphasis</em> <strong>strong emphasis</strong> <cite>a book, article, film title</cite> <code>reference to something computerish, such as a file
+name</code> <dfn>a word being defined</dfn> <kbd>something the user is supposed to type</kbd> <samp>output from the computer</samp> <var>a
+meta-syntactic variable</var> <b>bold</b> <i>italic</i> <tt>fixed-width</tt> super<sup>script</sup> sub<sub>script</sub>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Some common special characters and accents:
+
+> & &amp; < &lt; > &gt; « &laquo; » &raquo; © &copy; ® &reg; ™ &trade; ¢ &cent; £ &pound; ¥ &yen; µ &micro; § &sect; ¶ &para; … &hellip; ° &deg; ±
+> &plusmn; ² &sup2; ³ &sup3; ¼ &frac14; ½ &frac12; ¾ &frac34; × &times; ÷ &divide; à &agrave; á &aacute; â &acirc; ã &atilde; ä &auml; å &aring; è
+> &egrave; é &eacute; ê &ecirc; ë &euml; ì &igrave; í &iacute; î &icirc; ï &iuml; ò &ograve; ó &oacute; ô &ocirc; õ &otilde; ö &ouml; ø &oslash; ù
+> &ugrave; ú &uacute; û &ucirc; ü &uuml; ¡ &iexcl; ¿ &iquest; ß &szlig; æ &aelig; ç &ccedil; ð &eth; ñ &ntilde; ý &yacute; þ &thorn; ÿ &yuml;
+> ¯\_(ツ)_/¯ &#x00AF;\_(&#x30C4;)_/&#x00AF;
+
+Note that unlike other HTML codes, these are case-sensitive.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bullet lists:
+
+ * apples
+ * bananas
+
+
+<ul>
+  <li>apples</li>
+  <li>bananas</li>
+</ul>
+    
+
+Lists can also specify the bullet type:
+
+<ul type="disc">
+ * the default
+
+<ul type="circle">
+ * used to be a square
+
+<ul type="square">
+ * used to be a solid square
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Numbered lists:
+
+ 1. oranges
+ 2. peaches
+ 3. grapes
+
+
+<ol>
+  <li>oranges</li>
+  <li>peaches</li>
+  <li>grapes</li>
+</ol>
+    
+
+Numbered lists can also specify the numbering type and starting number: <ol type="A" start="2">
+ B. capital letters
+
+<ol type="a" start="3">
+ c. small letters
+
+<ol type="I" start="4">
+ IV. large roman numerals
+
+<ol type="i" start="5">
+ v. small roman numerals
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tagged lists:
+
+Tag Description. Can be multiple lines, paragraphs, sublists, whatever. Another Tag Another description.
+
+
+<dl>
+  <dt>Tag</dt>
+  <dd>Description.  Can be multiple lines, paragraphs, sublists, whatever.</dd>
+  <dt>Another Tag</dt>
+  <dd>Another description.</dd>
+</dl>
+    
+
+You can also leave off the tags: Description. Can be multiple lines, paragraphs, sublists, whatever. Another description.
+
+
+<dl>
+  <dd>Description.  Can be multiple lines, paragraphs, sublists, whatever.</dd>
+  <dd>Another description.</dd>
+</dl>
+    
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+You can use <blockquote> to indent a whole block of text:
+
+> This text is indented from the rest.
+> 
+> You can have multiple paragraphs indented too.
+
+Back out again; use </blockquote> to terminate a quote.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+You can also turn formatting completely
+	off for
+    an entire section, using <pre> and </pre>.
+    
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Simple table:
+
+Caption. col 1col 2 row 1row 1 col 1row 1 col 2 row 2row 2 col 1row 2 col 2
+
+> <table border="1">
+>   <caption align="bottom">Caption.</caption>
+>   <tr><td></td><th>col 1</th><th>col 2</th></tr>
+>   <tr><th>row 1</th><td>row 1 col 1</td><td>row 1 col 2</td></tr>
+>   <tr><th>row 2</th><td>row 2 col 1</td><td>row 2 col 2</td></tr>
+> </table>
+>     
+
+Whitespace options:
+
+cellspacing="10" row 1 col 1row 1 col 2 row 2 col 1row 2 col 2
+
+cellpadding="10" row 1 col 1row 1 col 2 row 2 col 1row 2 col 2
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Other basic HTML resources:
+
+ * W3Schools' HTML Entities [http://www.w3schools.com/tags/ref_entities.asp]
+ * Special Symbols and Entities [http://www.utoronto.ca/webdocs/HTMLdocs/NewHTML/iso_table.html]
+ * Netscape's Special Symbols and Entities [http://developer.netscape.com/library/documentation/htmlguid/entities.htm]
+ * Yahoo's HTML page [http://www.yahoo.com/Computers_and_Internet/Software/Data_Formats/HTML/]
+ * Netscape's HTML Reference [http://developer.netscape.com/docs/manuals/htmlguid/index.htm]
+ * Excellent HTML reference at University of Georgia [http://www.fcs.uga.edu/cs/tutorials/web_seminar/language/tags.html]
+ * Netscape's extensions to HTML 2.0 [http://home.netscape.com/assist/net_sites/html_extensions.html]
+ * Netscape's extensions to HTML 3.0 [http://home.netscape.com/assist/net_sites/html_extensions_3.html]
+ * Netscape's Table Sampler [http://wp.netscape.com/assist/net_sites/table_sample.html]
+ * Matt Kruse's Table Generator [http://www.acm.usl.edu/cgi-bin/duke/TableGen]
+ * VisiBone's HTML reference card [http://www.visibone.com/html/card.html]
+
+Plus, whenever you see something interesting and want to know how it was done, do a View Source!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Index to all tags:
+
+<!--> <a> <address> <b> <blockquote> <body> <br> <caption> <cite> <code> <dd> <dfn> <dl> <dt> <em> <h1> <h2> <h3> <h4> <head> <hr> <html> <i> <img>
+<kbd> <li> <ol> <p> <pre> <samp> <strong> <sub> <sup> <table> <td> <th> <title> <tr> <tt> <ul> <var> &entity;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+ACME Labs [/] / HTML Sampler
+email [/mailto/wa.gif] [/mailto/?id=wa]

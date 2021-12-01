@@ -1,0 +1,19 @@
+YOU MUST ENABLE JAVASCRIPT TO USE THIS PAGE.
+
+French [/resources/images/flags/france.gif] [javascript:MySetLanguage( acme.maps.LANG_FRENCH )] English [/resources/images/flags/uk.gif]
+[javascript:MySetLanguage( acme.maps.LANG_ENGLISH )]
+
+
+
+
+
+ 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] RATP [http://www.ratp.info/]
+Map courtesy of the Google Maps API [http://www.google.com/apis/maps/].
+Other Google Maps apps: Paris Star Forts [/jef/paris_forts/], Transpac 2005 Tracks [/jef/transpac2005/], BART Map/Schedule [/bart/], Google Planimeter
+[/planimeter/], USA Hot Springs [/jef/hotsprings/].
+ACME Laboratories [../]
+email [/mailto/j.gif] [/mailto/?id=j]
