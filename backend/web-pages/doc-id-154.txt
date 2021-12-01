@@ -1,0 +1,28 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+heart [acme_heart.jpg]
+
+
+ACME HEART MAKER
+
+Make your own candy valentine!
+
+Random Color Green Orange Pink Purple White Yellow Black Gray
+
+Accepts letters, digits, ".+-/:;*#!$", space, and a few special characters [special.html]. Up to four characters per line, either one or two lines.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+See recent hearts [hearts.cgi] made by other folks.
+These folks [http://www.magicwandweddings.com/customcandyhearts.htm] will make actual customized candy hearts.
+Thanks to Cory Doctorow [http://www.craphound.com/] for image editing help.
+All your candy are belong to us. [ayc/]
+The ACME Label Maker [http://acme.com/labelmaker/], License Maker [http://acme.com/licensemaker/], and ChuMaker [http://acme.com/chumaker/].
+Ryland Sanders' Church Sign Generator [http://www.churchsigngenerator.com/].
+Tombstone Generator [http://tombstone.dogcrap.net/create.php].
+Windows Error Generator [http://atom.smasher.org/error/].
+
+Back to ACME Labs [http://www.acme.com/].
+email [/mailto/wa.gif] [/mailto/?id=wa]

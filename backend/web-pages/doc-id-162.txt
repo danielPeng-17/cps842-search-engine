@@ -1,0 +1,176 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ 1. Web technology for developers [/en-US/docs/Web]
+ 2. Accessibility [/en-US/docs/Web/Accessibility]
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * Key tutorials
+ * Other documentation
+ * See also
+
+
+ACCESSIBILITY
+
+Accessibility (often abbreviated to A11y — as in "a" then 11 characters then "y") in Web development means enabling as many people as possible to use
+Web sites, even when those people's abilities are limited in some way.
+
+For many people, technology makes things easier. For people with disabilities, technology makes things possible. Accessibility means developing
+content to be as accessible as possible no matter an individual's physical and cognitive abilities and no matter how they access the web.
+
+"The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental
+ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability." (W3C -
+Accessibility [https://www.w3.org/standards/webdesign/accessibility])
+
+
+KEY TUTORIALS
+
+The MDN Accessibility Learning Area [/en-US/docs/Learn/Accessibility] contains modern, up-to-date tutorials covering accessibility essentials:
+
+What is accessibility? [/en-US/docs/Learn/Accessibility/What_is_accessibility]
+
+This article starts off the module with a good look at what accessibility actually is — this includes what groups of people we need to consider and
+why, what tools different people use to interact with the Web, and how we can make accessibility part of our web development workflow.
+
+HTML: A good basis for accessibility [/en-US/docs/Learn/Accessibility/HTML]
+
+A great deal of web content can be made accessible just by making sure the correct HTML elements are used for the correct purpose at all times. This
+article looks in detail at how HTML can be used to ensure maximum accessibility.
+
+CSS and JavaScript accessibility best practices [/en-US/docs/Learn/Accessibility/CSS_and_JavaScript]
+
+CSS and JavaScript, when used properly, also have the potential to allow for accessible web experiences ... or they can significantly harm
+accessibility if misused. This article outlines some CSS and JavaScript best practices that should be considered to ensure even complex content is as
+accessible as possible.
+
+WAI-ARIA basics [/en-US/docs/Learn/Accessibility/WAI-ARIA_basics]
+
+Following on from the previous article, sometimes making complex UI controls that involve unsemantic HTML and dynamic JavaScript-updated content can
+be difficult. WAI-ARIA is a technology that can help with such problems by adding in further semantics that browsers and assistive technologies can
+recognize and use to let users know what is going on. Here we'll show how to use it at a basic level to improve accessibility.
+
+Accessible multimedia [/en-US/docs/Learn/Accessibility/Multimedia]
+
+Another category of content that can create accessibility problems is multimedia — video, audio, and image content need to be given proper textual
+alternatives so they can be understood by assistive technologies and their users. This article shows how.
+
+Mobile accessibility [/en-US/docs/Learn/Accessibility/Mobile]
+
+With web access on mobile devices being so popular, and popular platforms such as iOS and Android having fully-fledged accessibility tools, it is
+important to consider the accessibility of your web content on these platforms. This article looks at mobile-specific accessibility considerations.
+
+
+OTHER DOCUMENTATION
+
+Understanding the Web Content Accessibility Guidelines [/en-US/docs/Web/Accessibility/Understanding_WCAG]
+
+This set of articles provides quick explanations to help you understand the steps that need to be taken to conform to the recommendations outlined in
+the W3C Web Content Accessibility Guidelines 2.0 (WCAG 2.0 or just WCAG, for the purposes of this writing).
+
+Introduction to color and accessibility [/en-US/docs/Web/Accessibility/Understanding_Colors_and_Luminance]
+
+This article discusses our perception of light and color, provides a foundation for the use of color in accessible designs, and demonstrates best
+practices for visual and readable content.
+
+Keyboard-navigable JavaScript widgets [/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets]
+
+Until now, web developers who want to make their styled <div> and <span> based widgets accessible have lacked the proper techniques. Keyboard
+accessibility is part of the minimum accessibility requirements which a developer should be aware of.
+
+ARIA [/en-US/docs/Web/Accessibility/ARIA]
+
+A collection of articles to learn how to use ARIA to make your HTML documents more accessible.
+
+Mobile accessibility checklist [/en-US/docs/Web/Accessibility/Mobile_accessibility_checklist]
+
+This document provides a concise checklist of accessibility requirements for mobile app developers.
+
+Cognitive accessibility [/en-US/docs/Web/Accessibility/Cognitive_accessibility]
+
+When creating web content, be aware of how you can ensure that it is accessible to people with cognitive impairments.
+
+Accessibility for seizure disorders [/en-US/docs/Web/Accessibility/Seizure_disorders]
+
+Some types of visual web content can induce seizures in people with certain brain disorders. Understand the types of content that can be problematic,
+and find tools and strategies to help you avoid them.
+
+
+SEE ALSO
+
+ * WAI Interest Group [https://www.w3.org/WAI/IG/]
+ * Developer guides [/en-US/docs/Web/Guide]
+ * Accessibility and Mozilla [/en-US/docs/Mozilla/Accessibility]
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/accessibility/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/accessibility/index.md]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAccessibility%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Faccessibility%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAccessibility%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Faccessibility%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Faf5325ae8781a62a8fcff2919e41337e72a3ca68%0A*+Document+last+modified%3A+2021-10-23T04%3A16%3A44.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Accessibility%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AAccessibility]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Oct 23, 2021, by MDN contributors [/en-US/docs/Web/Accessibility/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

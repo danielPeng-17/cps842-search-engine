@@ -1,0 +1,220 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ 1. The MDN project [/en-US/docs/MDN]
+ 2. Contributing to MDN [/en-US/docs/MDN/Contribute]
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * What can I do to help?
+ * Other useful pages
+
+
+CONTRIBUTING TO MDN
+
+MDN Web Docs needs your help! We have a large number of typos to fix, examples to write, bugs to fix, people to talk to, and more, and the number is
+growing as more people start using the site. This page outlines what you can do to help.
+
+Note: If you haven't contributed to MDN previously, the Getting Started [/en-US/docs/MDN/Contribute/Getting_started] guide explains the process in
+four simple steps. Good news, you're already on step 3: "Finding out how you can help"!
+
+
+WHAT CAN I DO TO HELP?
+
+There are multiple avenues you can take to contribute to MDN depending on your skillset and interests. Along with each task we provide a short
+description and an approximate time that each type of task typically takes.
+
+If you are not sure what to do, you are always welcome to ask for help [/en-US/docs/MDN/Contribute/Getting_started#step_4_ask_for_help].
+
+
+PRIMARY CONTRIBUTION TYPES
+
+The links in this section lead to detailed guides explaining how to do a particular contribution task that we are most interested in getting community
+help with, either because they are a critical function, and/or because they have a large backlog associated with them. Please consider helping out
+with these tasks before you consider contributing in other ways.
+
+Tasks Description Skillset required Fixing MDN content bugs [/en-US/docs/MDN/Contribute/Fixing_MDN_content_bugs] Our content repo
+[https://github.com/mdn/content/issues] is where people submit issues to report problems found with MDN docs (you'll also find some bugs to fix at the
+older sprints repo [https://github.com/mdn/sprints/], but we'll be closing it down eventually). We get a lot of content bugs, and any help you can
+give in fixing them would be much appreciated.
+ * Knowledge of the web technologies you choose to help with (e.g. JavaScript, CSS).
+ * A reasonable understanding of the English language (don't worry if your English is not perfect; we can help you with it). 
+
+Reviewing MDN edits [https://github.com/mdn/content/blob/main/REVIEWING.md] People submit pull requests on our content repo
+[https://github.com/mdn/content] all the time to update MDN content, and we need help reviewing them. Head over to our REVIEWING.md
+[https://github.com/mdn/content/blob/main/REVIEWING.md] page to find out how the reviewing process works, and how you can get involved.
+ * Knowledge of the web technologies you choose to help with (e.g. JavaScript, CSS).
+ * A reasonable understanding of the English language (don't worry if your English is not perfect; we can help you with it). 
+
+Help beginners to learn on MDN [/en-US/docs/MDN/Contribute/Help_beginners] Our Learn web development [/en-US/docs/Learn] pages get over a million
+views per month and have active forums [https://discourse.mozilla.org/c/mdn/learn/250] where people go to ask for general help, or request that their
+assessments be marked. We’d love some help with answering posts and growing our learning community.
+ * Knowledge of the web technologies you choose to help with (e.g. JavaScript, CSS).
+ * Enthusiasm for explaining technical topics and helping beginners learn to code.
+ * Reasonable proficiency with the English language; it really doesn't need to be perfect.
+
+We will add more tasks here as time goes on.
+
+PRIORITY RATINGS
+
+You can also look at priority ratings to give you an idea of what the most important work is to work on — we've started giving content bug issues
+labels of P0, P1, P2, P3, and P4 to signify how important they are, with lower numbers being more important than higher numbers.
+
+These are figured out during the regular MDN bug triage process, based on the MDN documentation priority list
+[/en-US/docs/MDN/Contribute/Documentation_priorities].
+
+
+OTHER TASK TYPES
+
+If our main priorities listed above don't interest you, you can find a number of other, more general task types to get involved with below, split up
+by skillset.
+
+If you are more interested in words, you could do the following:
+
+ * Update an existing article with new information [/en-US/docs/MDN/Contribute/Howto/Create_and_edit_pages#editing_an_existing_page] (5 minutes-1
+   hour)
+ * Write a new entry in the Glossary [/en-US/docs/MDN/Contribute/Howto/Write_a_new_entry_in_the_Glossary] (15 minutes-1 hour)
+
+If you are more interested in code, you could try your hand at the following:
+
+ * Convert code samples to be "live" [/en-US/docs/MDN/Contribute/Howto/Convert_code_samples_to_be_live] (30 minutes)
+ * Send a code patch to the Yari codebase [https://github.com/mdn/yari] (1 hour)
+ * Write an interactive example [https://github.com/mdn/interactive-examples/blob/master/CONTRIBUTING.md] (1 hour)
+
+If you are interested in words and code, you could try your hand at the following:
+
+ * Write or update an API reference [/en-US/docs/MDN/Contribute/Howto/Write_an_API_reference] (30 minutes to 2 hours, or more)
+ * Write a new article on a topic you are familiar with [https://github.com/mdn/content#adding-a-new-document] (1 hour or more)
+ * Add or update browser compatibility data on a reference page [/en-US/docs/MDN/Structures/Compatibility_tables] (30 minutes to 1 hour)
+
+Note: If you have found something that is incorrect on MDN but you're not sure how to fix it, you can report problems by filing a documentation issue
+[https://github.com/mdn/content/issues/new/choose]. Please give the issue a descriptive title. (It's not helpful to say "Dead link" without saying
+where you found the link).
+
+
+OTHER USEFUL PAGES
+
+Basic etiquette for open source projects [/en-US/docs/MDN/Contribute/Open_source_etiquette]If you've not worked on an open source project (OSP)
+before, it is a good idea to read this article before starting to contribute to MDN (or other open source projects). There are a few best practices to
+adopt that will help ensure that you and the other project contributors feel valued and safe, and stay productive.Documentation processes
+[/en-US/docs/MDN/Contribute/Processes]The MDN documentation project is enormous; there are a vast number of technologies we cover through the
+assistance of hundreds of contributors from across the world. To help us bring order to chaos, we have standard processes to follow when working on
+specific documentation-related tasks. Here you'll find guides to those processes.Fixing MDN content bugs
+[/en-US/docs/MDN/Contribute/Fixing_MDN_content_bugs]Problems with MDN docs are reported as content repo issues [https://github.com/mdn/content/issues]
+(and there are still some open issues in the legacy sprints repo [https://github.com/mdn/sprints/issues]). This article helps you find the best issues
+to work on, based on your expertise and how much time you have available, and outlines the main steps to fixing them.Getting started on MDN
+[/en-US/docs/MDN/Contribute/Getting_started]We are an open community of developers building resources for a better Web, regardless of brand, browser,
+or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the
+greater good. It starts here, with you.GitHub best practices for MDN [/en-US/docs/MDN/Contribute/GitHub_best_practices]This page contains best
+practices for working with GitHub to contribute to MDN, mainly centered around how to work with issues.GitHub cheatsheet
+[/en-US/docs/MDN/Contribute/GitHub_cheatsheet]This article provides a quick reference to the essential commands you'll need when using Git
+[https://git-scm.com/] and GitHub [https://github.com/] to contribute to MDN. If you are new to these tools and need a helping hand, our GitHub for
+complete beginners [/en-US/docs/MDN/Contribute/GitHub_beginners] tutorial teaches the basics.GitHub for complete beginners
+[/en-US/docs/MDN/Contribute/GitHub_beginners]Git [https://git-scm.com/] and GitHub [https://github.com/] are challenging tools to learn and master,
+but with a few simple commands and some good advice, you should be able to do enough to start contributing to MDN without too much trouble. The aim of
+this article is not to help you master Git or GitHub, but to give you just enough to be productive with it at a basic level and contribute to MDN.Help
+beginners to learn on MDN! [/en-US/docs/MDN/Contribute/Help_beginners]Our Learn web development [/en-US/docs/Learn] pages get over a million views per
+month, and have active forums [https://discourse.mozilla.org/c/mdn/learn/250] where people go to ask for general help, or request that their
+assessments be marked. We’d love some help with answering posts, and growing our learning community.
+Localizing MDN [/en-US/docs/MDN/Contribute/Localize]Since December 14th 2020, MDN has been running on the new GitHub-based Yari platform
+[https://github.com/mdn/yari]. This has a lot of advantages for MDN, but we've needed to make radical changes to the way in which we handle
+localization. This is because we've ended up with a lot of unmaintained and out-of-date content in our non-en-US locales, and we want to manage it
+better in the future.Markdown in MDN [/en-US/docs/MDN/Contribute/Markdown_in_MDN]This page describes how we use Markdown to write documentation on
+MDN. We have chosen GitHub-Flavored Markdown (GFM) as a baseline, and added some extensions to support some of the things we need to do on MDN that
+aren't readily supported in GFM.MDN contribution changelog [/en-US/docs/MDN/Contribute/Changelog]This document provides a record of MDN content
+processes, constructs, and best practices that have changed, and when they changed. It is useful to allow regular contributors to check in and see
+what has changed about the process of creating content for MDN.MDN documentation priority list
+[/en-US/docs/MDN/Contribute/Documentation_priorities]This document defines the different priority tiers on MDN, and states what documentation topics
+exist inside each tier — we are calling them Tier 1 and Tier 2.MDN web docs: How-to guides [/en-US/docs/MDN/Contribute/Howto]These articles provide
+step-by-step guides to accomplishing specific goals when contributing to MDN.Send feedback about MDN Web Docs
+[/en-US/docs/MDN/Contribute/Feedback]Welcome to MDN Web Docs! If you have suggestions for, or are having problems using the MDN Web Docs, this is the
+right place to be. The very fact that you're interested in offering feedback makes you even more a part of the Mozilla community, and we thank you in
+advance for your interest.Where is everything on MDN? A guide to our repos [/en-US/docs/MDN/Contribute/Where_is_everything]MDN is a complex project
+with lots of moving parts. Contributing to the site is easy to begin with, if you have a bit of GitHub knowledge and are starting out on some simple
+typo fixes or code snippet improvements. However, when you start making more significant contributions such as adding entire new pages, you'll notice
+that there are quite a few bits of the content that aren't stored in the page sources and instead come from somewhere else.
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/mdn/contribute/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/mdn/contribute/index.md]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FContribute%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fmdn%2Fcontribute%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FContribute%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fmdn%2Fcontribute%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F32f6335487194aa8c3a9fb5c90eeba5e95be6224%0A*+Document+last+modified%3A+2021-10-15T15%3A32%3A38.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Contributing+to+MDN%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AOther]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Oct 15, 2021, by MDN contributors [/en-US/docs/MDN/Contribute/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+
+RELATED TOPICS
+
+ 1. About MDN [/en-US/docs/MDN/About]
+ 2. Contributing to MDN
+     1. Get started on MDN [/en-US/docs/MDN/Contribute/Getting_started]
+     2. Contributing to MDN [/en-US/docs/MDN/Contribute]
+     3. Things you can do [/en-US/docs/MDN/Contribute/Howto]
+     4. Localizing MDN [/en-US/docs/MDN/Contribute/Localize]
+     5. Guidelines [/en-US/docs/MDN/Guidelines]
+     6. Content structures [/en-US/docs/MDN/Structures]
+
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

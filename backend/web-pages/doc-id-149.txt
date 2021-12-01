@@ -1,0 +1,239 @@
+[/resources/images/atom_ani.gif]
+
+
+OTHER ACMES ON THE WEB
+
+When I registered acme.com in 1991 I was the first ACME on the net. Now there are over 250 of them. I've collected pointers to some of them with web
+pages.
+
+As of January 2002, the other major ACMEs:
+
+ * acme.org [http://www.acme.org/], dead
+ * acme.net [http://www.acme.net/], dead
+ * acme.gov [http://www.acme.gov/], available
+ * acme.edu [http://www.acme.edu/], available
+ * acme.mil [http://www.acme.mil/], available
+ * acme.int [http://www.acme.int/], available
+ * acme.info [http://www.acme.info/], available
+ * acme.biz [http://www.acme.biz/], Acme Products
+
+The country domains:
+
+ * acme.as [http://www.acme.as/], American Samoa, "Antonsen?s Company Making Electronics"
+ * acme.be [http://www.acme.be/], Belgium, redirects to a missing page
+ * acme.cc [http://www.acme.cc/], Cocos Islands, a casino page
+ * acme.ch [http://www.acme.ch/], Switzerland, placeholder
+ * acme.cz [http://www.acme.cz/], Czech Republic, "Double Circle"
+ * acme.de [http://www.acme.de/], Germany, ACME Portable Machines GmbH
+ * acme.es [http://www.acme.es/], Spain, ACME Catalunya S.A.
+ * acme.fr [http://www.acme.fr/], France, ACME S.A.
+ * acme.gr [http://www.acme.gr/], Greece, "ACME ������������"
+ * acme.gs [http://www.acme.gs/], South Georgia, available
+ * acme.hu [http://www.acme.hu/], Hungary, an Apple reseller
+ * acme.ie [http://www.acme.ie/], Ireland, reserved
+ * acme.io [http://www.acme.io/], British Indian Ocean Territory, available
+ * acme.it [http://www.acme.it/], Italy, Azioni di Comunicazione su Mezzi Elettronici
+ * acme.jp [http://www.acme.jp/], Japan, dead
+ * acme.la [http://www.acme.la/], Laos, placeholder
+ * acme.lt [http://www.acme.lt/], Lithuania, something to do with audio/video production?
+ * acme.md [http://www.acme.md/], Moldova, dead
+ * acme.ms [http://www.acme.ms/], Montserrat, available
+ * acme.nl [http://www.acme.nl/], Netherlands, Tunix Open Systems Consultants
+ * acme.no [http://www.acme.no/], Norway, ACME Interiør
+ * acme.pl [http://www.acme.pl/], Poland, a caster factory
+ * acme.ro [http://www.acme.ro/], Romania, ACME NETWORKS Ltd.
+ * acme.ru [http://www.acme.ru/], Russia, looks like a hat shop
+ * acme.tc [http://www.acme.tc/], Turks and Caicos Islands, available
+ * acme.td [http://www.acme.td/], Chad, available
+ * acme.tm [http://www.acme.tm/], Turkmenistan, available
+ * acme.to [http://www.acme.to/], Tonga, looks like an Icelandic Playstation site
+ * acme.tv [http://www.acme.tv/], Tuvalu, available
+ * acme.vg [http://www.acme.vg/], British Virgin Islands, available
+ * acme.ws [http://www.acme.ws/], Samoa, reserved
+
+The rest:
+
+ * 321acme.com [http://321acme.com/], ACME Media, Inc.
+ * acme.base.org [http://acme.base.org/], a webzine called ACME
+ * acmebox.com [http://acmebox.com/], Acme Corrugated Box Co., Inc.
+ * acmebusforms.com [http://acmebusforms.com/], Acme Business Forms
+ * acmegallery.com [http://acmegallery.com/], ACME Gallery
+ * acme-sys.com.tw [http://formosa.acme-sys.com.tw/], ACME Systems, Taiwan
+ * aa-acme.com [http://www.aa-acme.com/], AA-Acme "Software Factory"
+ * acme-atlanta.com [http://www.acme-atlanta.com/], ACME of Atlanta
+ * acme-brain.com [http://www.acme-brain.com/], ACME BrainWorks, Georgia
+ * acme-soft.de [http://www.acme-soft.de/], ACME-Soft, Germany
+ * acme.co.uk [http://www.acme.co.uk/], ?
+ * acme.demon.co.uk [http://www.acme.demon.co.uk/], Jonathan Nicholson's page
+ * acmeamusement.com [http://www.acmeamusement.com/], ACME Amusement Co.
+ * acmebook.com [http://www.acmebook.com/], Acme Bookbinding
+ * acmebrick.com [http://www.acmebrick.com/], Acme Brick Company
+ * acmebw.com [http://www.acmebw.com/], Acme Byte & Wire
+ * acmeco.com [http://www.acmeco.com/], ACME Building Maintenance
+ * www.acmecomedy.com [http://www.acmecomedy.com/], ACME Comedy Theatre
+ * acmecopy.com [http://www.acmecopy.com/], Acme Copy Corporation
+ * acmecryo.com [http://www.acmecryo.com/], Acme Cryogenics
+ * acmedia.com [http://www.acmedia.com/], ACME MEDIA MOVING & STORAGE
+ * acmedigital.com [http://www.acmedigital.com/], acme digital design
+ * acmedigitaldesign.com [http://www.acmedigitaldesign.com/], ACME Digital Design
+ * acmefab.com [http://www.acmefab.com/], ACME Structural Inc.
+ * acmefan.com [http://www.acmefan.com], Acme Engineering & Manufacturing
+ * acmefilm.com [http://www.acmefilm.com/], ACME Film/Video Productions, Inc.
+ * acmehomeelevator.com [http://www.acmehomeelevator.com/], ACME Home Elevator
+ * acmeinfo.com [http://www.acmeinfo.com/], Acme Information Services
+ * acmelabs.com [http://www.acmelabs.com/], ACME Computer Research Laboratories
+ * acmelab.com [http://www.acmelab.com/], Acme Analytical Laboratories Ltd.
+ * acmelinen.com [http://www.acmelinen.com/], Acme Linen Co.
+ * acmemarketing.com [http://www.acmemarketing.com/], ACME Marketing Company
+ * acmemarkets.com [http://www.acmemarkets.com/], Acme Markets
+ * acmemerch.com.au [http://www.acmemerch.com.au/], Acme Merchandising, Australia
+ * acmemicro.com [http://www.acmemicro.com/], Acme Micro Systems Inc.
+ * acmemonaco.com [http://www.acmemonaco.com/], Acme-Monaco Corporation, Connecticut
+ * acmemps.com [http://www.acmemps.com/], Acme Motion Picture Services
+ * acmepet.com [http://www.acmepet.com/], Acme Pet
+ * acmeplaque.com [http://www.acmeplaque.com/], Acme Plaque
+ * acmepoets.com [http://www.acmepoets.com/], Acme Poets and Plumbing Supply Company, Ltd.
+ * acmeportable.com [http://www.acmeportable.com/], Acme Portable Machines, Inc.
+ * acmeprinting.com [http://www.acmeprinting.com/], Acme Printing Company
+ * acmerocket.com [http://www.acmerocket.com/], Acme Rocket Company
+ * acmesigncorp.com [http://www.acmesigncorp.com/], ACME Sign Corporation
+ * acmesoft.com [http://www.acmesoft.com/], Acme Software
+ * www.acmestamping.com [http://www.acmestamping.com/], Acme Stamping & Wire Forming Co.
+ * acmetech.com [http://www.acmetech.com/], Acme Technologies
+ * acmetel.com [http://www.acmetel.com/], ACME Telecards
+ * acmetesting.com [http://www.acmetesting.com/], Acme Testing
+ * acmetradingco.com [http://www.acmetradingco.com/], Acme Trading Company
+ * acmetrophy.com [http://www.acmetrophy.com/], Acme Trophy
+ * acmeweb.com [http://www.acmeweb.com/], AcmeWeb
+ * acmewebdesign.com [http://www.acmewebdesign.com/], Acme Web Design
+ * acmewebpro.com [http://www.acmewebpro.com/], Acme Web Productions
+ * acmewhistles.co.uk [http://www.acmewhistles.co.uk/], ACME Whistles, UK
+ * acmex.com [http://www.acmex.com/], Acme Express, Inc.
+ * interacme.com [http://www.interacme.com/], Acme Interactive
+ * interacme.com [http://www.interacme.com/], Acme Interactive
+ * lithoacme.com [http://www.lithoacme.com/], Litho Acme, Québec
+ * sk8acme.com [http://www.sk8acme.com/], ACME Skateboards
+ * acme-software.com [http://www.acme-software.com/], ACME Software
+ * acmedoor.com [http://www.acmedoor.com/], ACME Rolling Steel Door Corp.
+ * acme-outfitters.com [http://www.acme-outfitters.com/], Acme Outfitters
+ * acme-ins.com [http://www.acme-ins.com/], ACME Insurance
+ * acme-metals.com [http://www.acme-metals.com/], ACME Metals Inc.
+ * acmesteelco.com [http://www.acmesteelco.com/], ACME Steel Company
+ * acmetraining.com [http://www.acmetraining.com/], Acme Training Inc.
+ * acmebros.com [http://www.acmebros.com/], Acme Bros.
+ * acmetoys.com [http://www.acmetoys.com/], Acme Vintage Toys & Animation Art Gallery
+ * acme-toys.com [http://www.acme-toys.com/], Robots & Space Toys
+ * acmecomedycompany.com [http://www.acmecomedycompany.com/], Acme Comedy Co.
+ * acmescale.com [http://www.acmescale.com/], Acme Scale & Supply Co.
+ * acmeabrasive.com [http://www.acmeabrasive.com/], Acme Abrasive Company
+ * acmegear.com [http://acmegear.com/], Acme Gear Company
+ * acmeceramictile.com [http://www.acmeceramictile.com/], Acme Ceramic Tile Co.
+ * acmeuniforms.com [http://www.acmeuniforms.com/], Acme Uniforms
+ * acmeanimation.com [http://www.acmeanimation.com/], Acme Animation Art Galleries
+ * acmekennel.com [http://www.acmekennel.com/], Acme Kennel
+ * acmesponge.com [http://www.acmesponge.com/], Acme Sponge & Chamois Co., Inc.
+ * acmerecording.com [http://acmerecording.com/], ACME Recording studios
+ * acmepans.com [http://www.acmepans.com/], Acme Metal Cap Inc., Co.
+ * acmesthapati.com [http://www.acmesthapati.com/], Acme Sthapati Limited
+ * acmereptile.com [http://www.acmereptile.com/], Acme Reptile
+ * acmecd.com [http://www.acmecd.com/], ACME CD Manufacturing
+ * acmescards.com [http://www.acmescards.com/], ACME Sports Cards & Collectibles
+ * acmebrand.com [http://www.acmebrand.com/], ACME Brand Beef Jerky
+ * acmematerials.com [http://www.acmematerials.com/], Acme Materials & Construction
+ * acmecomics.com [http://www.acmecomics.com/], Acme Comics
+ * acmeoyster.com [http://www.acmeoyster.com/], Acme Oyster House
+ * acmeent.com [http://www.acmeent.com/], Acme Entertainment, Inc.
+ * acmestar.com [http://www.acmestar.com/], Acmestar Technology International Inc.
+ * acmeware.com [http://www.acmeware.com/], Acmeware Incorporated
+ * acmec.com [http://www.acmec.com/], Acme Computers Sdn. Bhd.
+ * acmeworld.net [http://www.acmeworld.net/], Acme Web Design
+ * acmeair.com [http://www.acmeair.com/], Acme Radiator and Air Conditioning Inc.
+ * acmewire.com [http://www.acmewire.com/], Acme Wire Products Co., Inc.
+ * acmetheatre.org [http://www.acmetheatre.org/], Acme Theatre Company
+ * acmecity.com [http://www.acmecity.com/], Acme City, Warner Bros.' portal site
+ * acmevaporware.com [http://www.acmevaporware.com/], ACME Vaporware
+ * acmewebpages.com [http://www.acmewebpages.com/], The ACME Web Pages
+ * acmedesign.com [http://www.acmedesign.com/], Acme Marketing and Design Group
+ * acmedesign-inc.com [http://www.acmedesign-inc.com/], Acme Design, Inc.
+ * acmequote.com [http://www.acmequote.com/], AcmeQuote insurance broker
+ * acmenet.net [http://www.acmenet.net/], an Albany NY ISP
+ * acmemoviestore.com [http://www.acmemoviestore.com/], ACME Movie Store
+ * acmefireworks.com.au [http://www.acmefireworks.com.au], ACME Fireworks
+ * acme-technology.co.uk [http://www.acme-technology.co.uk/], ACME Technology
+ * acmecantina.com [http://www.acmecantina.com/], ACME Cantina, on the Isle of Palms, SC
+ * acmemarls.com [http://www.acmemarls.com/], ACME Marls, makers of kiln furniture
+ * acmemascots.com [http://www.acmemascots.com/], ACME Mascots Inc.
+ * acmedynamics.com [http://www.acmedynamics.com/], ACME Dynamics, pump manufacturers
+ * acmebail.com [http://www.acmebail.com/], ACME Bail Bonds
+ * acmedisplay.com [http://www.acmedisplay.com/], ACME Display, Fixture & Packaging
+ * acmesaw.com [http://www.acmesaw.com/], ACME Saw Ltd.
+ * acmecommunications.com [http://www.acmecommunications.com/], ACME Communications, a Warners affiliate
+ * acmestudio.com [http://www.acmestudio.com/], ACME Studio
+ * acmecompany.com [http://www.acmecompany.com/], Acme Design Company
+ * acmeconsulting.co.uk [http://www.acmeconsulting.co.uk/], Acme Consulting, Ltd.
+ * acmekitchenettes.com [http://www.acmekitchenettes.com/], ACME Kitchenettes Corp
+ * acmefirst.com [http://www.acmefirst.com/], The First Name in Comics, Toys and Games
+ * acmecomputer.com.au/ [http://www.acmecomputer.com.au/], Acme Computer in Sydney, Australia
+ * acmeweb.nl [http://www.acmeweb.nl/], ACMEWeb in the Netherlands
+ * acmewebmaker.com [http://www.acmewebmaker.com/], Acme Web Maker
+ * acme-embedded.com/ [http://www.acme-embedded.com/], ACME Embedded Systems
+ * acmecomputers.net [http://www.acmecomputers.net/], ACME Computer Solutions, Inc.
+ * acmescenery.com [http://www.acmescenery.com/], Acme Scenery Company
+ * acmecorp.com [http://www.acmecorp.com/], ACME Furniture
+ * acme-paintball.com [www.acme-paintball.com], just what it sounds like
+ * acmepacket.com [http://www.acmepacket.com/], ACME Packet IP technologies
+ * acmecomputersystems.com [http://www.acmecomputersystems.com/], Web Site and Computer Systems Design and Development
+ * acmenissan.com [http://www.acmenissan.com/], Acme Nissan
+ * acmeguitarworks.com [http://www.acmeguitarworks.com/], guitar parts & mods
+ * acmecomm.net [http://www.acmecomm.net/], Acme Communications
+ * acmeiowa.com [http://www.acmeiowa.com/], Acme Printing Co. Inc.
+ * acmechophouse.com [http://www.acmechophouse.com/], ACME Chophouse
+ * acmeanvil.net [http://www.acmeanvil.net/], ACME Anvil steel utensils
+ * acmetoycompany.com [http://www.acmetoycompany.com/], Acme Toy Company
+ * acmegraphicdesign.com [http://www.acmegraphicdesign.com/], Acme Graphic Design
+ * acmeclown.com [http://www.acmeclown.com/], ACME Clown Company
+ * autosalvage-acme.com [http://www.autosalvage-acme.com/], Acme Auto Salvage
+ * acmeclimbing.com [http://www.acmeclimbing.com/], Acme Climbing
+ * acmenews.com [http://www.acmenews.com/], The directory for South West Missouri
+ * acmeengineering.net [http://www.acmeengineering.net/], an excellent Burning Man / Survival Research type site
+ * acmecomputer.com [http://www.acmecomputer.com/], ACME Computer Company
+ * acmefx.com [http://www.acmefx.com/], ACME Cinema Effects Inc.
+ * acmeresale.com [http://www.acmeresale.com/], ACME Resale
+ * acmetoolz.com [http://www.acmetoolz.com/], ACME Toolz server management utilities
+ * acmeheadandbody.com [http://www.acmeheadandbody.com/], ACME Head and Body, San Francisco's hippest salon
+ * acme-services.com [http://www.acme-services.com/], acmeusa, auto detailing etc.
+ * acmeit.ca [http://www.acmeit.ca/], ACME Information Technology
+ * acmeny.com/ [http://www.acmeny.com/], Acme Communications Inc.
+ * acmesmokedfish.com [http://www.acmesmokedfish.com/], Acme Smoked Fish
+ * acmemade.com [http://www.acmemade.com/], makers of handbags, ipod covers, etc.
+ * acme-superstore.com [http://www.acme-superstore.com/], Comics / Cards / Collectibles
+ * acme-castings.com [http://www.acme-castings.com/], Acme Castings Inc.
+ * acmerocketbike.com [http://www.acmerocketbike.com/], ACME Rocket Bike, costom exotic motorcycles
+ * acmehardware.com [http://acmehardware.com/], Acme Hardware, an online hardware store
+
+And some more that don't have acme domain names:
+ * ACME Hockey Playoff Pool [http://www.geocities.com/Colosseum/Track/2006/]
+ * ACME Multimedia Design [http://www.sirius.com/~acme/]
+ * ACME Widgets [http://www.edb.com/acme/]
+ * ACME Blues Band [http://members.aol.com/acmeband/acme.html]
+ * Acme Guitars [http://www.bluesworld.com/Acme.html]
+ * Acme Software Services [http://www.glatz.com/acme/]
+ * ACME Gyro Works [http://www.page.az.net/acme/]
+ * Anyone Can Make E-mags [http://4thfloor.tierranet.com/acme/]
+ * Acme Theatr [http://www.tiac.net/users/quinton/acme.html]
+ * ACMEnaming [http://home.earthlink.net/~acmenaming/]
+ * ACME Klein Bottles [http://www.kleinbottle.com/]
+ * ACME Lanka [http://www.lanka.net/acme/]
+ * ACME Densitometers [http://qip.com/acme/acme.html]
+ * ACME Nerd Suppressant [http://eveander.com/~eveander/nerd/]
+ * the ACME Store [http://www.geocities.com/TelevisionCity/Set/7278/acmezing/acme-zing.html]
+ * ACME Auto Wrecking, Inc. [http://www.expresspages.com/a/acmeautowrecking/]
+ * ACME Bicycles [http://www.rstc.net/acmebikes/]
+ * ACME Observatory [http://sfsound.org/acme/]
+
+Do you have an ACME on the web that's not listed here? Send me mail!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Back to ACME Labs. [./]
+[/mailto/wa.gif] [/mailto/?id=wa]

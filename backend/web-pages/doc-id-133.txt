@@ -1,0 +1,24 @@
+LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] ACME CAPTION MAKER
+
+This lets you make a text caption, with a variety of style options. When you are happy with it you can copy the HTML, or save it as an image via your
+browser's screenshot command. (Someday, when the Screen Capture API gets implemented, that part will be easier.)
+
+Font family: Serif Sans Serif Monospace Calvin ComicSans Courier Data70 Diablo Fedora Fillmore Gilligan Godzilla GothamNights LokiCola MUNIficent Mad
+Manuscript RansomNote RenStimpy Romaneste Signature Teletype Willow Font size: 1em Font weight: 400 Font stretch: Ultra-Condensed Extra-Condensed
+Condensed Semi-Condensed Normal Semi-Expanded Expanded Extra-Expanded Ultra-Expanded Font style: Normal Italic Oblique Small caps:   Border style:
+None Dotted Dashed Solid Double Groove Ridge Inset Outset Border width: 2px Border color: Padding: 5px   Text color: Background color: Text outline:
+0px Text align: Left Center Right Text:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hello
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HTML:
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML5 [/resources/images/valid-html5.png] [https://validator.w3.org/check?uri=referer] ACME Labs [/] / ACME Caption Maker
+email [/mailto/j.gif] [/mailto/?id=j]

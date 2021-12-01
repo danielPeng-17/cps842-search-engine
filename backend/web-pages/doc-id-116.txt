@@ -1,0 +1,27 @@
+YOU MUST ENABLE JAVASCRIPT TO USE THIS PAGE.
+
+
+ACME PLANIMETER
+
+Measure areas!
+
+ 
+ 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Notes:
+
+ * The page remembers your most recent position/zoom/map-type for the next time you visit.
+ * If you haven't visited before, it tries to figure out your location based on your internet address.
+ * The area computation is done using spherical geometry, so it's correct for large regions.
+ * The lines between points are drawn as great circles, to go along with the spherical area math.
+ * Areas that span more than half the globe may display strangely.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] Other map apps: Paris Star Forts
+[/jef/paris_forts/], Transpac 2005 Tracks [/jef/transpac2005/], BART Map/Schedule [/bart/], Paris Metro Map [/metro/], USA Hot Springs
+[/jef/hotsprings/].
+ACME Laboratories [../]
+email [/mailto/j.gif] [/mailto/?id=j]

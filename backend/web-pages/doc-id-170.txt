@@ -1,0 +1,182 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ 1. Web technology for developers [/en-US/docs/Web]
+ 2. MathML [/en-US/docs/Web/MathML]
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * MathML reference
+ * Getting help from the community
+ * Tools
+ * Related topics
+ * Browser compatibility
+
+
+MATHML
+
+Mathematical Markup Language (MathML) is a dialect of XML [/en-US/docs/Web/XML] for describing mathematical notation and capturing both its structure
+and content.
+
+Here you'll find links to documentation, examples, and tools to help you work with this powerful technology. For a quick overview, see the slides for
+the innovation fairs at Mozilla Summit 2013 [https://fred-wang.github.io/MozSummitMathML/index.html].
+
+
+MATHML REFERENCE
+
+MathML element reference [/en-US/docs/Web/MathML/Element]
+
+Details about each MathML element and compatibility information for desktop and mobile browsers.
+
+MathML attribute reference [/en-US/docs/Web/MathML/Attribute]
+
+Information about MathML attributes that modify the appearance or behavior of elements.
+
+MathML examples [/en-US/docs/Web/MathML/Examples]
+
+MathML samples and examples to help you understand how it works.
+
+Authoring MathML [/en-US/docs/Web/MathML/Authoring]
+
+Suggestions and tips for writing MathML, including suggested MathML editors and how to integrate their output into Web content.
+
+
+GETTING HELP FROM THE COMMUNITY
+
+ * mozilla.dev.tech.mathml Google Group [https://groups.google.com/g/mozilla.dev.tech.mathml]
+ * Wiki used by Mozilla contributors [https://wiki.mozilla.org/MathML:Home_Page]
+ * W3C Math Home [https://www.w3.org/Math/]
+ * www-math w3.org mail archive [https://lists.w3.org/Archives/Public/www-math/]
+
+
+TOOLS
+
+ * W3C Validator [https://validator.w3.org]
+ * Mathzilla Firefox add-on collection [https://addons.mozilla.org/firefox/collections/fred_wang/mathzilla/]
+ * TeXZilla [https://github.com/fred-wang/TeXZilla] — Javascript LaTeX to MathML converter (live demo [https://fred-wang.github.io/TeXZilla/], Firefox
+   add-on [https://addons.mozilla.org/en-US/firefox/addon/texzilla/], using in a Web Page, JS program etc
+   [https://github.com/fred-wang/TeXZilla/wiki/Using-TeXZilla])
+ * LaTeXML [https://dlmf.nist.gov/LaTeXML/] - Convert LaTeX documents into HTML+MathML Web pages
+ * MathJax [https://www.mathjax.org/] - Cross-browser JavaScript display engine for mathematics. To force MathJax to use native MathML, try this
+   Mozilla add-on [https://addons.mozilla.org/en-US/firefox/addon/native-mathml/], this Safari extension
+   [https://fred-wang.github.io/mathjax-native-mathml-safari/mathjax-native-mathml.safariextz] or this GreaseMonkey script
+   [https://openuserjs.org/scripts/fred.wang/MathJax_Native_MathML/].
+
+
+RELATED TOPICS
+
+ * CSS [/en-US/docs/Web/CSS]
+ * HTML [/en-US/docs/Web/HTML]
+ * SVG [/en-US/docs/Web/SVG]
+
+
+BROWSER COMPATIBILITY
+
+BCD tables only load in the browser
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/mathml/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/mathml/index.md]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FMathML%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fmathml%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FMathML%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fmathml%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F1f771d1177c4cde004354204d557ae66df70c97f%0A*+Document+last+modified%3A+2021-10-11T11%3A37%3A47.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22MathML%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AMathML]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Oct 11, 2021, by MDN contributors [/en-US/docs/Web/MathML/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+
+RELATED TOPICS
+
+ 1.  MathML Reference [/en-US/docs/Web/MathML/Element]
+ 2.  <maction> [/en-US/docs/Web/MathML/Element/maction]
+ 3.  <math> [/en-US/docs/Web/MathML/Element/math]
+ 4.  <menclose> [/en-US/docs/Web/MathML/Element/menclose]
+ 5.  <merror> [/en-US/docs/Web/MathML/Element/merror]
+ 6.  <mfenced> [/en-US/docs/Web/MathML/Element/mfenced]
+ 7.  <mfrac> [/en-US/docs/Web/MathML/Element/mfrac]
+ 8.  <mi> [/en-US/docs/Web/MathML/Element/mi]
+ 9.  <mmultiscripts> [/en-US/docs/Web/MathML/Element/mmultiscripts]
+ 10. <mn> [/en-US/docs/Web/MathML/Element/mn]
+ 11. <mo> [/en-US/docs/Web/MathML/Element/mo]
+ 12. <mover> [/en-US/docs/Web/MathML/Element/mover]
+ 13. <mpadded> [/en-US/docs/Web/MathML/Element/mpadded]
+ 14. <mphantom> [/en-US/docs/Web/MathML/Element/mphantom]
+ 15. <mroot> [/en-US/docs/Web/MathML/Element/mroot]
+ 16. <mrow> [/en-US/docs/Web/MathML/Element/mrow]
+ 17. <ms> [/en-US/docs/Web/MathML/Element/ms]
+ 18. <mspace> [/en-US/docs/Web/MathML/Element/mspace]
+ 19. <msqrt> [/en-US/docs/Web/MathML/Element/msqrt]
+ 20. <mstyle> [/en-US/docs/Web/MathML/Element/mstyle]
+ 21. <msub> [/en-US/docs/Web/MathML/Element/msub]
+ 22. <msubsup> [/en-US/docs/Web/MathML/Element/msubsup]
+ 23. <msup> [/en-US/docs/Web/MathML/Element/msup]
+ 24. <mtable> [/en-US/docs/Web/MathML/Element/mtable]
+ 25. <mtd> [/en-US/docs/Web/MathML/Element/mtd]
+ 26. <mtext> [/en-US/docs/Web/MathML/Element/mtext]
+ 27. <mtr> [/en-US/docs/Web/MathML/Element/mtr]
+ 28. <munder> [/en-US/docs/Web/MathML/Element/munder]
+ 29. <munderover> [/en-US/docs/Web/MathML/Element/munderover]
+ 30. <semantics> [/en-US/docs/Web/MathML/Element/semantics]
+
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

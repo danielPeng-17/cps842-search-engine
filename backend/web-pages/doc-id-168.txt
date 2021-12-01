@@ -1,0 +1,276 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * The Core Tools
+ * More Tools
+ * Connecting the Developer Tools
+ * Debugging the browser
+ * Extending DevTools
+ * Migrating from Firebug
+ * Contribute
+
+
+FIREFOX DEVELOPER TOOLS
+
+Firefox Developer Tools is a set of web developer tools built into Firefox. You can use them to examine, edit, and debug HTML, CSS, and JavaScript.
+
+This section contains detailed guides to all of the tools as well as information on how to debug Firefox for Android, how to extend DevTools, and how
+to debug the browser as a whole.
+
+If you have any feedback on DevTools or want to contribute to the project, you can join the DevTools community [https://firefox-dev.tools/].
+
+Note: If you are just getting started with web development and using developer tools, our learning [/en-US/docs/Learn] docs will help you — see
+Getting started with the Web [/en-US/docs/Learn/Getting_started_with_the_web] and What are browser developer tools?
+[/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools] for good starting points.
+
+
+THE CORE TOOLS
+
+You can open the Firefox Developer Tools from the menu by selecting Tools > Web Developer > Web Developer Tools or use the keyboard shortcut  Ctrl +
+Shift + I or F12 on Windows and Linux, or Cmd + Opt + I on macOS.
+
+The ellipsis menu on the right-hand side of Developer Tools contains several commands that let you perform actions or change tool settings.
+
+[/en-US/docs/Tools/devtools_layoutmenu.png]
+
+[/en-US/docs/Tools/iframe_button.png] This button only appears when there are multiple iframes on a page. Click it to display a list of the iframes on
+the current page and select the one with which you want to work. [/en-US/docs/Tools/camera_button.png] Click this button to take a screenshot of the
+current page. (Note: This feature is not turned on by default and must be enabled in settings before the icon will appear.)
+[/en-US/docs/Tools/responsive_button.png] Toggles Responsive Design Mode. [/en-US/docs/Tools/menu_button.png] Opens the menu that includes docking
+options, the ability to show or hide the split console, and Developer Tools settings. The menu also includes links to the documentation for Firefox
+Web Tools and the Mozilla Community. [/en-US/docs/Tools/close_button.png] Closes the Developer Tools
+
+
+PAGE INSPECTOR
+
+View and edit page content and layout. Visualize many aspects of the page including the box model, animations, and grid layouts.
+
+The all-new Inspector panel in Firefox 57. [/en-US/docs/Tools/landingpage_pageinspector.png] [/en-US/docs/Tools/Page_Inspector]
+
+
+WEB CONSOLE
+
+See messages logged by a web page and interact with the page using JavaScript.
+
+The all-new Console in Firefox 57. [/en-US/docs/Tools/landingpage_console.png] [/en-US/docs/Tools/Web_Console]
+
+
+JAVASCRIPT DEBUGGER
+
+Stop, step through, and examine the JavaScript running on a page.
+
+The all-new Firefox 57 Debugger.html [/en-US/docs/Tools/landingpage_debugger.png] [/en-US/docs/Tools/Debugger]
+
+
+NETWORK MONITOR
+
+See the network requests made when a page is loaded.
+
+The Network panel in Firefox 57 DevTools. [/en-US/docs/Tools/landingpage_network.png] [/en-US/docs/Tools/Network_Monitor]
+
+
+PERFORMANCE TOOLS
+
+Analyze your site's general responsiveness, JavaScript, and layout performance.
+
+Performance Tools in Firefox 57 Developer Tools [/en-US/docs/Tools/landingpage_performance.png] [/en-US/docs/Tools/Performance]
+
+
+RESPONSIVE DESIGN MODE
+
+See how your website or app will look and behave on different devices and network types.
+
+Responsive Design mode in Firefox 57. [/en-US/docs/Tools/landingpage_responsivedesign.png] [/en-US/docs/Tools/Responsive_Design_Mode]
+
+
+ACCESSIBILITY INSPECTOR
+
+Provides a means to access the page's accessibility tree, allowing you to check what's missing or otherwise needs attention.
+
+Performance Tools in Firefox 57 Developer Tools [/en-US/docs/Tools/landingpage_accessibility.png] [/en-US/docs/Tools/Accessibility_inspector]
+
+
+APPLICATION PANEL
+
+Provides tools for inspecting and debugging modern web apps (also known as Progressive Web Apps [/en-US/docs/Web/Progressive_web_apps]). This includes
+inspection of service workers [/en-US/docs/Web/API/Service_Worker_API] and web app manifests [/en-US/docs/Web/Manifest].
+
+Performance Tools in Firefox 57 Developer Tools [/en-US/docs/Tools/just-application-panel.png] [/en-US/docs/Tools/Application]
+
+Note: The collective term for the UI inside which the DevTools all live is the Toolbox [/en-US/docs/Tools/Tools_Toolbox].
+
+
+MORE TOOLS
+
+These developer tools are also built into Firefox. Unlike the "Core Tools" above, you might not use them every day.
+
+Memory [/en-US/docs/Tools/Memory] Figure out which objects are keeping memory in use. Storage Inspector [/en-US/docs/Tools/Storage_Inspector] Inspect
+cookies, local storage, indexedDB, and session storage present in a page. DOM Property Viewer [/en-US/docs/Tools/DOM_Property_Viewer] Inspect the
+page's DOM properties, functions, etc. Eyedropper [/en-US/docs/Tools/Eyedropper] Select a color from the page. Style Editor
+[/en-US/docs/Tools/Style_Editor] View and edit CSS styles for the current page. Taking screenshots [/en-US/docs/Tools/Taking_screenshots] Take a
+screenshot of the entire page or of a single element. Measure a portion of the page [/en-US/docs/Tools/Measure_a_portion_of_the_page] Measure a
+specific area of a web page. Rulers [/en-US/docs/Tools/Rulers] Overlay horizontal and vertical rulers on a web page
+
+[/en-US/docs/Tools/logo-developer-quantum.png]
+
+For the latest developer tools and features, try Firefox Developer Edition.
+
+Download Firefox Developer Edition [https://www.mozilla.org/en-US/firefox/developer/]
+
+
+
+
+CONNECTING THE DEVELOPER TOOLS
+
+If you open the developer tools using keyboard shortcuts [/en-US/docs/Tools/Keyboard_shortcuts#opening_and_closing_tools] or the equivalent menu
+items, they'll target the document hosted by the currently active tab. But you can attach the tools to a variety of other targets, too, both within
+the current browser and in different browsers or even different devices.
+
+about:debugging [/en-US/docs/Tools/about:debugging] Debug add-ons, content tabs, and workers running in the browser. Connecting to Firefox for Android
+[/en-US/docs/Tools/about:debugging#connecting_over_the_network] Connect the developer tools to an instance of Firefox running on an Android device.
+Connecting to iframes [/en-US/docs/Tools/Working_with_iframes] Connect the developer tools to a specific iframe in the current page. Connecting to
+other browsers [/en-US/docs/Tools/Valence] Connect the developer tools to Chrome on Android and Safari on iOS.
+
+
+DEBUGGING THE BROWSER
+
+By default, the developer tools are attached to a web page or web app. But you can also connect them to the browser as a whole. This is useful for
+browser and add-on development.
+
+Browser Console [/en-US/docs/Tools/Browser_Console] See messages logged by the browser itself and by add-ons, and run JavaScript code in the browser's
+scope. Browser Toolbox [/en-US/docs/Tools/Browser_Toolbox] Attach the Developer Tools to the browser itself.
+
+
+EXTENDING DEVTOOLS
+
+For information on extending the Firefox DevTools, see Extending the developer tools
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools] over in the Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+section of MDN.
+
+
+MIGRATING FROM FIREBUG
+
+Firebug has come to the end of its lifespan (see Firebug lives on in Firefox DevTools
+[https://hacks.mozilla.org/2016/12/firebug-lives-on-in-firefox-devtools/] for details of why), and we appreciate that some people will find migrating
+to another less familiar set of DevTools to be challenging. To ease a transition from Firebug to the Firefox developer tools, we have written a handy
+guide — Migrating from Firebug [/en-US/docs/Tools/Migrating_from_Firebug].
+
+
+CONTRIBUTE
+
+If you want to help improve the developer tools, these resources will get you started.
+
+Get Involved [https://firefox-dev.tools/] Our community website explains how to get involved. bugs.firefox-dev.tools [https://bugs.firefox-dev.tools/]
+A tool helping to find bugs to work on.
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/tools/index.html]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/tools/index.html]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FTools%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Ftools%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FTools%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Ftools%2Findex.html%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F21355429c64bc978053113cb1112950c7e411793%0A*+Document+last+modified%3A+2021-10-10T23%3A23%3A05.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Firefox+Developer+Tools%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3ADevTools]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Oct 10, 2021, by MDN contributors [/en-US/docs/Tools/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+
+RELATED TOPICS
+
+ 1.  Page Inspector [/en-US/docs/Tools/Page_Inspector]
+ 2.  Web Console [/en-US/docs/Tools/Web_Console]
+ 3.  JavaScript Debugger [/en-US/docs/Tools/Debugger]
+ 4.  Network Monitor [/en-US/docs/Tools/Network_Monitor]
+ 5.  Performance [/en-US/docs/Tools/Performance]
+ 6.  Application [/en-US/docs/Tools/Application]
+ 7.  Responsive Design Mode [/en-US/docs/Tools/Responsive_Design_Mode]
+ 8.  Accessibility Inspector [/en-US/docs/Tools/Accessibility_inspector]
+ 9.  More Tools
+      1. Memory [/en-US/docs/Tools/Memory]
+      2. Storage Inspector [/en-US/docs/Tools/Storage_Inspector]
+      3. DOM Property Viewer [/en-US/docs/Tools/DOM_Property_Viewer]
+      4. Eyedropper [/en-US/docs/Tools/Eyedropper]
+      5. Screenshot [/en-US/docs/Tools/Taking_screenshots]
+      6. Style Editor [/en-US/docs/Tools/Style_Editor]
+      7. Rulers [/en-US/docs/Tools/Rulers]
+      8. Measure a portion of the page [/en-US/docs/Tools/Measure_a_portion_of_the_page]
+      9. View Source [/en-US/docs/Tools/View_source]
+
+ 10. Connecting the devtools
+      1. about:debugging [/en-US/docs/Tools/about:debugging]
+      2. Connecting to Firefox for Android [/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_over_Wifi]
+      3. Connecting to iframes [/en-US/docs/Tools/Working_with_iframes]
+      4. Connecting to other browsers [/en-US/docs/Tools/Valence]
+
+ 11. Debugging the browser
+      1. Browser Console [/en-US/docs/Tools/Browser_Console]
+      2. Browser Toolbox [/en-US/docs/Tools/Browser_Toolbox]
+
+ 12. Extending the devtools [/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools]
+ 13. Settings [/en-US/docs/Tools/Settings]
+ 14. Tips [/en-US/docs/Tools/Tips]
+ 15. Release notes [/en-US/docs/Tools/Release_notes]
+
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

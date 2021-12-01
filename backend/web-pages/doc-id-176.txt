@@ -1,0 +1,135 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * Documentation for Web developers
+ * Web technology references
+
+
+WEB TECHNOLOGY FOR DEVELOPERS
+
+The open Web presents incredible opportunities for developers. To take full advantage of these technologies, you need to know how to use them. Below
+you'll find links to our Web technology documentation.
+
+
+DOCUMENTATION FOR WEB DEVELOPERS
+
+Web Developer Guide [/en-US/docs/Web/Guide]
+
+The Web Developer Guide provides useful how-to content to help you actually use Web technologies to do what you want or need to do.
+
+Tutorials for Web developers [/en-US/docs/Web/Tutorials]
+
+A list of tutorials to take you step-by-step through learning APIs, technologies, or broad topic areas.
+
+Progressive web apps (PWAs) [/en-US/docs/Web/Progressive_web_apps]
+
+Progressive Web Apps are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a
+native app-like user experience to cross-platform web applications.
+
+
+WEB TECHNOLOGY REFERENCES
+
+Web APIs [/en-US/docs/Web/API]
+
+Reference material for each of the individual APIs that comprise the Web's powerful scriptability, including the DOM and all of the related APIs and
+interfaces you can use to build Web content and apps.
+
+HTML [/en-US/docs/Web/HTML]
+
+HyperText Markup Language is the language used to describe and define the content of a Web page.
+
+CSS [/en-US/docs/Web/CSS]
+
+Cascading Style Sheets are used to describe the appearance of Web content.
+
+JavaScript [/en-US/docs/Web/JavaScript]
+
+JavaScript is a programming language used to add interactivity to a website.
+
+SVG [/en-US/docs/Web/SVG]
+
+Scalable Vector Graphics let you describe images as sets of vectors and shapes in order to allow them to scale smoothly regardless of the size at
+which they're drawn.
+
+MathML [/en-US/docs/Web/MathML]
+
+The Mathematical Markup Language makes it possible to display complex mathematical equations and syntax.
+
+Web Components [/en-US/docs/Web/Web_Components]
+
+Web Components are custom elements that you can define and reuse in your apps.
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/index.md]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F5fa3fa8a10f24fe76353633b094e2c4800afed29%0A*+Document+last+modified%3A+2021-10-15T00%3A10%3A23.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Web+technology+for+developers%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AOther]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Oct 15, 2021, by MDN contributors [/en-US/docs/Web/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

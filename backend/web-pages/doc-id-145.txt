@@ -1,0 +1,31 @@
+anvil [/resources/images/anvil.gif]
+
+
+ACME.COM'S HARDWARE
+
+ACME is currently running on a nifty 8-core Atom C2750 machine that I built myself. The C2750 was introduced in late 2013 and got a lot of attention
+from folks like me. It's very low-power, to the point where it doesn't even need a CPU fan so it's nice and quiet. But the eight 64-bit 2.4 GHz cores
+still give it a lot of oomph.
+
+Here are the build specs:
+
+ * motherboard: SuperMicro A1SAi-2750F Mini-ITX (CPU included)
+ * case: Ablecom CS-M50 / SuperChassis 721TQ-250B (PSU & case fan included)
+ * memory: 2x Kingston 8GB DDR3 1600MHz ECC unbuffered SO-DIMM 204-pin
+ * boot&swap drive: 80GB intel DC S3500 2.5" SSD
+ * storage drives: 4x Western Digital Red 3TB 3.5" HDD
+
+The evolution of ACME's hardware:
+
+name when type CPU memory disk OS cost hydra 06Feb2015 - ? home built 8-core 2.4 GHz Atom C2750 16 GB 5.1 TB FreeBSD 10.1 $1370 safe 01May2004 -
+06Feb2015 Fine Tec Computer [http://www.finetec.com/] 3.2 GHz Pentium IV 2 GB 200 GB FreeBSD 4.9 $1689 pill 17Mar2004 - 01May2004 Packard-Bell 450 MHz
+Pentium II 160 MB 60 GB FreeBSD 4.5 $? bomb 25Nov1999 - 17Mar2004 ACME Microsystems [http://www.acmemicro.com/] 450 MHz K6-2 64 MB 8 GB FreeBSD 3.3
+$665 best 03Nov1995 - 25Nov1999 Best.com [http://www.best.com/] shared server 200 MHz Pentium Pro ? 70 MB FreeBSD 2.2.8 $50/month anvil 17Apr1991 -
+03Nov1995 Sun 3/50 16 MHz MC68020 4 MB 1 GB SunOS 4.1 $1950
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+Back to ACME Labs. [/]
+email [/mailto/wa.gif] [/mailto/?id=wa]

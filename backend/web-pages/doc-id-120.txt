@@ -1,0 +1,15 @@
+UNICODE CHARACTERS
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer] Unicode Transformations [transformations.html]
+Unicode Decoder [decode.html]
+Official list of blocks [http://www.unicode.org/Public/UNIDATA/Blocks.txt]
+Shapecatcher [http://shapecatcher.com/]
+Unicode Table [https://thisisaaronland.github.io/unicode-table/]
+ACME Labs [/] / Unicode Characters
+
+
+email [/mailto/wa.gif] [/mailto/?id=wa]

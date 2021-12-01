@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[/resources/images/atom_ani.gif]
+
+ACME JAVA
+
+Welcome to the ACME Java mines! ACME Labs is exploring the use of Java for fun and profit. We are happy to share our findings.
+
+ * Software. [software/]
+ * Common mistakes and questions. [faq.html]
+ * Some bugs. [bugs/]
+ * Other resources. [resources.html]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Back to ACME Labs [../].
+
+
+[/mailto/wa.gif] [/mailto/?id=wa]

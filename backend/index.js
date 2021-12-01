@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const test = require('./utils/crawl');
+const crawl = require('./utils/crawl');
+const fs = require('fs');
 
 
 const app = express();
@@ -12,7 +13,12 @@ if (port == null || port == "") {
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/', function(req, res) {
+app.get('/crawl_pages', async (req, res) => {
+    await crawl.crawler('./files/seed.txt');
+    res.send('Web pages have been crawled.');
+});
+
+app.get('/', (req, res) => {
     // const query = req.query.search;
     // console.log(query);
 
@@ -20,9 +26,8 @@ app.get('/', function(req, res) {
 
     // NOTE: stemming and stop words are ALWAYS on -> in constants.js
 
-    // TODO: HELPER FUNCTION -> crawl the web using /public/top-1m.csv url then parse results
-
-    console.log(test.t())
+    // TODO: HELPER FUNCTION -> crawl the web using seed url then parse results
+    // crawl.crawler('./files/seed.txt');
 
     // TODO: HELPER FUNCTION -> build inverted index and dictionary
     // NOTE: for inverted index, DO NOT include position
@@ -39,6 +44,6 @@ app.get('/', function(req, res) {
     res.send('hello world');
 });
 
-app.listen(port, function(){
+app.listen(port, () => {
     console.log(`Server started on port ${port}`);
 });

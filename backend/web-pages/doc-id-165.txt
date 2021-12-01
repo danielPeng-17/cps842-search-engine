@@ -1,0 +1,208 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ 1. Web technology for developers [/en-US/docs/Web]
+ 2. Developer guides [/en-US/docs/Web/Guide]
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * HTML
+ * CSS
+ * JavaScript
+ * Media
+ * APIs
+ * Performance
+ * Mobile web development
+ * Fonts
+ * User interface development
+
+
+DEVELOPER GUIDES
+
+There are a number of guides within MDN docs. These articles aim to add additional usage examples, or teach you how to use an API or feature. This
+page links to some of the most popular material.
+
+
+HTML
+
+Structuring the web with HTML [/en-US/docs/Learn/HTML]
+
+The HTML learning area offers tutorials to help you learn HTML from the ground up.
+
+HTML basics [/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics]
+
+This article will give you a basic understanding of HTML. After following this guide, you can further explore the material in the HTML Learning Area.
+
+
+CSS
+
+Learn to style HTML using CSS [/en-US/docs/Learn/CSS]
+
+Our complete CSS tutorial, taking you from first steps through styling text, creating layouts, and more.
+
+CSS Layout Guides [/en-US/docs/Web/Guide/CSS/CSS_Layout]
+
+There are a large number of guides to CSS Layout across MDN, this page collects them all together.
+
+Using CSS animations [/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations]
+
+CSS animations make it possible to animate transitions from one CSS style configuration to another. This guide will help you get started with the
+animation properties.
+
+
+JAVASCRIPT
+
+JavaScript learning area [/en-US/docs/Learn/JavaScript]
+
+Whether you are a complete beginner, or hoping to refresh your skills, this is the place to start.
+
+AJAX [/en-US/docs/Web/Guide/AJAX]
+
+AJAX is a term that defines a group of technologies allowing web applications to make quick, incremental updates to the user interface without
+reloading the entire browser page. This makes the application faster and more responsive to user actions.
+
+
+MEDIA
+
+Graphics on the web [/en-US/docs/Web/Guide/Graphics]
+
+Modern web sites and applications often need to present graphics of varying sophistication.
+
+Audio and video delivery [/en-US/docs/Web/Guide/Audio_and_video_delivery]
+
+We can deliver audio and video on the web in several ways, ranging from 'static' media files to adaptive live streams. This article is intended as a
+starting point for exploring the various delivery mechanisms of web-based media and compatibility with popular browsers.
+
+Audio and video manipulation [/en-US/docs/Web/Guide/Audio_and_video_manipulation]
+
+The beauty of the web is that you can combine technologies to create new forms. Having native audio and video in the browser means we can use these
+data streams with technologies such as <canvas> [/en-US/docs/Web/HTML/Element/canvas], WebGL [/en-US/docs/Web/API/WebGL_API] or Web Audio API
+[/en-US/docs/Web/API/Web_Audio_API] to modify audio and video directly, for example adding reverb/compression effects to audio, or grayscale/sepia
+filters to video. This article provides a reference to explain what you need to do.
+
+
+APIS
+
+Using FormData objects [/en-US/docs/Web/API/FormData/Using_FormData_Objects]
+
+The FormData [/en-US/docs/Web/API/FormData] object lets you compile a set of key/value pairs to send using XMLHttpRequest. It's primarily intended for
+sending form data, but can be used independently from forms to transmit keyed data. The transmission is in the same format that the form's submit()
+method would use to send the data if the form's encoding type were set to "multipart/form-data".
+
+Progressive web apps [/en-US/docs/Web/Progressive_web_apps#core_pwa_guides]
+
+Progressive web apps (PWAs) use modern web APIs along with traditional progressive enhancement strategy to create cross-platform web applications.
+These apps work everywhere and provide several features that give them the same user experience advantages as native apps. This set of guides tells
+you all you need to know about PWAs.
+
+Parsing and serializing XML [/en-US/docs/Web/Guide/Parsing_and_serializing_XML]
+
+The web platform provides different methods of parsing and serializing XML, each with its pros and cons.
+
+
+PERFORMANCE
+
+Optimization and performance [/en-US/docs/Web/Guide/Performance]
+
+When building modern web apps and sites, it's important to make your content work quickly and efficiently. This lets it perform effectively for both
+powerful desktop systems and weaker handheld devices.
+
+
+MOBILE WEB DEVELOPMENT
+
+Mobile web development [/en-US/docs/Web/Guide/Mobile]
+
+This article provides an overview of some of the main techniques needed to design web sites that work well on mobile devices.
+
+
+FONTS
+
+Variable fonts guide [/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide]
+
+Find out how to use variable fonts in your designs.
+
+The Web Open Font Format (WOFF) [/en-US/docs/Web/Guide/WOFF]
+
+WOFF (Web Open Font Format) is a font file format that is free for anyone to use on the web.
+
+
+USER INTERFACE DEVELOPMENT
+
+User input and controls [/en-US/docs/Web/Guide/User_input_methods]
+
+Modern web user input goes beyond simple mouse and keyboard: think of touchscreens for example. This article provides recommendations for managing
+user input and implementing controls in open web apps, along with FAQs, real-world examples, and links to further information for anyone needing more
+detailed information on the underlying technologies.
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/guide/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/guide/index.md]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FGuide%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fguide%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FGuide%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fguide%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F258d2b834f8605925f1ddb1d7d20ef9325ab0fff%0A*+Document+last+modified%3A+2021-11-23T10%3A59%3A21.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Developer+guides%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AOther]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Nov 23, 2021, by MDN contributors [/en-US/docs/Web/Guide/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

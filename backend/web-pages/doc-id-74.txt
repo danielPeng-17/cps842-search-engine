@@ -1,0 +1,74 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+anvil logo [/resources/images/anvil.gif]
+
+ACME Laboratories Graphics * Unix * Networks * Fun
+
+atom logo [/resources/images/atom_ani.gif] Purveyors of fine freeware since 1972. On the net since 1991.
+
+ * ACME Updates. [updates/]
+ * ACME Labs maps [maps.html], including:
+   * The ACME Mapper [//mapper.acme.com/].
+   * ACME GeoRSS Map Viewer [GeoRSS/].
+   * Paris Metro map [metro/].
+   * ACME Planimeter [planimeter/].
+ * The ACME Labs freeware library [software/].
+   * thttpd [software/thttpd/] - tiny/turbo/throttling web server.
+   * mini_httpd [software/mini_httpd/] - simple web server that does HTTPS.
+   * micro_httpd [software/micro_httpd/] - world's smallest web server?
+   * spfmilter [software/spfmilter/] - SPF mail filter module.
+   * pbmplus [software/pbmplus/] - toolkit for converting image file formats.
+   * The currently-lit face of the Earth [software/globe/], in ASCII.
+   * The current phase of the Moon [software/phoon/], in ASCII.
+ * The ACME JavaScript utilities [javascript/].
+ * The ACME Java pages [java/].
+   * The current phase of the Moon [java/software/Phoon.html], in Java.
+   * A Java printf()-equivalent [java/software/Acme.Fmt.html].
+   * A GIF encoder [java/software/Acme.JPM.Encoders.GifEncoder.html]!
+   * PostScript-like graphics [java/software/Acme.Psg.html].
+   * A simple web server [java/software/Acme.Serve.Serve.html] in Java.
+ * Tutorials and resources:
+   * The ACME Comment Weblet [/comments/].
+   * Web API Demonstrations [webapis/].
+   * HTML5 Canvas [canvas/].
+   * Learn how to filter out emailed spam [mail_filtering/].
+   * The ACME Caption Maker [caption/].
+   * The ACME Chartmaker [chartmaker/].
+   * The ACME Annotator [annotator/].
+   * Twoday [twitter/twoday/], shows you what you tweeted on this day in past years.
+   * Learn how to set up a FreeBSD firewall [firewall.html].
+   * An HTML sampler [html_samples.html], and a colormap sampler [colormap.html].
+   * Unicode characters [unicode/].
+     * Unicode Transformations [unicode/transformations.html].
+     * Unicode Decoder [unicode/decode.html].
+   * One Month [onemonth/], a single calendar page.
+ * Toys and amusements:
+   * The ACME Label Maker [labelmaker/].
+   * The ACME License Maker [licensemaker/].
+   * Just for Valentine's Day: the ACME Heart Maker [heartmaker/].
+   * The ACME ChuMaker [chumaker/].
+   * The ACME Chocolate Registry [chocolate/].
+   * ACME Labs Calendar. [calendar/]
+ * ACME News [news/login/], a free web conferencing system.
+ * Jef Poskanzer's personal page. [jef/]
+ * acme.com's hardware. [hardware/]
+ * What does ACME mean? [what_is_acme/]
+ * Other ACMEs on the web. [other_acmes.html]
+ * ACME Labs Freeware License. [license.html]
+ * ACME Labs Privacy Policy [privacy.html].
+ * Donate $5 to help support ACME Labs. [donate/]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Google [//www.google.com/logos/Logo_40wht.gif] [//www.google.com/search]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Note: the only affiliation between ACME Laboratories and Warner Brothers is that I've been a fan of Wile E. Coyote for decades.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+email [/mailto/wa.gif] [/mailto/?id=wa]
+logo [/software/thttpd/logos/thttpd_powered_2.gif] [/software/thttpd/]

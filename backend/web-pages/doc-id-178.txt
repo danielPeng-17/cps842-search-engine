@@ -1,0 +1,157 @@
+ * Skip to main content
+ * Skip to search
+ * Skip to select language
+
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
+
+ 1. The MDN project [/en-US/docs/MDN]
+ 2. Contributing to MDN [/en-US/docs/MDN/Contribute]
+ 3. Getting started on MDN [/en-US/docs/MDN/Contribute/Getting_started]
+
+ * Change language
+
+
+TABLE OF CONTENTS
+
+Table of contents
+ * 4 simple steps to MDN
+ * Useful complete beginner's guides
+
+
+GETTING STARTED ON MDN
+
+We are an open community of developers building resources for a better Web, regardless of brand, browser, or platform. Anyone can contribute and each
+person who does makes us stronger. Together we can continue to drive innovation on the Web to serve the greater good. It starts here, with you.
+
+Every part of MDN (docs, demos, and the site itself) is created by an open community of developers. Please, join us!
+
+
+4 SIMPLE STEPS TO MDN
+
+MDN is an open source resource where anyone can add and edit content. You don't need to be a programmer or know a lot about technologies. There are
+plenty of things that need to be done, from the simple (proofreading and correcting typos) to the complex (writing API documentation).
+
+Contributing is easy and safe. Even if you make a mistake, it's easily fixed. Even if you don't know exactly how things should look, or your grammar
+isn't all that good, don't worry about it! We have a team of people whose job it is to make sure that MDN's contents are as good as possible. Someone
+will be along to make sure your work is tidy and well-written. Share what you know and follow your strengths.
+
+
+STEP 1: CREATE A GITHUB ACCOUNT
+
+To begin your contributions to MDN, you need to create a GitHub account [https://github.com/mdn/content/#setup].
+
+
+STEP 2: PICK A TASK TO COMPLETE
+
+Now that you are logged in, read the descriptions of the different task types available on the main Contribute page [/en-US/docs/MDN/Contribute], and
+decide which one most appeals to you. You can pick any task you like and begin your contribution.
+
+
+STEP 3: DO THE TASK
+
+Once you've decided what kind of task you want to do, find a specific page, code example, etc. to work on, and just do it!
+
+
+STEP 4: ASK FOR HELP
+
+If you are not sure what to do at any point, then you are more than welcome to ask for help. There are a few different help options:
+
+ * If you want to talk to us synchronously and ask questions about MDN itself, join the discussion on the MDN Web Docs chat room
+   [https://chat.mozilla.org/#/room/#mdn:mozilla.org] on Matrix [https://wiki.mozilla.org/Matrix].
+ * You can also drop us an email at mdn-admins@mozilla.org [mdn-admins@mozilla.org].
+ * If you are learning web development and are stuck on a coding problem, we have active forums [https://discourse.mozilla.org/c/mdn/learn/250] where
+   you can ask questions and get help.
+
+Don't worry about doing it perfectly; other MDN contributors are here to help fix errors that slip through.
+
+
+USEFUL COMPLETE BEGINNER'S GUIDES
+
+We expect contributors to MDN to have a certain amount of prerequisite knowledge before they start working on the content. If you are new to the
+following topics, we'd advise you to look at the provided links to help you get up to speed:
+
+ * Web technologies: If you are new to HTML, CSS, JavaScript, etc., check out our Learn web development [/en-US/docs/Learn] tutorials.
+ * Open source: If you've never contributed to an open source project before, have a read of Basic etiquette for open source projects
+   [/en-US/docs/MDN/Contribute/Open_source_etiquette].
+ * Git and GitHub: If you are unfamiliar with these tools, GitHub for complete beginners [/en-US/docs/MDN/Contribute/GitHub_beginners] will get you
+   started.
+ * MDN's repo structures: If you are not sure what repos to edit to make changes to the different parts of MDN's content, Where is everything on MDN?
+   [/en-US/docs/MDN/Contribute/Where_is_everything] will point you towards the correct places.
+
+
+FOUND A PROBLEM WITH THIS PAGE?
+
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/mdn/contribute/getting_started/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/mdn/contribute/getting_started/index.md]
+ * Report a problem with this content on GitHub
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FContribute%2FGetting_started%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fmdn%2Fcontribute%2Fgetting_started%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FContribute%2FGetting_started%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fmdn%2Fcontribute%2Fgetting_started%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F32f6335487194aa8c3a9fb5c90eeba5e95be6224%0A*+Document+last+modified%3A+2021-10-15T15%3A32%3A38.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Getting+started+on+MDN%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AOther]
+ * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
+
+Last modified: Oct 15, 2021, by MDN contributors [/en-US/docs/MDN/Contribute/Getting_started/contributors.txt]
+
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+language
+
+RELATED TOPICS
+
+ 1. About MDN [/en-US/docs/MDN/About]
+ 2. Contributing to MDN
+     1. Get started on MDN [/en-US/docs/MDN/Contribute/Getting_started]
+     2. Contributing to MDN [/en-US/docs/MDN/Contribute]
+     3. Things you can do [/en-US/docs/MDN/Contribute/Howto]
+     4. Localizing MDN [/en-US/docs/MDN/Contribute/Localize]
+     5. Guidelines [/en-US/docs/MDN/Guidelines]
+     6. Content structures [/en-US/docs/MDN/Structures]
+
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

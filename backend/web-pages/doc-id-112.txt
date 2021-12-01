@@ -1,0 +1,146 @@
+anvil [../../resources/anvil.gif]
+
+
+PBMPLUS - IMAGE FILE FORMAT CONVERSION PACKAGE
+
+Fetch the software. [pbmplus_10dec1991.tar.gz]
+
+PBMPLUS is a toolkit for converting various image formats to and from portable formats, and therefore to and from each other. The idea is, if you want
+to convert among N image formats, you only need 2*N conversion filters, instead of the N^2 you would need if you wrote each one separately.
+
+In addition to the converters, the package includes some simple tools for manipulating the portable formats.
+
+INSTALLATION
+
+ * Unpack the files.
+ * Edit the top-level Makefile, find each line with the string "CONFIGURE", and follow the directions for setting configuration options.
+ * Likewise edit inc/pbmplus.h.
+ * Make.
+ * When you're happy that things compiled ok, make install.
+
+After installing the manual pages, you may want to create the "whatis" file by doing a catman -w -M [directory], or whatever the equivalent is on your
+system.
+
+OTHER THINGS YOU MAY NEED
+
+Although PBMPLUS will compile as is, there are some things you can add to it if you like.
+
+TIFF - Tagged Image File Format. Using the libtiff library, you can build pnmtotiff and tifftopnm converters. Visit:
+
+> http://www.libtiff.org/ [http://www.libtiff.org/]
+
+Download build and install the library, then look in the PBMPLUS Makefile for instructions on how to integrate it. If you're on FreeBSD you can
+install libtiff by having your sysadmin cd to /usr/ports/graphics/tiff and do a 'make install'
+
+JPEG - Joint Photographic Experts Group. Visit:
+
+> http://www.ijg.org/ [http://www.ijg.org/]
+
+This contains a JPEG library and two converters: cjpeg and djpeg. In the PBMPLUS nomenclature these would be called pnmtojpeg and jpegtopnm. These do
+not get integrated into PBMPLUS, they are separate but very useful. FreeBSD users can install /usr/ports/graphics/jpeg.
+
+PNG - Portable Network Graphics, basically a GIF replacement. Visit:
+
+> http://www.libpng.org/pub/png/pngcode.html [http://www.libpng.org/pub/png/pngcode.html]
+
+You can download the libpng and zlib libraries, and the pnmtopng converter (also includes pngtopnm). As with the JPEG converters, these do not get
+integrated into PBMPLUS. FreeBSD users can find them in /usr/ports/graphics/pnmtopng.
+
+PBM/PGM/PPM/PNM
+
+The package is broken up into four parts. First is PBM, for bitmaps (1 bit per pixel). Then there is PGM, for grayscale images. Next is PPM, for
+full-color images. Last, there is PNM, which does content-independent manipulations on any of the three internal formats, and also handles external
+formats that have multiple types.
+
+The parts are upwards compatible: PGM programs can read both PGM and PBM files, but always write PGM; PPM programs can read all three and always write
+PPM; and PNM programs read all three and write, generally, the same type as they read. The exception is when a PNM program "promotes" a file to a
+higher format, and it lets you know about this.
+
+Understanding this relationship between the four types of programs is basic to using PBMPLUS. Many people don't get it, and ask questions like "I
+found xwdtopnm and ppmtogif, but how do I convert PNM to PPM?" If you understand what's going on, it's easy to see that you don't need such a
+converter - ppmtogif can directly read whichever of the three formats xwdtopnm writes.
+
+HOW TO FIND THE RIGHT CONVERTER
+
+Some people get confused by all the different names. If you want to convert a PBM file to a Sun raster file, is it pbmtorast, pgmtorast, ppmtorast, or
+pnmtorast? In this case some of the confusion might be because previous versions of the package did in fact have both pbmtorast and ppmtorast. But
+mostly it's just too many different things to hold in your short term memory. Fine, so don't even try to remember what's what. That's what computers
+are for. Unix, at least BSD Unix, has this great indexing feature on the "man" program. You say "man -k [keyword]" and it gives you all the one-line
+descriptions with that keyword in them. All the PBMPLUS man pages have nice useful one-line descriptions, that mention all the relevant keywords. Try
+it, you'll like it.
+
+If your version of Unix does not have such an indexing feature, it should be a matter of a few minutes to make your own PBMPLUS index file, plus a
+simple grep alias to search it.
+
+ADDING PROGRAMS YOU FIND ON THE NET
+
+I've tried to make it as easy as possible to add new filters and converters to the package, so that you can grab things off the net and just drop them
+in. You stick the source and man page into the extras directory and add the new program's name to one of the .lst files in the same directory. The
+next time you do a make from the top-level directory, the scripts in the config subdirectory will build new Makefiles for you.
+
+This ease of expansion should help alleviate the pressure for constant new official releases.
+
+SUPPORT
+
+I've tested this stuff under SysV and BSD, on Sun 3's 4's and 386's and Sequents and Vaxen and HPs, with cc and gcc. Nevertheless, I'm sure bugs
+remain, and portability to systems like Amigas and IBM compatibles is an interesting question. Feedback is welcome; send bug reports, enhancements,
+etc. to one of these addresses:
+
+> jef@mail.acme.com
+> pbmplus@mail.acme.com  (pbmplus-request@mail.acme.com to subscribe)
+>     
+
+When sending bug reports, you must specify what version of PBMPLUS you have and what compilation options you used. The easiest way to get this is to
+run any PBMPLUS program with the -version flag. Please also include the type of system you are on, and what compiler you used. I try to respond to bug
+reports and enhancements promptly; that means within a week or two.
+
+Also, if there is a new format or feature you would like to have added to the package, feel free to drop me a line. If it's a format, include whatever
+documentation you have, and if possible a uuencoded sample. My response time will depend on how busy I am, and how easy the job looks. If you need it
+right away, or it's a complicated job, you might consider paying me; lately, that's how a lot of work on the package has gotten done.
+
+Finally, if you have access to Usenet, there's a newsgroup called alt.graphics.pixutils which is specifically for discussion of image conversion and
+editing packages such as PBMPLUS. Posting stuff there is even better than mailing it to me, since it lets other people help out with the answers.
+
+WRITING NEW CONVERTERS
+
+If you plan to contribute code or data files to PBMPLUS, there are a few rules you should be aware of.
+
+Formatting. When modifying existing code, continue the existing formatting style. When writing new programs, use whatever style you like, as long as
+it's self-consistent. If I have to modify a program and I can't figure out how to continue the style, I generally reformat the whole thing.
+
+bcopy/index/rindex vs. memcpy/strchr/strrchr. Use whichever set of routines you like - the macros will take care of it. Just be careful not to name
+any variables "index".
+
+Self-overlapping bcopy. This is not portable. Don't use it. If you need to do a self-overlapping bulk move, write a for loop.
+
+In general, pick an existing program that is similar to what you want to do, and copy it as a starting point.
+
+MAKING CHANGES TO THE FILE FORMATS AND LIBRARY
+
+Don't do it.
+
+COPYRIGHTS
+
+All the software in this package, whether by me or by a contributer, has a copyright similar to this one:
+
+> Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that
+> the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.
+> This software is provided "as is" without express or implied warranty.
+
+Many people get confused by this legalese, especially the part about "without fee". Does this mean you can't charge for any product that uses PBMPLUS?
+No. All it means is that you don't have to pay me or anyone else. You can do what you want with this software. Build it into your package, borrow code
+from it, whatever. Just be sure to let people know where it came from.
+
+EXCEPTION: some of the programs in the "extras" subdirectory may have different copyrights. "extras" is not officially part of PBMPLUS.
+
+Y2K ISSUES
+
+See http://www.acme.com/y2k.html [http://www.acme.com/y2k.html].
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer]
+
+See also: libpnmrw [../libpnmrw/].
+ACME Labs [http://www.acme.com/] / Software [http://www.acme.com/software/] / pbmplus
+email [/mailto/wa.gif] [/mailto/?id=wa]

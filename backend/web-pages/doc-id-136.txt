@@ -1,0 +1,104 @@
+
+All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.JPM.Encoders.html  PreviousPackage-Acme.JPM.Encoders.html  NextAcme.JPM.Encoders.ImageEncoder.html#_top_  IndexAllNames.html
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[/resources/images/atom_ani.gif]
+
+
+CLASS ACME.JPM.ENCODERS.GIFENCODER
+
+
+java.lang.Object
+   |
+   +----Acme.JPM.Encoders.ImageEncoderAcme.JPM.Encoders.ImageEncoder.html#_top_
+           |
+           +----Acme.JPM.Encoders.GifEncoder
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+public class GifEncoder extends ImageEncoder [Acme.JPM.Encoders.ImageEncoder.html#_top_] Write out an image as a GIF.
+
+Fetch the software. [/resources/classes/Acme/JPM/Encoders/GifEncoder.java]
+Fetch the entire Acme package. [/resources/classes/Acme.tar.gz]
+
+
+
+
+
+See Also: ToGif
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CONSTRUCTOR INDEX [IMAGES/CONSTRUCTOR-INDEX.GIF]
+
+o [images/yellow-ball-small.gif] GifEncoder(Image, OutputStream) Constructor from Image. o [images/yellow-ball-small.gif] GifEncoder(Image,
+OutputStream, boolean) Constructor from Image with interlace setting. o [images/yellow-ball-small.gif] GifEncoder(ImageProducer, OutputStream)
+Constructor from ImageProducer. o [images/yellow-ball-small.gif] GifEncoder(ImageProducer, OutputStream, boolean) Constructor from ImageProducer with
+interlace setting.
+
+
+CONSTRUCTORS [IMAGES/CONSTRUCTORS.GIF]
+
+o [images/yellow-ball.gif] GifEncoder
+
+
+ public GifEncoder(Image img,
+                   OutputStream out) throws IOException
+
+
+Constructor from Image.
+
+Parameters: img - The image to encode. out - The stream to write the GIF to.
+
+o [images/yellow-ball.gif] GifEncoder
+
+
+ public GifEncoder(Image img,
+                   OutputStream out,
+                   boolean interlace) throws IOException
+
+
+Constructor from Image with interlace setting.
+
+Parameters: img - The image to encode. out - The stream to write the GIF to. interlace - Whether to interlace.
+
+o [images/yellow-ball.gif] GifEncoder
+
+
+ public GifEncoder(ImageProducer prod,
+                   OutputStream out) throws IOException
+
+
+Constructor from ImageProducer.
+
+Parameters: prod - The ImageProducer to encode. out - The stream to write the GIF to.
+
+o [images/yellow-ball.gif] GifEncoder
+
+
+ public GifEncoder(ImageProducer prod,
+                   OutputStream out,
+                   boolean interlace) throws IOException
+
+
+Constructor from ImageProducer with interlace setting.
+
+Parameters: prod - The ImageProducer to encode. out - The stream to write the GIF to.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.JPM.Encoders.html  PreviousPackage-Acme.JPM.Encoders.html  NextAcme.JPM.Encoders.ImageEncoder.html#_top_  IndexAllNames.html
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ACME Javahttp://www.acme.com/java/  ACME Labshttp://www.acme.com/
+
+[/mailto/wa.gif] [/mailto/?id=wa]

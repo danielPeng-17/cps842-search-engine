@@ -1,0 +1,46 @@
+anvil [../../resources/anvil.gif]
+
+
+PHOON - SHOW THE PHASE OF THE MOON
+
+Fetch the software. [phoon_14Aug2014.tar.gz]
+
+Phoon displays the phase of the moon, either currently or at a specified date / time. Unlike other such programs, which just tell you how long since
+first quarter or something like that, phoon shows you the phase with a cute little picture. You can vary the size of the picture with the -l flag, but
+only some sizes have pictures defined - other sizes use @'s.
+
+Sample output (HTMLized via texttohtml [../texttohtml/]):
+
+
+                 .--
+             .--
+          .-'
+       .-'@ 
+      /@@@
+    ./   
+   /@@  
+  /@@@@ 
+  |@@@@
+ /@@@@@	 Last Quarter + 
+ | @@@@	 4  5:25:02
+ |@ @@	 New Moon -     
+ |     	 2 13:49:36
+ \  . @
+  |    
+  \     
+   \  o 
+    `\   
+      \   
+       `-.  
+          `-.
+             `--
+                 `--
+    
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer]
+
+See also: bigcal [../bigcal/], globe [../globe/], xphoon [../xphoon/].
+ACME Labs [http://www.acme.com/] / Software [http://www.acme.com/software/] / phoon
+email [/mailto/wa.gif] [/mailto/?id=wa]

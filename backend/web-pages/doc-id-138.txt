@@ -1,0 +1,21 @@
+ACME LABORATORIES
+
+cheesecake [images/acme_hanger.jpg]
+Dolphin safe.
+
+
+
+December 2021 SuMoTuWeThFrSa 1234 567891011 12131415161718 19202122232425 262728293031
+
+
+
+<-- NOVEMBER 2021 [calendar.cgi?month=11&year=2021]
+
+JANUARY 2022 --> [calendar.cgi?month=1&year=2022]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer]
+
+ACME Labs [../] / ACME Labs Calendar
+email [/mailto/wa.gif] [/mailto/?id=wa]
