@@ -31,7 +31,7 @@ app.get('/', (req, res) => {
     // TODO: HELPER FUNCTION -> build inverted index and dictionary
     // NOTE: for inverted index, DO NOT include position
     // NOTE: apply stemming and stop word here
-    console.log(invert.invert("string.txt",false,false))
+    // console.log(invert.invert("string.txt",false,false))
     // TODO: HELPER FUNCTION -> compute cosine similarity score 
 
     // TODO: HELPER FUNCTION -> compute pageRank score
