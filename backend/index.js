@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const crawl = require('./utils/crawl');
 const fs = require('fs');
-
+const invert = require('./utils/invert');
 
 const app = express();
 
@@ -23,7 +23,6 @@ app.get('/', (req, res) => {
     // console.log(query);
 
     // =============== WRITE CODE FOR HELPER FUNCTIONS IN /utils/XXXXX.js AND CALL THEM HERE ===============
-
     // NOTE: stemming and stop words are ALWAYS on -> in constants.js
 
     // TODO: HELPER FUNCTION -> crawl the web using seed url then parse results
@@ -32,7 +31,7 @@ app.get('/', (req, res) => {
     // TODO: HELPER FUNCTION -> build inverted index and dictionary
     // NOTE: for inverted index, DO NOT include position
     // NOTE: apply stemming and stop word here
-
+    // console.log(invert.invert("string.txt",false,false))
     // TODO: HELPER FUNCTION -> compute cosine similarity score 
 
     // TODO: HELPER FUNCTION -> compute pageRank score
