@@ -4,8 +4,10 @@ function ResultItem(props) {
 
     return (
         <div>
-            <h1>{props.data.title}</h1>
+            {console.log(props)}
+            <h1>title: {props.data.title}</h1>
             <p>url is: {props.data.url}</p>
+            <p>score</p>
         </div>
     );
 }
