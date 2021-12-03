@@ -1,616 +1,218 @@
-
-All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.html  PreviousAcme.Primes.html#_top_  NextAcme.Queue.html#_top_  IndexAllNames.html
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] ACME LABS HTML SAMPLER
+
+HTML is really pretty easy to learn. If you've ever used any sort of text formatting language, such as nroff or Scribe, this is the same idea. Even if
+you haven't, you should be able to pick this up pretty quick; it's just text with <special codes> interspersed to specify the formatting.
+
+This page gives examples of all the basic HTML formatting codes. Read through it as a tutorial; refer back to it as a reference; use the index at the
+end.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[/resources/images/atom_ani.gif]
+Basic document:
 
-
-CLASS ACME.PSG
-
-
-java.lang.Object
-   |
-   +----Acme.Psg
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-public class Psg extends Object [/resources/gamelan_best.jpg] [http://java.developer.com/] [/resources/gamelan_cool.gif]
-[http://www.developer.com/whatscool/] A PostScript-like alternative to the Graphics class.
-
-This class provides a functional equivalent of java.awt.Graphics, but with a very PostScript-like interface. It implements the following PostScript
-operators:
-
-> gsave grestore grestoreall initgraphics setlinewidth setcolor setgray sethsbcolor setrgbcolor translate scale rotate transform dtransform itransform
-> idtransform newpath moveto rmoveto lineto rlineto arc arcn curveto rcurveto closepath flattenpath clippath pathbbox erasepage fill stroke rectfill
-> rectstroke findfont scalefont setfont show stringwidth
-
-Not only is this a more powerful rendering idiom than the standard Graphics class, but it also makes it hellof easy to translate PostScript graphics
-hacks into Java. Here's a sample [/resources/classes/Yoyo.java]:
-
+> <html>
+>   <!-- Sample document skeleton. -->
+>   <head>
+>     <title>Elmer's Web Page</title>
+>   </head>
+>   <body>
+>     <h2>Elmer's Web Page</h2>
 > 
+>     <p>
+>     Text goes here.
+> 
+>     <hr>
+> 
+>     <a href="prevdoc.html">Back to previous document.</a>
+>     <br>
+>     <address><a href="mailto:efudd@mail.acme.com">Elmer Fudd &lt;efudd@mail.acme.com&gt;</a></address>
+>   </body>
+> </html>
+>     
 
-JavaSoft and Adobe are said to be working on a 2-D rendering API similar to PostScript, and therefore similar to this. When that comes out this class
-will probably be obsolete, so I don't plan on doing any major improvements.
+The <!-- is a comment. <h2> is a medium-sized header; <h1> is the biggest header and <h4> is the smallest. <p> is a paragraph separator. <hr> is a
+"horizontal rule" - a dividing line. <br> is a line break.
 
-Fetch the software. [/resources/classes/Acme/Psg.java]
-Fetch the entire Acme package. [/resources/classes/Acme.tar.gz]
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Basic images and links.
+
+Text link: Jef's page. [http://acme.com/jef/]
+<a href="http://acme.com/jef/">Jef's page.</a> Image: smiley [http://acme.com/resources/smiley.gif]
+<img src="http://acme.com/resources/smiley.gif"> Image link: smiley [http://acme.com/resources/smiley.gif] [http://acme.com/jef/]
+<a href="http://acme.com/jef/"><img src="http://acme.com/resources/smiley.gif"></a> Image vertical alignment:
+ * smiley [/resources/smiley.gif] align="top"
+ * smiley [/resources/smiley.gif] align="middle"
+ * smiley [/resources/smiley.gif] align="bottom"
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Various text styles:
+
+<em>emphasis</em> <strong>strong emphasis</strong> <cite>a book, article, film title</cite> <code>reference to something computerish, such as a file
+name</code> <dfn>a word being defined</dfn> <kbd>something the user is supposed to type</kbd> <samp>output from the computer</samp> <var>a
+meta-syntactic variable</var> <b>bold</b> <i>italic</i> <tt>fixed-width</tt> super<sup>script</sup> sub<sub>script</sub>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Some common special characters and accents:
+
+> & &amp; < &lt; > &gt; « &laquo; » &raquo; © &copy; ® &reg; ™ &trade; ¢ &cent; £ &pound; ¥ &yen; µ &micro; § &sect; ¶ &para; … &hellip; ° &deg; ±
+> &plusmn; ² &sup2; ³ &sup3; ¼ &frac14; ½ &frac12; ¾ &frac34; × &times; ÷ &divide; à &agrave; á &aacute; â &acirc; ã &atilde; ä &auml; å &aring; è
+> &egrave; é &eacute; ê &ecirc; ë &euml; ì &igrave; í &iacute; î &icirc; ï &iuml; ò &ograve; ó &oacute; ô &ocirc; õ &otilde; ö &ouml; ø &oslash; ù
+> &ugrave; ú &uacute; û &ucirc; ü &uuml; ¡ &iexcl; ¿ &iquest; ß &szlig; æ &aelig; ç &ccedil; ð &eth; ñ &ntilde; ý &yacute; þ &thorn; ÿ &yuml;
+> ¯\_(ツ)_/¯ &#x00AF;\_(&#x30C4;)_/&#x00AF;
+
+Note that unlike other HTML codes, these are case-sensitive.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bullet lists:
+
+ * apples
+ * bananas
 
 
+<ul>
+  <li>apples</li>
+  <li>bananas</li>
+</ul>
+    
+
+Lists can also specify the bullet type:
+
+<ul type="disc">
+ * the default
+
+<ul type="circle">
+ * used to be a square
+
+<ul type="square">
+ * used to be a solid square
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Numbered lists:
+
+ 1. oranges
+ 2. peaches
+ 3. grapes
+
+
+<ol>
+  <li>oranges</li>
+  <li>peaches</li>
+  <li>grapes</li>
+</ol>
+    
+
+Numbered lists can also specify the numbering type and starting number: <ol type="A" start="2">
+ B. capital letters
+
+<ol type="a" start="3">
+ c. small letters
+
+<ol type="I" start="4">
+ IV. large roman numerals
+
+<ol type="i" start="5">
+ v. small roman numerals
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Tagged lists:
+
+Tag Description. Can be multiple lines, paragraphs, sublists, whatever. Another Tag Another description.
+
+
+<dl>
+  <dt>Tag</dt>
+  <dd>Description.  Can be multiple lines, paragraphs, sublists, whatever.</dd>
+  <dt>Another Tag</dt>
+  <dd>Another description.</dd>
+</dl>
+    
+
+You can also leave off the tags: Description. Can be multiple lines, paragraphs, sublists, whatever. Another description.
+
+
+<dl>
+  <dd>Description.  Can be multiple lines, paragraphs, sublists, whatever.</dd>
+  <dd>Another description.</dd>
+</dl>
+    
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+You can use <blockquote> to indent a whole block of text:
+
+> This text is indented from the rest.
+> 
+> You can have multiple paragraphs indented too.
+
+Back out again; use </blockquote> to terminate a quote.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-CONSTRUCTOR INDEX [IMAGES/CONSTRUCTOR-INDEX.GIF]
 
-o [images/yellow-ball-small.gif] Psg(Component) Constructor from Component. o [images/yellow-ball-small.gif] Psg(Graphics) Constructor from Graphics.
 
-
-METHOD INDEX [IMAGES/METHOD-INDEX.GIF]
-
-o [images/red-ball-small.gif] arc(double, double, double, double, double) Append counterclockwise arc. o [images/red-ball-small.gif] arcn(double,
-double, double, double, double) Append clockwise arc. o [images/red-ball-small.gif] clippath() Set the current path to the clipping path. o
-[images/red-ball-small.gif] closepath() Connect current path back to its starting point. o [images/red-ball-small.gif] curveto(double, double, double,
-double, double, double) Append a Bezier cubic section. o [images/red-ball-small.gif] dtransform_x(double, double) Transform (dx, dy) into a
-device-space x-distance. o [images/red-ball-small.gif] dtransform_y(double, double) Transform (dx, dy) into a device-space y-distance. o
-[images/red-ball-small.gif] erasepage() Paint the whole graphics area with the background color. o [images/red-ball-small.gif] fill() Fill current
-path with current color. o [images/red-ball-small.gif] flattenpath() Convert curves in the path to sequences of straight lines. o
-[images/red-ball-small.gif] grestore() Restore the last Save()ed graphics state. o [images/red-ball-small.gif] grestoreall() Pop to bottom-most
-graphics state. o [images/red-ball-small.gif] gsave() Save the current graphics state onto a stack. o [images/red-ball-small.gif] idtransform_x(int,
-int) Inverse transform (dx, dy) into a user-space x-distance. o [images/red-ball-small.gif] idtransform_y(int, int) Inverse transform (dx, dy) into a
-user-space y-distance. o [images/red-ball-small.gif] initgraphics() Reset graphics state. o [images/red-ball-small.gif] itransform_x(int, int) Inverse
-transform (x, y) into a user-space x-coordinate. o [images/red-ball-small.gif] itransform_y(int, int) Inverse transform (x, y) into a user-space
-y-coordinate. o [images/red-ball-small.gif] lineto(double, double) Add a line to the path. o [images/green-ball-small.gif] main(String[]) Test
-program. o [images/red-ball-small.gif] moveto(double, double) Set the current point. o [images/red-ball-small.gif] newpath() Start a new, empty path.
-o [images/red-ball-small.gif] pathbbox() Return the bounding box of the current path. o [images/red-ball-small.gif] rcurveto(double, double, double,
-double, double, double) Relative curveto. o [images/red-ball-small.gif] rectfill(double, double, double, double) Fill a rectangular path. o
-[images/red-ball-small.gif] rectstroke(double, double, double, double) Stroke a rectangular path. o [images/red-ball-small.gif] rlineto(double,
-double) Relative lineto(). o [images/red-ball-small.gif] rmoveto(double, double) Relative moveto(). o [images/red-ball-small.gif] rotate(double)
-Rotate graphics space. o [images/red-ball-small.gif] scale(double, double) Scale graphics space. o [images/red-ball-small.gif] setcolor(Color) Set the
-current color. o [images/red-ball-small.gif] setfont(String, int, double) Set the current font to the specified name, style, and size. o
-[images/red-ball-small.gif] setfontName(String) Set the current font to the specified name. o [images/red-ball-small.gif] setfontSize(double) Set the
-current font to the specified size. o [images/red-ball-small.gif] setfontStyle(int) Set the current font to the specified style. o
-[images/red-ball-small.gif] setgray(float) Set the color to the specified gray value (0=black, 1=white). o [images/red-ball-small.gif]
-sethsbcolor(float, float, float) Set the color from HSB coordinates. o [images/red-ball-small.gif] setlinewidth(double) Set the current line width. o
-[images/red-ball-small.gif] setrgbcolor(float, float, float) Set the color from RGB coordinates. o [images/red-ball-small.gif] show(String) Paint a
-string starting at the current point. o [images/red-ball-small.gif] stringwidth_x(String) Return the x-width of a string. o
-[images/red-ball-small.gif] stroke() Draw lines along the current path. o [images/red-ball-small.gif] transform_x(double, double) Transform (x, y)
-into a device-space x-coordinate. o [images/red-ball-small.gif] transform_y(double, double) Transform (x, y) into a device-space y-coordinate. o
-[images/red-ball-small.gif] translate(double, double) Translate graphics space.
-
-
-CONSTRUCTORS [IMAGES/CONSTRUCTORS.GIF]
-
-o [images/yellow-ball.gif] Psg
-
-
- public Psg(Component component)
-
-
-Constructor from Component. This is the preferred way to make a Psg.
-
-
-
-o [images/yellow-ball.gif] Psg
-
-
- public Psg(Graphics graphics)
-
-
-Constructor from Graphics. If you don't have a Component, you can create a Psg from a Graphics instead, but this is not as good.
-
-
-
-
-METHODS [IMAGES/METHODS.GIF]
-
-o [images/red-ball.gif] gsave
-
-
- public void gsave()
-
-
-Save the current graphics state onto a stack.
-
-
-
-o [images/red-ball.gif] grestore
-
-
- public void grestore()
-
-
-Restore the last Save()ed graphics state.
-
-
-
-o [images/red-ball.gif] grestoreall
-
-
- public void grestoreall()
-
-
-Pop to bottom-most graphics state.
-
-
-
-o [images/red-ball.gif] initgraphics
-
-
- public void initgraphics()
-
-
-Reset graphics state.
-
-
-
-o [images/red-ball.gif] setlinewidth
-
-
- public void setlinewidth(double linewidth)
-
-
-Set the current line width.
-
-
-
-o [images/red-ball.gif] setcolor
-
-
- public void setcolor(Color color)
-
-
-Set the current color.
-
-
-
-o [images/red-ball.gif] setgray
-
-
- public void setgray(float grayVal)
-
-
-Set the color to the specified gray value (0=black, 1=white).
-
-
-
-o [images/red-ball.gif] sethsbcolor
-
-
- public void sethsbcolor(float hue,
-                         float saturation,
-                         float brightness)
-
-
-Set the color from HSB coordinates.
-
-
-
-o [images/red-ball.gif] setrgbcolor
-
-
- public void setrgbcolor(float r,
-                         float g,
-                         float b)
-
-
-Set the color from RGB coordinates.
-
-
-
-o [images/red-ball.gif] translate
-
-
- public void translate(double tx,
-                       double ty)
-
-
-Translate graphics space.
-
-
-
-o [images/red-ball.gif] scale
-
-
- public void scale(double sx,
-                   double sy)
-
-
-Scale graphics space.
-
-
-
-o [images/red-ball.gif] rotate
-
-
- public void rotate(double degrees)
-
-
-Rotate graphics space.
-
-
-
-o [images/red-ball.gif] transform_x
-
-
- public int transform_x(double x,
-                        double y)
-
-
-Transform (x, y) into a device-space x-coordinate.
-
-
-
-o [images/red-ball.gif] transform_y
-
-
- public int transform_y(double x,
-                        double y)
-
-
-Transform (x, y) into a device-space y-coordinate.
-
-
-
-o [images/red-ball.gif] dtransform_x
-
-
- public int dtransform_x(double dx,
-                         double dy)
-
-
-Transform (dx, dy) into a device-space x-distance.
-
-
-
-o [images/red-ball.gif] dtransform_y
-
-
- public int dtransform_y(double dx,
-                         double dy)
-
-
-Transform (dx, dy) into a device-space y-distance.
-
-
-
-o [images/red-ball.gif] itransform_x
-
-
- public double itransform_x(int x,
-                            int y) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Inverse transform (x, y) into a user-space x-coordinate.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
-
-o [images/red-ball.gif] itransform_y
-
-
- public double itransform_y(int x,
-                            int y) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Inverse transform (x, y) into a user-space y-coordinate.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
-
-o [images/red-ball.gif] idtransform_x
-
-
- public double idtransform_x(int dx,
-                             int dy) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Inverse transform (dx, dy) into a user-space x-distance.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
-
-o [images/red-ball.gif] idtransform_y
-
-
- public double idtransform_y(int dx,
-                             int dy) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Inverse transform (dx, dy) into a user-space y-distance.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
-
-o [images/red-ball.gif] newpath
-
-
- public void newpath()
-
-
-Start a new, empty path.
-
-
-
-o [images/red-ball.gif] moveto
-
-
- public void moveto(double x,
-                    double y)
-
-
-Set the current point.
-
-
-
-o [images/red-ball.gif] rmoveto
-
-
- public void rmoveto(double dx,
-                     double dy) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Relative moveto().
-
-Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
-
-o [images/red-ball.gif] lineto
-
-
- public void lineto(double x,
-                    double y) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Add a line to the path.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
-
-o [images/red-ball.gif] rlineto
-
-
- public void rlineto(double dx,
-                     double dy) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Relative lineto().
-
-Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
-
-o [images/red-ball.gif] arc
-
-
- public void arc(double cx,
-                 double cy,
-                 double r,
-                 double ang1,
-                 double ang2)
-
-
-Append counterclockwise arc.
-
-
-
-o [images/red-ball.gif] arcn
-
-
- public void arcn(double cx,
-                  double cy,
-                  double r,
-                  double ang1,
-                  double ang2)
-
-
-Append clockwise arc.
-
-
-
-o [images/red-ball.gif] curveto
-
-
- public void curveto(double x1,
-                     double y1,
-                     double x2,
-                     double y2,
-                     double x3,
-                     double y3) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Append a Bezier cubic section.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
-
-o [images/red-ball.gif] rcurveto
-
-
- public void rcurveto(double dx1,
-                      double dy1,
-                      double dx2,
-                      double dy2,
-                      double dx3,
-                      double dy3) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Relative curveto.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
-
-o [images/red-ball.gif] closepath
-
-
- public void closepath()
-
-
-Connect current path back to its starting point.
-
-
-
-o [images/red-ball.gif] flattenpath
-
-
- public void flattenpath()
-
-
-Convert curves in the path to sequences of straight lines.
-
-
-
-o [images/red-ball.gif] clippath
-
-
- public void clippath() throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Set the current path to the clipping path.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
-
-o [images/red-ball.gif] pathbbox
-
-
- public double[] pathbbox() throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Return the bounding box of the current path. The return is in the form of a four-element array - element 0 is llx, 1 is lly, 2 is urx, and 3 is ury.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
-
-o [images/red-ball.gif] erasepage
-
-
- public void erasepage()
-
-
-Paint the whole graphics area with the background color.
-
-
-
-o [images/red-ball.gif] fill
-
-
- public void fill()
-
-
-Fill current path with current color.
-
-
-
-o [images/red-ball.gif] stroke
-
-
- public void stroke()
-
-
-Draw lines along the current path.
-
-
-
-o [images/red-ball.gif] rectfill
-
-
- public void rectfill(double x,
-                      double y,
-                      double width,
-                      double height)
-
-
-Fill a rectangular path.
-
-
-
-o [images/red-ball.gif] rectstroke
-
-
- public void rectstroke(double x,
-                        double y,
-                        double width,
-                        double height)
-
-
-Stroke a rectangular path.
-
-
-
-o [images/red-ball.gif] setfont
-
-
- public void setfont(String name,
-                     int style,
-                     double size)
-
-
-Set the current font to the specified name, style, and size. Similar to a PostScript findfont scalefont setfont sequence.
-
-Parameters: name - the name of the font - Dialog, Helvetica, TimesRoman, Courier style - some combination of Font.PLAIN, Font.BOLD, and Font.ITALIC
-size - how tall the font should be
-
-o [images/red-ball.gif] setfontName
-
-
- public void setfontName(String name)
-
-
-Set the current font to the specified name.
-
-Parameters: name - the name of the font - Dialog, Helvetica, TimesRoman, Courier
-
-o [images/red-ball.gif] setfontStyle
-
-
- public void setfontStyle(int style)
-
-
-Set the current font to the specified style.
-
-Parameters: style - some combination of Font.PLAIN, Font.BOLD, and Font.ITALIC
-
-o [images/red-ball.gif] setfontSize
-
-
- public void setfontSize(double size)
-
-
-Set the current font to the specified size.
-
-Parameters: size - how tall the font should be
-
-o [images/red-ball.gif] show
-
-
- public void show(String str) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Paint a string starting at the current point. Doesn't do rotation yet.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
-
-o [images/red-ball.gif] stringwidth_x
-
-
- public double stringwidth_x(String str) throws PsgExceptionAcme.PsgException.html#_top_
-
-
-Return the x-width of a string. Doesn't do rotation yet.
-
-Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
-
-o [images/green-ball.gif] main
-
-
- public static void main(String args[])
-
-
-Test program.
-
-
+You can also turn formatting completely
+	off for
+    an entire section, using <pre> and </pre>.
+    
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
+Simple table:
 
-All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.html  PreviousAcme.Primes.html#_top_  NextAcme.Queue.html#_top_  IndexAllNames.html
+Caption. col 1col 2 row 1row 1 col 1row 1 col 2 row 2row 2 col 1row 2 col 2
+
+> <table border="1">
+>   <caption align="bottom">Caption.</caption>
+>   <tr><td></td><th>col 1</th><th>col 2</th></tr>
+>   <tr><th>row 1</th><td>row 1 col 1</td><td>row 1 col 2</td></tr>
+>   <tr><th>row 2</th><td>row 2 col 1</td><td>row 2 col 2</td></tr>
+> </table>
+>     
+
+Whitespace options:
+
+cellspacing="10" row 1 col 1row 1 col 2 row 2 col 1row 2 col 2
+
+cellpadding="10" row 1 col 1row 1 col 2 row 2 col 1row 2 col 2
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-ACME Javahttp://www.acme.com/java/  ACME Labshttp://www.acme.com/
+Other basic HTML resources:
 
-[/mailto/wa.gif] [/mailto/?id=wa]
+ * W3Schools' HTML Entities [http://www.w3schools.com/tags/ref_entities.asp]
+ * Special Symbols and Entities [http://www.utoronto.ca/webdocs/HTMLdocs/NewHTML/iso_table.html]
+ * Netscape's Special Symbols and Entities [http://developer.netscape.com/library/documentation/htmlguid/entities.htm]
+ * Yahoo's HTML page [http://www.yahoo.com/Computers_and_Internet/Software/Data_Formats/HTML/]
+ * Netscape's HTML Reference [http://developer.netscape.com/docs/manuals/htmlguid/index.htm]
+ * Excellent HTML reference at University of Georgia [http://www.fcs.uga.edu/cs/tutorials/web_seminar/language/tags.html]
+ * Netscape's extensions to HTML 2.0 [http://home.netscape.com/assist/net_sites/html_extensions.html]
+ * Netscape's extensions to HTML 3.0 [http://home.netscape.com/assist/net_sites/html_extensions_3.html]
+ * Netscape's Table Sampler [http://wp.netscape.com/assist/net_sites/table_sample.html]
+ * Matt Kruse's Table Generator [http://www.acm.usl.edu/cgi-bin/duke/TableGen]
+ * VisiBone's HTML reference card [http://www.visibone.com/html/card.html]
+
+Plus, whenever you see something interesting and want to know how it was done, do a View Source!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Index to all tags:
+
+<!--> <a> <address> <b> <blockquote> <body> <br> <caption> <cite> <code> <dd> <dfn> <dl> <dt> <em> <h1> <h2> <h3> <h4> <head> <hr> <html> <i> <img>
+<kbd> <li> <ol> <p> <pre> <samp> <strong> <sub> <sup> <table> <td> <th> <title> <tr> <tt> <ul> <var> &entity;
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+ACME Labs [/] / HTML Sampler
+email [/mailto/wa.gif] [/mailto/?id=wa]

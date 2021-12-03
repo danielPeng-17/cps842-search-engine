@@ -35,184 +35,217 @@ Search MDN
 TABLE OF CONTENTS
 
 Table of contents
- * Develop web games
- * Port native games to the Web
- * Examples
- * See also
- * See also
+ * The Core Tools
+ * More Tools
+ * Connecting the Developer Tools
+ * Debugging the browser
+ * Extending DevTools
+ * Migrating from Firebug
+ * Contribute
 
 
-GAME DEVELOPMENT
+FIREFOX DEVELOPER TOOLS
 
-Gaming is one of the most popular computer activities. New technologies are constantly arriving to make it possible to develop better and more
-powerful games that can be run in any standards-compliant web browser.
+Firefox Developer Tools is a set of web developer tools built into Firefox. You can use them to examine, edit, and debug HTML, CSS, and JavaScript.
 
+This section contains detailed guides to all of the tools as well as information on how to debug Firefox for Android, how to extend DevTools, and how
+to debug the browser as a whole.
 
-DEVELOP WEB GAMES
+If you have any feedback on DevTools or want to contribute to the project, you can join the DevTools community [https://firefox-dev.tools/].
 
-Welcome to the MDN game development center! In this area of the site, we provide resources for web developers wanting to develop games. You will find
-many useful tutorials and technique articles in the main menu on the left, so feel free to explore.
-
-We've also included a reference section so you can easily find information about all the most common APIs used in game development.
-
-Note: Creating games on the web draws on a number of core web technologies such as HTML, CSS, and JavaScript. The Learning Area [/en-US/docs/Learn] is
-a good place to go to get started with the basics.
+Note: If you are just getting started with web development and using developer tools, our learning [/en-US/docs/Learn] docs will help you — see
+Getting started with the Web [/en-US/docs/Learn/Getting_started_with_the_web] and What are browser developer tools?
+[/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools] for good starting points.
 
 
-PORT NATIVE GAMES TO THE WEB
+THE CORE TOOLS
 
-If you are a native developer (for example writing games in C++), and you are interested in how you can port your games over to the Web, you should
-learn more about our Emscripten [https://kripken.github.io/emscripten-site/index.html] tool — this is an LLVM to JavaScript compiler, which takes LLVM
-bytecode (e.g. generated from C/C++ using Clang, or from another language) and compiles that into asm.js [/en-US/docs/Games/Tools/asm.js], which can
-be run on the Web.
+You can open the Firefox Developer Tools from the menu by selecting Tools > Web Developer > Web Developer Tools or use the keyboard shortcut  Ctrl +
+Shift + I or F12 on Windows and Linux, or Cmd + Opt + I on macOS.
 
-To get started, see:
+The ellipsis menu on the right-hand side of Developer Tools contains several commands that let you perform actions or change tool settings.
 
- * About Emscripten [https://kripken.github.io/emscripten-site/docs/introducing_emscripten/about_emscripten.html] for an introduction including
-   high-level details.
- * Download and Install [https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html] for installing the toolchain.
- * Emscripten Tutorial [https://kripken.github.io/emscripten-site/docs/getting_started/Tutorial.html] for a tutorial to teach you how to get started.
+[/en-US/docs/Tools/devtools_layoutmenu.png]
 
-
-EXAMPLES
-
-For a list of web game examples, see our examples page [/en-US/docs/Games/Examples]. Also, check out games.mozilla.org [https://games.mozilla.org/]
-for more useful resources!
+[/en-US/docs/Tools/iframe_button.png] This button only appears when there are multiple iframes on a page. Click it to display a list of the iframes on
+the current page and select the one with which you want to work. [/en-US/docs/Tools/camera_button.png] Click this button to take a screenshot of the
+current page. (Note: This feature is not turned on by default and must be enabled in settings before the icon will appear.)
+[/en-US/docs/Tools/responsive_button.png] Toggles Responsive Design Mode. [/en-US/docs/Tools/menu_button.png] Opens the menu that includes docking
+options, the ability to show or hide the split console, and Developer Tools settings. The menu also includes links to the documentation for Firefox
+Web Tools and the Mozilla Community. [/en-US/docs/Tools/close_button.png] Closes the Developer Tools
 
 
-SEE ALSO
+PAGE INSPECTOR
 
-Build New Games [http://buildnewgames.com/]
+View and edit page content and layout. Visualize many aspects of the page including the box model, animations, and grid layouts.
 
-A collaborative site featuring a large number of open web game development tutorials. Has not been very active recently, but still holds some nice
-resources.
-
-Creative JS [http://creativejs.com/]
-
-A collection of impressive JavaScript techniques and experiments, not specific to games, but helpful nonetheless. Has not been very active recently,
-but still holds some nice resources.
-
-Game Programming Patterns [https://gameprogrammingpatterns.com/]
-
-An online book, written by Bob Nystrom, which discusses programming patterns in the context of game development with the aim of helping game
-developers produce more effective and efficient code.
-
-Gamedev.js Weekly [https://gamedevjsweekly.com/]
-
-Weekly newsletter about HTML5 game development, sent every Friday. Contains the latest articles, tutorials, tools, and resources.
-
-HTML5 Game Devs Forum [https://www.html5gamedevs.com/]
-
-Forums for developers, framework creators, and publishers. Ask questions, get feedback and help others.
-
-HTML5 Game Engine [https://html5gameengine.com/]
-
-List of the most popular HTML5 game frameworks along with their rating, features and samples.
-
-JSBreakouts [https://www.jsbreakouts.org/]
-
-Compare JavaScript Breakout clones in different frameworks to help you choose the right one for you.
-
-Tuts+ Game Development [https://gamedevelopment.tutsplus.com/]
-
-Tutorials and articles about game development in general.
-
-HTML5 Gamedev Starter [https://html5devstarter.enclavegames.com/]
-
-Starter for the new game developers, a curated list of links to various useful resources around the web.
-
-js13kGames [https://js13kgames.com/]
-
-JavaScript coding competition for HTML5 game developers with the file size limit set to 13 kilobytes. All the submitted games are available in a
-readable form on GitHub.
-
-Mozilla Hacks Blog [https://hacks.mozilla.org/category/games/]
-
-Games category on the Mozilla Hacks blog containing interesting gamedev related articles.
+The all-new Inspector panel in Firefox 57. [/en-US/docs/Tools/landingpage_pageinspector.png] [/en-US/docs/Tools/Page_Inspector]
 
 
-SEE ALSO
+WEB CONSOLE
 
- * Games section on wiki.mozilla.org [https://wiki.mozilla.org/Platform/Games]
+See messages logged by a web page and interact with the page using JavaScript.
+
+The all-new Console in Firefox 57. [/en-US/docs/Tools/landingpage_console.png] [/en-US/docs/Tools/Web_Console]
+
+
+JAVASCRIPT DEBUGGER
+
+Stop, step through, and examine the JavaScript running on a page.
+
+The all-new Firefox 57 Debugger.html [/en-US/docs/Tools/landingpage_debugger.png] [/en-US/docs/Tools/Debugger]
+
+
+NETWORK MONITOR
+
+See the network requests made when a page is loaded.
+
+The Network panel in Firefox 57 DevTools. [/en-US/docs/Tools/landingpage_network.png] [/en-US/docs/Tools/Network_Monitor]
+
+
+PERFORMANCE TOOLS
+
+Analyze your site's general responsiveness, JavaScript, and layout performance.
+
+Performance Tools in Firefox 57 Developer Tools [/en-US/docs/Tools/landingpage_performance.png] [/en-US/docs/Tools/Performance]
+
+
+RESPONSIVE DESIGN MODE
+
+See how your website or app will look and behave on different devices and network types.
+
+Responsive Design mode in Firefox 57. [/en-US/docs/Tools/landingpage_responsivedesign.png] [/en-US/docs/Tools/Responsive_Design_Mode]
+
+
+ACCESSIBILITY INSPECTOR
+
+Provides a means to access the page's accessibility tree, allowing you to check what's missing or otherwise needs attention.
+
+Performance Tools in Firefox 57 Developer Tools [/en-US/docs/Tools/landingpage_accessibility.png] [/en-US/docs/Tools/Accessibility_inspector]
+
+
+APPLICATION PANEL
+
+Provides tools for inspecting and debugging modern web apps (also known as Progressive Web Apps [/en-US/docs/Web/Progressive_web_apps]). This includes
+inspection of service workers [/en-US/docs/Web/API/Service_Worker_API] and web app manifests [/en-US/docs/Web/Manifest].
+
+Performance Tools in Firefox 57 Developer Tools [/en-US/docs/Tools/just-application-panel.png] [/en-US/docs/Tools/Application]
+
+Note: The collective term for the UI inside which the DevTools all live is the Toolbox [/en-US/docs/Tools/Tools_Toolbox].
+
+
+MORE TOOLS
+
+These developer tools are also built into Firefox. Unlike the "Core Tools" above, you might not use them every day.
+
+Memory [/en-US/docs/Tools/Memory] Figure out which objects are keeping memory in use. Storage Inspector [/en-US/docs/Tools/Storage_Inspector] Inspect
+cookies, local storage, indexedDB, and session storage present in a page. DOM Property Viewer [/en-US/docs/Tools/DOM_Property_Viewer] Inspect the
+page's DOM properties, functions, etc. Eyedropper [/en-US/docs/Tools/Eyedropper] Select a color from the page. Style Editor
+[/en-US/docs/Tools/Style_Editor] View and edit CSS styles for the current page. Taking screenshots [/en-US/docs/Tools/Taking_screenshots] Take a
+screenshot of the entire page or of a single element. Measure a portion of the page [/en-US/docs/Tools/Measure_a_portion_of_the_page] Measure a
+specific area of a web page. Rulers [/en-US/docs/Tools/Rulers] Overlay horizontal and vertical rulers on a web page
+
+[/en-US/docs/Tools/logo-developer-quantum.png]
+
+For the latest developer tools and features, try Firefox Developer Edition.
+
+Download Firefox Developer Edition [https://www.mozilla.org/en-US/firefox/developer/]
+
+
+
+
+CONNECTING THE DEVELOPER TOOLS
+
+If you open the developer tools using keyboard shortcuts [/en-US/docs/Tools/Keyboard_shortcuts#opening_and_closing_tools] or the equivalent menu
+items, they'll target the document hosted by the currently active tab. But you can attach the tools to a variety of other targets, too, both within
+the current browser and in different browsers or even different devices.
+
+about:debugging [/en-US/docs/Tools/about:debugging] Debug add-ons, content tabs, and workers running in the browser. Connecting to Firefox for Android
+[/en-US/docs/Tools/about:debugging#connecting_over_the_network] Connect the developer tools to an instance of Firefox running on an Android device.
+Connecting to iframes [/en-US/docs/Tools/Working_with_iframes] Connect the developer tools to a specific iframe in the current page. Connecting to
+other browsers [/en-US/docs/Tools/Valence] Connect the developer tools to Chrome on Android and Safari on iOS.
+
+
+DEBUGGING THE BROWSER
+
+By default, the developer tools are attached to a web page or web app. But you can also connect them to the browser as a whole. This is useful for
+browser and add-on development.
+
+Browser Console [/en-US/docs/Tools/Browser_Console] See messages logged by the browser itself and by add-ons, and run JavaScript code in the browser's
+scope. Browser Toolbox [/en-US/docs/Tools/Browser_Toolbox] Attach the Developer Tools to the browser itself.
+
+
+EXTENDING DEVTOOLS
+
+For information on extending the Firefox DevTools, see Extending the developer tools
+[/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools] over in the Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+section of MDN.
+
+
+MIGRATING FROM FIREBUG
+
+Firebug has come to the end of its lifespan (see Firebug lives on in Firefox DevTools
+[https://hacks.mozilla.org/2016/12/firebug-lives-on-in-firefox-devtools/] for details of why), and we appreciate that some people will find migrating
+to another less familiar set of DevTools to be challenging. To ease a transition from Firebug to the Firefox developer tools, we have written a handy
+guide — Migrating from Firebug [/en-US/docs/Tools/Migrating_from_Firebug].
+
+
+CONTRIBUTE
+
+If you want to help improve the developer tools, these resources will get you started.
+
+Get Involved [https://firefox-dev.tools/] Our community website explains how to get involved. bugs.firefox-dev.tools [https://bugs.firefox-dev.tools/]
+A tool helping to find bugs to work on.
 
 
 FOUND A PROBLEM WITH THIS PAGE?
 
- * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/games/index.md]
- * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/games/index.md]
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/tools/index.html]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/tools/index.html]
  * Report a problem with this content on GitHub
-   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FGames%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fgames%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FGames%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fgames%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F679bdccfe768f5558f735eba34f2731c4ff823b3%0A*+Document+last+modified%3A+2021-10-08T14%3A44%3A54.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Game+development%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AOther]
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FTools%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Ftools%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FTools%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Ftools%2Findex.html%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F21355429c64bc978053113cb1112950c7e411793%0A*+Document+last+modified%3A+2021-10-10T23%3A23%3A05.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Firefox+Developer+Tools%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3ADevTools]
  * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
 
-Last modified: Oct 8, 2021, by MDN contributors [/en-US/docs/Games/contributors.txt]
+Last modified: Oct 10, 2021, by MDN contributors [/en-US/docs/Tools/contributors.txt]
 
 Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
 language
 
 RELATED TOPICS
 
- 1. Introduction
-     1. Introduction [/en-US/docs/Games/Introduction]
-     2. Anatomy [/en-US/docs/Games/Anatomy]
-     3. Examples [/en-US/docs/Games/Examples]
+ 1.  Page Inspector [/en-US/docs/Tools/Page_Inspector]
+ 2.  Web Console [/en-US/docs/Tools/Web_Console]
+ 3.  JavaScript Debugger [/en-US/docs/Tools/Debugger]
+ 4.  Network Monitor [/en-US/docs/Tools/Network_Monitor]
+ 5.  Performance [/en-US/docs/Tools/Performance]
+ 6.  Application [/en-US/docs/Tools/Application]
+ 7.  Responsive Design Mode [/en-US/docs/Tools/Responsive_Design_Mode]
+ 8.  Accessibility Inspector [/en-US/docs/Tools/Accessibility_inspector]
+ 9.  More Tools
+      1. Memory [/en-US/docs/Tools/Memory]
+      2. Storage Inspector [/en-US/docs/Tools/Storage_Inspector]
+      3. DOM Property Viewer [/en-US/docs/Tools/DOM_Property_Viewer]
+      4. Eyedropper [/en-US/docs/Tools/Eyedropper]
+      5. Screenshot [/en-US/docs/Tools/Taking_screenshots]
+      6. Style Editor [/en-US/docs/Tools/Style_Editor]
+      7. Rulers [/en-US/docs/Tools/Rulers]
+      8. Measure a portion of the page [/en-US/docs/Tools/Measure_a_portion_of_the_page]
+      9. View Source [/en-US/docs/Tools/View_source]
 
- 2. APIs for game development
-     1.  Canvas [/en-US/docs/Web/API/Canvas_API]
-     2.  CSS [/en-US/docs/Web/CSS]
-     3.  Full screen [/en-US/docs/Web/API/Fullscreen_API]
-     4.  Gamepad [/en-US/docs/Web/API/Gamepad_API]
-     5.  IndexedDB [/en-US/docs/Web/API/IndexedDB_API]
-     6.  JavaScript [/en-US/docs/Web/JavaScript]
-     7.  Pointer Lock [/en-US/docs/Web/API/Pointer_Lock_API]
-     8.  SVG [/en-US/docs/Web/SVG]
-     9.  Typed Arrays [/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray]
-     10. Web Audio [/en-US/docs/Web/API/Web_Audio_API]
-     11. WebGL [/en-US/docs/Web/API/WebGL_API]
-     12. WebRTC [/en-US/docs/Web/API/WebRTC_API]
-     13. WebSockets [/en-US/docs/Web/API/WebSockets_API]
-     14. WebVR [/en-US/docs/Web/API/WebVR_API]
-     15. Web Workers [/en-US/docs/Web/API/Web_Workers_API]
-     16. XMLHttpRequest [/en-US/docs/Web/API/XMLHttpRequest]
+ 10. Connecting the devtools
+      1. about:debugging [/en-US/docs/Tools/about:debugging]
+      2. Connecting to Firefox for Android [/en-US/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_over_Wifi]
+      3. Connecting to iframes [/en-US/docs/Tools/Working_with_iframes]
+      4. Connecting to other browsers [/en-US/docs/Tools/Valence]
 
- 3. Techniques
-     1. Using async scripts for asm.js [/en-US/docs/Games/Techniques/Async_scripts]
-     2. Optimizing startup performance [/en-US/docs/Web/Apps/Developing/Optimizing_startup_performance]
-     3. Using WebRTC peer-to-peer data channels [/en-US/docs/Games/Techniques/WebRTC_data_channels]
-     4. Efficient animation for web games [/en-US/docs/Games/Techniques/Efficient_animation_for_web_games]
-     5. Audio for Web Games [/en-US/docs/Games/Techniques/Audio_for_Web_Games]
-     6. 2D collision detection [/en-US/docs/Games/Techniques/2D_collision_detection]
-     7. Tiles and tilemaps overview [/en-US/docs/Games/Techniques/Tilemaps]
+ 11. Debugging the browser
+      1. Browser Console [/en-US/docs/Tools/Browser_Console]
+      2. Browser Toolbox [/en-US/docs/Tools/Browser_Toolbox]
 
- 4. 3D games on the Web
-     1. 3D games on the Web overview [/en-US/docs/Games/Techniques/3D_on_the_web]
-     2. Explaining basic 3D theory [/en-US/docs/Games/Techniques/3D_on_the_web/Basic_theory]
-     3. Building up a basic demo with A-Frame [/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame]
-     4. Building up a basic demo with Babylon.js [/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Babylon.js]
-     5. Building up a basic demo with PlayCanvas [/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas]
-     6. Building up a basic demo with Three.js [/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Three.js]
-     7. WebVR [/en-US/docs/Games/Techniques/3D_on_the_web/WebVR]
-     8. 3D collision detection [/en-US/docs/Games/Techniques/3D_collision_detection]
-     9. Bounding volume collision detection with THREE.js
-        [/en-US/docs/Games/Techniques/3D_collision_detection/Bounding_volume_collision_detection_with_THREE.js]
-
- 5. Implementing game control mechanisms
-     1. Control mechanisms [/en-US/docs/Games/Techniques/Control_mechanisms]
-     2. Mobile touch [/en-US/docs/Games/Techniques/Control_mechanisms/Mobile_touch]
-     3. Desktop with mouse and keyboard [/en-US/docs/Games/Techniques/Control_mechanisms/Desktop_with_mouse_and_keyboard]
-     4. Desktop with gamepad [/en-US/docs/Games/Techniques/Control_mechanisms/Desktop_with_gamepad]
-     5. Other [/en-US/docs/Games/Techniques/Control_mechanisms/Other]
-
- 6. Tutorials
-     1. 2D breakout game using pure JavaScript [/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript]
-     2. 2D breakout game using Phaser [/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser]
-     3. 2D maze_game with device orientation [/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation]
-     4. 2D platform game using Phaser [https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/start-here/]
-
- 7. Publishing games
-     1. Publishing games overview [/en-US/docs/Games/Publishing_games]
-     2. Game distribution [/en-US/docs/Games/Publishing_games/Game_distribution]
-     3. Game promotion [/en-US/docs/Games/Publishing_games/Game_promotion]
-     4. Game monetization [/en-US/docs/Games/Publishing_games/Game_monetization]
+ 12. Extending the devtools [/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools]
+ 13. Settings [/en-US/docs/Tools/Settings]
+ 14. Tips [/en-US/docs/Tools/Tips]
+ 15. Release notes [/en-US/docs/Tools/Release_notes]
 
 /en-US/
  * Web Technologies [/en-US/docs/Web]

@@ -1,28 +1,316 @@
-YOU MUST ENABLE JAVASCRIPT TO USE THIS PAGE.
 
-logo [/resources/images/atom_ani.gif]
-
-
-ACME ANNOTATOR
-
-This page lets you add your own notes to any image on the web. Then you can send the notes URL to other folks so they can read your notes.
-
-It's just like flickr's [https://www.flickr.com/] notes except for any image, not just for flickr photos.
-
-Image URL:
-
-Notes URL:
-
-Tiny URL:
-
-
-
-image [null]
-This image has notes. Move your mouse over the image to see them.
+All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.Serve.html  PreviousAcme.Serve.SampleServlet.html#_top_  NextAcme.Serve.ServeUtils.html#_top_  IndexAllNames.html
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
 
-ACME Labs [/] / Annotator
-email [/mailto/wa.gif] [/mailto/?id=wa]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[/resources/images/atom_ani.gif]
+
+
+CLASS ACME.SERVE.SERVE
+
+
+java.lang.Object
+   |
+   +----Acme.Serve.Serve
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+public class Serve extends Object implements ServletContext [Acme.Serve.servlet.ServletContext.html#_top_] Minimal Java HTTP server class.
+
+This class implements a very small embeddable HTTP server. It runs Servlets compatible with the API used by JavaSoft's JavaServer
+[http://java.sun.com/products/java-server/] server. It comes with default Servlets which provide the usual httpd services, returning files and
+directory listings.
+
+This is not in any sense a competitor for JavaServer. JavaServer is a full-fledged HTTP server and more. Acme.Serve is tiny, about 1500 lines, and
+provides only the functionality necessary to deliver an Applet's .class files and then start up a Servlet talking to the Applet. They are both written
+in Java, they are both web servers, and they both implement the Servlet API; other than that they couldn't be more different.
+
+This is actually the second HTTP server I've written. The other one is called thttpd [http://www.acme.com/software/thttpd/], it's written in C, and is
+also pretty small although much more featureful than this.
+
+Other Java HTTP servers:
+
+ * The above-mentioned JavaServer [http://java.sun.com/products/java-server/].
+ * W3C's Jigsaw [http://www.w3.org/pub/WWW/Jigsaw/].
+ * David Wilkinson's Cascade [http://www.netlink.co.uk/users/cascade/http/].
+ * Yahoo's list of Java web servers [http://www.yahoo.com/Computers_and_Internet/Software/Internet/World_Wide_Web/Servers/Java/].
+
+A June 1997 BYTE magazine article [http://www.byte.com/art/9706/sec8/art1.htm] mentioning this server.
+A December 1997 BYTE magazine article [http://www.byte.com/art/9712/sec6/art7.htm] giving it an Editor's Choice Award of Distinction.
+Fetch the software. [/resources/classes/Acme/Serve/Serve.java]
+Fetch the entire Acme package. [/resources/classes/Acme.tar.gz]
+
+
+
+
+
+See Also: HttpServlet [Acme.Serve.servlet.http.HttpServlet.html#_top_], FileServlet [Acme.Serve.FileServlet.html#_top_], CgiServlet
+[Acme.Serve.CgiServlet.html#_top_]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+VARIABLE INDEX [IMAGES/VARIABLE-INDEX.GIF]
+
+o [images/magenta-ball-small.gif] servlets
+
+
+CONSTRUCTOR INDEX [IMAGES/CONSTRUCTOR-INDEX.GIF]
+
+o [images/yellow-ball-small.gif] Serve() Constructor, default port and log stream. o [images/yellow-ball-small.gif] Serve(int) Constructor, default
+log stream. o [images/yellow-ball-small.gif] Serve(int, PrintStream) Constructor.
+
+
+METHOD INDEX [IMAGES/METHOD-INDEX.GIF]
+
+o [images/red-ball-small.gif] addDefaultServlets(boolean) Register a standard set of Servlets. o [images/red-ball-small.gif]
+addDefaultServlets(boolean, String) Register a standard set of Servlets, with throttles. o [images/red-ball-small.gif] addServlet(String, Servlet)
+Register a Servlet. o [images/red-ball-small.gif] addServlet(String, String) Register a Servlet by class name. o [images/red-ball-small.gif]
+destroyAllServlets() Destroys all currently-loaded servlets. o [images/red-ball-small.gif] getAttribute(String) Returns the value of the named
+attribute of the network service, or null if the attribute does not exist. o [images/red-ball-small.gif] getMimeType(String) Returns the MIME type of
+the specified file. o [images/red-ball-small.gif] getRealPath(String) Applies alias rules to the specified virtual path and returns the corresponding
+real path. o [images/red-ball-small.gif] getServerInfo() Returns the name and version of the web server under which the servlet is running. o
+[images/red-ball-small.gif] getServlet(String) Gets a servlet by name. o [images/red-ball-small.gif] getServletNames() Enumerates the names of the
+servlets in this context (server). o [images/red-ball-small.gif] getServlets() Enumerates the servlets in this context (server). o
+[images/red-ball-small.gif] log(Exception, String) Write a stack trace to the servlet log. o [images/red-ball-small.gif] log(String) Write information
+to the servlet log. o [images/green-ball-small.gif] main(String[]) Main routine, if you want to run this directly as an application. o
+[images/red-ball-small.gif] serve() Run the server.
+
+
+VARIABLES [IMAGES/VARIABLES.GIF]
+
+o [images/magenta-ball.gif] servlets
+
+
+ protected Hashtable servlets
+
+
+
+CONSTRUCTORS [IMAGES/CONSTRUCTORS.GIF]
+
+o [images/yellow-ball.gif] Serve
+
+
+ public Serve(int port,
+              PrintStream logStream)
+
+
+Constructor.
+
+
+
+o [images/yellow-ball.gif] Serve
+
+
+ public Serve(int port)
+
+
+Constructor, default log stream.
+
+
+
+o [images/yellow-ball.gif] Serve
+
+
+ public Serve()
+
+
+Constructor, default port and log stream. We don't use 80 as the default port because we don't want to encourage people to run a Java web server as
+root because Java currently has no way of giving up root privs! Instead, the current default port is 9090.
+
+
+
+
+METHODS [IMAGES/METHODS.GIF]
+
+o [images/green-ball.gif] main
+
+
+ public static void main(String args[])
+
+
+Main routine, if you want to run this directly as an application.
+
+
+
+o [images/red-ball.gif] addServlet
+
+
+ public void addServlet(String urlPat,
+                        String className)
+
+
+Register a Servlet by class name. Registration consists of a URL pattern, which can contain wildcards, and the class name of the Servlet to launch
+when a matching URL comes in. Patterns are checked for matches in the order they were added, and only the first match is run.
+
+
+
+o [images/red-ball.gif] addServlet
+
+
+ public void addServlet(String urlPat,
+                        ServletAcme.Serve.servlet.Servlet.html#_top_ servlet)
+
+
+Register a Servlet. Registration consists of a URL pattern, which can contain wildcards, and the Servlet to launch when a matching URL comes in.
+Patterns are checked for matches in the order they were added, and only the first match is run.
+
+
+
+o [images/red-ball.gif] addDefaultServlets
+
+
+ public void addDefaultServlets(boolean cgi)
+
+
+Register a standard set of Servlets. These will return files or directory listings, and run CGI programs, much like a standard HTTP server.
+
+Because of the pattern checking order, this should be called after you've added any custom Servlets.
+
+The current set of default servlet mappings:
+
+ * If enabled, *.cgi goes to CgiServlet, and gets run as a CGI program.
+ * * goes to FileServlet, and gets served up as a file or directory.
+
+Parameters: cgi - whether to run CGI programs
+
+o [images/red-ball.gif] addDefaultServlets
+
+
+ public void addDefaultServlets(boolean cgi,
+                                String throttles) throws IOException
+
+
+Register a standard set of Servlets, with throttles.
+
+Parameters: cgi - whether to run CGI programs throttles - filename to read FileServlet throttle settings from
+
+o [images/red-ball.gif] serve
+
+
+ public void serve()
+
+
+Run the server. Returns only on errors.
+
+
+
+o [images/red-ball.gif] getServlet
+
+
+ public ServletAcme.Serve.servlet.Servlet.html#_top_ getServlet(String name)
+
+
+Gets a servlet by name.
+
+Parameters: name - the servlet name Returns: null if the servlet does not exist
+
+o [images/red-ball.gif] getServlets
+
+
+ public Enumeration getServlets()
+
+
+Enumerates the servlets in this context (server). Only servlets that are accesible will be returned. This enumeration always includes the servlet
+itself.
+
+
+
+o [images/red-ball.gif] getServletNames
+
+
+ public Enumeration getServletNames()
+
+
+Enumerates the names of the servlets in this context (server). Only servlets that are accesible will be returned. This enumeration always includes the
+servlet itself.
+
+
+
+o [images/red-ball.gif] destroyAllServlets
+
+
+ public void destroyAllServlets()
+
+
+Destroys all currently-loaded servlets.
+
+
+
+o [images/red-ball.gif] log
+
+
+ public void log(String message)
+
+
+Write information to the servlet log.
+
+Parameters: message - the message to log
+
+o [images/red-ball.gif] log
+
+
+ public void log(Exception exception,
+                 String message)
+
+
+Write a stack trace to the servlet log.
+
+Parameters: exception - where to get the stack trace message - the message to log
+
+o [images/red-ball.gif] getRealPath
+
+
+ public String getRealPath(String path)
+
+
+Applies alias rules to the specified virtual path and returns the corresponding real path. It returns null if the translation cannot be performed.
+
+Parameters: path - the path to be translated
+
+o [images/red-ball.gif] getMimeType
+
+
+ public String getMimeType(String file)
+
+
+Returns the MIME type of the specified file.
+
+Parameters: file - file name whose MIME type is required
+
+o [images/red-ball.gif] getServerInfo
+
+
+ public String getServerInfo()
+
+
+Returns the name and version of the web server under which the servlet is running. Same as the CGI variable SERVER_SOFTWARE.
+
+
+
+o [images/red-ball.gif] getAttribute
+
+
+ public Object getAttribute(String name)
+
+
+Returns the value of the named attribute of the network service, or null if the attribute does not exist. This method allows access to additional
+information about the service, not already provided by the other methods in this interface.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.Serve.html  PreviousAcme.Serve.SampleServlet.html#_top_  NextAcme.Serve.ServeUtils.html#_top_  IndexAllNames.html
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ACME Javahttp://www.acme.com/java/  ACME Labshttp://www.acme.com/
+
+[/mailto/wa.gif] [/mailto/?id=wa]

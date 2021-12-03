@@ -1,21 +1,12 @@
-W3 SOFTWARE
+FREQUENTLY ASKED QUESTIONS ON W3
 
-This is a list of products related to the WWW project [TheProject.html] with a link to a status summary of each one. For list of previous milestones,
-releases, etc, see the "Features" list for each product, linked to the wish lists. See also: getting the files [../README.html] . Common Library
-[Library/Status.html] The common code library is the basis for most browers. It contains the network access code and format handling.
+An FAQ list is really a cop-out from managed information. You should be able to find everything you want to know by browsing from the WWW project
+page, as everything should be arranged in a logical way. Here though are things which maybe didn't fit into the structure, with pointers to the
+answers which maybe did. Its an experiment, started May 92. The questioners are anonymous.
+ * I am just starting: how do I find out more? [Bootstrap.html]
+ * How does www keep track of the available servers? [KeepingTrack.html]
+ * How does W3 compare with WAIS and Gopher [WAISandGopher.html] ?
+ * How do I create my own server [Server.html] ?
+ * Can I get W3 documents if I'm not on the internet [NoInternet.html] ?
 
-
-CLIENTS LINE MODE BROWSER [LineMode/Status.html] THIS PROGRAM GIVES W3 READERSHIP TO ANYONE WITH A DUMB TERMINAL. NOT AS FLASHY AS A WINDOWS
-IMPLEMENTATION, IT COVERS A WIDE CLASS OF USERS WHO DO STILL NOT HAVE WINDOW FACILITIES, AND IS A GENERAL PURPOSE INFORMATION RETRIEVAL TOOL. CURSES
-BROWSER [Curses/Status.html] ASSUMES A CHARACTER-GRID TERMINAL WITH CURSOR ADDRESSING, AND PROVIDES A FULL-SCREEN INTERFACE TO THE WEB. MACINTOSH
-BROWSER [Macintosh/Status.html] WWW BROWSER FOR THE MACINTOSH. (PRE-ALPHA.) "ERWISE" [Erwise/Status.html] WWW BROWSER FOR X/MOTIF. (UNSUPPORTED).
-"VIOLAWWW" BROWSER FOR X11 [Viola/Status.html] WWW BROWSER FOR X11. TKWWW BROWSER [TkWWW/Status.html] WWW BROWSER FOR X11. MIDASWWW
-[MidasWWW/Status.html] BROWSER WWW BROWSER FOR X/MOTIF. BROWSER-EDITOR ON THE NEXT [NeXT/Status.html] A BROWSER/EDITOR FOR NEXTSTEP. ALLOWS WYSIWYG
-HYPERTEXT EDITING. BROWSER ON CERNVM [VMClient/Status.html] A W3 BROWSER FOR VM. NONEXISTANT. TOM FINE'S BROWSER [FineWWW/Status.html] A TTY-BASED
-BROWSER WRITTEN IN PERL. (BETA)
-
-
-SERVERS VM SERVER [FIND/Status.html] A SERVER FOR VM MAINFRAMES. GENERIC SERVER [Daemon/Status.html] A SERVER FOR UNIX AND VMS SYSTEMS. A FAST FILE
-SERVER SUITBALE ON-LINE DOCUMENTATION, AND ADAPTABLE TO MANY NEEDS. VMS/HELP GATEWAY [Daemon/VMSGateStatus.html] RUN SON A VMS MACHINE AND ALLOWS WEBC
-LIENT EVEYWHERE TO READ LOCAL VMS/HELP FILES. MAIL ROBOT [MailRobot/Status.html] A SERVER WHICH WILL RETURNS DOCUMENTS BY MAIL, GIVEN A REQUEST SENT
-BY MAIL. ALSO MANAGES MAILING LISTS.
+Tim BL [http://info.cern.ch./hypertext/TBL_Disclaimer.html]

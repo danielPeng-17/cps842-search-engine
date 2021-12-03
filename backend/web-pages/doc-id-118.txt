@@ -1,1 +1,28 @@
-Mail Filtering - Introduction
+YOU MUST ENABLE JAVASCRIPT TO USE THIS PAGE.
+
+logo [/resources/images/atom_ani.gif]
+
+
+ACME ANNOTATOR
+
+This page lets you add your own notes to any image on the web. Then you can send the notes URL to other folks so they can read your notes.
+
+It's just like flickr's [https://www.flickr.com/] notes except for any image, not just for flickr photos.
+
+Image URL:
+
+Notes URL:
+
+Tiny URL:
+
+
+
+image [null]
+This image has notes. Move your mouse over the image to see them.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+ACME Labs [/] / Annotator
+email [/mailto/wa.gif] [/mailto/?id=wa]

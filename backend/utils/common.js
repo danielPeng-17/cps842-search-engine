@@ -4,11 +4,13 @@ const _ = require('lodash');
 
 const generateMap = (file) => {
     let g_map = new Map();
-    let lines = fs.readFileSync(file, 'utf-8').split('\r\n');
+    let lines = fs.readFileSync(file, 'utf-8').split('\n');
 
     lines.forEach(line => {
-        const data = line.split(' ');
-        g_map.set(data[0], data.slice(1).join(' '));
+        if (line !== '') {
+            const data = line.split(' ');
+            g_map.set(data[0], data.slice(1).join(' ').trim());
+        }
     });
     return g_map;
 };
@@ -40,16 +42,29 @@ const sortObjectByValue = (obj, reverse=false) => {
     return sorted;
 } 
 
+const parser = (text) => {
+    //replace the text in between square brackets which are hyperlinks
+    let newText = text.replace(/\[[^\]]*]/g," ");
+    let letterText = newText.replace(/[^a-zA-Z]+/g," ");
+    return letterText;
+};
+
+const removeStopWord = (text, stopWords) => {
+    let output = [];
+    let words = text.split(' ');
+
+    for (let word of words) {
+        if (!stopWords.includes(word)) {
+            output.push(word);
+        }
+    }
+    return output.join(' ');
+}
+
 module.exports = {
     generateMap,
     stemText,
-    sortObjectByValue
+    sortObjectByValue,
+    parser,
+    removeStopWord
 }
-// let p = {
-//     8: 0.9774460398774676,
-//     10: 0.21118531939473467,
-//     11: 0.9774460398774676,
-//     12: 0.21118531939473467,
-//     13: 0.21118531939473467
-//   }
-// console.log(sortObjectByValue(p, true));

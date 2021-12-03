@@ -1,10 +1,11 @@
 const express = require('express');
+const fs = require('fs');
 const bodyParser = require('body-parser');
 const crawl = require('./utils/crawl');
-const fs = require('fs');
 const invert = require('./utils/invert');
 const common = require('./utils/common');
 const cosine = require('./utils/cosine-similarity');
+const constants = require('./constants/constants');
 
 const app = express();
 
@@ -23,24 +24,21 @@ app.get('/crawl_pages', async (req, res) => {
 app.get('/', (req, res) => {
     // const query = req.query.search;
     // console.log(query);
-    const tempQuery = 'abandon hello cool abbrevi having saving eating';
+    let tempQuery = 'double-click on the WorldWideWeb icon';
+    // let stopWords = fs.readFileSync('./files/stopword.txt').toString().split('\r\n');
+    // tempQuery = common.stemText(common.removeStopWord(common.parser(tempQuery), stopWords));
     let postingList = {}
     let dictionaryList = {}
 
-    // TODO: HELPER FUNCTION -> build inverted index and dictionary
-    // NOTE: for inverted index, DO NOT include position
-    // NOTE: apply stemming and stop word here
-    // console.log(invert.invert("string.txt",false,false))
-
-    if (!fs.existsSync('./files/test-posting.txt') || !fs.existsSync('./files/test-dictionary.txt')) {
+    if (!fs.existsSync('./files/postings.txt') || !fs.existsSync('./files/dictionary.txt')) {
         // call invert to generate posting list and dictionary
-        
+        // invert.invert(constants.STOP_WORD, constants.STEMMING);
     }
-    // postingList = common.generateMap('./files/test-posting.txt');
-    // dictionaryList = common.generateMap('./files/test-dictionary.txt');
+    // postingList = common.generateMap('./files/postings.txt');
+    // dictionaryList = common.generateMap('./files/dictionary.txt');
     
-    // const cosineScore = cosine.getCosineSimilarityScore(query, postingList, dictionaryList);
-    
+    // const cosineScore = cosine.getCosineSimilarityScore(tempQuery, postingList, dictionaryList);
+    // console.log(cosineScore);
     // TODO: HELPER FUNCTION -> compute pageRank score
 
     // TODO: combine cos-score and pageRank score into score(d, q) = w1*cos-score(d, q) + w2*pagerank(d) where w1+w2=1

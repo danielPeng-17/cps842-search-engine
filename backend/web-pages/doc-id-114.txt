@@ -1,12 +1,29 @@
-LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] DE-UNICODE
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Type or paste some text into the box, get de-coded versions.
+[/resources/images/atom_ani.gif]
+
+[/resources/gamelan_best.jpg] [http://java.developer.com/]
+
+PHOON - SHOW THE CURRENT PHASE OF THE MOON
+
+Shows the moon in its current phase, including the partial lighting of the dark side by reflected earthlight. A Java version of xphoon
+[http://www.acme.com/software/xphoon/], which is itself an X version of phoon [http://www.acme.com/software/phoon/].
 
 
 
-Code points: HTML entities (decimal): HTML entities (hex): code string: UTF-8 code string:
+Phoon.java [/resources/classes/Phoon.java]
+See also: Acme.Phase [Acme.Phase.html], Acme.JPM.Filters.RGBBlockFilter [Acme.JPM.Filters.RGBBlockFilter.html].
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [/] / Unicode [./] / Transformations
-email [/mailto/j.gif] [/mailto/?id=j]
+[/resources/jars25s.gif] [http://www.jars.com/], March 1996
+The Gateway 2000 Moon Calendar [http://www.gw2k.com/cool/moon/mooncal.htm]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Back to software [http://www.acme.com/java/software/].
+Back to ACME Java [http://www.acme.com/java/].
+Back to ACME Labs [http://www.acme.com/].
+
+
+[/mailto/wa.gif] [/mailto/?id=wa]

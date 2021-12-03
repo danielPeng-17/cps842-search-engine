@@ -1,34 +1,47 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-logo [logo.jpg]
+atom [/resources/images/atom_ani.gif]
 
 
-ACME CHUMAKER
+LABELMAKER [LABELMAKER.GIF]
 
-Make a custom Frank Chu protest sign!
+Make a label!
 
-Any lines you leave blank will be filled in with automatically-generated Chuglish.
+Font: AardvarkCafe AdvertisersGothic Alien Apple2 BabyBlock Bamboo Bertinelli Betsy Bones BreadClip Calvin CandyBits ComicSans ComicSerif Courier
+Crackman CrystalRadio Currency Cyberia DanceStep Data70 Densmore Diablo DieNasty DirtyDozen DotMatrix Dyno Fedora Fillmore Fridge Gawain Gilligan
+Godzilla GothamNights Graffiti Grinched Gubblebum HeavyHeap Helvetica HenryIII HotDog LadyStarlight LokiCola MUNIficent Mad Manuscript NASAL NeoGeo
+Neurotoxin Nihon OCR-A Octopuss Pill PinyonScript Pyrite Raceway RansomNote RenStimpy Romaneste Samarkan Signature Squealer Teletype Timepiece Times
+Tolkien Transistor TrekClassic Typewriter Voynich Willow Yahoo YellowSub Zeppelin Text color: white gray black red green blue cyan magenta yellow
+orange gold limegreen seagreen ACMEgreen turquoise maroon firebrick violet purple lavender hotpink salmon coral chocolate sienna tan darkred darkgreen
+darkblue Background: white gray black red green blue cyan magenta yellow orange gold limegreen seagreen ACMEgreen turquoise maroon firebrick violet
+purple lavender hotpink salmon coral chocolate sienna tan darkred darkgreen darkblue Transparent Shadow Filters: none flip-lr flip-tb slant smooth
+shrink enlarge edge spread shift tv frame none flip-lr flip-tb slant smooth shrink enlarge edge spread shift tv frame none flip-lr flip-tb slant
+smooth shrink enlarge edge spread shift tv frame none flip-lr flip-tb slant smooth shrink enlarge edge spread shift tv frame none flip-lr flip-tb
+slant smooth shrink enlarge edge spread shift tv frame
 
+Note: some of the fonts are not very complete, generally just letters and numbers. Any characters not in the font will just get skipped. Most of these
+fonts were adapted from IconBAZAAR [http://www.iconbazaar.com/], 007Fonts [http://www.007fonts.com/], Fonts NOW [http://members.xoom.com/fonts_now/],
+Fonts Empire [http://www.fontempire.com/], CoolArchive [http://www.coolarchive.com/fonts.cfm], and Famous Fonts
+[http://www.eliteentertainment.net/famousfonts/].
 
+samples [samples.gif] [samples/] recent labels [recent_labels.gif] [labels.cgi]
 
-Recent signs. [signs.cgi]
-
-If you use signs from here on your web page (which is the whole point of the ChuMaker!), how about putting up a credit link back to here? Not a
+If you use labels from here on your web page (which is the whole point of the Label Maker!), how about putting up a credit link back to here? Not a
 requirement, just something nice you could do if you feel like it and there's room on your page. Something like:
 
-Sign by ACME ChuMaker [http://acme.com/chumaker/].
+Labels by ACME Label Maker [http://www.acme.com/labelmaker/].
 
 For which the HTML code is:
 
-<font size="-1">Sign by <a href="http://acme.com/chumaker/">ACME ChuMaker</a>.</font>
+<font size="-1">Labels by <a href="http://www.acme.com/labelmaker/">ACME Label Maker</a>.</font>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer] Who is Frank Chu?
-[http://en.wikipedia.org/wiki/Frank_Chu]
-The ACME Label Maker [http://acme.com/labelmaker/], License Maker [http://acme.com/licensemaker/], and Heart Maker [http://acme.com/heartmaker/].
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+The ACME License Maker [http://acme.com/licensemaker/], Heart Maker [http://acme.com/heartmaker/], and ChuMaker [http://acme.com/chumaker/].
 Ryland Sanders' Church Sign Generator [http://www.churchsigngenerator.com/].
 Tombstone Generator [http://tombstone.dogcrap.net/create.php].
 Windows Error Generator [http://atom.smasher.org/error/].
-ACME Labs [../] / ChuMaker
+Back to ACME Labs [http://www.acme.com/].
 email [/mailto/wa.gif] [/mailto/?id=wa]

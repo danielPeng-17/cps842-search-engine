@@ -1,14 +1,18 @@
-Technical Aspects of the World-Wide Web
+Distribution -- /LineMode
 
 
-TECHNICAL DETAILS
+GETTING THE WWW FILES
 
-(See also: W3 project [TheProject.html] ) How to provide data [Provider/Overview.html] How can I make my own data available on the web? Protocols
-[Protocols/RelevantProtocols.html] A description of the network protocols used. HTML format [MarkUp/MarkUp.html] A description of the mark-up language
-used for some documents and for search hit-lists. Addressing [Addressing/Addressing.html] The syntax of W3 document addresses. Design Issues
-[DesignIssues/Overview.html] Discussions of decisions to be made when designing or selecting a hypertext/IR system. See also related products
-[RelatedProducts.html] . Working notes [WorkingNotes/Overview.html] Work in progress at the drawing board. Data sources [../DataSources/ByAccess.html]
-Sources of data on the web itself, including W3 servers [../DataSources/WWW/Servers.html]. News [Newsgroups.html] Some internet/usenet newsgroups of
-possible interest to the WorldWideWeb project. Notation [Notation.html] Explanation of notation used in formal descriptions. Implementation guidelines
-[DesignIssues/DosDonts.html] Rules to be followed by implementers. Coding standards [Project/Coding.html] A basic style guide for W3 code
-contributors. If you write code, read this!
+Read this if you have not yet got the WWW files you need, and you cannot NFS mount a directory on which they reside.
+
+The source and binary of WWW project files are currently available (see copyright [http://info.cern.ch/hypertext/Copyright.html] ) by anonymous FTP
+from node info.cern.ch. This node is currently 128.141.201.74 but THIS MAY CHANGE. The files are compressed tape archive files (.tar.Z). To get a file
+using anonymous FTP, use user name "anonymous", and your email address as a password:- > ftp info.cern.ch Enter user name: anonymous Password:
+me@myhost.edu ftp> cd /pub/www/src ftp> binary ftp> get WWWLineMode_vvv.tar.Z ftp> quit > The file name will depend on the product you want. Here vvv
+is the version number of the software.
+
+Once you have the compressed tar file, you must uncompress it and unwrap it. uncompress WWWLineMode_vvv.tar.Z This will make a rather larger file with
+the name without the ".Z". To unwrap it, tar xvf WWWLineMode_vvv.tar Now you should install the line mode browser [Installation.html] , install the
+server [../../Daemon/User/Guide.html] , install Viola [../../../Viola/Installation.html] , etc.
+
+Tim BL [http://info.cern.ch/hypertext/TBL_Disclaimer.html]

@@ -1,60 +1,395 @@
-YOU MUST ENABLE JAVASCRIPT TO USE THIS PAGE.
+
+All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.html  PreviousAcme.FlexVector.html#_top_  NextAcme.GenericCloneable.html#_top_  IndexAllNames.html
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-logo [/resources/images/atom_ani.gif]
+[/resources/images/atom_ani.gif]
 
 
-ACME CHARTMAKER
-
-Google has a graph-making facility called Google Chart [http://code.google.com/apis/chart/]. The graphs are very nice but the API is not intended for
-direct use by humans. This page is a front-end that lets you access Google Chart via a nicer point & click interface.
-
-The graph updates itself automatically as you change the settings and data. Once you have your graph set up, you can copy the URL at the bottom into
-your own page and get the same graph there - or just save the image file.
-
-Title: Chart type: Line Graph Bar Chart Pie Chart Venn Diagram Scatter Plot Vertical Horizontal Stacked Groups Flat 3-D Width: Height:
-Background color:
-
-Chart color:
-
-Grid:   - | + Marks Data set 1:
+CLASS ACME.FMT
 
 
+java.lang.Object
+   |
+   +----Acme.Fmt
 
-Data set 2:
-
-Data set 3:
-
-Data set 4:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-chart [/resources/images/transpixel.gif]
-
-URL: TinyURL:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+public class Fmt extends Object Some simple single-arg sprintf-like routines.
 
-ACME Labs [/] / Chartmaker
-email [/mailto/wa.gif] [/mailto/?id=wa]
+It is apparently impossible to declare a Java method that accepts variable numbers of any type of argument. You can declare it to take Objects, but
+numeric variables and constants are not in fact Objects.
+
+However, using the built-in string concatenation, it's almost as convenient to make a series of single-argument formatting routines.
+
+Fmt can format the following types:
+
+> byte short int long float double char String Object
+
+For each type there is a set of overloaded methods, each returning a formatted String. There's the plain formatting version:
+
+>  Fmt.fmt( x )
+>  
+
+There's a version specifying a minimum field width:
+
+>  Fmt.fmt( x, minWidth )
+>  
+
+And there's a version that takes flags:
+
+>  Fmt.fmt( x, minWidth, flags )
+>  
+
+Currently available flags are:
+
+>  Fmt.ZF - zero-fill
+>  Fmt.LJ - left justify
+>  Fmt.HX - hexadecimal
+>  Fmt.OC - octal
+>  
+
+The HX and OC flags imply unsigned output.
+
+For doubles and floats, there's a significant-figures parameter before the flags:
+
+>  Fmt.fmt( d )
+>  Fmt.fmt( d, minWidth )
+>  Fmt.fmt( d, minWidth, sigFigs )
+>  Fmt.fmt( d, minWidth, sigFigs, flags )
+>  
+
+Fetch the software. [/resources/classes/Acme/Fmt.java]
+Fetch the entire Acme package. [/resources/classes/Acme.tar.gz]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Similar classes:
+ * Andrew Scherpbier's FormatString [http://www.sdsu.edu/doc/java-SDSU/sdsu.FormatString.html] Tries to allow variable numbers of arguments by
+   supplying overloaded routines with different combinations of parameters, but doesn't actually supply that many. The floating point conversion is
+   described as "very incomplete".
+ * Core Java's Format [http://www.apl.jhu.edu/~hall/java/CoreJava-Format.html]. The design seems a little weird. They want you to create an instance,
+   passing the format string to the constructor, and then call an instance method with your data to do the actual formatting. The extra steps are
+   pointless; better to just use static methods.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+VARIABLE INDEX [IMAGES/VARIABLE-INDEX.GIF]
+
+o [images/blue-ball-small.gif] HX Hexadecimal. o [images/blue-ball-small.gif] LJ Left justify. o [images/blue-ball-small.gif] OC Octal. o
+[images/blue-ball-small.gif] ZF Zero-fill.
+
+
+CONSTRUCTOR INDEX [IMAGES/CONSTRUCTOR-INDEX.GIF]
+
+o [images/yellow-ball-small.gif] Fmt()
+
+
+METHOD INDEX [IMAGES/METHOD-INDEX.GIF]
+
+o [images/green-ball-small.gif] doubleToString(double) Improved version of Double.toString(), returns more decimal places. Deprecated. o
+[images/green-ball-small.gif] fmt(byte) o [images/green-ball-small.gif] fmt(byte, int) o [images/green-ball-small.gif] fmt(byte, int, int) o
+[images/green-ball-small.gif] fmt(char) o [images/green-ball-small.gif] fmt(char, int) o [images/green-ball-small.gif] fmt(char, int, int) o
+[images/green-ball-small.gif] fmt(double) o [images/green-ball-small.gif] fmt(double, int) o [images/green-ball-small.gif] fmt(double, int, int) o
+[images/green-ball-small.gif] fmt(double, int, int, int) o [images/green-ball-small.gif] fmt(float) o [images/green-ball-small.gif] fmt(float, int) o
+[images/green-ball-small.gif] fmt(float, int, int) o [images/green-ball-small.gif] fmt(float, int, int, int) o [images/green-ball-small.gif] fmt(int)
+o [images/green-ball-small.gif] fmt(int, int) o [images/green-ball-small.gif] fmt(int, int, int) o [images/green-ball-small.gif] fmt(long) o
+[images/green-ball-small.gif] fmt(long, int) o [images/green-ball-small.gif] fmt(long, int, int) o [images/green-ball-small.gif] fmt(Object) o
+[images/green-ball-small.gif] fmt(Object, int) o [images/green-ball-small.gif] fmt(Object, int, int) o [images/green-ball-small.gif] fmt(short) o
+[images/green-ball-small.gif] fmt(short, int) o [images/green-ball-small.gif] fmt(short, int, int) o [images/green-ball-small.gif] fmt(String) o
+[images/green-ball-small.gif] fmt(String, int) o [images/green-ball-small.gif] fmt(String, int, int)
+
+
+VARIABLES [IMAGES/VARIABLES.GIF]
+
+o [images/blue-ball.gif] ZF
+
+
+ public static final int ZF
+
+
+Zero-fill.
+
+
+
+o [images/blue-ball.gif] LJ
+
+
+ public static final int LJ
+
+
+Left justify.
+
+
+
+o [images/blue-ball.gif] HX
+
+
+ public static final int HX
+
+
+Hexadecimal.
+
+
+
+o [images/blue-ball.gif] OC
+
+
+ public static final int OC
+
+
+Octal.
+
+
+
+
+CONSTRUCTORS [IMAGES/CONSTRUCTORS.GIF]
+
+o [images/yellow-ball.gif] Fmt
+
+
+ public Fmt()
+
+
+
+METHODS [IMAGES/METHODS.GIF]
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(byte b)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(byte b,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(byte b,
+                          int minWidth,
+                          int flags)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(short s)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(short s,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(short s,
+                          int minWidth,
+                          int flags)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(int i)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(int i,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(int i,
+                          int minWidth,
+                          int flags)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(long l)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(long l,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(long l,
+                          int minWidth,
+                          int flags)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(float f)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(float f,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(float f,
+                          int minWidth,
+                          int sigFigs)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(float f,
+                          int minWidth,
+                          int sigFigs,
+                          int flags)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(double d)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(double d,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(double d,
+                          int minWidth,
+                          int sigFigs)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(double d,
+                          int minWidth,
+                          int sigFigs,
+                          int flags)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(char c)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(char c,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(char c,
+                          int minWidth,
+                          int flags)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(Object o)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(Object o,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(Object o,
+                          int minWidth,
+                          int flags)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(String s)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(String s,
+                          int minWidth)
+
+
+o [images/green-ball.gif] fmt
+
+
+ public static String fmt(String s,
+                          int minWidth,
+                          int flags)
+
+
+o [images/green-ball.gif] doubleToString
+
+
+ public static String doubleToString(double d)
+
+
+Note: doubleToString() is deprecated.
+
+Improved version of Double.toString(), returns more decimal places.
+
+The JDK 1.0.2 version of Double.toString() returns only six decimal places on some systems. In JDK 1.1 full precision is returned on all platforms.
+
+See Also: toString
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.html  PreviousAcme.FlexVector.html#_top_  NextAcme.GenericCloneable.html#_top_  IndexAllNames.html
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ACME Javahttp://www.acme.com/java/  ACME Labshttp://www.acme.com/
+
+[/mailto/wa.gif] [/mailto/?id=wa]

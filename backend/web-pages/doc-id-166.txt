@@ -70,13 +70,13 @@ Tasks Description Skillset required Fixing MDN content bugs [/en-US/docs/MDN/Con
 older sprints repo [https://github.com/mdn/sprints/], but we'll be closing it down eventually). We get a lot of content bugs, and any help you can
 give in fixing them would be much appreciated.
  * Knowledge of the web technologies you choose to help with (e.g. JavaScript, CSS).
- * A reasonable understanding of the English language (don't worry if your English is not perfect; we can help you with it). 
+ * A reasonable understanding of the English language (don't worry if your English is not perfect; we can help you with it).
 
 Reviewing MDN edits [https://github.com/mdn/content/blob/main/REVIEWING.md] People submit pull requests on our content repo
 [https://github.com/mdn/content] all the time to update MDN content, and we need help reviewing them. Head over to our REVIEWING.md
 [https://github.com/mdn/content/blob/main/REVIEWING.md] page to find out how the reviewing process works, and how you can get involved.
  * Knowledge of the web technologies you choose to help with (e.g. JavaScript, CSS).
- * A reasonable understanding of the English language (don't worry if your English is not perfect; we can help you with it). 
+ * A reasonable understanding of the English language (don't worry if your English is not perfect; we can help you with it).
 
 Help beginners to learn on MDN [/en-US/docs/MDN/Contribute/Help_beginners] Our Learn web development [/en-US/docs/Learn] pages get over a million
 views per month and have active forums [https://discourse.mozilla.org/c/mdn/learn/250] where people go to ask for general help, or request that their
@@ -172,10 +172,10 @@ FOUND A PROBLEM WITH THIS PAGE?
  * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/mdn/contribute/index.md]
  * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/mdn/contribute/index.md]
  * Report a problem with this content on GitHub
-   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FContribute%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fmdn%2Fcontribute%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FContribute%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fmdn%2Fcontribute%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F32f6335487194aa8c3a9fb5c90eeba5e95be6224%0A*+Document+last+modified%3A+2021-10-15T15%3A32%3A38.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Contributing+to+MDN%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AOther]
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FContribute%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fmdn%2Fcontribute%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FContribute%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fmdn%2Fcontribute%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F0f1f6f74804725f379465c09f698b88611292c90%0A*+Document+last+modified%3A+2021-12-01T06%3A01%3A14.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Contributing+to+MDN%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AOther]
  * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
 
-Last modified: Oct 15, 2021, by MDN contributors [/en-US/docs/MDN/Contribute/contributors.txt]
+Last modified: Dec 1, 2021, by MDN contributors [/en-US/docs/MDN/Contribute/contributors.txt]
 
 Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
 language

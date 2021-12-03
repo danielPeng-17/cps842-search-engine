@@ -102,7 +102,8 @@ questions [/en-US/docs/Learn/Common_questions] section may have something to hel
 
 Random glossary entry
 
-Pixel [/en-US/docs/Glossary/Pixel] A pixel is the smallest building block of a graphical display like a computer screen.
+OWASP [/en-US/docs/Glossary/OWASP] OWASP (Open Web Application Security Project) is a non-profit organization and worldwide network that works for
+security in Free Software, especially on the Web.
 
 
 TOPICS COVERED

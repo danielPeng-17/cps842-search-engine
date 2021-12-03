@@ -1,26 +1,60 @@
-[/resources/images/atom_ani.gif]
+YOU MUST ENABLE JAVASCRIPT TO USE THIS PAGE.
 
 
-WHAT DOES ACME MEAN?
-
-We get this question a lot, here at ACME Labs.
-
- * The dictionary definition is: "the top", or "the highest point", or just "perfection". This is straight from Greek. (Greek mythology also includes
-   a nymph named Acme [acme_nymph.html].)
- * Apparently some early business school textbooks liked to use Acme as a business name in some of their examples.
- * There's a story that the business school use is an acronym, standing for "A Company Manufacturing Everything". This is probably false etymology.
- * Sears-Roebuck used Acme as one of their in-house brand names in the early 1900s, just like they use "Craftsman" today. For instance, take a look at
-   this ad for an Acme anvil [/calendar/images/anvil_ad.gif] from the 1902 Sears catalog.
- * Warner Brothers apparently took the name from Sears and used it for the mail-order company in the Wile E. Coyote
-   [/calendar/images/coyote-harpoon.jpg] cartoons.
-
-Other pages of interest to the student of ACME:
-
- * Other ACMEs on the Web [http://www.acme.com/other_acmes.html]
- * The ACME Calendar [http://www.acme.com/calendar/]
- * The Illustrated Catalog of ACME Products [http://home.nc.rr.com/tuco/looney/acme/acme.html]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Back to ACME Labs. [../]
-[/mailto/wa.gif] [/mailto/?id=wa]
+logo [/resources/images/atom_ani.gif]
+
+
+ACME CHARTMAKER
+
+Google has a graph-making facility called Google Chart [http://code.google.com/apis/chart/]. The graphs are very nice but the API is not intended for
+direct use by humans. This page is a front-end that lets you access Google Chart via a nicer point & click interface.
+
+The graph updates itself automatically as you change the settings and data. Once you have your graph set up, you can copy the URL at the bottom into
+your own page and get the same graph there - or just save the image file.
+
+Title: Chart type: Line Graph Bar Chart Pie Chart Venn Diagram Scatter Plot Vertical Horizontal Stacked Groups Flat 3-D Width: Height:
+Background color:
+
+Chart color:
+
+Grid:   - | + Marks Data set 1:
+
+
+
+Data set 2:
+
+Data set 3:
+
+Data set 4:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chart [/resources/images/transpixel.gif]
+
+URL: TinyURL:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
+
+ACME Labs [/] / Chartmaker
+email [/mailto/wa.gif] [/mailto/?id=wa]

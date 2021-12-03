@@ -1,45 +1,12 @@
-anvil [../../resources/anvil.gif]
+LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] DE-UNICODE
+
+Type or paste some text into the box, get de-coded versions.
 
 
-GLOBE - SHOW AN ASCII GRAPHIC OF THE CURRENTLY-LIGHTED FACE OF THE EARTH
 
-Fetch the software. [globe_14Aug2014.tar.gz]
-
-A cute ASCII graphic hack. The pictures were converted from 256x256 bitmaps using pbmtoascii [../pbmplus/]. The bitmaps originally came from Sun. The
-wrapper program took 20 minutes to write, including documentation.
-
-Sample output (HTMLized via texttohtml [../texttohtml/]):
-
-
-             ._od#HMMMMHMR&M##-_
-          _/dMMMMMMMM[:$MMb\:"|""^~_
-       .~'' |MMMMMMMMMMHMMMMH&\    `"\.
-     ./'   .HMMMMMMMMMMMMMMP*'"'      "\.
-    /'     |MMMMMMMMMMMMMM'             *?
-   /        HMMMMMMMMHHM?                !b
-  |         `6HMMM|    T|+.              `9H
- /|          ` HMM?_dH`""&$bo__           `Mb
-|               ``"*HH#|       \           TM|
-|                    `*bo\#MMH##_          `HH
-}                       ']MMMMMMMH#\        `H
-|                   .   dMMMMMMMMMMMo\       |
-|                       MMMMMMMMMMMMMMMH,    |
-|                       `HMMMMMMMMMMMMMH'    |
-|                        `*MMMMMMMMMMMM'    .|
- \                          MMMMMMMMMM'     /
- `|                        |MMMMMMM?"'     |
-  `\                       MMMMMMH'       /
-    \.                    HMMM#?'       ,/
-     `\.                 ?MM*'        ./'
-       `~\               MM?..  .   ,/'
-          "-\_            _o.   _.-"
-              "-\-vod#od#M:o-~-"
-    
+Code points: HTML entities (decimal): HTML entities (hex): code string: UTF-8 code string:
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer]
-
-See also: bigcal [../bigcal/], phoon [../phoon/].
-ACME Labs [http://www.acme.com/] / Software [http://www.acme.com/software/] / globe
-email [/mailto/wa.gif] [/mailto/?id=wa]
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [/] / Unicode [./] / Transformations
+email [/mailto/j.gif] [/mailto/?id=j]

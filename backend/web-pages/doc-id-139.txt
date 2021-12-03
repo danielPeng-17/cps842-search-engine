@@ -1,46 +1,37 @@
-anvil [../../resources/anvil.gif]
+YOU MUST ENABLE JAVASCRIPT TO USE THIS PAGE.
 
 
-PHOON - SHOW THE PHASE OF THE MOON
-
-Fetch the software. [phoon_14Aug2014.tar.gz]
-
-Phoon displays the phase of the moon, either currently or at a specified date / time. Unlike other such programs, which just tell you how long since
-first quarter or something like that, phoon shows you the phase with a cute little picture. You can vary the size of the picture with the -l flag, but
-only some sizes have pictures defined - other sizes use @'s.
-
-Sample output (HTMLized via texttohtml [../texttohtml/]):
-
-
-                 .--
-             .--
-          .-'
-       .-'@ 
-      /@@@
-    ./   
-   /@@  
-  /@@@@ 
-  |@@@@
- /@@@@@	 Last Quarter + 
- | @@@@	 4  5:25:02
- |@ @@	 New Moon -     
- |     	 2 13:49:36
- \  . @
-  |    
-  \     
-   \  o 
-    `\   
-      \   
-       `-.  
-          `-.
-             `--
-                 `--
-    
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer]
+atom [/resources/images/atom_ani.gif]
 
-See also: bigcal [../bigcal/], globe [../globe/], xphoon [../xphoon/].
-ACME Labs [http://www.acme.com/] / Software [http://www.acme.com/software/] / phoon
+
+ 
+
+
+AN ACME GEORSS MAP
+
+
+
+
+
+calendar [calendar.gif]
+
+Earliest date:
+
+Latest date: Today Past Week Past Month Past Year All Custom Date Range
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer]  
+ 
+ 
+Map courtesy of the Google Maps API [http://www.google.com/apis/maps/] and the Yahoo! Maps Simple API [http://developer.yahoo.net/maps/simple/].
+About ACME GeoRSS Maps. [about.html]
+ACME Laboratories [../]
 email [/mailto/wa.gif] [/mailto/?id=wa]

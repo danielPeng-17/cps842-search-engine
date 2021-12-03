@@ -67,9 +67,8 @@ const getCosineSimilarityScore = (query, postingList, dictionaryList) => {
     const dictionaryTerms = [...dictionaryList.keys()];
     const dictionaryTermsSet = new Set(dictionaryTerms);
     const numDocuments = fs.readdirSync('./web-pages').length - 1;
-    const stemmedQuery = common.stemText(query)
-    const queryTerms = stemmedQuery.split(' ');
-    console.log(stemmedQuery);
+    const queryTerms = query.split(' ');
+    console.log(queryTerms);
     const queryMap = new Map();
     for (let i in  queryTerms) {
         queryMap.set(queryTerms[i], (queryMap.get(queryTerms[i]) ?? 0) + 1);
@@ -77,7 +76,6 @@ const getCosineSimilarityScore = (query, postingList, dictionaryList) => {
     
     const querySet = new Set(queryTerms);
     let distinctTerms = new Set([...querySet].filter(x => !dictionaryTermsSet.has(x)));
-    console.log(distinctTerms);
     for (let term of distinctTerms) {
         postingList.set(term, '-1 0');
     }
@@ -127,4 +125,3 @@ const getCosineSimilarityScore = (query, postingList, dictionaryList) => {
 module.exports = {
     getCosineSimilarityScore
 }
-

@@ -1,137 +1,42 @@
-People involved in the WorldWideWeb project
+Overview -- /Daemon
 
 
-WWW PEOPLE
+W3 SERVER SOFTWARE
 
-This is a list of some of those who have contributed to the WWW project [TheProject.html] , and whose work is linked into this web. Unless otherwise
-stated they are at CERN, Phone +41(22)767 plus the extension given below or look them up in the phone book [http://crnvmc.cern.ch./WHO] . Address:
-1211 Geneva 23, Switzerland. See also: Wizards at SLAC [http://slacvm.slac.stanford.edu:80/FIND/wizards.html] .
+A W3 [../TheProject.html] server, like the ftp daemon [../Terms.html#daemon] , is a program which responds to an incoming tcp connection and provides
+a service to the caller.There are many varieties of W3 server software to serve different forms of data.
 
 
-EELCO VAN ASPEREN
+THE BASIC DAEMON
 
-Ported the line-mode browser the PC under PC-NFS; developed a curses version. Email: evas@cs.few.eur.nl.
+The basic W3 daemon program serves files already in hypertext or plain text. This daemon then is used as a basis for many other types of server and
+gateway. Documentation includes:
+ * User guide [User/Guide.html] .
+ * Internals [Basic.html] -- a description of the code.
 
+Much of the above may also apply in whole or part to other servers mentioned below. Whatever server you are running, you will probably be interested
+in:
+ * Tools for information providers [../Tools/Overview.html]
 
-CARL BARKER
 
-Carl is at CERN for a six month period during his degree course at Brunel University, UK. Carl will be working on the server side, possibly on client
-authentication. Tel: 8265. Email: barker@cernnext.cern.ch
+MAKING A NEW SERVER
 
+This daemon is often used as a basis for a more specific server for a given application. A server which allows a world of data to be seen as part of
+the W3 universe is known as a gateway. (Most servers could therefore be regarded as gateways, but the term implies some conversion or mapping between
+dissimilar worlds) . For short tutorials with examples, see:
+ * Writing a server in C [JanetAndJohn.html]
+ * Writing a server as a script [../Provider/ShellScript.html]
 
-TIM BERNERS-LEE
+It is a good idea to pick the basic daemon or one of the servers below as a starting point when making a new server.
 
-Currently in CN division. Before comming to CERN, Tim worked on, among other things, document production and text processing. He developped his first
-hypertext system, "Enquire", in 1980 for his own use (although unaware of the existence of the term HyperText). With a background in text processing,
-real-time software and communications, Tim decided that high energy physics needed a networked hypertext system and CERN was an ideal site for the
-development of wide-area hypertext ideas. Tim started the WorldWideWeb [TheProject.html] project at CERN in 1989. He wrote the application on the NeXT
-[NeXT/WorldWideWeb.html] along with most of the communications software. Phone: 3755, Email: timbl@info.cern.ch
 
+OTHER SERVERS AND GATEWAYS
 
-ROBERT CAILLIAU
-
-Formerly in programming language design and compiler construction, Robert has been interested in document production since 1975, when he designed and
-implemented a widely used document markup and formatting system. He ran CERN's Office Computing Systems group from 87 to 89. He is a long-time user of
-Hypercard, which he used to such diverse ends as writing trip reports, games, bookkeeping software, and budget preparation forms. When he is not doing
-WWW's public relations, Robert is contributing browser software for the Macintosh platform, and analysing the needs of physics experiments for online
-data access. Phone: +41 (22) 767 50 05, Email: cailliau@cernnext.cern.ch
-
-
-DAN CONNOLLY
-
-An early follower of the project, Dan wrote a private X-Windows editor for his company, and encouraged the use of proper SGML and MIME in the future.
-He wrote a DTD for HTML [MarkUp/HTML.dtd] and an HTML legalizer [Tools/HTMLGeneration/fix-html.pl] for old files. Email: connolly@pixel.convex.com.
-
-
-PETER DOBBERSTEIN
-
-While at the DESY lab in Hamburg (DE), Peter did the port of the line-mode browser onto MVS and, indirectly, VM/CMS. These were the most difficult of
-the ports to date. He also overcame many incidental problems in making a large amount of information in the DESY database
-[http://crnvmc.cern.ch/FIND/DESY?] available.
-
-
-"ERWISE" TEAM
-
-Kim Nyberg, Teemu Rantanen, Kati Suominen and Kari Syd{nmaanlakka ('{' is 'a' with two dots above it.. we must get some character set description into
-HTML!) (under the supervision of Ari Lemmke) are "Erwise". At Helsinki Technical University, they are writing a Motif-based WWW browser (editor? we
-can hope...) for their undergraduate final year project. The team can be reached as erwise@cs.hut.fi and Ari as arl@cs.hut.fi.
-
-
-ALAIN FAVRE
-
-Alain is an undergraduate working with ECP/PT on a browser for Windows on PCs. Phone: 8265, no email yet. In CERN mostly in the afternoons.
-
-
-DAVID FOSTER
-
-With wide experience in networking, and a current conviction information systems and PC/Windows being the way of the future, Dave is having a go at a
-MS-Windows browser/editor. Dave also has a strong interest in server technology and intelligent information retrieval algorithms.
-
-
-JEAN-FRANCOIS GROFF
-
-Provided some useful input in the "design issues". During his stay at CERN as "cooperant", J-F joined the project in September 1991. He wrote the
-gateway to the VMS Help system [VMSHelp/Overview.html] , worked on the new modular browser architecure, and helped support and present WWW at all
-levels. He is now porting the communications code to DECnet in order to set up servers for physics experiments. JF now works for NeXT Europe but
-continues his interest in the web...( Contact [People/Groff.html] )
-
-
-TONY JOHNSON
-
-Tel: (415) 926 2278, TONYJ@scs.slac.stanford.edu.
-
-Designer of MidasWWW [Status.html#60] . Boston University, collaborating with SLAC, SSC, etc. A SLAC server expert and a WWWizard
-[http://slacvm.slac.stanford.edu:80/FIND/wizards.html] .
-
-
-PAUL KUNZ
-
-Paul took the W3 word across to SLAC, installed the clients and inspired the setting up of servers by the WWWizards
-[http://slacvm.slac.stanford.edu:80/FIND/wizards.html] . Paul spreads enthusiasm for all sort of good ideas such as OO programming, NeXTs, etc...
-
-
-WILLEM VAN LEEUWEN
-
-at NIKHEF, WIllem put up many servers [http://nic.nikhef.nl./user/a03/www/default/NikhefGuide.html] and has provided much useful feedback about the w3
-browser code.
-
-
-NICOLA PELLOW
-
-With the project from November 1990 to August 1991, and October 1992 to ??. A graduate of Leicester Polytechnic, UK, Nicola wrote the original line
-mode browser [LineMode/Browser.html] . ( More [People/Pellow.html] ) Nicola is now (Oct 92) working on the Mac browser [Macintosh/Status.html] .
-
-
-BERND POLLERMANN
-
-Bernd is responsible for the "XFIND" indexes on the CERNVM node, for their operation and, largely, their contents. He is also the editor of the
-Computer Newsletter (CNL), and has experience in managing large databases of information. Bernd is in the AS group of CN division. He has contributed
-code [Status.html#17] for the FIND server which allows hypertext access to this large store of information. Phone: 2407, Office: 513-1-16, Email:
-bernd@cernvm.cern.ch
-
-
-A R THUR SECRET
-
-A student at CERN during August and September 1992, Arthur wrote the first W3-Oracle gateway [Daemon/Oracle/Overview.html] .
-
-
-JONTHAN STREETS
-
-Online Support group, FNAL. Jonathan put up a VMS server using DCL and later C. He helped debug the Mac browser.
-
-
-PEI WEI
-
-Pei is the author of " Viola", a hypertext browser, and the ViolaWWW variant which is a WWW browser. He was at the University of California at
-Berkeley, Experimental Computing Facility, now full time with O'Reilly and Associates, Sebastopol, CA, USA. Email: wei@xcf.berkeley.edu
-
-
-BEBO WHITE
-
-one of the WWWizards [http://slacvm.slac.stanford.edu:80/FIND/wizards.html] at SLAC, Bebo enthusiastically spreads the word. During a short stay at
-CERN in summer '92, Bebo put up a number of servers for information from the Aleph experiment.
-
-
-JAMES WHITESCARVER
-
-New Jersey Institute of Technology. jim@eies2.njit.edu
+These are servers which provide data extracted from other systems. they are built using code from the basic daemon, or scripts. FIND gateway
+[../FIND/Overview.html] for CERN/VM XFIND which calls a REXX exec to get the information from the XFIND system running on the CERNVM mainframe. VMS
+Help gateway [../VMSHelp/Overview.html] This allows any VMS help files to be made available to WWW clients. Runs on VAX/VMS. WAISGate [WAISGate.html]
+A gateway to information available using the W.A.I.S. protocol. DCLServer [DCLServer.html] A server for VMS systems which allows you to write a
+gateway to your own favorite information system using DCL. System33 [System33/Gateway.html] A (big) csh script server providing data including Xerox
+System33 documents, man pages in plain text, phone numbers, etc. etc...! Oracle [Oracle/Overview.html] A generic server to oracle. Could be used as a
+basis for gateways to specific Oracle databases. Geography [Geography/Overview.html] Gateway to the Geography server at U Michigan Tim BL
+[../../TBL_Disclaimer.html]
