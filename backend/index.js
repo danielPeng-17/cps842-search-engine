@@ -24,16 +24,16 @@ app.get('/crawl_pages', async (req, res) => {
 app.get('/', (req, res) => {
     // const query = req.query.search;
     // console.log(query);
-    let tempQuery = 'double-click on the WorldWideWeb icon';
+    // let tempQuery = 'double-click on the WorldWideWeb icon';
     // let stopWords = fs.readFileSync('./files/stopword.txt').toString().split('\r\n');
     // tempQuery = common.stemText(common.removeStopWord(common.parser(tempQuery), stopWords));
-    let postingList = {}
-    let dictionaryList = {}
+    // let postingList = {}
+    // let dictionaryList = {}
 
-    if (!fs.existsSync('./files/postings.txt') || !fs.existsSync('./files/dictionary.txt')) {
+    // if (!fs.existsSync('./files/postings.txt') || !fs.existsSync('./files/dictionary.txt')) {
         // call invert to generate posting list and dictionary
         // invert.invert(constants.STOP_WORD, constants.STEMMING);
-    }
+    // }
     // postingList = common.generateMap('./files/postings.txt');
     // dictionaryList = common.generateMap('./files/dictionary.txt');
     
