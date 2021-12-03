@@ -7,4 +7,4 @@ To help prevent spammers from harvesting our email addresses, we now use a hidde
 image, not text. You can use this form to send your mail, or you are welcome to manually retype the address into your own email program and use that
 instead.
 
-To:email [wa.gif] From: What is 2 plus 9:
+To:email [wa.gif] From: What is 4 plus 8:

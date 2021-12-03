@@ -30,7 +30,7 @@
 Search MDN
 
  1. Web technology for developers [/en-US/docs/Web]
- 2. MathML [/en-US/docs/Web/MathML]
+ 2. HTML: HyperText Markup Language [/en-US/docs/Web/HTML]
 
  * Change language
 
@@ -38,120 +38,408 @@ Search MDN
 TABLE OF CONTENTS
 
 Table of contents
- * MathML reference
- * Getting help from the community
- * Tools
+ * Key resources
+ * Beginner's tutorials
+ * Advanced topics
+ * References
  * Related topics
- * Browser compatibility
 
 
-MATHML
+HTML: HYPERTEXT MARKUP LANGUAGE
 
-Mathematical Markup Language (MathML) is a dialect of XML [/en-US/docs/Web/XML] for describing mathematical notation and capturing both its structure
-and content.
+HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies
+besides HTML are generally used to describe a web page's appearance/presentation (CSS [/en-US/docs/Web/CSS]) or functionality/behavior (JavaScript
+[/en-US/docs/Web/JavaScript]).
 
-Here you'll find links to documentation, examples, and tools to help you work with this powerful technology. For a quick overview, see the slides for
-the innovation fairs at Mozilla Summit 2013 [https://fred-wang.github.io/MozSummitMathML/index.html].
+"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect
+of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide
+Web.
 
+HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <head>
+[/en-US/docs/Web/HTML/Element/head], <title> [/en-US/docs/Web/HTML/Element/title], <body> [/en-US/docs/Web/HTML/Element/body], <header>
+[/en-US/docs/Web/HTML/Element/header], <footer> [/en-US/docs/Web/HTML/Element/footer], <article> [/en-US/docs/Web/HTML/Element/article], <section>
+[/en-US/docs/Web/HTML/Element/section], <p> [/en-US/docs/Web/HTML/Element/p], <div> [/en-US/docs/Web/HTML/Element/div], <span>
+[/en-US/docs/Web/HTML/Element/span], <img> [/en-US/docs/Web/HTML/Element/img], <aside> [/en-US/docs/Web/HTML/Element/aside], <audio>
+[/en-US/docs/Web/HTML/Element/audio], <canvas> [/en-US/docs/Web/HTML/Element/canvas], <datalist> [/en-US/docs/Web/HTML/Element/datalist], <details>
+[/en-US/docs/Web/HTML/Element/details], <embed> [/en-US/docs/Web/HTML/Element/embed], <nav> [/en-US/docs/Web/HTML/Element/nav], <output>
+[/en-US/docs/Web/HTML/Element/output], <progress> [/en-US/docs/Web/HTML/Element/progress], <video> [/en-US/docs/Web/HTML/Element/video], <ul>
+[/en-US/docs/Web/HTML/Element/ul], <ol> [/en-US/docs/Web/HTML/Element/ol], <li> [/en-US/docs/Web/HTML/Element/li] and many others.
 
-MATHML REFERENCE
+An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<" and ">".  The name of an
+element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the <title> tag can be
+written as <Title>, <TITLE>, or in any other way.
 
-MathML element reference [/en-US/docs/Web/MathML/Element]
-
-Details about each MathML element and compatibility information for desktop and mobile browsers.
-
-MathML attribute reference [/en-US/docs/Web/MathML/Attribute]
-
-Information about MathML attributes that modify the appearance or behavior of elements.
-
-MathML examples [/en-US/docs/Web/MathML/Examples]
-
-MathML samples and examples to help you understand how it works.
-
-Authoring MathML [/en-US/docs/Web/MathML/Authoring]
-
-Suggestions and tips for writing MathML, including suggested MathML editors and how to integrate their output into Web content.
-
-
-GETTING HELP FROM THE COMMUNITY
-
- * mozilla.dev.tech.mathml Google Group [https://groups.google.com/g/mozilla.dev.tech.mathml]
- * Wiki used by Mozilla contributors [https://wiki.mozilla.org/MathML:Home_Page]
- * W3C Math Home [https://www.w3.org/Math/]
- * www-math w3.org mail archive [https://lists.w3.org/Archives/Public/www-math/]
+The articles below can help you learn more about HTML.
 
 
-TOOLS
+KEY RESOURCES
 
- * W3C Validator [https://validator.w3.org]
- * Mathzilla Firefox add-on collection [https://addons.mozilla.org/firefox/collections/fred_wang/mathzilla/]
- * TeXZilla [https://github.com/fred-wang/TeXZilla] — Javascript LaTeX to MathML converter (live demo [https://fred-wang.github.io/TeXZilla/], Firefox
-   add-on [https://addons.mozilla.org/en-US/firefox/addon/texzilla/], using in a Web Page, JS program etc
-   [https://github.com/fred-wang/TeXZilla/wiki/Using-TeXZilla])
- * LaTeXML [https://dlmf.nist.gov/LaTeXML/] - Convert LaTeX documents into HTML+MathML Web pages
- * MathJax [https://www.mathjax.org/] - Cross-browser JavaScript display engine for mathematics. To force MathJax to use native MathML, try this
-   Mozilla add-on [https://addons.mozilla.org/en-US/firefox/addon/native-mathml/], this Safari extension
-   [https://fred-wang.github.io/mathjax-native-mathml-safari/mathjax-native-mathml.safariextz] or this GreaseMonkey script
-   [https://openuserjs.org/scripts/fred.wang/MathJax_Native_MathML/].
+HTML Introduction
+
+If you're new to Web development, be sure to read our HTML Basics [/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics] article to learn what
+HTML is and how to use it.
+
+HTML Tutorials
+
+For articles about how to use HTML, as well as tutorials and complete examples, check out our HTML Learning Area [/en-US/docs/Learn/HTML].
+
+HTML Reference
+
+In our extensive HTML reference [/en-US/docs/Web/HTML/Reference] section, you'll find the details about every element and attribute in HTML.
+
+LOOKING TO BECOME A FRONT-END WEB DEVELOPER?
+
+We have put together a course that includes all the essential information you need to work towards your goal.
+
+Get started [/en-US/docs/Learn/Front-end_web_developer]
+
+
+BEGINNER'S TUTORIALS
+
+Our HTML Learning Area [/en-US/docs/Learn/HTML] features multiple modules that teach HTML from the ground up — no previous knowledge required.
+
+Introduction to HTML [/en-US/docs/Learn/HTML/Introduction_to_HTML]
+
+This module sets the stage, getting you used to important concepts and syntax such as looking at applying HTML to text, how to create hyperlinks, and
+how to use HTML to structure a web page.
+
+Multimedia and embedding [/en-US/docs/Learn/HTML/Multimedia_and_embedding]
+
+This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to
+embed video, audio, and even entire other webpages.
+
+HTML tables [/en-US/docs/Learn/HTML/Tables]
+
+Representing tabular data on a webpage in an understandable, accessible way can be a challenge. This module covers basic table markup, along with more
+complex features such as implementing captions and summaries.
+
+HTML forms [/en-US/docs/Learn/Forms]
+
+Forms are a very important part of the Web — these provide much of the functionality you need for interacting with websites, e.g. registering and
+logging in, sending feedback, buying products, and more. This module gets you started with creating the client-side/front-end parts of forms.
+
+Use HTML to solve common problems [/en-US/docs/Learn/HTML/Howto]
+
+Provides links to sections of content explaining how to use HTML to solve very common problems when creating a web page: dealing with titles, adding
+images or videos, emphasizing content, creating a basic form, etc.
+
+
+ADVANCED TOPICS
+
+CORS enabled image [/en-US/docs/Web/HTML/CORS_enabled_image]
+
+The crossorigin [/en-US/docs/Web/HTML/Element/img#attr-crossorigin] attribute, in combination with an appropriate CORS [/en-US/docs/Glossary/CORS]
+header, allows images defined by the <img> [/en-US/docs/Web/HTML/Element/img] element to be loaded from foreign origins and used in a <canvas>
+[/en-US/docs/Web/HTML/Element/canvas] element as if they were being loaded from the current origin.
+
+CORS settings attributes [/en-US/docs/Web/HTML/Attributes/crossorigin]
+
+Some HTML elements that provide support for CORS [/en-US/docs/Web/HTTP/CORS], such as <img> [/en-US/docs/Web/HTML/Element/img] or <video>
+[/en-US/docs/Web/HTML/Element/video], have a crossorigin attribute (crossOrigin property), which lets you configure the CORS requests for the
+element's fetched data.
+
+Preloading content with rel="preload" [/en-US/docs/Web/HTML/Link_types/preload]
+
+The preload value of the <link> [/en-US/docs/Web/HTML/Element/link] element's rel [/en-US/docs/Web/HTML/Element/link#attr-rel] attribute allows you to
+write declarative fetch requests in your HTML <head> [/en-US/docs/Web/HTML/Element/head], specifying resources that your pages will need very soon
+after loading, which you therefore want to start preloading early in the lifecycle of a page load, before the browser's main rendering machinery kicks
+in. This ensures that they are made available earlier and are less likely to block the page's first render, leading to performance improvements. This
+article provides a basic guide to how preload works.
+
+
+REFERENCES
+
+HTML reference [/en-US/docs/Web/HTML/Reference]
+
+HTML consists of elements, each of which may be modified by some number of attributes. HTML documents are connected to each other with links
+[/en-US/docs/Web/HTML/Link_types].
+
+HTML element reference [/en-US/docs/Web/HTML/Element]
+
+Browse a list of all HTML [/en-US/docs/Glossary/HTML] elements [/en-US/docs/Glossary/Element].
+
+HTML attribute reference [/en-US/docs/Web/HTML/Attributes]
+
+Elements in HTML have attributes. These are additional values that configure the elements or adjust their behavior in various ways.
+
+Global attributes [/en-US/docs/Web/HTML/Global_attributes]
+
+Global attributes may be specified on all HTML elements [/en-US/docs/Web/HTML/Element], even those not specified in the standard. This means that any
+non-standard elements must still permit these attributes, even though those elements make the document HTML5-noncompliant.
+
+Inline elements [/en-US/docs/Web/HTML/Inline_elements] and block-level elements [/en-US/docs/Web/HTML/Block-level_elements]
+
+HTML elements are usually "inline" or "block-level" elements. An inline element occupies only the space bounded by the tags that define it. A
+block-level element occupies the entire space of its parent element (container), thereby creating a "block".
+
+Link types [/en-US/docs/Web/HTML/Link_types]
+
+In HTML, various link types can be used to establish and define the relationship between two documents. Link elements that types can be set on include
+<a> [/en-US/docs/Web/HTML/Element/a], <area> [/en-US/docs/Web/HTML/Element/area] and <link> [/en-US/docs/Web/HTML/Element/link].
+
+Guide to media types and formats on the web [/en-US/docs/Web/Media/Formats]
+
+The <audio> [/en-US/docs/Web/HTML/Element/audio] and <video> [/en-US/docs/Web/HTML/Element/video] elements allow you to play audio and video media
+natively within your content without the need for external software support.
+
+HTML content categories [/en-US/docs/Web/Guide/HTML/Content_categories]
+
+HTML is comprised of several kinds of content, each of which is allowed to be used in certain contexts and is disallowed in others. Similarly, each
+has a set of other content categories they can contain and elements that can or can't be used in them. This is a guide to these categories.
+
+Quirks mode and standards mode [/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode]
+
+Historical information on quirks mode and standards mode.
 
 
 RELATED TOPICS
 
- * CSS [/en-US/docs/Web/CSS]
- * HTML [/en-US/docs/Web/HTML]
- * SVG [/en-US/docs/Web/SVG]
+Applying color to HTML elements using CSS [/en-US/docs/Web/HTML/Applying_color]
 
-
-BROWSER COMPATIBILITY
-
-BCD tables only load in the browser
+This article covers most of the ways you use CSS to add color to HTML content, listing what parts of HTML documents can be colored and what CSS
+properties to use when doing so. Includes examples, links to palette-building tools, and more.
 
 
 FOUND A PROBLEM WITH THIS PAGE?
 
- * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/mathml/index.md]
- * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/mathml/index.md]
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/html/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/html/index.md]
  * Report a problem with this content on GitHub
-   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FMathML%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fmathml%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FMathML%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fmathml%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F1f771d1177c4cde004354204d557ae66df70c97f%0A*+Document+last+modified%3A+2021-10-11T11%3A37%3A47.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22MathML%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AMathML]
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FHTML%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fhtml%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FHTML%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fhtml%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F775662998e66813a612e3ff27e02f2ada867bc17%0A*+Document+last+modified%3A+2021-10-03T00%3A01%3A51.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22HTML%3A+HyperText+Markup+Language%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AHTML]
  * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
 
-Last modified: Oct 11, 2021, by MDN contributors [/en-US/docs/Web/MathML/contributors.txt]
+Last modified: Oct 3, 2021, by MDN contributors [/en-US/docs/Web/HTML/contributors.txt]
 
 Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
 language
 
 RELATED TOPICS
 
- 1.  MathML Reference [/en-US/docs/Web/MathML/Element]
- 2.  <maction> [/en-US/docs/Web/MathML/Element/maction]
- 3.  <math> [/en-US/docs/Web/MathML/Element/math]
- 4.  <menclose> [/en-US/docs/Web/MathML/Element/menclose]
- 5.  <merror> [/en-US/docs/Web/MathML/Element/merror]
- 6.  <mfenced> [/en-US/docs/Web/MathML/Element/mfenced]
- 7.  <mfrac> [/en-US/docs/Web/MathML/Element/mfrac]
- 8.  <mi> [/en-US/docs/Web/MathML/Element/mi]
- 9.  <mmultiscripts> [/en-US/docs/Web/MathML/Element/mmultiscripts]
- 10. <mn> [/en-US/docs/Web/MathML/Element/mn]
- 11. <mo> [/en-US/docs/Web/MathML/Element/mo]
- 12. <mover> [/en-US/docs/Web/MathML/Element/mover]
- 13. <mpadded> [/en-US/docs/Web/MathML/Element/mpadded]
- 14. <mphantom> [/en-US/docs/Web/MathML/Element/mphantom]
- 15. <mroot> [/en-US/docs/Web/MathML/Element/mroot]
- 16. <mrow> [/en-US/docs/Web/MathML/Element/mrow]
- 17. <ms> [/en-US/docs/Web/MathML/Element/ms]
- 18. <mspace> [/en-US/docs/Web/MathML/Element/mspace]
- 19. <msqrt> [/en-US/docs/Web/MathML/Element/msqrt]
- 20. <mstyle> [/en-US/docs/Web/MathML/Element/mstyle]
- 21. <msub> [/en-US/docs/Web/MathML/Element/msub]
- 22. <msubsup> [/en-US/docs/Web/MathML/Element/msubsup]
- 23. <msup> [/en-US/docs/Web/MathML/Element/msup]
- 24. <mtable> [/en-US/docs/Web/MathML/Element/mtable]
- 25. <mtd> [/en-US/docs/Web/MathML/Element/mtd]
- 26. <mtext> [/en-US/docs/Web/MathML/Element/mtext]
- 27. <mtr> [/en-US/docs/Web/MathML/Element/mtr]
- 28. <munder> [/en-US/docs/Web/MathML/Element/munder]
- 29. <munderover> [/en-US/docs/Web/MathML/Element/munderover]
- 30. <semantics> [/en-US/docs/Web/MathML/Element/semantics]
+ 1.  HTML [/en-US/docs/Web/HTML]
+ 2.  Tutorials:
+ 3.  HTML basics [/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics]
+ 4.  Introduction to HTML
+      1.  Introduction to HTML overview [/en-US/docs/Learn/HTML/Introduction_to_HTML]
+      2.  Getting started with HTML [/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started]
+      3.  What's in the head? Metadata in HTML [/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML]
+      4.  HTML text fundamentals [/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals]
+      5.  Creating hyperlinks [/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks]
+      6.  Advanced text formatting [/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting]
+      7.  Document and website structure [/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure]
+      8.  Debugging HTML [/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML]
+      9.  Assessment: Marking up a letter [/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter]
+      10. Assessment: Structuring a page of content [/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content]
+
+ 5.  Multimedia and embedding
+      1. Multimedia and embedding overview [/en-US/docs/Learn/HTML/Multimedia_and_embedding]
+      2. Images in HTML [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML]
+      3. Video and audio content [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content]
+      4. From object to iframe — other embedding technologies [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies]
+      5. Adding vector graphics to the Web [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web]
+      6. Responsive images [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images]
+      7. Assessment: Mozilla splash page [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Mozilla_splash_page]
+
+ 6.  References: [/en-US/docs/Web/HTML/Reference]
+ 7.  HTML elements
+      1.   <a> [/en-US/docs/Web/HTML/Element/a]
+      2.   <abbr> [/en-US/docs/Web/HTML/Element/abbr]
+      3.   <acronym> [/en-US/docs/Web/HTML/Element/acronym]
+      4.   <address> [/en-US/docs/Web/HTML/Element/address]
+      5.   <applet> [/en-US/docs/Web/HTML/Element/applet]
+      6.   <area> [/en-US/docs/Web/HTML/Element/area]
+      7.   <article> [/en-US/docs/Web/HTML/Element/article]
+      8.   <aside> [/en-US/docs/Web/HTML/Element/aside]
+      9.   <audio> [/en-US/docs/Web/HTML/Element/audio]
+      10.  <b> [/en-US/docs/Web/HTML/Element/b]
+      11.  <base> [/en-US/docs/Web/HTML/Element/base]
+      12.  <basefont> [/en-US/docs/Web/HTML/Element/basefont]
+      13.  <bdi> [/en-US/docs/Web/HTML/Element/bdi]
+      14.  <bdo> [/en-US/docs/Web/HTML/Element/bdo]
+      15.  <bgsound> [/en-US/docs/Web/HTML/Element/bgsound]
+      16.  <big> [/en-US/docs/Web/HTML/Element/big]
+      17.  <blink> [/en-US/docs/Web/HTML/Element/blink]
+      18.  <blockquote> [/en-US/docs/Web/HTML/Element/blockquote]
+      19.  <body> [/en-US/docs/Web/HTML/Element/body]
+      20.  <br> [/en-US/docs/Web/HTML/Element/br]
+      21.  <button> [/en-US/docs/Web/HTML/Element/button]
+      22.  <canvas> [/en-US/docs/Web/HTML/Element/canvas]
+      23.  <caption> [/en-US/docs/Web/HTML/Element/caption]
+      24.  <center> [/en-US/docs/Web/HTML/Element/center]
+      25.  <cite> [/en-US/docs/Web/HTML/Element/cite]
+      26.  <code> [/en-US/docs/Web/HTML/Element/code]
+      27.  <col> [/en-US/docs/Web/HTML/Element/col]
+      28.  <colgroup> [/en-US/docs/Web/HTML/Element/colgroup]
+      29.  <content> [/en-US/docs/Web/HTML/Element/content]
+      30.  <data> [/en-US/docs/Web/HTML/Element/data]
+      31.  <datalist> [/en-US/docs/Web/HTML/Element/datalist]
+      32.  <dd> [/en-US/docs/Web/HTML/Element/dd]
+      33.  <del> [/en-US/docs/Web/HTML/Element/del]
+      34.  <details> [/en-US/docs/Web/HTML/Element/details]
+      35.  <dfn> [/en-US/docs/Web/HTML/Element/dfn]
+      36.  <dialog> [/en-US/docs/Web/HTML/Element/dialog]
+      37.  <dir> [/en-US/docs/Web/HTML/Element/dir]
+      38.  <div> [/en-US/docs/Web/HTML/Element/div]
+      39.  <dl> [/en-US/docs/Web/HTML/Element/dl]
+      40.  <dt> [/en-US/docs/Web/HTML/Element/dt]
+      41.  <em> [/en-US/docs/Web/HTML/Element/em]
+      42.  <embed> [/en-US/docs/Web/HTML/Element/embed]
+      43.  <fieldset> [/en-US/docs/Web/HTML/Element/fieldset]
+      44.  <figcaption> [/en-US/docs/Web/HTML/Element/figcaption]
+      45.  <figure> [/en-US/docs/Web/HTML/Element/figure]
+      46.  <font> [/en-US/docs/Web/HTML/Element/font]
+      47.  <footer> [/en-US/docs/Web/HTML/Element/footer]
+      48.  <form> [/en-US/docs/Web/HTML/Element/form]
+      49.  <frame> [/en-US/docs/Web/HTML/Element/frame]
+      50.  <frameset> [/en-US/docs/Web/HTML/Element/frameset]
+      51.  <head> [/en-US/docs/Web/HTML/Element/head]
+      52.  <header> [/en-US/docs/Web/HTML/Element/header]
+      53.  <h1> [/en-US/docs/Web/HTML/Element/Heading_Elements]
+      54.  <hgroup> [/en-US/docs/Web/HTML/Element/hgroup]
+      55.  <hr> [/en-US/docs/Web/HTML/Element/hr]
+      56.  <html> [/en-US/docs/Web/HTML/Element/html]
+      57.  <i> [/en-US/docs/Web/HTML/Element/i]
+      58.  <iframe> [/en-US/docs/Web/HTML/Element/iframe]
+      59.  <image> [/en-US/docs/Web/HTML/Element/image]
+      60.  <img> [/en-US/docs/Web/HTML/Element/img]
+      61.  <input> [/en-US/docs/Web/HTML/Element/input]
+      62.  <ins> [/en-US/docs/Web/HTML/Element/ins]
+      63.  <kbd> [/en-US/docs/Web/HTML/Element/kbd]
+      64.  <keygen> [/en-US/docs/Web/HTML/Element/keygen]
+      65.  <label> [/en-US/docs/Web/HTML/Element/label]
+      66.  <legend> [/en-US/docs/Web/HTML/Element/legend]
+      67.  <li> [/en-US/docs/Web/HTML/Element/li]
+      68.  <link> [/en-US/docs/Web/HTML/Element/link]
+      69.  <main> [/en-US/docs/Web/HTML/Element/main]
+      70.  <map> [/en-US/docs/Web/HTML/Element/map]
+      71.  <mark> [/en-US/docs/Web/HTML/Element/mark]
+      72.  <marquee> [/en-US/docs/Web/HTML/Element/marquee]
+      73.  <menu> [/en-US/docs/Web/HTML/Element/menu]
+      74.  <menuitem> [/en-US/docs/Web/HTML/Element/menuitem]
+      75.  <meta> [/en-US/docs/Web/HTML/Element/meta]
+      76.  <meter> [/en-US/docs/Web/HTML/Element/meter]
+      77.  <nav> [/en-US/docs/Web/HTML/Element/nav]
+      78.  <nobr> [/en-US/docs/Web/HTML/Element/nobr]
+      79.  <noembed> [/en-US/docs/Web/HTML/Element/noembed]
+      80.  <noframes> [/en-US/docs/Web/HTML/Element/noframes]
+      81.  <noscript> [/en-US/docs/Web/HTML/Element/noscript]
+      82.  <object> [/en-US/docs/Web/HTML/Element/object]
+      83.  <ol> [/en-US/docs/Web/HTML/Element/ol]
+      84.  <optgroup> [/en-US/docs/Web/HTML/Element/optgroup]
+      85.  <option> [/en-US/docs/Web/HTML/Element/option]
+      86.  <output> [/en-US/docs/Web/HTML/Element/output]
+      87.  <p> [/en-US/docs/Web/HTML/Element/p]
+      88.  <param> [/en-US/docs/Web/HTML/Element/param]
+      89.  <picture> [/en-US/docs/Web/HTML/Element/picture]
+      90.  <plaintext> [/en-US/docs/Web/HTML/Element/plaintext]
+      91.  <portal> [/en-US/docs/Web/HTML/Element/portal]
+      92.  <pre> [/en-US/docs/Web/HTML/Element/pre]
+      93.  <progress> [/en-US/docs/Web/HTML/Element/progress]
+      94.  <q> [/en-US/docs/Web/HTML/Element/q]
+      95.  <rb> [/en-US/docs/Web/HTML/Element/rb]
+      96.  <rp> [/en-US/docs/Web/HTML/Element/rp]
+      97.  <rt> [/en-US/docs/Web/HTML/Element/rt]
+      98.  <rtc> [/en-US/docs/Web/HTML/Element/rtc]
+      99.  <ruby> [/en-US/docs/Web/HTML/Element/ruby]
+      100. <s> [/en-US/docs/Web/HTML/Element/s]
+      101. <samp> [/en-US/docs/Web/HTML/Element/samp]
+      102. <script> [/en-US/docs/Web/HTML/Element/script]
+      103. <section> [/en-US/docs/Web/HTML/Element/section]
+      104. <select> [/en-US/docs/Web/HTML/Element/select]
+      105. <shadow> [/en-US/docs/Web/HTML/Element/shadow]
+      106. <slot> [/en-US/docs/Web/HTML/Element/slot]
+      107. <small> [/en-US/docs/Web/HTML/Element/small]
+      108. <source> [/en-US/docs/Web/HTML/Element/source]
+      109. <spacer> [/en-US/docs/Web/HTML/Element/spacer]
+      110. <span> [/en-US/docs/Web/HTML/Element/span]
+      111. <strike> [/en-US/docs/Web/HTML/Element/strike]
+      112. <strong> [/en-US/docs/Web/HTML/Element/strong]
+      113. <style> [/en-US/docs/Web/HTML/Element/style]
+      114. <sub> [/en-US/docs/Web/HTML/Element/sub]
+      115. <summary> [/en-US/docs/Web/HTML/Element/summary]
+      116. <sup> [/en-US/docs/Web/HTML/Element/sup]
+      117. <table> [/en-US/docs/Web/HTML/Element/table]
+      118. <tbody> [/en-US/docs/Web/HTML/Element/tbody]
+      119. <td> [/en-US/docs/Web/HTML/Element/td]
+      120. <template> [/en-US/docs/Web/HTML/Element/template]
+      121. <textarea> [/en-US/docs/Web/HTML/Element/textarea]
+      122. <tfoot> [/en-US/docs/Web/HTML/Element/tfoot]
+      123. <th> [/en-US/docs/Web/HTML/Element/th]
+      124. <thead> [/en-US/docs/Web/HTML/Element/thead]
+      125. <time> [/en-US/docs/Web/HTML/Element/time]
+      126. <title> [/en-US/docs/Web/HTML/Element/title]
+      127. <tr> [/en-US/docs/Web/HTML/Element/tr]
+      128. <track> [/en-US/docs/Web/HTML/Element/track]
+      129. <tt> [/en-US/docs/Web/HTML/Element/tt]
+      130. <u> [/en-US/docs/Web/HTML/Element/u]
+      131. <ul> [/en-US/docs/Web/HTML/Element/ul]
+      132. <var> [/en-US/docs/Web/HTML/Element/var]
+      133. <video> [/en-US/docs/Web/HTML/Element/video]
+      134. <wbr> [/en-US/docs/Web/HTML/Element/wbr]
+      135. <xmp> [/en-US/docs/Web/HTML/Element/xmp]
+
+ 8.  Global attributes
+      1.  accesskey [/en-US/docs/Web/HTML/Global_attributes/accesskey]
+      2.  autocapitalize [/en-US/docs/Web/HTML/Global_attributes/autocapitalize]
+      3.  autofocus [/en-US/docs/Web/HTML/Global_attributes/autofocus]
+      4.  class [/en-US/docs/Web/HTML/Global_attributes/class]
+      5.  contenteditable [/en-US/docs/Web/HTML/Global_attributes/contenteditable]
+      6.  contextmenu [/en-US/docs/Web/HTML/Global_attributes/contextmenu]
+      7.  data-* [/en-US/docs/Web/HTML/Global_attributes/data-*]
+      8.  dir [/en-US/docs/Web/HTML/Global_attributes/dir]
+      9.  draggable [/en-US/docs/Web/HTML/Global_attributes/draggable]
+      10. enterkeyhint [/en-US/docs/Web/HTML/Global_attributes/enterkeyhint]
+      11. hidden [/en-US/docs/Web/HTML/Global_attributes/hidden]
+      12. id [/en-US/docs/Web/HTML/Global_attributes/id]
+      13. inputmode [/en-US/docs/Web/HTML/Global_attributes/inputmode]
+      14. is [/en-US/docs/Web/HTML/Global_attributes/is]
+      15. itemid [/en-US/docs/Web/HTML/Global_attributes/itemid]
+      16. itemprop [/en-US/docs/Web/HTML/Global_attributes/itemprop]
+      17. itemref [/en-US/docs/Web/HTML/Global_attributes/itemref]
+      18. itemscope [/en-US/docs/Web/HTML/Global_attributes/itemscope]
+      19. itemtype [/en-US/docs/Web/HTML/Global_attributes/itemtype]
+      20. lang [/en-US/docs/Web/HTML/Global_attributes/lang]
+      21. nonce [/en-US/docs/Web/HTML/Global_attributes/nonce]
+      22. part [/en-US/docs/Web/HTML/Global_attributes/part]
+      23. slot [/en-US/docs/Web/HTML/Global_attributes/slot]
+      24. spellcheck [/en-US/docs/Web/HTML/Global_attributes/spellcheck]
+      25. style [/en-US/docs/Web/HTML/Global_attributes/style]
+      26. tabindex [/en-US/docs/Web/HTML/Global_attributes/tabindex]
+      27. title [/en-US/docs/Web/HTML/Global_attributes/title]
+      28. translate [/en-US/docs/Web/HTML/Global_attributes/translate]
+      29. x-ms-acceleratorkey [/en-US/docs/Web/HTML/Global_attributes/x-ms-acceleratorkey]
+      30. x-ms-format-detection [/en-US/docs/Web/HTML/Global_attributes/x-ms-format-detection]
+
+ 9.  <input> types
+      1.  <input type="button"> [/en-US/docs/Web/HTML/Element/input/button]
+      2.  <input type="checkbox"> [/en-US/docs/Web/HTML/Element/input/checkbox]
+      3.  <input type="color"> [/en-US/docs/Web/HTML/Element/input/color]
+      4.  <input type="date"> [/en-US/docs/Web/HTML/Element/input/date]
+      5.  <input type="datetime-local"> [/en-US/docs/Web/HTML/Element/input/datetime-local]
+      6.  <input type="datetime"> [/en-US/docs/Web/HTML/Element/input/datetime]
+      7.  <input type="email"> [/en-US/docs/Web/HTML/Element/input/email]
+      8.  <input type="file"> [/en-US/docs/Web/HTML/Element/input/file]
+      9.  <input type="hidden"> [/en-US/docs/Web/HTML/Element/input/hidden]
+      10. <input type="image"> [/en-US/docs/Web/HTML/Element/input/image]
+      11. <input type="month"> [/en-US/docs/Web/HTML/Element/input/month]
+      12. <input type="number"> [/en-US/docs/Web/HTML/Element/input/number]
+      13. <input type="password"> [/en-US/docs/Web/HTML/Element/input/password]
+      14. <input type="radio"> [/en-US/docs/Web/HTML/Element/input/radio]
+      15. <input type="range"> [/en-US/docs/Web/HTML/Element/input/range]
+      16. <input type="reset"> [/en-US/docs/Web/HTML/Element/input/reset]
+      17. <input type="search"> [/en-US/docs/Web/HTML/Element/input/search]
+      18. <input type="submit"> [/en-US/docs/Web/HTML/Element/input/submit]
+      19. <input type="tel"> [/en-US/docs/Web/HTML/Element/input/tel]
+      20. <input type="text"> [/en-US/docs/Web/HTML/Element/input/text]
+      21. <input type="time"> [/en-US/docs/Web/HTML/Element/input/time]
+      22. <input type="url"> [/en-US/docs/Web/HTML/Element/input/url]
+      23. <input type="week"> [/en-US/docs/Web/HTML/Element/input/week]
+
+ 10. Documentation: [/en-US/docs/MDN]
+ 11. Useful lists
+      1. All pages index [/en-US/docs/Web/HTML/Index]
+
+ 12. Contribute
+      1. The MDN project [/en-US/docs/MDN]
 
 /en-US/
  * Web Technologies [/en-US/docs/Web]

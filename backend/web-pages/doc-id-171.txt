@@ -29,9 +29,8 @@
 
 Search MDN
 
- 1. Mozilla [/en-US/docs/Mozilla]
- 2. Add-ons [/en-US/docs/Mozilla/Add-ons]
- 3. Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+ 1. Web technology for developers [/en-US/docs/Web]
+ 2. CSS: Cascading Style Sheets [/en-US/docs/Web/CSS]
 
  * Change language
 
@@ -40,279 +39,891 @@ TABLE OF CONTENTS
 
 Table of contents
  * Key resources
- * Get started
- * Concepts
- * User interface
- * How to
- * Firefox workflow
+ * Tutorials
  * Reference
+ * Cookbook
+ * Tools for CSS development
+ * Meta bugs
+ * See also
 
 
-BROWSER EXTENSIONS
+CSS: CASCADING STYLE SHEETS
 
-Extensions, or add-ons, can modify and enhance the capability of a browser. Extensions for Firefox are built using the WebExtensions API cross-browser
-technology.
+Cascading Style Sheets (CSS) is a stylesheet [/en-US/docs/Web/API/StyleSheet] language used to describe the presentation of a document written in HTML
+[/en-US/docs/Web/HTML] or XML [/en-US/docs/Web/XML/XML_introduction] (including XML dialects such as SVG [/en-US/docs/Web/SVG], MathML
+[/en-US/docs/Web/MathML] or XHTML [/en-US/docs/Glossary/XHTML]). CSS describes how elements should be rendered on screen, on paper, in speech, or on
+other media.
 
-The technology for extensions in Firefox is, to a large extent, compatible with the extension API [https://developer.chrome.com/extensions] supported
-by Chromium-based browsers (such as Google Chrome, Microsoft Edge, Opera, Vivaldi). In most cases, extensions written for Chromium-based browsers run
-in Firefox with just a few changes [https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/].
+CSS is among the core languages of the open web and is standardized across Web browsers according to W3C specifications
+[https://w3.org/Style/CSS/#specs]. Previously, development of various parts of CSS specification was done synchronously, which allowed versioning of
+the latest recommendations. You might have heard about CSS1, CSS2.1, CSS3. However, CSS4 has never become an official version.
+
+From CSS3, the scope of the specification increased significantly and the progress on different CSS modules started to differ so much, that it became
+more effective to develop and release recommendations separately per module [https://www.w3.org/Style/CSS/current-work]. Instead of versioning the CSS
+specification, W3C now periodically takes a snapshot of the latest stable state of the CSS specification [https://www.w3.org/TR/css/].
 
 
 KEY RESOURCES
 
-Guides
+CSS Introduction
 
-Whether you’re just beginning or looking for more advanced advice, learn about how extensions work and use the WebExtensions API from our extensive
-range of tutorials and guides [/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions].
+If you're new to web development, be sure to read our CSS basics [/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics] article to learn what CSS
+is and how to use it.
 
-References
+CSS Tutorials
 
-Get comprehensive details about the methods, properties, types, and events of the WebExtensions APIs
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs] and full details about the manifest keys
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json].
+Our CSS learning area [/en-US/docs/Learn/CSS] contains a wealth of tutorials to take you from beginner level to proficiency, covering all the
+fundamentals.
 
-Firefox workflow
+CSS Reference
 
-Discover how to build and publish extensions for Firefox: get the lowdown on developer tools, publication and distribution, and porting on Extension
-Workshop [https://extensionworkshop.com/].
+Our exhaustive CSS reference [/en-US/docs/Web/CSS/Reference] for seasoned Web developers describes every property and concept of CSS.
 
-Note: If you have ideas or questions or need help, you can reach us on the community forum [https://discourse.mozilla.org/c/add-ons] or in the Add-ons
-Room [https://matrix.to/#/!CuzZVoCbeoDHsxMCVJ:mozilla.org?via=mozilla.org&via=matrix.org&via=humanoids.be] on Matrix
-[https://wiki.mozilla.org/Matrix].
+LOOKING TO BECOME A FRONT-END WEB DEVELOPER?
 
+We have put together a course that includes all the essential information you need to work towards your goal.
 
-GET STARTED
-
-Discover what extensions can do [/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions] before building your first extension.
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension] Learn about the anatomy of an extension
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension] and get an overview of the extension development and publication workflow,
-Firefox style [/en-US/docs/Mozilla/Add-ons/WebExtensions/Firefox_workflow_overview]. Explore a little deeper with a comprehensive selection of example
-extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples] that you can run right in Firefox.
+Get started [/en-US/docs/Learn/Front-end_web_developer]
 
 
-CONCEPTS
+TUTORIALS
 
-Get detailed information on the concept that underpin extensions from an overview of the JavaScript API
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/API], through content scripts, [/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts] match patterns
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns], working with files [/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_files],
-internationalization [/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization], and content security policy
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy], to more advanced subjects such as native messaging
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging], using the devtools APIs
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools], and native manifests
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests].
+Our CSS Learning Area [/en-US/docs/Learn/CSS] features multiple modules that teach CSS from the ground up — no previous knowledge required.
 
+CSS first steps [/en-US/docs/Learn/CSS/First_steps]
 
-USER INTERFACE
+CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split
+it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery
+with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.
 
-Discover all the user interface [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface] components you can use in your extensions, with coding
-examples and tips.
+CSS building blocks [/en-US/docs/Learn/CSS/Building_blocks]
 
+This module carries on where CSS first steps [/en-US/docs/Learn/CSS/First_steps] left off — now you've gained familiarity with the language and its
+syntax, and got some basic experience with using it, it's time to dive a bit deeper. This module looks at the cascade and inheritance, all the
+selector types we have available, units, sizing, styling backgrounds and borders, debugging, and lots more.
 
-HOW TO
+The aim here is to provide you with a toolkit for writing competent CSS and help you understand all the essential theory, before moving on to more
+specific disciplines like text styling [/en-US/docs/Learn/CSS/Styling_text] and CSS layout [/en-US/docs/Learn/CSS/CSS_layout].
 
-From patterns you’ll regularly use such as work with the Tabs API [/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API] and adding a
-button to the toolbar [/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar] to more advanced topics such as intercepting HTTP
-requests [/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests] and working with contextual identities
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities], you’ll find a range of tutorials to get you started.
+Styling text [/en-US/docs/Learn/CSS/Styling_text]
 
+With the basics of the CSS language covered, the next CSS topic for you to concentrate on is styling text — one of the most common things you'll do
+with CSS. Here we look at text styling fundamentals, including setting font, boldness, italics, line and letter spacing, drop shadows, and other text
+features. We round off the module by looking at applying custom fonts to your page, and styling lists and links.
 
-FIREFOX WORKFLOW
+CSS layout [/en-US/docs/Learn/CSS/CSS_layout]
 
-When you are ready to create your extension for Firefox or port your Chrome extension, head over to Extension Workshop
-[https://extensionworkshop.com/]. It has details on:
+At this point we've already looked at CSS fundamentals, how to style text, and how to style and manipulate the boxes that your content sits inside.
+Now it's time to look at how to place your boxes in the right place in relation to the viewport, and to each other. We have covered the necessary
+prerequisites so we can now dive deep into CSS layout, looking at different display settings, modern layout tools like flexbox, CSS grid, and
+positioning, and some of the legacy techniques you might still want to know about.
 
- * The Firefox workflow, such as temporarily installing  extensions during development
-   [https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/], debugging
-   [https://extensionworkshop.com/documentation/develop/debugging/], request the right permissions
-   [https://extensionworkshop.com/documentation/develop/request-the-right-permissions/], and more.
- * The web-ext [https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/] developer tool.
- * Porting a Google Chrome extension [https://extensionworkshop.com/documentation/develop/porting-a-google-chrome-extension/], differences between
-   desktop and Android [https://extensionworkshop.com/documentation/develop/differences-between-desktop-and-android-extensions/], and more.
- * Publishing and distribution overview [https://extensionworkshop.com/documentation/publish/], promoting your extension
-   [https://extensionworkshop.com/documentation/publish/promoting-your-extension/], the extension lifecycle best practices
-   [https://extensionworkshop.com/documentation/manage/], and more.
+Use CSS to solve common problems [/en-US/docs/Learn/CSS/Howto]
+
+This module provides links to sections of content explaining how to use CSS to solve common problems when creating a web page.
 
 
 REFERENCE
 
+ * CSS reference [/en-US/docs/Web/CSS/Reference]: This exhaustive reference for seasoned Web developers describes every property and concept of CSS.
+ * CSS key concepts:
+   * The syntax and forms of the language [/en-US/docs/Web/CSS/Syntax]
+   * Specificity [/en-US/docs/Web/CSS/Specificity], inheritance [/en-US/docs/Web/CSS/inheritance], and the Cascade [/en-US/docs/Web/CSS/Cascade]
+   * CSS units and values [/en-US/docs/Web/CSS/CSS_Values_and_Units] and functional notations [/en-US/docs/Web/CSS/CSS_Functions]
+   * Box model [/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model] and margin collapse
+     [/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing]
+   * The containing block [/en-US/docs/Web/CSS/Containing_block]
+   * Stacking [/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context] and block-formatting
+     [/en-US/docs/Web/Guide/CSS/Block_formatting_context] contexts
+   * Initial [/en-US/docs/Web/CSS/initial_value], computed [/en-US/docs/Web/CSS/computed_value], used [/en-US/docs/Web/CSS/used_value], and actual
+     [/en-US/docs/Web/CSS/actual_value] values
+   * CSS shorthand properties [/en-US/docs/Web/CSS/Shorthand_properties]
+   * CSS Flexible Box Layout [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout]
+   * CSS Grid Layout [/en-US/docs/Web/CSS/CSS_Grid_Layout]
+   * CSS selectors [/en-US/docs/Web/CSS/CSS_Selectors]
+   * Media queries [/en-US/docs/Web/CSS/Media_Queries]
+   * Animation [/en-US/docs/Web/CSS/animation]
 
 
+COOKBOOK
 
-JAVASCRIPT APIS
-
-Get comprehensive details about the methods, properties, types, and events for all the JavaScript APIs
-[/en-US/docs/Mozilla/Add-ons/WebExtensions/API]. There is also detailed information about the compatibility of each API with the major browsers. Most
-reference pages also include coding examples and links to the extension examples that use the API.
+The CSS layout cookbook [/en-US/docs/Web/CSS/Layout_cookbook] aims to bring together recipes for common layout patterns, things you might need to
+implement in your sites. In addition to providing code you can use as a starting point in your projects, these recipes highlight the different ways
+layout specifications can be used, and the choices you can make as a developer.
 
 
-MANIFEST KEYS
+TOOLS FOR CSS DEVELOPMENT
 
-Get full details about the manifest keys [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json], including all their properties and settings.
-There’s also detailed information on the compatibility [/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_compatibility_for_manifest.json] of each key
-with the major browsers.
+ * You can use the W3C CSS Validation Service [https://jigsaw.w3.org/css-validator/] to check if your CSS is valid. This is an invaluable debugging
+   tool.
+ * Firefox Developer Tools [/en-US/docs/Tools] lets you view and edit a page's live CSS via the Inspector [/en-US/docs/Tools/Page_Inspector] and Style
+   Editor [/en-US/docs/Tools/Style_Editor] tools.
+ * The Web Developer extension [https://addons.mozilla.org/en-US/firefox/addon/web-developer/] for Firefox lets you track and edit live CSS on watched
+   sites.
+
+
+META BUGS
+
+ * Firefox: bug 1323667 [https://bugzilla.mozilla.org/show_bug.cgi?id=1323667]
+
+
+SEE ALSO
+
+ * CSS demos [/en-US/docs/Web/Demos#css]: Get a creative boost by exploring examples of the latest CSS technologies in action.
+ * Web languages to which CSS is often applied: HTML [/en-US/docs/Web/HTML], SVG [/en-US/docs/Web/SVG], MathML [/en-US/docs/Web/MathML], XHTML
+   [/en-US/docs/Glossary/XHTML], and XML [/en-US/docs/Web/XML/XML_introduction].
+ * Stack Overflow questions about CSS [https://stackoverflow.com/questions/tagged/css]
 
 
 FOUND A PROBLEM WITH THIS PAGE?
 
- * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/mozilla/add-ons/webextensions/index.md]
- * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/mozilla/add-ons/webextensions/index.md]
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/css/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/css/index.md]
  * Report a problem with this content on GitHub
-   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMozilla%2FAdd-ons%2FWebExtensions%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fmozilla%2Fadd-ons%2Fwebextensions%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMozilla%2FAdd-ons%2FWebExtensions%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fmozilla%2Fadd-ons%2Fwebextensions%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F4745cbfa49dce88d28c6031b93a711edbf92f090%0A*+Document+last+modified%3A+2021-11-27T22%3A01%3A57.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Browser+Extensions%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AWebExt]
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fcss%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FCSS%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fcss%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F4733331b2826b235231a6bb4d82d63236e48dac5%0A*+Document+last+modified%3A+2021-09-02T08%3A01%3A47.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22CSS%3A+Cascading+Style+Sheets%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3ACSS]
  * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
 
-Last modified: Nov 27, 2021, by MDN contributors [/en-US/docs/Mozilla/Add-ons/WebExtensions/contributors.txt]
+Last modified: Sep 2, 2021, by MDN contributors [/en-US/docs/Web/CSS/contributors.txt]
 
 Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
 language
 
 RELATED TOPICS
 
- 1.  Browser extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
- 2.  Getting started
-      1. What are extensions? [/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions]
-      2. Your first extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension]
-      3. Your second extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension]
-      4. Anatomy of an extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/Anatomy_of_a_WebExtension]
-      5. Example extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples]
-      6. What next? [/en-US/docs/Mozilla/Add-ons/WebExtensions/What_next_]
+ 1.  Learn CSS
+ 2.  CSS first steps
+      1. CSS first steps overview [/en-US/docs/Learn/CSS/First_steps]
+      2. What is CSS? [/en-US/docs/Learn/CSS/First_steps/What_is_CSS]
+      3. Getting started with CSS [/en-US/docs/Learn/CSS/First_steps/Getting_started]
+      4. How CSS is structured [/en-US/docs/Learn/CSS/First_steps/How_CSS_is_structured]
+      5. How CSS works [/en-US/docs/Learn/CSS/First_steps/How_CSS_works]
+      6. Using your new knowledge [/en-US/docs/Learn/CSS/First_steps/Using_your_new_knowledge]
 
- 3.  Concepts
-      1. Using the JavaScript APIs [/en-US/docs/Mozilla/Add-ons/WebExtensions/Using_the_JavaScript_APIs]
-      2. Content scripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts]
-      3. Match patterns [/en-US/docs/Mozilla/Add-ons/WebExtensions/Match_patterns]
-      4. Working with files [/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_files]
-      5. Internationalization [/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization]
-      6. Content Security Policy [/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_Security_Policy]
-      7. Native messaging [/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging]
-      8. Differences between API implementations [/en-US/docs/Mozilla/Add-ons/WebExtensions/Differences_between_API_implementations]
-      9. Chrome incompatibilities [/en-US/docs/Mozilla/Add-ons/WebExtensions/Chrome_incompatibilities]
+ 3.  CSS building blocks
+      1.  CSS building blocks overview [/en-US/docs/Learn/CSS/Building_blocks]
+      2.  Cascade and inheritance [/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance]
+      3.  CSS selectors [/en-US/docs/Learn/CSS/Building_blocks/Selectors]
+      4.  The box model [/en-US/docs/Learn/CSS/Building_blocks/The_box_model]
+      5.  Backgrounds and borders [/en-US/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders]
+      6.  Handling different text directions [/en-US/docs/Learn/CSS/Building_blocks/Handling_different_text_directions]
+      7.  Overflowing content [/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content]
+      8.  Values and units [/en-US/docs/Learn/CSS/Building_blocks/Values_and_units]
+      9.  Sizing items in CSS [/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS]
+      10. Images, media, and form elements [/en-US/docs/Learn/CSS/Building_blocks/Images_media_form_elements]
+      11. Styling tables [/en-US/docs/Learn/CSS/Building_blocks/Styling_tables]
+      12. Debugging CSS [/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS]
+      13. Organizing your CSS [/en-US/docs/Learn/CSS/Building_blocks/Organizing]
 
- 4.  User interface
-      1.  User Interface [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface]
-      2.  Toolbar button [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_action]
-      3.  Address bar button [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Page_actions]
-      4.  Sidebars [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Sidebars]
-      5.  Context menu items [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Context_menu_items]
-      6.  Options page [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Options_pages]
-      7.  Extension pages [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Extension_pages]
-      8.  Notifications [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Notifications]
-      9.  Address bar suggestions [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Omnibox]
-      10. Developer tools panels [/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/devtools_panels]
+ 4.  Styling text
+      1. Styling text overview [/en-US/docs/Learn/CSS/Styling_text]
+      2. Fundamental text and font styling [/en-US/docs/Learn/CSS/Styling_text/Fundamentals]
+      3. Styling lists [/en-US/docs/Learn/CSS/Styling_text/Styling_lists]
+      4. Styling links [/en-US/docs/Learn/CSS/Styling_text/Styling_links]
+      5. Web fonts [/en-US/docs/Learn/CSS/Styling_text/Web_fonts]
+      6. Assessment: Typesetting a community school homepage [/en-US/docs/Learn/CSS/Styling_text/Typesetting_a_homepage]
 
- 5.  How to
-      1.  Intercept HTTP requests [/en-US/docs/Mozilla/Add-ons/WebExtensions/Intercept_HTTP_requests]
-      2.  Modify a web page [/en-US/docs/Mozilla/Add-ons/WebExtensions/Modify_a_web_page]
-      3.  Insert external content [/en-US/docs/Mozilla/Add-ons/WebExtensions/Safely_inserting_external_content_into_a_page]
-      4.  Share objects with page scripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/Sharing_objects_with_page_scripts]
-      5.  Add a button to the toolbar [/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar]
-      6.  Implement a settings page [/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page]
-      7.  Work with the Tabs API [/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API]
-      8.  Work with the Bookmarks API [/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API]
-      9.  Work with the Cookies API [/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API]
-      10. Work with contextual identities [/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities]
-      11. Interact with the clipboard [/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard]
-      12. Build a cross-browser extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension]
+ 5.  CSS layout
+      1.  CSS layout overview [/en-US/docs/Learn/CSS/CSS_layout]
+      2.  Introduction to CSS layout [/en-US/docs/Learn/CSS/CSS_layout/Introduction]
+      3.  Normal Flow [/en-US/docs/Learn/CSS/CSS_layout/Normal_Flow]
+      4.  Flexbox [/en-US/docs/Learn/CSS/CSS_layout/Flexbox]
+      5.  Grids [/en-US/docs/Learn/CSS/CSS_layout/Grids]
+      6.  Floats [/en-US/docs/Learn/CSS/CSS_layout/Floats]
+      7.  Positioning [/en-US/docs/Learn/CSS/CSS_layout/Positioning]
+      8.  Multiple-column Layout [/en-US/docs/Learn/CSS/CSS_layout/Multiple-column_Layout]
+      9.  Responsive design [/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design]
+      10. Beginner's guide to media queries [/en-US/docs/Learn/CSS/CSS_layout/Media_queries]
+      11. Legacy Layout Methods [/en-US/docs/Learn/CSS/CSS_layout/Legacy_Layout_Methods]
+      12. Supporting Older Browsers [/en-US/docs/Learn/CSS/CSS_layout/Supporting_Older_Browsers]
+      13. Fundamental Layout Comprehension [/en-US/docs/Learn/CSS/CSS_layout/Fundamental_Layout_Comprehension]
 
- 6.  Firefox differentiators [/en-US/docs/Mozilla/Add-ons/WebExtensions/Firefox_differentiators]
- 7.  JavaScript APIs
-      1.  Browser support for JavaScript APIs [/en-US/docs/Mozilla/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs]
-      2.  alarms [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms]
-      3.  bookmarks [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks]
-      4.  browserAction [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction]
-      5.  browserSettings [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings]
-      6.  browsingData [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData]
-      7.  captivePortal [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/captivePortal]
-      8.  clipboard [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/clipboard]
-      9.  commands [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands]
-      10. contentScripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contentScripts]
-      11. contextualIdentities [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/contextualIdentities]
-      12. cookies [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies]
-      13. devtools [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools]
-      14. dns [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/dns]
-      15. downloads [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads]
-      16. events [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/events]
-      17. extension [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extension]
-      18. extensionTypes [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes]
-      19. find [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/find]
-      20. history [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history]
-      21. i18n [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/i18n]
-      22. identity [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity]
-      23. idle [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/idle]
-      24. management [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management]
-      25. menus [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus]
-      26. notifications [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications]
-      27. omnibox [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox]
-      28. pageAction [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pageAction]
-      29. permissions [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions]
-      30. pkcs11 [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/pkcs11]
-      31. privacy [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/privacy]
-      32. proxy [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/proxy]
-      33. runtime [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime]
-      34. search [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/search]
-      35. sessions [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sessions]
-      36. sidebarAction [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction]
-      37. storage [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage]
-      38. tabs [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs]
-      39. theme [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme]
-      40. topSites [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/topSites]
-      41. types [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/types]
-      42. userScripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/userScripts]
-      43. webNavigation [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation]
-      44. webRequest [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest]
-      45. windows [/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows]
+ 6.  Reference
+ 7.  Modules
+      1.  Compositing and Blending [/en-US/docs/Web/CSS/Compositing_and_Blending]
+      2.  CSS Animations [/en-US/docs/Web/CSS/CSS_Animations]
+      3.  CSS Backgrounds and Borders [/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders]
+      4.  CSS Basic User Interface [/en-US/docs/Web/CSS/CSS_Basic_User_Interface]
+      5.  CSS Box Model [/en-US/docs/Web/CSS/CSS_Box_Model]
+      6.  CSS Charsets [/en-US/docs/Web/CSS/CSS_Charsets]
+      7.  CSS Color [/en-US/docs/Web/CSS/CSS_Color]
+      8.  CSS Multi-column Layout [/en-US/docs/Web/CSS/CSS_Columns]
+      9.  CSS Conditional Rules [/en-US/docs/Web/CSS/CSS_Conditional_Rules]
+      10. CSS Counter Styles [/en-US/docs/Web/CSS/CSS_Counter_Styles]
+      11. CSS Device Adaptation [/en-US/docs/Web/CSS/CSS_Device_Adaptation]
+      12. CSS Display [/en-US/docs/Web/CSS/CSS_Display]
+      13. CSS Flexible Box Layout [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout]
+      14. CSS Fonts [/en-US/docs/Web/CSS/CSS_Fonts]
+      15. CSS Fragmentation [/en-US/docs/Web/CSS/CSS_Fragmentation]
+      16. CSS Generated Content [/en-US/docs/Web/CSS/CSS_Generated_Content]
+      17. CSS Grid Layout [/en-US/docs/Web/CSS/CSS_Grid_Layout]
+      18. CSS Houdini [/en-US/docs/Web/CSS/CSS_Houdini]
+      19. CSS Images [/en-US/docs/Web/CSS/CSS_Images]
+      20. CSS Lists [/en-US/docs/Web/CSS/CSS_Lists_and_Counters]
+      21. CSS Logical Properties and Values [/en-US/docs/Web/CSS/CSS_Logical_Properties]
+      22. CSS Masking [/en-US/docs/Web/CSS/CSS_Masking]
+      23. CSS Miscellaneous [/en-US/docs/Web/CSS/CSS_Miscellaneous]
+      24. CSS Motion Path [/en-US/docs/Web/CSS/CSS_Motion_Path]
+      25. CSS Namespaces [/en-US/docs/Web/CSS/CSS_Namespaces]
+      26. CSS Paged Media [/en-US/docs/Web/CSS/CSS_Pages]
+      27. CSS Positioned Layout [/en-US/docs/Web/CSS/CSS_Positioning]
+      28. CSS Ruby Layout [/en-US/docs/Web/CSS/CSS_Ruby]
+      29. CSS Scroll Snap Points [/en-US/docs/Web/CSS/CSS_Scroll_Snap_Points]
+      30. CSS Scroll Snap [/en-US/docs/Web/CSS/CSS_Scroll_Snap]
+      31. CSS Scrollbars [/en-US/docs/Web/CSS/CSS_Scrollbars]
+      32. CSS selectors [/en-US/docs/Web/CSS/CSS_Selectors]
+      33. CSS Shapes [/en-US/docs/Web/CSS/CSS_Shapes]
+      34. CSS Table [/en-US/docs/Web/CSS/CSS_Table]
+      35. CSS Text Decoration [/en-US/docs/Web/CSS/CSS_Text_Decoration]
+      36. CSS Text [/en-US/docs/Web/CSS/CSS_Text]
+      37. CSS Transforms [/en-US/docs/Web/CSS/CSS_Transforms]
+      38. CSS Transitions [/en-US/docs/Web/CSS/CSS_Transitions]
+      39. CSS data types [/en-US/docs/Web/CSS/CSS_Types]
+      40. CSS Custom Properties for Cascading Variables [/en-US/docs/Web/CSS/CSS_Variables]
+      41. CSS Writing Modes [/en-US/docs/Web/CSS/CSS_Writing_Modes]
+      42. CSSOM View [/en-US/docs/Web/CSS/CSSOM_View]
+      43. Filter Effects [/en-US/docs/Web/CSS/Filter_Effects]
+      44. Media queries [/en-US/docs/Web/CSS/Media_Queries]
+      45. Pseudo-classes [/en-US/docs/Web/CSS/Pseudo-classes]
+      46. Pseudo-elements [/en-US/docs/Web/CSS/Pseudo-elements]
+      47. CSS reference [/en-US/docs/Web/CSS/Reference]
 
- 8.  Manifest keys
-      1. Introduction [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json]
-     
-      1.  author [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/author]
-      2.  background [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background]
-      3.  browser_action [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action]
-      4.  browser_specific_settings [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings]
-      5.  chrome_settings_overrides [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_settings_overrides]
-      6.  chrome_url_overrides [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_url_overrides]
-      7.  commands [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands]
-      8.  content_scripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts]
-      9.  content_security_policy [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy]
-      10. default_locale [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/default_locale]
-      11. description [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/description]
-      12. developer [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/developer]
-      13. devtools_page [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page]
-      14. dictionaries [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/dictionaries]
-      15. externally_connectable [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/externally_connectable]
-      16. homepage_url [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/homepage_url]
-      17. icons [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons]
-      18. incognito [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/incognito]
-      19. manifest_version [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version]
-      20. name [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/name]
-      21. offline_enabled [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/offline_enabled]
-      22. omnibox [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/omnibox]
-      23. optional_permissions [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions]
-      24. options_page [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_page]
-      25. options_ui [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_ui]
-      26. page_action [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action]
-      27. permissions [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions]
-      28. protocol_handlers [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/protocol_handlers]
-      29. short_name [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/short_name]
-      30. sidebar_action [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/sidebar_action]
-      31. storage [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/storage]
-      32. theme [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme]
-      33. theme_experiment [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/theme_experiment]
-      34. user_scripts [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/user_scripts]
-      35. version [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version]
-      36. version_name [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version_name]
-      37. web_accessible_resources [/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/web_accessible_resources]
+ 8.  Properties
+      1.   accent-color [/en-US/docs/Web/CSS/accent-color]
+      2.   align-content [/en-US/docs/Web/CSS/align-content]
+      3.   align-items [/en-US/docs/Web/CSS/align-items]
+      4.   align-self [/en-US/docs/Web/CSS/align-self]
+      5.   all [/en-US/docs/Web/CSS/all]
+      6.   animation-delay [/en-US/docs/Web/CSS/animation-delay]
+      7.   animation-direction [/en-US/docs/Web/CSS/animation-direction]
+      8.   animation-duration [/en-US/docs/Web/CSS/animation-duration]
+      9.   animation-fill-mode [/en-US/docs/Web/CSS/animation-fill-mode]
+      10.  animation-iteration-count [/en-US/docs/Web/CSS/animation-iteration-count]
+      11.  animation-name [/en-US/docs/Web/CSS/animation-name]
+      12.  animation-play-state [/en-US/docs/Web/CSS/animation-play-state]
+      13.  animation-timing-function [/en-US/docs/Web/CSS/animation-timing-function]
+      14.  animation [/en-US/docs/Web/CSS/animation]
+      15.  appearance (-moz-appearance, -webkit-appearance) [/en-US/docs/Web/CSS/appearance]
+      16.  aspect-ratio [/en-US/docs/Web/CSS/aspect-ratio]
+      17.  backdrop-filter [/en-US/docs/Web/CSS/backdrop-filter]
+      18.  backface-visibility [/en-US/docs/Web/CSS/backface-visibility]
+      19.  background-attachment [/en-US/docs/Web/CSS/background-attachment]
+      20.  background-blend-mode [/en-US/docs/Web/CSS/background-blend-mode]
+      21.  background-clip [/en-US/docs/Web/CSS/background-clip]
+      22.  background-color [/en-US/docs/Web/CSS/background-color]
+      23.  background-image [/en-US/docs/Web/CSS/background-image]
+      24.  background-origin [/en-US/docs/Web/CSS/background-origin]
+      25.  background-position-x [/en-US/docs/Web/CSS/background-position-x]
+      26.  background-position-y [/en-US/docs/Web/CSS/background-position-y]
+      27.  background-position [/en-US/docs/Web/CSS/background-position]
+      28.  background-repeat [/en-US/docs/Web/CSS/background-repeat]
+      29.  background-size [/en-US/docs/Web/CSS/background-size]
+      30.  background [/en-US/docs/Web/CSS/background]
+      31.  block-size [/en-US/docs/Web/CSS/block-size]
+      32.  border-block-color [/en-US/docs/Web/CSS/border-block-color]
+      33.  border-block-end-color [/en-US/docs/Web/CSS/border-block-end-color]
+      34.  border-block-end-style [/en-US/docs/Web/CSS/border-block-end-style]
+      35.  border-block-end-width [/en-US/docs/Web/CSS/border-block-end-width]
+      36.  border-block-end [/en-US/docs/Web/CSS/border-block-end]
+      37.  border-block-start-color [/en-US/docs/Web/CSS/border-block-start-color]
+      38.  border-block-start-style [/en-US/docs/Web/CSS/border-block-start-style]
+      39.  border-block-start-width [/en-US/docs/Web/CSS/border-block-start-width]
+      40.  border-block-start [/en-US/docs/Web/CSS/border-block-start]
+      41.  border-block-width [/en-US/docs/Web/CSS/border-block-width]
+      42.  border-bottom-color [/en-US/docs/Web/CSS/border-bottom-color]
+      43.  border-bottom-left-radius [/en-US/docs/Web/CSS/border-bottom-left-radius]
+      44.  border-bottom-right-radius [/en-US/docs/Web/CSS/border-bottom-right-radius]
+      45.  border-bottom-style [/en-US/docs/Web/CSS/border-bottom-style]
+      46.  border-bottom-width [/en-US/docs/Web/CSS/border-bottom-width]
+      47.  border-bottom [/en-US/docs/Web/CSS/border-bottom]
+      48.  border-collapse [/en-US/docs/Web/CSS/border-collapse]
+      49.  border-color [/en-US/docs/Web/CSS/border-color]
+      50.  border-end-end-radius [/en-US/docs/Web/CSS/border-end-end-radius]
+      51.  border-end-start-radius [/en-US/docs/Web/CSS/border-end-start-radius]
+      52.  border-image-outset [/en-US/docs/Web/CSS/border-image-outset]
+      53.  border-image-repeat [/en-US/docs/Web/CSS/border-image-repeat]
+      54.  border-image-slice [/en-US/docs/Web/CSS/border-image-slice]
+      55.  border-image-source [/en-US/docs/Web/CSS/border-image-source]
+      56.  border-image-width [/en-US/docs/Web/CSS/border-image-width]
+      57.  border-image [/en-US/docs/Web/CSS/border-image]
+      58.  border-inline-color [/en-US/docs/Web/CSS/border-inline-color]
+      59.  border-inline-end-color [/en-US/docs/Web/CSS/border-inline-end-color]
+      60.  border-inline-end-style [/en-US/docs/Web/CSS/border-inline-end-style]
+      61.  border-inline-end-width [/en-US/docs/Web/CSS/border-inline-end-width]
+      62.  border-inline-end [/en-US/docs/Web/CSS/border-inline-end]
+      63.  border-inline-start-color [/en-US/docs/Web/CSS/border-inline-start-color]
+      64.  border-inline-start-style [/en-US/docs/Web/CSS/border-inline-start-style]
+      65.  border-inline-start-width [/en-US/docs/Web/CSS/border-inline-start-width]
+      66.  border-inline-start [/en-US/docs/Web/CSS/border-inline-start]
+      67.  border-inline-style [/en-US/docs/Web/CSS/border-inline-style]
+      68.  border-inline-width [/en-US/docs/Web/CSS/border-inline-width]
+      69.  border-inline [/en-US/docs/Web/CSS/border-inline]
+      70.  border-left-color [/en-US/docs/Web/CSS/border-left-color]
+      71.  border-left-style [/en-US/docs/Web/CSS/border-left-style]
+      72.  border-left-width [/en-US/docs/Web/CSS/border-left-width]
+      73.  border-left [/en-US/docs/Web/CSS/border-left]
+      74.  border-radius [/en-US/docs/Web/CSS/border-radius]
+      75.  border-right-color [/en-US/docs/Web/CSS/border-right-color]
+      76.  border-right-style [/en-US/docs/Web/CSS/border-right-style]
+      77.  border-right-width [/en-US/docs/Web/CSS/border-right-width]
+      78.  border-right [/en-US/docs/Web/CSS/border-right]
+      79.  border-spacing [/en-US/docs/Web/CSS/border-spacing]
+      80.  border-start-end-radius [/en-US/docs/Web/CSS/border-start-end-radius]
+      81.  border-start-start-radius [/en-US/docs/Web/CSS/border-start-start-radius]
+      82.  border-style [/en-US/docs/Web/CSS/border-style]
+      83.  border-top-color [/en-US/docs/Web/CSS/border-top-color]
+      84.  border-top-left-radius [/en-US/docs/Web/CSS/border-top-left-radius]
+      85.  border-top-right-radius [/en-US/docs/Web/CSS/border-top-right-radius]
+      86.  border-top-style [/en-US/docs/Web/CSS/border-top-style]
+      87.  border-top-width [/en-US/docs/Web/CSS/border-top-width]
+      88.  border-top [/en-US/docs/Web/CSS/border-top]
+      89.  border-width [/en-US/docs/Web/CSS/border-width]
+      90.  bottom [/en-US/docs/Web/CSS/bottom]
+      91.  box-decoration-break [/en-US/docs/Web/CSS/box-decoration-break]
+      92.  box-shadow [/en-US/docs/Web/CSS/box-shadow]
+      93.  box-sizing [/en-US/docs/Web/CSS/box-sizing]
+      94.  break-after [/en-US/docs/Web/CSS/break-after]
+      95.  break-before [/en-US/docs/Web/CSS/break-before]
+      96.  break-inside [/en-US/docs/Web/CSS/break-inside]
+      97.  caption-side [/en-US/docs/Web/CSS/caption-side]
+      98.  caret-color [/en-US/docs/Web/CSS/caret-color]
+      99.  clear [/en-US/docs/Web/CSS/clear]
+      100. clip-path [/en-US/docs/Web/CSS/clip-path]
+      101. clip [/en-US/docs/Web/CSS/clip]
+      102. color-scheme [/en-US/docs/Web/CSS/color-scheme]
+      103. color [/en-US/docs/Web/CSS/color]
+      104. column-count [/en-US/docs/Web/CSS/column-count]
+      105. column-fill [/en-US/docs/Web/CSS/column-fill]
+      106. column-gap (grid-column-gap) [/en-US/docs/Web/CSS/column-gap]
+      107. column-rule-color [/en-US/docs/Web/CSS/column-rule-color]
+      108. column-rule-style [/en-US/docs/Web/CSS/column-rule-style]
+      109. column-rule-width [/en-US/docs/Web/CSS/column-rule-width]
+      110. column-rule [/en-US/docs/Web/CSS/column-rule]
+      111. column-span [/en-US/docs/Web/CSS/column-span]
+      112. column-width [/en-US/docs/Web/CSS/column-width]
+      113. columns [/en-US/docs/Web/CSS/columns]
+      114. contain [/en-US/docs/Web/CSS/contain]
+      115. content-visibility [/en-US/docs/Web/CSS/content-visibility]
+      116. content [/en-US/docs/Web/CSS/content]
+      117. counter-increment [/en-US/docs/Web/CSS/counter-increment]
+      118. counter-reset [/en-US/docs/Web/CSS/counter-reset]
+      119. counter-set [/en-US/docs/Web/CSS/counter-set]
+      120. cursor [/en-US/docs/Web/CSS/cursor]
+      121. direction [/en-US/docs/Web/CSS/direction]
+      122. display [/en-US/docs/Web/CSS/display]
+      123. empty-cells [/en-US/docs/Web/CSS/empty-cells]
+      124. filter [/en-US/docs/Web/CSS/filter]
+      125. flex-basis [/en-US/docs/Web/CSS/flex-basis]
+      126. flex-direction [/en-US/docs/Web/CSS/flex-direction]
+      127. flex-flow [/en-US/docs/Web/CSS/flex-flow]
+      128. flex-grow [/en-US/docs/Web/CSS/flex-grow]
+      129. flex-shrink [/en-US/docs/Web/CSS/flex-shrink]
+      130. flex-wrap [/en-US/docs/Web/CSS/flex-wrap]
+      131. flex [/en-US/docs/Web/CSS/flex]
+      132. float [/en-US/docs/Web/CSS/float]
+      133. font-family [/en-US/docs/Web/CSS/font-family]
+      134. font-feature-settings [/en-US/docs/Web/CSS/font-feature-settings]
+      135. font-kerning [/en-US/docs/Web/CSS/font-kerning]
+      136. font-language-override [/en-US/docs/Web/CSS/font-language-override]
+      137. font-optical-sizing [/en-US/docs/Web/CSS/font-optical-sizing]
+      138. font-size-adjust [/en-US/docs/Web/CSS/font-size-adjust]
+      139. font-size [/en-US/docs/Web/CSS/font-size]
+      140. font-stretch [/en-US/docs/Web/CSS/font-stretch]
+      141. font-style [/en-US/docs/Web/CSS/font-style]
+      142. font-synthesis [/en-US/docs/Web/CSS/font-synthesis]
+      143. font-variant-alternates [/en-US/docs/Web/CSS/font-variant-alternates]
+      144. font-variant-caps [/en-US/docs/Web/CSS/font-variant-caps]
+      145. font-variant-east-asian [/en-US/docs/Web/CSS/font-variant-east-asian]
+      146. font-variant-ligatures [/en-US/docs/Web/CSS/font-variant-ligatures]
+      147. font-variant-numeric [/en-US/docs/Web/CSS/font-variant-numeric]
+      148. font-variant-position [/en-US/docs/Web/CSS/font-variant-position]
+      149. font-variant [/en-US/docs/Web/CSS/font-variant]
+      150. font-variation-settings [/en-US/docs/Web/CSS/font-variation-settings]
+      151. font-weight [/en-US/docs/Web/CSS/font-weight]
+      152. font [/en-US/docs/Web/CSS/font]
+      153. forced-color-adjust [/en-US/docs/Web/CSS/forced-color-adjust]
+      154. gap (grid-gap) [/en-US/docs/Web/CSS/gap]
+      155. grid-area [/en-US/docs/Web/CSS/grid-area]
+      156. grid-auto-columns [/en-US/docs/Web/CSS/grid-auto-columns]
+      157. grid-auto-flow [/en-US/docs/Web/CSS/grid-auto-flow]
+      158. grid-auto-rows [/en-US/docs/Web/CSS/grid-auto-rows]
+      159. grid-column-end [/en-US/docs/Web/CSS/grid-column-end]
+      160. grid-column-start [/en-US/docs/Web/CSS/grid-column-start]
+      161. grid-column [/en-US/docs/Web/CSS/grid-column]
+      162. grid-row-end [/en-US/docs/Web/CSS/grid-row-end]
+      163. grid-row-start [/en-US/docs/Web/CSS/grid-row-start]
+      164. grid-row [/en-US/docs/Web/CSS/grid-row]
+      165. grid-template-areas [/en-US/docs/Web/CSS/grid-template-areas]
+      166. grid-template-columns [/en-US/docs/Web/CSS/grid-template-columns]
+      167. grid-template-rows [/en-US/docs/Web/CSS/grid-template-rows]
+      168. grid-template [/en-US/docs/Web/CSS/grid-template]
+      169. grid [/en-US/docs/Web/CSS/grid]
+      170. hanging-punctuation [/en-US/docs/Web/CSS/hanging-punctuation]
+      171. height [/en-US/docs/Web/CSS/height]
+      172. hyphens [/en-US/docs/Web/CSS/hyphens]
+      173. image-orientation [/en-US/docs/Web/CSS/image-orientation]
+      174. image-rendering [/en-US/docs/Web/CSS/image-rendering]
+      175. image-resolution [/en-US/docs/Web/CSS/image-resolution]
+      176. ime-mode [/en-US/docs/Web/CSS/ime-mode]
+      177. initial-letter-align [/en-US/docs/Web/CSS/initial-letter-align]
+      178. initial-letter [/en-US/docs/Web/CSS/initial-letter]
+      179. inline-size [/en-US/docs/Web/CSS/inline-size]
+      180. inset-block-end [/en-US/docs/Web/CSS/inset-block-end]
+      181. inset-block-start [/en-US/docs/Web/CSS/inset-block-start]
+      182. inset-block [/en-US/docs/Web/CSS/inset-block]
+      183. inset-inline-end [/en-US/docs/Web/CSS/inset-inline-end]
+      184. inset-inline-start [/en-US/docs/Web/CSS/inset-inline-start]
+      185. inset-inline [/en-US/docs/Web/CSS/inset-inline]
+      186. inset [/en-US/docs/Web/CSS/inset]
+      187. isolation [/en-US/docs/Web/CSS/isolation]
+      188. justify-content [/en-US/docs/Web/CSS/justify-content]
+      189. justify-items [/en-US/docs/Web/CSS/justify-items]
+      190. justify-self [/en-US/docs/Web/CSS/justify-self]
+      191. left [/en-US/docs/Web/CSS/left]
+      192. letter-spacing [/en-US/docs/Web/CSS/letter-spacing]
+      193. line-break [/en-US/docs/Web/CSS/line-break]
+      194. line-height-step [/en-US/docs/Web/CSS/line-height-step]
+      195. line-height [/en-US/docs/Web/CSS/line-height]
+      196. list-style-image [/en-US/docs/Web/CSS/list-style-image]
+      197. list-style-position [/en-US/docs/Web/CSS/list-style-position]
+      198. list-style-type [/en-US/docs/Web/CSS/list-style-type]
+      199. list-style [/en-US/docs/Web/CSS/list-style]
+      200. margin-block-end [/en-US/docs/Web/CSS/margin-block-end]
+      201. margin-block-start [/en-US/docs/Web/CSS/margin-block-start]
+      202. margin-block [/en-US/docs/Web/CSS/margin-block]
+      203. margin-bottom [/en-US/docs/Web/CSS/margin-bottom]
+      204. margin-inline-end [/en-US/docs/Web/CSS/margin-inline-end]
+      205. margin-inline-start [/en-US/docs/Web/CSS/margin-inline-start]
+      206. margin-inline [/en-US/docs/Web/CSS/margin-inline]
+      207. margin-left [/en-US/docs/Web/CSS/margin-left]
+      208. margin-right [/en-US/docs/Web/CSS/margin-right]
+      209. margin-top [/en-US/docs/Web/CSS/margin-top]
+      210. margin-trim [/en-US/docs/Web/CSS/margin-trim]
+      211. margin [/en-US/docs/Web/CSS/margin]
+      212. mask-border-mode [/en-US/docs/Web/CSS/mask-border-mode]
+      213. mask-border-outset [/en-US/docs/Web/CSS/mask-border-outset]
+      214. mask-border-repeat [/en-US/docs/Web/CSS/mask-border-repeat]
+      215. mask-border-slice [/en-US/docs/Web/CSS/mask-border-slice]
+      216. mask-border-source [/en-US/docs/Web/CSS/mask-border-source]
+      217. mask-border-width [/en-US/docs/Web/CSS/mask-border-width]
+      218. mask-border [/en-US/docs/Web/CSS/mask-border]
+      219. mask-clip [/en-US/docs/Web/CSS/mask-clip]
+      220. mask-composite [/en-US/docs/Web/CSS/mask-composite]
+      221. mask-image [/en-US/docs/Web/CSS/mask-image]
+      222. mask-mode [/en-US/docs/Web/CSS/mask-mode]
+      223. mask-origin [/en-US/docs/Web/CSS/mask-origin]
+      224. mask-position [/en-US/docs/Web/CSS/mask-position]
+      225. mask-repeat [/en-US/docs/Web/CSS/mask-repeat]
+      226. mask-size [/en-US/docs/Web/CSS/mask-size]
+      227. mask-type [/en-US/docs/Web/CSS/mask-type]
+      228. mask [/en-US/docs/Web/CSS/mask]
+      229. max-block-size [/en-US/docs/Web/CSS/max-block-size]
+      230. max-height [/en-US/docs/Web/CSS/max-height]
+      231. max-inline-size [/en-US/docs/Web/CSS/max-inline-size]
+      232. max-width [/en-US/docs/Web/CSS/max-width]
+      233. min-block-size [/en-US/docs/Web/CSS/min-block-size]
+      234. min-height [/en-US/docs/Web/CSS/min-height]
+      235. min-inline-size [/en-US/docs/Web/CSS/min-inline-size]
+      236. min-width [/en-US/docs/Web/CSS/min-width]
+      237. mix-blend-mode [/en-US/docs/Web/CSS/mix-blend-mode]
+      238. object-fit [/en-US/docs/Web/CSS/object-fit]
+      239. object-position [/en-US/docs/Web/CSS/object-position]
+      240. offset-distance [/en-US/docs/Web/CSS/offset-distance]
+      241. offset-position [/en-US/docs/Web/CSS/offset-position]
+      242. offset-rotate [/en-US/docs/Web/CSS/offset-rotate]
+      243. offset [/en-US/docs/Web/CSS/offset]
+      244. opacity [/en-US/docs/Web/CSS/opacity]
+      245. order [/en-US/docs/Web/CSS/order]
+      246. orphans [/en-US/docs/Web/CSS/orphans]
+      247. outline-color [/en-US/docs/Web/CSS/outline-color]
+      248. outline-offset [/en-US/docs/Web/CSS/outline-offset]
+      249. outline-style [/en-US/docs/Web/CSS/outline-style]
+      250. outline-width [/en-US/docs/Web/CSS/outline-width]
+      251. outline [/en-US/docs/Web/CSS/outline]
+      252. overflow-anchor [/en-US/docs/Web/CSS/overflow-anchor]
+      253. overflow-block [/en-US/docs/Web/CSS/overflow-block]
+      254. overflow-clip-margin [/en-US/docs/Web/CSS/overflow-clip-margin]
+      255. overflow-inline [/en-US/docs/Web/CSS/overflow-inline]
+      256. overflow-wrap [/en-US/docs/Web/CSS/overflow-wrap]
+      257. overflow-x [/en-US/docs/Web/CSS/overflow-x]
+      258. overflow-y [/en-US/docs/Web/CSS/overflow-y]
+      259. overflow [/en-US/docs/Web/CSS/overflow]
+      260. overscroll-behavior-block [/en-US/docs/Web/CSS/overscroll-behavior-block]
+      261. overscroll-behavior-inline [/en-US/docs/Web/CSS/overscroll-behavior-inline]
+      262. overscroll-behavior-x [/en-US/docs/Web/CSS/overscroll-behavior-x]
+      263. overscroll-behavior-y [/en-US/docs/Web/CSS/overscroll-behavior-y]
+      264. overscroll-behavior [/en-US/docs/Web/CSS/overscroll-behavior]
+      265. padding-block-end [/en-US/docs/Web/CSS/padding-block-end]
+      266. padding-block-start [/en-US/docs/Web/CSS/padding-block-start]
+      267. padding-bottom [/en-US/docs/Web/CSS/padding-bottom]
+      268. padding-inline-end [/en-US/docs/Web/CSS/padding-inline-end]
+      269. padding-inline-start [/en-US/docs/Web/CSS/padding-inline-start]
+      270. padding-left [/en-US/docs/Web/CSS/padding-left]
+      271. padding-right [/en-US/docs/Web/CSS/padding-right]
+      272. padding-top [/en-US/docs/Web/CSS/padding-top]
+      273. padding [/en-US/docs/Web/CSS/padding]
+      274. page-break-after [/en-US/docs/Web/CSS/page-break-after]
+      275. page-break-before [/en-US/docs/Web/CSS/page-break-before]
+      276. page-break-inside [/en-US/docs/Web/CSS/page-break-inside]
+      277. perspective-origin [/en-US/docs/Web/CSS/perspective-origin]
+      278. perspective [/en-US/docs/Web/CSS/perspective]
+      279. place-content [/en-US/docs/Web/CSS/place-content]
+      280. place-items [/en-US/docs/Web/CSS/place-items]
+      281. place-self [/en-US/docs/Web/CSS/place-self]
+      282. pointer-events [/en-US/docs/Web/CSS/pointer-events]
+      283. position [/en-US/docs/Web/CSS/position]
+      284. quotes [/en-US/docs/Web/CSS/quotes]
+      285. resize [/en-US/docs/Web/CSS/resize]
+      286. right [/en-US/docs/Web/CSS/right]
+      287. rotate [/en-US/docs/Web/CSS/rotate]
+      288. row-gap (grid-row-gap) [/en-US/docs/Web/CSS/row-gap]
+      289. ruby-align [/en-US/docs/Web/CSS/ruby-align]
+      290. ruby-position [/en-US/docs/Web/CSS/ruby-position]
+      291. scale [/en-US/docs/Web/CSS/scale]
+      292. scroll-behavior [/en-US/docs/Web/CSS/scroll-behavior]
+      293. scroll-margin-bottom [/en-US/docs/Web/CSS/scroll-margin-bottom]
+      294. scroll-margin-inline-start [/en-US/docs/Web/CSS/scroll-margin-inline-start]
+      295. scroll-margin-inline [/en-US/docs/Web/CSS/scroll-margin-inline]
+      296. scroll-margin-left [/en-US/docs/Web/CSS/scroll-margin-left]
+      297. scroll-margin-right [/en-US/docs/Web/CSS/scroll-margin-right]
+      298. scroll-margin-top [/en-US/docs/Web/CSS/scroll-margin-top]
+      299. scroll-padding-block-end [/en-US/docs/Web/CSS/scroll-padding-block-end]
+      300. scroll-padding-block-start [/en-US/docs/Web/CSS/scroll-padding-block-start]
+      301. scroll-padding-bottom [/en-US/docs/Web/CSS/scroll-padding-bottom]
+      302. scroll-padding-inline-end [/en-US/docs/Web/CSS/scroll-padding-inline-end]
+      303. scroll-padding-inline-start [/en-US/docs/Web/CSS/scroll-padding-inline-start]
+      304. scroll-padding-inline [/en-US/docs/Web/CSS/scroll-padding-inline]
+      305. scroll-padding-left [/en-US/docs/Web/CSS/scroll-padding-left]
+      306. scroll-padding [/en-US/docs/Web/CSS/scroll-padding]
+      307. scroll-snap-coordinate [/en-US/docs/Web/CSS/scroll-snap-coordinate]
+      308. scroll-snap-destination [/en-US/docs/Web/CSS/scroll-snap-destination]
+      309. scroll-snap-points-x [/en-US/docs/Web/CSS/scroll-snap-points-x]
+      310. scroll-snap-points-y [/en-US/docs/Web/CSS/scroll-snap-points-y]
+      311. scroll-snap-type [/en-US/docs/Web/CSS/scroll-snap-type]
+      312. scrollbar-color [/en-US/docs/Web/CSS/scrollbar-color]
+      313. scrollbar-width [/en-US/docs/Web/CSS/scrollbar-width]
+      314. shape-image-threshold [/en-US/docs/Web/CSS/shape-image-threshold]
+      315. shape-margin [/en-US/docs/Web/CSS/shape-margin]
+      316. shape-outside [/en-US/docs/Web/CSS/shape-outside]
+      317. tab-size [/en-US/docs/Web/CSS/tab-size]
+      318. table-layout [/en-US/docs/Web/CSS/table-layout]
+      319. text-align-last [/en-US/docs/Web/CSS/text-align-last]
+      320. text-align [/en-US/docs/Web/CSS/text-align]
+      321. text-combine-upright [/en-US/docs/Web/CSS/text-combine-upright]
+      322. text-decoration-color [/en-US/docs/Web/CSS/text-decoration-color]
+      323. text-decoration-line [/en-US/docs/Web/CSS/text-decoration-line]
+      324. text-decoration-skip-ink [/en-US/docs/Web/CSS/text-decoration-skip-ink]
+      325. text-decoration-skip [/en-US/docs/Web/CSS/text-decoration-skip]
+      326. text-decoration-style [/en-US/docs/Web/CSS/text-decoration-style]
+      327. text-decoration [/en-US/docs/Web/CSS/text-decoration]
+      328. text-emphasis-color [/en-US/docs/Web/CSS/text-emphasis-color]
+      329. text-emphasis-position [/en-US/docs/Web/CSS/text-emphasis-position]
+      330. text-emphasis-style [/en-US/docs/Web/CSS/text-emphasis-style]
+      331. text-emphasis [/en-US/docs/Web/CSS/text-emphasis]
+      332. text-indent [/en-US/docs/Web/CSS/text-indent]
+      333. text-justify [/en-US/docs/Web/CSS/text-justify]
+      334. text-orientation [/en-US/docs/Web/CSS/text-orientation]
+      335. text-overflow [/en-US/docs/Web/CSS/text-overflow]
+      336. text-rendering [/en-US/docs/Web/CSS/text-rendering]
+      337. text-shadow [/en-US/docs/Web/CSS/text-shadow]
+      338. text-size-adjust [/en-US/docs/Web/CSS/text-size-adjust]
+      339. text-transform [/en-US/docs/Web/CSS/text-transform]
+      340. text-underline-position [/en-US/docs/Web/CSS/text-underline-position]
+      341. top [/en-US/docs/Web/CSS/top]
+      342. touch-action [/en-US/docs/Web/CSS/touch-action]
+      343. transform-box [/en-US/docs/Web/CSS/transform-box]
+      344. transform-origin [/en-US/docs/Web/CSS/transform-origin]
+      345. transform-style [/en-US/docs/Web/CSS/transform-style]
+      346. transform [/en-US/docs/Web/CSS/transform]
+      347. transition-delay [/en-US/docs/Web/CSS/transition-delay]
+      348. transition-duration [/en-US/docs/Web/CSS/transition-duration]
+      349. transition-property [/en-US/docs/Web/CSS/transition-property]
+      350. transition-timing-function [/en-US/docs/Web/CSS/transition-timing-function]
+      351. transition [/en-US/docs/Web/CSS/transition]
+      352. translate [/en-US/docs/Web/CSS/translate]
+      353. unicode-bidi [/en-US/docs/Web/CSS/unicode-bidi]
+      354. user-select [/en-US/docs/Web/CSS/user-select]
+      355. vertical-align [/en-US/docs/Web/CSS/vertical-align]
+      356. visibility [/en-US/docs/Web/CSS/visibility]
+      357. white-space [/en-US/docs/Web/CSS/white-space]
+      358. widows [/en-US/docs/Web/CSS/widows]
+      359. width [/en-US/docs/Web/CSS/width]
+      360. will-change [/en-US/docs/Web/CSS/will-change]
+      361. word-break [/en-US/docs/Web/CSS/word-break]
+      362. word-spacing [/en-US/docs/Web/CSS/word-spacing]
+      363. writing-mode [/en-US/docs/Web/CSS/writing-mode]
+      364. z-index [/en-US/docs/Web/CSS/z-index]
 
- 9.  Extension Workshop
-      1. Develop [https://extensionworkshop.com/documentation/develop/]
-      2. Publish [https://extensionworkshop.com/documentation/publish/]
-      3. Manage [https://extensionworkshop.com/documentation/manage/]
-      4. Enterprise [https://extensionworkshop.com/documentation/enterprise/]
+ 9.  Selectors
+      1.  Adjacent sibling combinator [/en-US/docs/Web/CSS/Adjacent_sibling_combinator]
+      2.  Attribute selectors [/en-US/docs/Web/CSS/Attribute_selectors]
+      3.  Child combinator [/en-US/docs/Web/CSS/Child_combinator]
+      4.  Class selectors [/en-US/docs/Web/CSS/Class_selectors]
+      5.  Column combinator [/en-US/docs/Web/CSS/Column_combinator]
+      6.  Descendant combinator [/en-US/docs/Web/CSS/Descendant_combinator]
+      7.  General sibling combinator [/en-US/docs/Web/CSS/General_sibling_combinator]
+      8.  ID selectors [/en-US/docs/Web/CSS/ID_selectors]
+      9.  Selector list [/en-US/docs/Web/CSS/Selector_list]
+      10. Type selectors [/en-US/docs/Web/CSS/Type_selectors]
+      11. Universal selectors [/en-US/docs/Web/CSS/Universal_selectors]
 
- 10. Contact us [/en-US/docs/Mozilla/Add-ons/Contact_us]
- 11. Channels
-      1. Add-ons blog [https://blog.mozilla.org/addons]
-      2. Add-ons forum [https://discourse.mozilla.org/c/add-ons]
-      3. Add-ons chat [https://chat.mozilla.org/#/room/%23addons:mozilla.org]
+ 10. Pseudo-classes
+      1.  :active [/en-US/docs/Web/CSS/:active]
+      2.  :any-link [/en-US/docs/Web/CSS/:any-link]
+      3.  :autofill [/en-US/docs/Web/CSS/:autofill]
+      4.  :blank [/en-US/docs/Web/CSS/:blank]
+      5.  :checked [/en-US/docs/Web/CSS/:checked]
+      6.  :default [/en-US/docs/Web/CSS/:default]
+      7.  :defined [/en-US/docs/Web/CSS/:defined]
+      8.  :dir() [/en-US/docs/Web/CSS/:dir]
+      9.  :disabled [/en-US/docs/Web/CSS/:disabled]
+      10. :empty [/en-US/docs/Web/CSS/:empty]
+      11. :enabled [/en-US/docs/Web/CSS/:enabled]
+      12. :first-child [/en-US/docs/Web/CSS/:first-child]
+      13. :first-of-type [/en-US/docs/Web/CSS/:first-of-type]
+      14. :first [/en-US/docs/Web/CSS/:first]
+      15. :focus-visible [/en-US/docs/Web/CSS/:focus-visible]
+      16. :focus-within [/en-US/docs/Web/CSS/:focus-within]
+      17. :focus [/en-US/docs/Web/CSS/:focus]
+      18. :fullscreen [/en-US/docs/Web/CSS/:fullscreen]
+      19. :has() [/en-US/docs/Web/CSS/:has]
+      20. :host-context() [/en-US/docs/Web/CSS/:host-context()]
+      21. :host() [/en-US/docs/Web/CSS/:host()]
+      22. :host [/en-US/docs/Web/CSS/:host]
+      23. :hover [/en-US/docs/Web/CSS/:hover]
+      24. :in-range [/en-US/docs/Web/CSS/:in-range]
+      25. :indeterminate [/en-US/docs/Web/CSS/:indeterminate]
+      26. :invalid [/en-US/docs/Web/CSS/:invalid]
+      27. :is() (:matches(), :any()) [/en-US/docs/Web/CSS/:is]
+      28. :lang() [/en-US/docs/Web/CSS/:lang]
+      29. :last-child [/en-US/docs/Web/CSS/:last-child]
+      30. :last-of-type [/en-US/docs/Web/CSS/:last-of-type]
+      31. :left [/en-US/docs/Web/CSS/:left]
+      32. :link [/en-US/docs/Web/CSS/:link]
+      33. :not() [/en-US/docs/Web/CSS/:not]
+      34. :nth-child() [/en-US/docs/Web/CSS/:nth-child]
+      35. :nth-last-child() [/en-US/docs/Web/CSS/:nth-last-child]
+      36. :nth-last-of-type() [/en-US/docs/Web/CSS/:nth-last-of-type]
+      37. :nth-of-type() [/en-US/docs/Web/CSS/:nth-of-type]
+      38. :only-child [/en-US/docs/Web/CSS/:only-child]
+      39. :only-of-type [/en-US/docs/Web/CSS/:only-of-type]
+      40. :optional [/en-US/docs/Web/CSS/:optional]
+      41. :out-of-range [/en-US/docs/Web/CSS/:out-of-range]
+      42. :paused [/en-US/docs/Web/CSS/:paused]
+      43. :picture-in-picture [/en-US/docs/Web/CSS/:picture-in-picture]
+      44. :placeholder-shown [/en-US/docs/Web/CSS/:placeholder-shown]
+      45. :playing [/en-US/docs/Web/CSS/:playing]
+      46. :read-only [/en-US/docs/Web/CSS/:read-only]
+      47. :read-write [/en-US/docs/Web/CSS/:read-write]
+      48. :required [/en-US/docs/Web/CSS/:required]
+      49. :right [/en-US/docs/Web/CSS/:right]
+      50. :root [/en-US/docs/Web/CSS/:root]
+      51. :scope [/en-US/docs/Web/CSS/:scope]
+      52. :target [/en-US/docs/Web/CSS/:target]
+      53. :user-invalid (:-moz-ui-invalid) [/en-US/docs/Web/CSS/:user-invalid]
+      54. :user-valid (:-moz-ui-valid) [/en-US/docs/web/css/:user-valid]
+      55. :valid [/en-US/docs/Web/CSS/:valid]
+      56. :visited [/en-US/docs/Web/CSS/:visited]
+      57. :where() [/en-US/docs/Web/CSS/:where]
+      58. Privacy and the :visited selector [/en-US/docs/Web/CSS/Privacy_and_the_:visited_selector]
+      59. Pseudo-classes [/en-US/docs/Web/CSS/Pseudo-classes]
+
+ 11. Pseudo-elements
+      1.  ::after (:after) [/en-US/docs/Web/CSS/::after]
+      2.  ::backdrop [/en-US/docs/Web/CSS/::backdrop]
+      3.  ::before (:before) [/en-US/docs/Web/CSS/::before]
+      4.  ::cue-region [/en-US/docs/Web/CSS/::cue-region]
+      5.  ::cue [/en-US/docs/Web/CSS/::cue]
+      6.  ::first-letter (:first-letter) [/en-US/docs/Web/CSS/::first-letter]
+      7.  ::first-line (:first-line) [/en-US/docs/Web/CSS/::first-line]
+      8.  ::grammar-error [/en-US/docs/Web/CSS/::grammar-error]
+      9.  ::marker [/en-US/docs/Web/CSS/::marker]
+      10. ::part() [/en-US/docs/Web/CSS/::part]
+      11. ::placeholder [/en-US/docs/Web/CSS/::placeholder]
+      12. ::selection [/en-US/docs/Web/CSS/::selection]
+      13. ::slotted() [/en-US/docs/Web/CSS/::slotted]
+      14. ::spelling-error [/en-US/docs/Web/CSS/::spelling-error]
+      15. ::target-text [/en-US/docs/Web/CSS/::target-text]
+      16. Pseudo-elements [/en-US/docs/Web/CSS/Pseudo-elements]
+
+ 12. At-rules
+      1.  @charset [/en-US/docs/Web/CSS/@charset]
+      2.  @color-profile [/en-US/docs/Web/CSS/@color-profile]
+      3.  @counter-style [/en-US/docs/Web/CSS/@counter-style]
+      4.  @document [/en-US/docs/Web/CSS/@document]
+      5.  @font-face [/en-US/docs/Web/CSS/@font-face]
+      6.  @font-feature-values [/en-US/docs/Web/CSS/@font-feature-values]
+      7.  @import [/en-US/docs/Web/CSS/@import]
+      8.  @keyframes [/en-US/docs/Web/CSS/@keyframes]
+      9.  @layer [/en-US/docs/Web/CSS/@layer]
+      10. @media [/en-US/docs/Web/CSS/@media]
+      11. @namespace [/en-US/docs/Web/CSS/@namespace]
+      12. @page [/en-US/docs/Web/CSS/@page]
+      13. @property [/en-US/docs/Web/CSS/@property]
+      14. @supports [/en-US/docs/Web/CSS/@supports]
+      15. @viewport [/en-US/docs/Web/CSS/@viewport]
+
+ 13. Types
+      1.  <alpha-value> [/en-US/docs/Web/CSS/alpha-value]
+      2.  <angle-percentage> [/en-US/docs/Web/CSS/angle-percentage]
+      3.  <angle> [/en-US/docs/Web/CSS/angle]
+      4.  <basic-shape> [/en-US/docs/Web/CSS/basic-shape]
+      5.  <blend-mode> [/en-US/docs/Web/CSS/blend-mode]
+      6.  <color> [/en-US/docs/Web/CSS/color_value]
+      7.  CSS Functional Notation [/en-US/docs/Web/CSS/CSS_Functions]
+      8.  CSS data types [/en-US/docs/Web/CSS/CSS_Types]
+      9.  <custom-ident> [/en-US/docs/Web/CSS/custom-ident]
+      10. <dimension> [/en-US/docs/Web/CSS/dimension]
+      11. <display-box> [/en-US/docs/Web/CSS/display-box]
+      12. <display-inside> [/en-US/docs/Web/CSS/display-inside]
+      13. <display-internal> [/en-US/docs/Web/CSS/display-internal]
+      14. <display-legacy> [/en-US/docs/Web/CSS/display-legacy]
+      15. <display-listitem> [/en-US/docs/Web/CSS/display-listitem]
+      16. <display-outside> [/en-US/docs/Web/CSS/display-outside]
+      17. <easing-function> [/en-US/docs/Web/CSS/easing-function]
+      18. <filter-function> [/en-US/docs/Web/CSS/filter-function]
+      19. <flex> [/en-US/docs/Web/CSS/flex_value]
+      20. <frequency-percentage> [/en-US/docs/Web/CSS/frequency-percentage]
+      21. <frequency> [/en-US/docs/Web/CSS/frequency]
+      22. <gradient> [/en-US/docs/Web/CSS/gradient]
+      23. ident [/en-US/docs/Web/CSS/ident]
+      24. <image> [/en-US/docs/Web/CSS/image]
+      25. <integer> [/en-US/docs/Web/CSS/integer]
+      26. <length-percentage> [/en-US/docs/Web/CSS/length-percentage]
+      27. <length> [/en-US/docs/Web/CSS/length]
+      28. <number> [/en-US/docs/Web/CSS/number]
+      29. <percentage> [/en-US/docs/Web/CSS/percentage]
+      30. <position> [/en-US/docs/Web/CSS/position_value]
+      31. <ratio> [/en-US/docs/Web/CSS/ratio]
+      32. <resolution> [/en-US/docs/Web/CSS/resolution]
+      33. <shape> [/en-US/docs/Web/CSS/shape]
+      34. <string> [/en-US/docs/Web/CSS/string]
+      35. <time-percentage> [/en-US/docs/Web/CSS/time-percentage]
+      36. <time> [/en-US/docs/Web/CSS/time]
+      37. <transform-function> [/en-US/docs/Web/CSS/transform-function]
+      38. <translation-value> [/en-US/docs/Web/CSS/translation-value]
+
+ 14. Guides
+ 15. Animations
+      1. Using CSS animations [/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations]
+
+ 16. Backgrounds and Borders
+      1. Using multiple backgrounds [/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds]
+      2. Resizing background images [/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images]
+
+ 17. Box alignment
+      1. Box alignment in block layout [/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_In_Block_Abspos_Tables]
+      2. Box alignment in flexbox [/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Flexbox]
+      3. Box alignment in grid layout [/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_In_Grid_Layout]
+      4. Box alignment in multi-column layout [/en-US/docs/Web/CSS/CSS_Box_Alignment/Box_Alignment_in_Multi-column_Layout]
+
+ 18. Box model
+      1. Introduction to the CSS basic box model [/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model]
+      2. Mastering margin collapsing [/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing]
+
+ 19. Columns
+      1. Basic concepts of Multicol [/en-US/docs/Web/CSS/CSS_Columns/Basic_Concepts_of_Multicol]
+      2. Styling columns [/en-US/docs/Web/CSS/CSS_Columns/Styling_Columns]
+      3. Spanning and balancing [/en-US/docs/Web/CSS/CSS_Columns/Spanning_Columns]
+      4. Handling overflow in Multicol [/en-US/docs/Web/CSS/CSS_Columns/Handling_Overflow_in_Multicol]
+      5. Content breaks in Multicol [/en-US/docs/Web/CSS/CSS_Columns/Handling_content_breaks_in_multicol]
+
+ 20. Conditional rules
+      1. Using feature queries [/en-US/docs/Web/CSS/CSS_Conditional_Rules/Using_Feature_Queries]
+
+ 21. CSSOM view
+      1. Coordinate systems [/en-US/docs/Web/CSS/CSSOM_View/Coordinate_systems]
+
+ 22. Flexbox
+      1. Basic concepts of Flexbox [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox]
+      2. Comparison with other layout methods [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Relationship_of_Flexbox_to_Other_Layout_Methods]
+      3. Aligning items in a flex container [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container]
+      4. Ordering flex items [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Ordering_Flex_Items]
+      5. Controlling flex item ratios [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Controlling_Ratios_of_Flex_Items_Along_the_Main_Ax]
+      6. Mastering wrapping of flex items [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mastering_Wrapping_of_Flex_Items]
+      7. Typical use cases of Flexbox [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Typical_Use_Cases_of_Flexbox]
+      8. Backwards compatibility of Flexbox [/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Backwards_Compatibility_of_Flexbox]
+
+ 23. Flow layout
+      1. Block and Inline layout in normal flow [/en-US/docs/Web/CSS/CSS_Flow_Layout/Block_and_Inline_Layout_in_Normal_Flow]
+      2. In flow and Out of flow [/en-US/docs/Web/CSS/CSS_Flow_Layout/In_Flow_and_Out_of_Flow]
+      3. Formatting contexts explained [/en-US/docs/Web/CSS/CSS_Flow_Layout/Intro_to_formatting_contexts]
+      4. Flow layout and writing modes [/en-US/docs/Web/CSS/CSS_Flow_Layout/Flow_Layout_and_Writing_Modes]
+      5. Flow layout and overflow [/en-US/docs/Web/CSS/CSS_Flow_Layout/Flow_Layout_and_Overflow]
+
+ 24. Fonts
+      1. OpenType font features guide [/en-US/docs/Web/CSS/CSS_Fonts/OpenType_fonts_guide]
+      2. Variable fonts guide [/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide]
+
+ 25. Grid
+      1.  Basics concepts of grid layout [/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout]
+      2.  Relationship to other layout methods [/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout]
+      3.  Line-based placement [/en-US/docs/Web/CSS/CSS_Grid_Layout/Line-based_Placement_with_CSS_Grid]
+      4.  Grid template areas [/en-US/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas]
+      5.  Layout using named grid lines [/en-US/docs/Web/CSS/CSS_Grid_Layout/Layout_using_Named_Grid_Lines]
+      6.  Auto-placement in grid layout [/en-US/docs/Web/CSS/CSS_Grid_Layout/Auto-placement_in_CSS_Grid_Layout]
+      7.  Box alignment in grid layout [/en-US/docs/Web/CSS/CSS_Grid_Layout/Box_Alignment_in_CSS_Grid_Layout]
+      8.  Grids, logical values and writing modes [/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Logical_Values_and_Writing_Modes]
+      9.  Grid layout and accessibility [/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility]
+      10. Grid Layout and progressive enhancement [/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_and_Progressive_Enhancement]
+      11. Realizing common layouts using grids [/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout]
+      12. Subgrid [/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid]
+      13. Masonry layout [/en-US/docs/Web/CSS/CSS_Grid_Layout/Masonry_Layout]
+
+ 26. Images
+      1. Using CSS gradients [/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients]
+
+ 27. Lists and counters
+      1. Using CSS counters [/en-US/docs/Web/CSS/CSS_Counter_Styles/Using_CSS_counters]
+      2. Consistent list indentation [/en-US/docs/Web/CSS/CSS_Lists_and_Counters/Consistent_list_indentation]
+
+ 28. Logical properties
+      1. Basic concepts [/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts]
+      2. Floating and positioning [/en-US/docs/Web/CSS/CSS_Logical_Properties/Floating_and_positioning]
+      3. Margins, borders and padding [/en-US/docs/Web/CSS/CSS_Logical_Properties/Margins_borders_padding]
+      4. Sizing [/en-US/docs/Web/CSS/CSS_Logical_Properties/Sizing]
+
+ 29. Media queries
+      1. Using media queries [/en-US/docs/Web/CSS/Media_Queries/Using_media_queries]
+      2. Using media queries for accessibility [/en-US/docs/Web/CSS/Media_Queries/Using_Media_Queries_for_Accessibility]
+      3. Testing media queries programmatically [/en-US/docs/Web/CSS/Media_Queries/Testing_media_queries]
+
+ 30. Positioning
+      1. Understanding CSS z-index [/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index]
+
+ 31. Scroll snap
+      1. Basic concepts of scroll snap [/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts]
+      2. Browser compatibility and scroll snap [/en-US/docs/Web/CSS/CSS_Scroll_Snap]
+
+ 32. Shapes
+      1. Overview of shapes [/en-US/docs/Web/CSS/CSS_Shapes/Overview_of_CSS_Shapes]
+      2. Shapes from box values [/en-US/docs/Web/CSS/CSS_Shapes/From_box_values]
+      3. Basic shapes [/en-US/docs/Web/CSS/CSS_Shapes/Basic_Shapes]
+      4. Shapes from images [/en-US/docs/Web/CSS/CSS_Shapes/Shapes_From_Images]
+
+ 33. Text
+      1. Wrapping and breaking text [/en-US/docs/Web/CSS/CSS_Text/Wrapping_Text]
+
+ 34. Transforms
+      1. Using transforms [/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms]
+
+ 35. Transitions
+      1. Using transitions [/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions]
+
+ 36. Layout cookbook
+ 37. 1.  Media objects [/en-US/docs/Web/CSS/Layout_cookbook/Media_objects]
+     2.  Columns [/en-US/docs/Web/CSS/Layout_cookbook/Column_layouts]
+     3.  Center an element [/en-US/docs/Web/CSS/Layout_cookbook/Center_an_element]
+     4.  Sticky footers [/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers]
+     5.  Split navigation [/en-US/docs/Web/CSS/Layout_cookbook/Split_Navigation]
+     6.  Breadcrumb navigation [/en-US/docs/Web/CSS/Layout_cookbook/Breadcrumb_Navigation]
+     7.  List group with badges [/en-US/docs/Web/CSS/Layout_cookbook/List_group_with_badges]
+     8.  Pagination [/en-US/docs/Web/CSS/Layout_cookbook/Pagination]
+     9.  Card [/en-US/docs/Web/CSS/Layout_cookbook/Card]
+     10. Grid wrapper [/en-US/docs/Web/CSS/Layout_cookbook/Grid_wrapper]
+ 38. Tools
+ 39. 1. Color picker [/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool]
+     2. Box shadow generator [/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator]
+     3. Border image generator [/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator]
 
 /en-US/
  * Web Technologies [/en-US/docs/Web]

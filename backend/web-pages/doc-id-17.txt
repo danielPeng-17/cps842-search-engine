@@ -1,18 +1,14 @@
-Distribution -- /LineMode
+Helping -- /WWW
 
 
-GETTING THE WWW FILES
+HOW CAN I HELP?
 
-Read this if you have not yet got the WWW files you need, and you cannot NFS mount a directory on which they reside.
-
-The source and binary of WWW project files are currently available (see copyright [http://info.cern.ch/hypertext/Copyright.html] ) by anonymous FTP
-from node info.cern.ch. This node is currently 128.141.201.74 but THIS MAY CHANGE. The files are compressed tape archive files (.tar.Z). To get a file
-using anonymous FTP, use user name "anonymous", and your email address as a password:- > ftp info.cern.ch Enter user name: anonymous Password:
-me@myhost.edu ftp> cd /pub/www/src ftp> binary ftp> get WWWLineMode_vvv.tar.Z ftp> quit > The file name will depend on the product you want. Here vvv
-is the version number of the software.
-
-Once you have the compressed tar file, you must uncompress it and unwrap it. uncompress WWWLineMode_vvv.tar.Z This will make a rather larger file with
-the name without the ".Z". To unwrap it, tar xvf WWWLineMode_vvv.tar Now you should install the line mode browser [Installation.html] , install the
-server [../../Daemon/User/Guide.html] , install Viola [../../../Viola/Installation.html] , etc.
-
-Tim BL [http://info.cern.ch/hypertext/TBL_Disclaimer.html]
+There are lots of ways you can help if you are interested in seeing the web [TheProject.html] grow and be even more useful... Put up some data
+[Provider/Overview.html] There are many ways of doing this. The web needs both raw data -- fresh hypertext or old plain text files, or smart servers
+giving views of existing databases. See more details [Provider/Overview.html] , etiquette [Provider/Etiquette.html]. Suggest someone else does Maybe
+you know a system which it would be neat to have on the web. How about suggesting to the person involved that they put up a W3 server? Manage a
+subject area If you know something of what's going on in a particular field, organization or country, would you like to keep up-to-date an overview of
+online data? Write some software [Bugs.html] We have a big list of things to be done. Help yourself -- all contributions gatefully received! see the
+list [Bugs.html] . Send us suggestions We love to get mail... www-bug@info.cern.ch Tell your friends Install/get installed the client software on your
+site. Quote things by their W3 address to allow w3 users to pick them straight up. _________________________________________________________________
+Tim BL [http://info.cern.ch./hypertext/TBL_Disclaimer.html]

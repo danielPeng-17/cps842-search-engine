@@ -1,47 +1,129 @@
-------------------------------------------------------------------------------------------------------------------------------------------------------
+ * Skip to main content
+ * Skip to search
 
-atom [/resources/images/atom_ani.gif]
+/en-US/
+ * Technologies
+   * Technologies Overview [/en-US/docs/Web]
+   * HTML [/en-US/docs/Web/HTML]
+   * CSS [/en-US/docs/Web/CSS]
+   * JavaScript [/en-US/docs/Web/JavaScript]
+   * Graphics [/en-US/docs/Web/Guide/Graphics]
+   * HTTP [/en-US/docs/Web/HTTP]
+   * APIs [/en-US/docs/Web/API]
+   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
+   * MathML [/en-US/docs/Web/MathML]
+ * References & Guides
+   * Learn web development [/en-US/docs/Learn]
+   * Tutorials [/en-US/docs/Web/Tutorials]
+   * References [/en-US/docs/Web/Reference]
+   * Developer Guides [/en-US/docs/Web/Guide]
+   * Accessibility [/en-US/docs/Web/Accessibility]
+   * Game development [/en-US/docs/Games]
+   * ...more docs [/en-US/docs/Web]
+ * Feedback
+   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
+   * Contribute to MDN [/en-US/docs/MDN/Contribute]
+   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
+   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+
+Search MDN
 
 
-LABELMAKER [LABELMAKER.GIF]
 
-Make a label!
+RESOURCES FOR DEVELOPERS, BY DEVELOPERS.
 
-Font: AardvarkCafe AdvertisersGothic Alien Apple2 BabyBlock Bamboo Bertinelli Betsy Bones BreadClip Calvin CandyBits ComicSans ComicSerif Courier
-Crackman CrystalRadio Currency Cyberia DanceStep Data70 Densmore Diablo DieNasty DirtyDozen DotMatrix Dyno Fedora Fillmore Fridge Gawain Gilligan
-Godzilla GothamNights Graffiti Grinched Gubblebum HeavyHeap Helvetica HenryIII HotDog LadyStarlight LokiCola MUNIficent Mad Manuscript NASAL NeoGeo
-Neurotoxin Nihon OCR-A Octopuss Pill PinyonScript Pyrite Raceway RansomNote RenStimpy Romaneste Samarkan Signature Squealer Teletype Timepiece Times
-Tolkien Transistor TrekClassic Typewriter Voynich Willow Yahoo YellowSub Zeppelin Text color: white gray black red green blue cyan magenta yellow
-orange gold limegreen seagreen ACMEgreen turquoise maroon firebrick violet purple lavender hotpink salmon coral chocolate sienna tan darkred darkgreen
-darkblue Background: white gray black red green blue cyan magenta yellow orange gold limegreen seagreen ACMEgreen turquoise maroon firebrick violet
-purple lavender hotpink salmon coral chocolate sienna tan darkred darkgreen darkblue Transparent Shadow Filters: none flip-lr flip-tb slant smooth
-shrink enlarge edge spread shift tv frame none flip-lr flip-tb slant smooth shrink enlarge edge spread shift tv frame none flip-lr flip-tb slant
-smooth shrink enlarge edge spread shift tv frame none flip-lr flip-tb slant smooth shrink enlarge edge spread shift tv frame none flip-lr flip-tb
-slant smooth shrink enlarge edge spread shift tv frame
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * Developer Tools [/en-US/docs/Tools]
 
-Note: some of the fonts are not very complete, generally just letters and numbers. Any characters not in the font will just get skipped. Most of these
-fonts were adapted from IconBAZAAR [http://www.iconbazaar.com/], 007Fonts [http://www.007fonts.com/], Fonts NOW [http://members.xoom.com/fonts_now/],
-Fonts Empire [http://www.fontempire.com/], CoolArchive [http://www.coolarchive.com/fonts.cfm], and Famous Fonts
-[http://www.eliteentertainment.net/famousfonts/].
 
-samples [samples.gif] [samples/] recent labels [recent_labels.gif] [labels.cgi]
+HACKS BLOG
 
-If you use labels from here on your web page (which is the whole point of the Label Maker!), how about putting up a credit link back to here? Not a
-requirement, just something nice you could do if you feel like it and there's room on your page. Something like:
+Read more at hacks.mozilla.org [http://hacks.mozilla.org/]
 
-Labels by ACME Label Maker [http://www.acme.com/labelmaker/].
 
-For which the HTML code is:
+ * HACKS DECODED: SEYI AKIWOWO, FOUNDER OF GLITCH [https://hacks.mozilla.org/2021/11/hacks-decoded-seyi-akiwowo-founder-of-glitch/]
+   
+   Seyi Akiwowo’s reputation precedes her. Akiwowo is the founder of Glitch, an organization that seeks to end online abuse. We spoke with Seyi over
+   video chat to learn about what drives her, why she does what she does and what she’d be doing if not battling trolls online for a living. The post
+   Hacks Decoded: Seyi Akiwowo, Founder of Glitch appeared first on Mozilla Hacks - the Web developer blog.
+   
+   Posted Tuesday, November 30, 2021 by Xavier Harding
 
-<font size="-1">Labels by <a href="http://www.acme.com/labelmaker/">ACME Label Maker</a>.</font>
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+ * HACKS DECODED: THOMAS PARK, FOUNDER OF CODEPIP [https://hacks.mozilla.org/2021/10/hacks-decoded-thomas-park-founder-of-codepip/]
+   
+   Welcome to our Hacks: Decoded Interview series! We spoke with Thomas Park over email about coding, his favourite apps and his past life at Mozilla.
+   Thomas is the founder of Codepip, a platform he created for coding games that helps people learn HTML, CSS, JavaScript, etc. The most popular game
+   is Flexbox Froggy.The post Hacks Decoded: Thomas Park, Founder of Codepip appeared first on Mozilla Hacks - the Web developer blog.
+   
+   Posted Wednesday, October 20, 2021 by Xavier Harding
 
-valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
 
-The ACME License Maker [http://acme.com/licensemaker/], Heart Maker [http://acme.com/heartmaker/], and ChuMaker [http://acme.com/chumaker/].
-Ryland Sanders' Church Sign Generator [http://www.churchsigngenerator.com/].
-Tombstone Generator [http://tombstone.dogcrap.net/create.php].
-Windows Error Generator [http://atom.smasher.org/error/].
-Back to ACME Labs [http://www.acme.com/].
-email [/mailto/wa.gif] [/mailto/?id=wa]
+ * LOTS TO SEE IN FIREFOX 93! [https://hacks.mozilla.org/2021/10/lots-to-see-in-firefox-93/]
+   
+   Firefox 93 comes with lots of lovely updates including AVIF image format support, filling of XFA-based forms in its PDF viewer and protection
+   against insecure downloads by blocking downloads relying on insecure connections.The post Lots to see in Firefox 93! appeared first on Mozilla
+   Hacks - the Web developer blog.
+   
+   Posted Friday, October 8, 2021 by Ruth John
+
+
+ * IMPLEMENTING FORM FILLING AND ACCESSIBILITY IN THE FIREFOX PDF VIEWER
+   [https://hacks.mozilla.org/2021/10/implementing-form-filling-and-accessibility-in-the-firefox-pdf-viewer/]
+   
+   Last year, during lockdown, many discovered the importance of PDF forms when having to deal remotely with administrations and large organizations
+   like banks. Firefox supported displaying PDF forms, but it didn’t support filling them: users had to print them, fill them by hand, and scan them
+   back to digital form. We decided it was time to reinvest in the PDF viewer (PDF.js) and support filling PDF forms within Firefox to make our users'
+   lives easier.The post Implementing form filling and accessibility in the Firefox PDF viewer appeared first on Mozilla Hacks - the Web developer
+   blog.
+   
+   Posted Thursday, October 7, 2021 by bdahl
+
+
+ * CONTROL YOUR DATA FOR GOOD WITH RALLY [https://hacks.mozilla.org/2021/10/control-your-data-for-good-with-rally/]
+   
+   In a world where data and AI are reshaping society, people currently have no tangible way to put their data to work for the causes they believe in.
+   To address this, we built the Rally platform, a first-of-its-kind tool that enables you to contribute your data to specific studies and exercise
+   consent at a granular level. Mozilla Rally puts you in control of your data while building a better Internet and a better society. The post Control
+   your data for good with Rally appeared first on Mozilla Hacks - the Web developer blog.
+   
+   Posted Wednesday, October 6, 2021 by Melissa Thermidor
+
+
+HELP IMPROVE MDN WEB DOCS
+
+All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:
+
+ * Getting started [/en-US/docs/MDN/Getting_started]
+ * Contributing to MDN content [/en-US/docs/MDN/Contribute]
+ * Contributing to the MDN codebase [https://github.com/mdn/yari#readme]
+ * Updating browser compatibility data [https://github.com/mdn/browser-compat-data]
+
+/en-US/
+ * Web Technologies [/en-US/docs/Web]
+ * Learn Web Development [/en-US/docs/Learn]
+ * About MDN [/en-US/docs/MDN/About]
+ * Feedback [/en-US/docs/MDN/Feedback]
+
+ * About [https://www.mozilla.org/about/]
+ * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
+ * Contact Us [https://www.mozilla.org/contact/]
+ * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
+
+MDN
+
+ * MDN on Twitter [https://twitter.com/mozdevnet]
+ * MDN on Github [https://github.com/mdn/]
+
+MOZILLA
+
+ * Mozilla on Twitter [https://twitter.com/mozilla]
+ * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
+
+© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
+
+ * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
+ * Privacy [https://www.mozilla.org/privacy/websites/]
+ * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
+

@@ -1,20 +1,15 @@
-ANVIL [/RESOURCES/IMAGES/ANVIL.GIF] HTML5 CANVAS
+ONE MONTH
 
-HTML5 Canvas is a way to draw arbitrary graphics on a web page. You use it by writing code in JavaScript.
-
-While JavaScript is not a particularly speedy language, modern computers are so fast that the JS/browser platform is about as capable as a PC from the
-mid-1980s or so. Anything that ran back then should be implementable in JavaScript today. This opens up a rather large vista of retrocomputing
-possibilities.
-
- * Playground [playground/]
- * Space War [spacewar/]
-   
+This page lets you print a single calendar page. You might use it to print a January page for next year, to append to this year's calendar while you
+wait for next year's full calendar to arrive.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML5 [/resources/images/valid-html5.png] [https://validator.w3.org/check?uri=referer] Canvas Tutorial
-[https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial]
-Canvas Reference [http://www.w3schools.com/tags/ref_canvas.asp]
-ACME Labs [/] / Canvas
 
-email [/mailto/wa.gif] [/mailto/?id=wa]
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [../] / One Month
+email [/mailto/j.gif] [/mailto/?id=j]

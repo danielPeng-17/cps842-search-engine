@@ -1,15 +1,352 @@
-ONE MONTH
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This page lets you print a single calendar page. You might use it to print a January page for next year, to append to this year's calendar while you
-wait for next year's full calendar to arrive.
+[/resources/images/atom_ani.gif]
+
+
+FREEBSD FIREWALL CONFIGURATION
+
+FreeBSD makes it very easy to set up a rule-based packet filtering firewall. You can protect just one host, or an entire network. You can easily add
+Network Address Translation too, so that you can connect up your whole internal network via only one IP address from the outside.
+
+There are three parts to this.
+
+First, you have to make a few changes to your kernel. This isn't as hard as it sounds. Su to root, cd /usr/src/sys/i386/conf, and copy GENERIC to a
+new file. Let's call it ACME. This will be your new kernel config. Here are the changes you need to make:
+
+> *** GENERIC     Sun Apr 27 20:41:46 2003
+> --- ACME        Sun May  9 12:47:24 2004
+> ***************
+> *** 22,29 ****
+>   cpu           I486_CPU
+>   cpu           I586_CPU
+>   cpu           I686_CPU
+> ! ident         GENERIC
+>   maxusers      0
+>   
+>   #makeoptions  DEBUG=-g                #Build kernel with gdb(1) debug symbols
+>   
+> --- 22,40 ----
+>   cpu           I486_CPU
+>   cpu           I586_CPU
+>   cpu           I686_CPU
+> ! ident         ACME
+>   maxusers      0
+> + 
+> + # Enable ipfw.
+> + options               IPFIREWALL
+> + options               IPFIREWALL_VERBOSE
+> + 
+> + # Enable ip6fw too.
+> + options               IPV6FIREWALL
+> + options               IPV6FIREWALL_VERBOSE
+> + 
+> + # Enable NAT.
+> + options               IPDIVERT
+>   
+>   #makeoptions  DEBUG=-g                #Build kernel with gdb(1) debug symbols
+>   
+
+In other words, change the ident and add the firewall options. Adding the IPV6FIREWALL options to the kernel doesn't actually enable IPv6; to do that,
+you have to add ipv6_enable="YES" to your /etc/rc.conf. However, if you have IPv6 enabled and you are setting up an IPv4 firewall, you must enable the
+IPv6 firewall as well. If you were to set up a v4 firewall and not a v6 firewall, all v6 packets would be allowed through, which would be bad.
+
+After setting up the config, build and install the new kernel:
+
+> # /usr/sbin/config ACME
+> # cd ../../compile/ACME
+> # make depend
+> # make
+> # make install
+
+Second, edit /etc/rc.conf and add these defines to the end:
+
+> # Enable ipfw.
+> firewall_enable="YES"
+> firewall_type="type"             # see rc.firewall for what goes here
+> firewall_quiet="NO"
+> 
+> # Enable ip6fw.
+> ipv6_firewall_enable="YES"
+> ipv6_firewall_type="type"        # see rc.firewall6 for what goes here
+> ipv6_firewall_quiet="NO"
+
+The firewall types should be "client" to secure a single stand-alone machine, or "simple" for a gateway guarding an internal network.
+
+If you want to do Network Address Translation, add these defines too:
+
+> # Enable natd.
+> natd_enable="YES"
+> natd_interface="fxp0"            # your public network interface
+> natd_flags="-m"                         # preserve port numbers if possible
+
+Third, you have to make a few edits in rc.firewall and rc.firewall6. The comments there explain what is needed, it's real easy. Look for the section
+with rules for your firewall type, either "client" or "simple". At the beginning of the section there will be a few defines for your IP numbers,
+network interfaces, etc.; fill these in.
+
+That's it, for a starter setup anyway. Reboot and you should be up and running.
+
+IMPORTANT TROUBLESHOOTING NOTE
+
+FreeBSD's firewall facility is designed so that it's secure by default. If you enable it and then don't add any rules, it drops ALL packets. This
+means if you mess something up in your firewall setup, you may find that you can't get to your machine through the network to fix it. You will have to
+log in via the system console.
+
+This happened to me once during debugging. It's no big deal as long as you understand what's going on. It's easy to recover from if you have access to
+the console; just edit /etc/rc.conf, change firewall_type to "open" or just comment out the firewall lines, and boot again. But do be careful if
+you're tweaking your firewall setup over the net.
+
+FTP NOTE
+
+Firewall setups like this prevent regular FTP from working. This is really FTP's fault. It's an old-fashioned and over-complicated protocol, which
+requires the server to initiate a callback connection to the client. Since firewalls prevent new connections from the outside (except for a few
+protocols such as email), FTP fails.
+
+There is a workaround - use FTP's "passive" mode, which basically tells it to stick to a regular client-server protocol. Every time you run ftp, just
+give the "passive" command. With recent versions of FTP clients, you can make this the default by setting the environment variable FTP_PASSIVE_MODE to
+"yes".
+
+The other workaround, of course, is to avoid FTP and just use HTTP or scp instead.
+
+MORE ADVANCED TOPICS
+
+Once you have a firewall set up, you may find you don't like the canned rule sets. If so, it's easy to make your own. The first thing you might do is
+allow ssh connections through. (ssh is a secure replacement for telnet/rlogin; you can fetch it from http://www.openssh.org/
+[http://www.openssh.org/].) Where your ruleset says "Allow setup of incoming email", add a similar rule for ssh by changing the port number 25 to a
+22.
+
+Or, you can go whole hog and make an entirely new ruleset. I ended up making two new ones, called acme-solo and acme-net, which are souped-up versions
+of the default client and simple rulesets. Here's the code:
+
+> [Aa][Cc][Mm][Ee]-[Ss][Oo][Ll][Oo])
+>         ############
+>         # ACME single-machine custom firewall setup.  Protects somewhat
+>         # against the outside world.
+>         ############
+> 
+>         # Set this to your ip address.
+>         ip="192.100.666.1"
+> 
+>         setup_loopback
+> 
+>         # Allow anything outbound from this address.
+>         ${fwcmd} add allow all from ${ip} to any out
+> 
+>         # Deny anything outbound from other addresses.
+>         ${fwcmd} add deny log all from any to any out
+> 
+>         # Allow TCP through if setup succeeded.
+>         ${fwcmd} add allow tcp from any to any established
+> 
+>         # Allow IP fragments to pass through.
+>         ${fwcmd} add allow all from any to any frag
+> 
+>         # Allow all IPv6 packets through - they are handled by the separate
+>         # ipv6 firewall rules in rc.firewall6.
+>         ${fwcmd} add allow ipv6 from any to any
+> 
+>         # Allow inbound ftp, ssh, email, tcp-dns, http, https, imap, imaps,
+>         # pop3, pop3s.
+>         ${fwcmd} add allow tcp from any to ${ip} 21 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 22 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 25 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 53 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 80 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 443 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 143 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 993 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 110 setup
+>         ${fwcmd} add allow tcp from any to ${ip} 995 setup
+> 
+>         # Deny inbound auth, netbios, ldap, and Microsoft's DB protocol
+>         # without logging.
+>         ${fwcmd} add reset tcp from any to ${ip} 113 setup
+>         ${fwcmd} add reset tcp from any to ${ip} 139 setup
+>         ${fwcmd} add reset tcp from any to ${ip} 389 setup
+>         ${fwcmd} add reset tcp from any to ${ip} 445 setup
+> 
+>         # Deny some chatty UDP broadcast protocols without logging.
+>         ${fwcmd} add deny udp from any 137 to any
+>         ${fwcmd} add deny udp from any to any 137
+>         ${fwcmd} add deny udp from any 138 to any
+>         ${fwcmd} add deny udp from any 513 to any
+>         ${fwcmd} add deny udp from any 525 to any
+> 
+>         # Allow inbound DNS and NTP replies.  This is somewhat of a hole,
+>         # since we're looking at the incoming port number, which can be
+>         # faked, but that's just the way DNS and NTP work.
+>         ${fwcmd} add allow udp from any 53 to ${ip}
+>         ${fwcmd} add allow udp from any 123 to ${ip}
+> 
+>         # Allow inbound DNS queries.
+>         ${fwcmd} add allow udp from any to ${ip} 53
+> 
+>         # Allow inbound NTP queries.
+>         ${fwcmd} add allow udp from any to ${ip} 123
+> 
+>         # Allow traceroute to function, but not to get in.
+>         ${fwcmd} add unreach port udp from any to ${ip} 33435-33524
+> 
+>         # Allow some inbound icmps - echo reply, dest unreach, source quench,
+>         # echo, ttl exceeded.
+>         ${fwcmd} add allow icmp from any to any icmptypes 0,3,4,8,11
+> 
+>         # Everything else is denied and logged.
+>         ${fwcmd} add deny log all from any to any
+>         ;;
+> 
+> [Aa][Cc][Mm][Ee]-[Nn][Ee][Tt])
+>         ############
+>         # ACME network custom firewall setup.  The assumption here is that
+>         # the internal hosts are trusted, and can do almost anything they want.
+>         # The only thing we have to be careful about is what comes in over
+>         # the outside interface.  So, you'll see a lot of "in via ${oif}"
+>         # clauses here.
+>         ############
+> 
+>         # Set these to your outside interface network and netmask and ip.
+>         oif="fxp0"
+>         onet="216.27.1234.0"
+>         omask="255.255.255.0"
+>         oip="216.27.1234.1"
+> 
+>         # Set these to your inside interface network and netmask and ip.
+>         iif="fxp1"
+>         inet="192.100.666.0"
+>         imask="255.255.255.0"
+>         iip="192.100.666.1"
+> 
+>         setup_loopback
+> 
+>         # Stop spoofing.
+>         ${fwcmd} add deny all from ${inet}:${imask} to any in via ${oif}
+>         ${fwcmd} add deny all from ${onet}:${omask} to any in via ${iif}
+> 
+>         # Stop RFC1918 nets on the outside interface.
+>         ${fwcmd} add deny all from any to 10.0.0.0/8 via ${oif}
+>         ${fwcmd} add deny all from any to 172.16.0.0/12 via ${oif}
+>         ${fwcmd} add deny all from any to 192.168.0.0/16 via ${oif}
+> 
+>         # Stop draft-manning-dsua-03.txt (1 May 2000) nets (includes RESERVED-1,
+>         # DHCP auto-configuration, NET-TEST, MULTICAST (class D), and class E)
+>         # on the outside interface.
+>         ${fwcmd} add deny all from any to 0.0.0.0/8 via ${oif}
+>         ${fwcmd} add deny all from any to 169.254.0.0/16 via ${oif}
+>         ${fwcmd} add deny all from any to 192.0.2.0/24 via ${oif}
+>         ${fwcmd} add deny all from any to 224.0.0.0/4 via ${oif}
+>         ${fwcmd} add deny all from any to 240.0.0.0/4 via ${oif}
+> 
+>         # Special early rules for protocols handled on the gateway machine,
+>         # so that these packets don't have to go through natd which is slow.
+>         ${fwcmd} add allow tcp from any to ${oip} 21 in via ${oif}      # ftp
+>         ${fwcmd} add allow tcp from ${oip} 21 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 22 in via ${oif}      # ssh
+>         ${fwcmd} add allow tcp from ${oip} 22 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 25 in via ${oif}      # smtp
+>         ${fwcmd} add allow tcp from ${oip} 25 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 53 in via ${oif}      # tcpdns
+>         ${fwcmd} add allow tcp from ${oip} 53 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 80 in via ${oif}      # http
+>         ${fwcmd} add allow tcp from ${oip} 80 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 443 in via ${oif}     # https
+>         ${fwcmd} add allow tcp from ${oip} 443 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 143 in via ${oif}     # imap
+>         ${fwcmd} add allow tcp from ${oip} 143 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 993 in via ${oif}     # imaps
+>         ${fwcmd} add allow tcp from ${oip} 993 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 110 in via ${oif}     # pop3
+>         ${fwcmd} add allow tcp from ${oip} 110 to any out via ${oif}
+>         ${fwcmd} add allow tcp from any to ${oip} 995 in via ${oif}     # pop3s
+>         ${fwcmd} add allow tcp from ${oip} 995 to any out via ${oif}
+> 
+>         # Network Address Translation.  This rule is placed here deliberately
+>         # so that it does not interfere with the surrounding address-checking
+>         # rules.  If for example one of your internal LAN machines had its IP
+>         # address set to 192.0.2.1 then an incoming packet for it after being
+>         # translated by natd(8) would match the `deny' rule above.  Similarly
+>         # an outgoing packet originated from it before being translated would
+>         # match the `deny' rule below.
+>         case ${natd_enable} in
+>         [Yy][Ee][Ss])
+>                 if [ -n "${natd_interface}" ]; then
+>                         ${fwcmd} add divert natd all from any to any via ${natd_interface}
+>                 fi
+>                 ;;
+>         esac
+> 
+>         # Stop RFC1918 nets on the outside interface.
+>         ${fwcmd} add deny all from 10.0.0.0/8 to any via ${oif}
+>         ${fwcmd} add deny all from 172.16.0.0/12 to any via ${oif}
+>         ${fwcmd} add deny all from 192.168.0.0/16 to any via ${oif}
+> 
+>         # Stop draft-manning-dsua-03.txt (1 May 2000) nets (includes RESERVED-1,
+>         # DHCP auto-configuration, NET-TEST, MULTICAST (class D), and class E)
+>         # on the outside interface.
+>         ${fwcmd} add deny all from 0.0.0.0/8 to any via ${oif}
+>         ${fwcmd} add deny all from 169.254.0.0/16 to any via ${oif}
+>         ${fwcmd} add deny all from 192.0.2.0/24 to any via ${oif}
+>         ${fwcmd} add deny all from 224.0.0.0/4 to any via ${oif}
+>         ${fwcmd} add deny all from 240.0.0.0/4 to any via ${oif}
+> 
+>         # Allow anything on the internal net.
+>         ${fwcmd} add allow all from any to any via ${iif}
+> 
+>         # Allow anything outbound from this net.
+>         ${fwcmd} add allow all from ${onet}:${omask} to any out via ${oif}
+> 
+>         # Deny anything outbound from other nets.
+>         ${fwcmd} add deny log all from any to any out via ${oif}
+> 
+>         # Allow TCP through if setup succeeded.
+>         ${fwcmd} add allow tcp from any to any established
+> 
+>         # Allow IP fragments to pass through.
+>         ${fwcmd} add allow all from any to any frag
+> 
+>         # Allow all IPv6 packets through - they are handled by the separate
+>         # ipv6 firewall rules in rc.firewall6.
+>         ${fwcmd} add allow ipv6 from any to any
+> 
+>         # Deny inbound auth, netbios, ldap, and Microsoft's DB protocol
+>         # without logging.
+>         ${fwcmd} add reset tcp from any to ${oip} 113 setup in via ${oif}
+>         ${fwcmd} add reset tcp from any to ${oip} 139 setup in via ${oif}
+>         ${fwcmd} add reset tcp from any to ${oip} 389 setup in via ${oif}
+>         ${fwcmd} add reset tcp from any to ${oip} 445 setup in via ${oif}
+> 
+>         # Deny some chatty UDP broadcast protocols without logging.
+>         ${fwcmd} add deny udp from any 137 to any in via ${oif}
+>         ${fwcmd} add deny udp from any to any 137 in via ${oif}
+>         ${fwcmd} add deny udp from any 138 to any in via ${oif}
+>         ${fwcmd} add deny udp from any 513 to any in via ${oif}
+>         ${fwcmd} add deny udp from any 525 to any in via ${oif}
+> 
+>         # Allow inbound DNS and NTP replies.  This is somewhat of a hole,
+>         # since we're looking at the incoming port number, which can be
+>         # faked, but that's just the way DNS and NTP work.
+>         ${fwcmd} add allow udp from any 53 to ${oip} in via ${oif}
+>         ${fwcmd} add allow udp from any 123 to ${oip} in via ${oif}
+> 
+>         # Allow inbound DNS queries.
+>         ${fwcmd} add allow udp from any to ${oip} 53 in via ${oif}
+>                                                                 
+>         # Allow inbound NTP queries.
+>         ${fwcmd} add allow udp from any to ${oip} 123 in via ${oif}
+> 
+>         # Allow traceroute to function, but not to get in.
+>         ${fwcmd} add unreach port udp from any to ${oip} 33435-33524 in via ${oif}
+> 
+>         # Allow some inbound icmps - echo reply, dest unreach, source quench,
+>         # echo, ttl exceeded.
+>         ${fwcmd} add allow icmp from any to any in via ${oif} icmptypes 0,3,4,8,11
+> 
+>         # Broadcasts are denied and not logged.
+>         ${fwcmd} add deny all from any to 255.255.255.255
+> 
+>         # Everything else is denied and logged.
+>         ${fwcmd} add deny log all from any to any
+>         ;;
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [../] / One Month
-email [/mailto/j.gif] [/mailto/?id=j]
+Back to ACME Labs. [./]
+[/mailto/wa.gif] [/mailto/?id=wa]

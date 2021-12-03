@@ -1,104 +1,62 @@
-
-All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.JPM.Encoders.html  PreviousPackage-Acme.JPM.Encoders.html  NextAcme.JPM.Encoders.ImageEncoder.html#_top_  IndexAllNames.html
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
+face [face7.jpg]
 
 
+JEF POSKANZER'S WEB PAGE
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+I'm available for consulting; see my business page [//acme.com/] for details. This page is for personal stuff.
 
-[/resources/images/atom_ani.gif]
-
-
-CLASS ACME.JPM.ENCODERS.GIFENCODER
-
-
-java.lang.Object
-   |
-   +----Acme.JPM.Encoders.ImageEncoderAcme.JPM.Encoders.ImageEncoder.html#_top_
-           |
-           +----Acme.JPM.Encoders.GifEncoder
+Born: 1958, New York City
+Raised: Bellport [http://www.bellport.com/] Long Island [http://www.fordyce.org/long_island/], Berkeley [http://www.ci.berkeley.ca.us/], Paris
+[http://www.paris.org/]
+Calling in life: software engineering
+Housemates: just a few semi-feral cats [photos/2004_kitties/]
+Alignment: chaotic/neutral-good
+Favorite music: surf instrumentals [surf.html], and covers [http://www.devilmedia.com/covers.htm]
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+tripping hazard [/resources/triphazard.gif] Some fun and/or useful pages:
 
-public class GifEncoder extends ImageEncoder [Acme.JPM.Encoders.ImageEncoder.html#_top_] Write out an image as a GIF.
+ * Berkeley creeks [creeks/].
+ * Nike missiles [nike/].
+ * Golden Gate Sunsets [ggs/].
+ * Some river flow data [flow/].
+ * flickr [fotostuff/flickr_thumbs/jef.JPG] [https://www.flickr.com/photos_user.gne?path=jef&details=1] My photography [photos/], including:
+   * friends & family [photos/friends_family.html], macro [photos/macro.html], industrial archaeology [photos/archaeology.html], metal
+     [photos/metal.html], deserts & cacti [photos/deserts_cacti.html], hiking [photos/hiking.html], camping [photos/camping.html], biking
+     [photos/biking.html], beaches [photos/beaches.html], hot springs [photos/hotsprings.html], whitewater [photos/whitewater.html], ultraviolet light
+     [photos/blacklight.html], crafts [photos/crafts.html], cats [photos/cats.html], trains [photos/trains.html], Bevatron [photos/bevatron.html],
+     burningman [photos/burningman.html], Red Oak Victory [photos/red_oak_victory.html], Bulb [photos/bulb.html]
+   
+ * Singing Science records [singing_science/].
+ * Bay Area weather [weather/].
+ * Spare The Air Days [spare/].
+ * Urbanist Manifesto [urbanist.html].
+ * Astronomy Picture of the Day RSS feed [apod/].
+   
+ * Jef's Mostly Mellow Mix [mix/].
+ * Room 641A [room641a/].
+ * I am a Twit. [https://twitter.com/jefposk]
+ * Identifying scars and marks. [scars.html]
+ * The Poskanzer Family Tree [http://lisa.poskanzer.org/PoskanzerTree/].
+ * My mom's Berkeley [http://www-rnc.lbl.gov/Restaurants/] and Oakland [http://www-rnc.lbl.gov/RestOak/] restaurant guides.
+ * The Under Construction Page. [construction/]
+ * Sixth grade [sixth/].
+ * Reviews [reviews/] of stuff I like.
+ * My collection of net gems [netgems/].
+ * My Universal Life Church ordination certificate [ulc/].
+ * eyeNET [http://www.eye.net/] reveals that I am Santa Claus [eyenet1222.htm].
+   
+ * Recommendations for California's November 2020 propositions [propositions/].
+ * Religion and sexual ethics chart [religion_sex/].
+ * Collected links to the Jon Carroll Xmas Quizzes [jrc_quiz/].
+ * Nutrition Facts [nutrition.html].
+ * My friends xyzzy23 [../xyzzy23/], plugh4711 [../plugh4711/], plover42 [../plover42/], and frobozz07 [../frobozz07/].
 
-Fetch the software. [/resources/classes/Acme/JPM/Encoders/GifEncoder.java]
-Fetch the entire Acme package. [/resources/classes/Acme.tar.gz]
-
-
-
-
-
-See Also: ToGif
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-CONSTRUCTOR INDEX [IMAGES/CONSTRUCTOR-INDEX.GIF]
-
-o [images/yellow-ball-small.gif] GifEncoder(Image, OutputStream) Constructor from Image. o [images/yellow-ball-small.gif] GifEncoder(Image,
-OutputStream, boolean) Constructor from Image with interlace setting. o [images/yellow-ball-small.gif] GifEncoder(ImageProducer, OutputStream)
-Constructor from ImageProducer. o [images/yellow-ball-small.gif] GifEncoder(ImageProducer, OutputStream, boolean) Constructor from ImageProducer with
-interlace setting.
-
-
-CONSTRUCTORS [IMAGES/CONSTRUCTORS.GIF]
-
-o [images/yellow-ball.gif] GifEncoder
-
-
- public GifEncoder(Image img,
-                   OutputStream out) throws IOException
-
-
-Constructor from Image.
-
-Parameters: img - The image to encode. out - The stream to write the GIF to.
-
-o [images/yellow-ball.gif] GifEncoder
-
-
- public GifEncoder(Image img,
-                   OutputStream out,
-                   boolean interlace) throws IOException
-
-
-Constructor from Image with interlace setting.
-
-Parameters: img - The image to encode. out - The stream to write the GIF to. interlace - Whether to interlace.
-
-o [images/yellow-ball.gif] GifEncoder
-
-
- public GifEncoder(ImageProducer prod,
-                   OutputStream out) throws IOException
-
-
-Constructor from ImageProducer.
-
-Parameters: prod - The ImageProducer to encode. out - The stream to write the GIF to.
-
-o [images/yellow-ball.gif] GifEncoder
-
-
- public GifEncoder(ImageProducer prod,
-                   OutputStream out,
-                   boolean interlace) throws IOException
-
-
-Constructor from ImageProducer with interlace setting.
-
-Parameters: prod - The ImageProducer to encode. out - The stream to write the GIF to.
+"Long live freedom, and damn the ideologies!" -- Robinson Jeffers
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
 
-All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.JPM.Encoders.html  PreviousPackage-Acme.JPM.Encoders.html  NextAcme.JPM.Encoders.ImageEncoder.html#_top_  IndexAllNames.html
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-ACME Javahttp://www.acme.com/java/  ACME Labshttp://www.acme.com/
-
-[/mailto/wa.gif] [/mailto/?id=wa]
+ACME Labs main page [/].
+email [/mailto/j.gif] [/mailto/?id=j]

@@ -1,129 +1,75 @@
- * Skip to main content
- * Skip to search
+logo [/resources/images/atom_ani.gif]
 
-/en-US/
- * Technologies
-   * Technologies Overview [/en-US/docs/Web]
-   * HTML [/en-US/docs/Web/HTML]
-   * CSS [/en-US/docs/Web/CSS]
-   * JavaScript [/en-US/docs/Web/JavaScript]
-   * Graphics [/en-US/docs/Web/Guide/Graphics]
-   * HTTP [/en-US/docs/Web/HTTP]
-   * APIs [/en-US/docs/Web/API]
-   * Browser Extensions [/en-US/docs/Mozilla/Add-ons/WebExtensions]
-   * MathML [/en-US/docs/Web/MathML]
- * References & Guides
-   * Learn web development [/en-US/docs/Learn]
-   * Tutorials [/en-US/docs/Web/Tutorials]
-   * References [/en-US/docs/Web/Reference]
-   * Developer Guides [/en-US/docs/Web/Guide]
-   * Accessibility [/en-US/docs/Web/Accessibility]
-   * Game development [/en-US/docs/Games]
-   * ...more docs [/en-US/docs/Web]
- * Feedback
-   * Send Feedback [/en-US/docs/MDN/Contribute/Feedback]
-   * Contribute to MDN [/en-US/docs/MDN/Contribute]
-   * Report a content issue 🌐 [https://github.com/mdn/content/issues/new]
-   * Report a platform issue 🌐 [https://github.com/mdn/yari/issues/new]
+NETSCAPE STANDARD COLORMAP
 
-Search MDN
+#----00 #----33 #----66 #----99 #----cc #----ff #0000-- #000000 [javascript:SetBG('#000000');] #000033 [javascript:SetBG('#000033');] #000066
+[javascript:SetBG('#000066');] #000099 [javascript:SetBG('#000099');] #0000cc [javascript:SetBG('#0000cc');] #0000ff [javascript:SetBG('#0000ff');]
+#0033-- #003300 [javascript:SetBG('#003300');] #003333 [javascript:SetBG('#003333');] #003366 [javascript:SetBG('#003366');] #003399
+[javascript:SetBG('#003399');] #0033cc [javascript:SetBG('#0033cc');] #0033ff [javascript:SetBG('#0033ff');] #0066-- #006600
+[javascript:SetBG('#006600');] #006633 [javascript:SetBG('#006633');] #006666 [javascript:SetBG('#006666');] #006699 [javascript:SetBG('#006699');]
+#0066cc [javascript:SetBG('#0066cc');] #0066ff [javascript:SetBG('#0066ff');] #0099-- #009900 [javascript:SetBG('#009900');] #009933
+[javascript:SetBG('#009933');] #009966 [javascript:SetBG('#009966');] #009999 [javascript:SetBG('#009999');] #0099cc [javascript:SetBG('#0099cc');]
+#0099ff [javascript:SetBG('#0099ff');] #00cc-- #00cc00 [javascript:SetBG('#00cc00');] #00cc33 [javascript:SetBG('#00cc33');] #00cc66
+[javascript:SetBG('#00cc66');] #00cc99 [javascript:SetBG('#00cc99');] #00cccc [javascript:SetBG('#00cccc');] #00ccff [javascript:SetBG('#00ccff');]
+#00ff-- #00ff00 [javascript:SetBG('#00ff00');] #00ff33 [javascript:SetBG('#00ff33');] #00ff66 [javascript:SetBG('#00ff66');] #00ff99
+[javascript:SetBG('#00ff99');] #00ffcc [javascript:SetBG('#00ffcc');] #00ffff [javascript:SetBG('#00ffff');] #3300-- #330000
+[javascript:SetBG('#330000');] #330033 [javascript:SetBG('#330033');] #330066 [javascript:SetBG('#330066');] #330099 [javascript:SetBG('#330099');]
+#3300cc [javascript:SetBG('#3300cc');] #3300ff [javascript:SetBG('#3300ff');] #3333-- #333300 [javascript:SetBG('#333300');] #333333
+[javascript:SetBG('#333333');] #333366 [javascript:SetBG('#333366');] #333399 [javascript:SetBG('#333399');] #3333cc [javascript:SetBG('#3333cc');]
+#3333ff [javascript:SetBG('#3333ff');] #3366-- #336600 [javascript:SetBG('#336600');] #336633 [javascript:SetBG('#336633');] #336666
+[javascript:SetBG('#336666');] #336699 [javascript:SetBG('#336699');] #3366cc [javascript:SetBG('#3366cc');] #3366ff [javascript:SetBG('#3366ff');]
+#3399-- #339900 [javascript:SetBG('#339900');] #339933 [javascript:SetBG('#339933');] #339966 [javascript:SetBG('#339966');] #339999
+[javascript:SetBG('#339999');] #3399cc [javascript:SetBG('#3399cc');] #3399ff [javascript:SetBG('#3399ff');] #33cc-- #33cc00
+[javascript:SetBG('#33cc00');] #33cc33 [javascript:SetBG('#33cc33');] #33cc66 [javascript:SetBG('#33cc66');] #33cc99 [javascript:SetBG('#33cc99');]
+#33cccc [javascript:SetBG('#33cccc');] #33ccff [javascript:SetBG('#33ccff');] #33ff-- #33ff00 [javascript:SetBG('#33ff00');] #33ff33
+[javascript:SetBG('#33ff33');] #33ff66 [javascript:SetBG('#33ff66');] #33ff99 [javascript:SetBG('#33ff99');] #33ffcc [javascript:SetBG('#33ffcc');]
+#33ffff [javascript:SetBG('#33ffff');] #6600-- #660000 [javascript:SetBG('#660000');] #660033 [javascript:SetBG('#660033');] #660066
+[javascript:SetBG('#660066');] #660099 [javascript:SetBG('#660099');] #6600cc [javascript:SetBG('#6600cc');] #6600ff [javascript:SetBG('#6600ff');]
+#6633-- #663300 [javascript:SetBG('#663300');] #663333 [javascript:SetBG('#663333');] #663366 [javascript:SetBG('#663366');] #663399
+[javascript:SetBG('#663399');] #6633cc [javascript:SetBG('#6633cc');] #6633ff [javascript:SetBG('#6633ff');] #6666-- #666600
+[javascript:SetBG('#666600');] #666633 [javascript:SetBG('#666633');] #666666 [javascript:SetBG('#666666');] #666699 [javascript:SetBG('#666699');]
+#6666cc [javascript:SetBG('#6666cc');] #6666ff [javascript:SetBG('#6666ff');] #6699-- #669900 [javascript:SetBG('#669900');] #669933
+[javascript:SetBG('#669933');] #669966 [javascript:SetBG('#669966');] #669999 [javascript:SetBG('#669999');] #6699cc [javascript:SetBG('#6699cc');]
+#6699ff [javascript:SetBG('#6699ff');] #66cc-- #66cc00 [javascript:SetBG('#66cc00');] #66cc33 [javascript:SetBG('#66cc33');] #66cc66
+[javascript:SetBG('#66cc66');] #66cc99 [javascript:SetBG('#66cc99');] #66cccc [javascript:SetBG('#66cccc');] #66ccff [javascript:SetBG('#66ccff');]
+#66ff-- #66ff00 [javascript:SetBG('#66ff00');] #66ff33 [javascript:SetBG('#66ff33');] #66ff66 [javascript:SetBG('#66ff66');] #66ff99
+[javascript:SetBG('#66ff99');] #66ffcc [javascript:SetBG('#66ffcc');] #66ffff [javascript:SetBG('#66ffff');] #9900-- #990000
+[javascript:SetBG('#990000');] #990033 [javascript:SetBG('#990033');] #990066 [javascript:SetBG('#990066');] #990099 [javascript:SetBG('#990099');]
+#9900cc [javascript:SetBG('#9900cc');] #9900ff [javascript:SetBG('#9900ff');] #9933-- #993300 [javascript:SetBG('#993300');] #993333
+[javascript:SetBG('#993333');] #993366 [javascript:SetBG('#993366');] #993399 [javascript:SetBG('#993399');] #9933cc [javascript:SetBG('#9933cc');]
+#9933ff [javascript:SetBG('#9933ff');] #9966-- #996600 [javascript:SetBG('#996600');] #996633 [javascript:SetBG('#996633');] #996666
+[javascript:SetBG('#996666');] #996699 [javascript:SetBG('#996699');] #9966cc [javascript:SetBG('#9966cc');] #9966ff [javascript:SetBG('#9966ff');]
+#9999-- #999900 [javascript:SetBG('#999900');] #999933 [javascript:SetBG('#999933');] #999966 [javascript:SetBG('#999966');] #999999
+[javascript:SetBG('#999999');] #9999cc [javascript:SetBG('#9999cc');] #9999ff [javascript:SetBG('#9999ff');] #99cc-- #99cc00
+[javascript:SetBG('#99cc00');] #99cc33 [javascript:SetBG('#99cc33');] #99cc66 [javascript:SetBG('#99cc66');] #99cc99 [javascript:SetBG('#99cc99');]
+#99cccc [javascript:SetBG('#99cccc');] #99ccff [javascript:SetBG('#99ccff');] #99ff-- #99ff00 [javascript:SetBG('#99ff00');] #99ff33
+[javascript:SetBG('#99ff33');] #99ff66 [javascript:SetBG('#99ff66');] #99ff99 [javascript:SetBG('#99ff99');] #99ffcc [javascript:SetBG('#99ffcc');]
+#99ffff [javascript:SetBG('#99ffff');] #cc00-- #cc0000 [javascript:SetBG('#cc0000');] #cc0033 [javascript:SetBG('#cc0033');] #cc0066
+[javascript:SetBG('#cc0066');] #cc0099 [javascript:SetBG('#cc0099');] #cc00cc [javascript:SetBG('#cc00cc');] #cc00ff [javascript:SetBG('#cc00ff');]
+#cc33-- #cc3300 [javascript:SetBG('#cc3300');] #cc3333 [javascript:SetBG('#cc3333');] #cc3366 [javascript:SetBG('#cc3366');] #cc3399
+[javascript:SetBG('#cc3399');] #cc33cc [javascript:SetBG('#cc33cc');] #cc33ff [javascript:SetBG('#cc33ff');] #cc66-- #cc6600
+[javascript:SetBG('#cc6600');] #cc6633 [javascript:SetBG('#cc6633');] #cc6666 [javascript:SetBG('#cc6666');] #cc6699 [javascript:SetBG('#cc6699');]
+#cc66cc [javascript:SetBG('#cc66cc');] #cc66ff [javascript:SetBG('#cc66ff');] #cc99-- #cc9900 [javascript:SetBG('#cc9900');] #cc9933
+[javascript:SetBG('#cc9933');] #cc9966 [javascript:SetBG('#cc9966');] #cc9999 [javascript:SetBG('#cc9999');] #cc99cc [javascript:SetBG('#cc99cc');]
+#cc99ff [javascript:SetBG('#cc99ff');] #cccc-- #cccc00 [javascript:SetBG('#cccc00');] #cccc33 [javascript:SetBG('#cccc33');] #cccc66
+[javascript:SetBG('#cccc66');] #cccc99 [javascript:SetBG('#cccc99');] #cccccc [javascript:SetBG('#cccccc');] #ccccff [javascript:SetBG('#ccccff');]
+#ccff-- #ccff00 [javascript:SetBG('#ccff00');] #ccff33 [javascript:SetBG('#ccff33');] #ccff66 [javascript:SetBG('#ccff66');] #ccff99
+[javascript:SetBG('#ccff99');] #ccffcc [javascript:SetBG('#ccffcc');] #ccffff [javascript:SetBG('#ccffff');] #ff00-- #ff0000
+[javascript:SetBG('#ff0000');] #ff0033 [javascript:SetBG('#ff0033');] #ff0066 [javascript:SetBG('#ff0066');] #ff0099 [javascript:SetBG('#ff0099');]
+#ff00cc [javascript:SetBG('#ff00cc');] #ff00ff [javascript:SetBG('#ff00ff');] #ff33-- #ff3300 [javascript:SetBG('#ff3300');] #ff3333
+[javascript:SetBG('#ff3333');] #ff3366 [javascript:SetBG('#ff3366');] #ff3399 [javascript:SetBG('#ff3399');] #ff33cc [javascript:SetBG('#ff33cc');]
+#ff33ff [javascript:SetBG('#ff33ff');] #ff66-- #ff6600 [javascript:SetBG('#ff6600');] #ff6633 [javascript:SetBG('#ff6633');] #ff6666
+[javascript:SetBG('#ff6666');] #ff6699 [javascript:SetBG('#ff6699');] #ff66cc [javascript:SetBG('#ff66cc');] #ff66ff [javascript:SetBG('#ff66ff');]
+#ff99-- #ff9900 [javascript:SetBG('#ff9900');] #ff9933 [javascript:SetBG('#ff9933');] #ff9966 [javascript:SetBG('#ff9966');] #ff9999
+[javascript:SetBG('#ff9999');] #ff99cc [javascript:SetBG('#ff99cc');] #ff99ff [javascript:SetBG('#ff99ff');] #ffcc-- #ffcc00
+[javascript:SetBG('#ffcc00');] #ffcc33 [javascript:SetBG('#ffcc33');] #ffcc66 [javascript:SetBG('#ffcc66');] #ffcc99 [javascript:SetBG('#ffcc99');]
+#ffcccc [javascript:SetBG('#ffcccc');] #ffccff [javascript:SetBG('#ffccff');] #ffff-- #ffff00 [javascript:SetBG('#ffff00');] #ffff33
+[javascript:SetBG('#ffff33');] #ffff66 [javascript:SetBG('#ffff66');] #ffff99 [javascript:SetBG('#ffff99');] #ffffcc [javascript:SetBG('#ffffcc');]
+#ffffff [javascript:SetBG('#ffffff');] #----00 #----33 #----66 #----99 #----cc #----ff
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
 
-RESOURCES FOR DEVELOPERS, BY DEVELOPERS.
-
- * Web Technologies [/en-US/docs/Web]
- * Learn Web Development [/en-US/docs/Learn]
- * Developer Tools [/en-US/docs/Tools]
-
-
-HACKS BLOG
-
-Read more at hacks.mozilla.org [http://hacks.mozilla.org/]
-
-
- * HACKS DECODED: SEYI AKIWOWO, FOUNDER OF GLITCH [https://hacks.mozilla.org/2021/11/hacks-decoded-seyi-akiwowo-founder-of-glitch/]
-   
-   Seyi Akiwowo’s reputation precedes her. Akiwowo is the founder of Glitch, an organization that seeks to end online abuse. We spoke with Seyi over
-   video chat to learn about what drives her, why she does what she does and what she’d be doing if not battling trolls online for a living. The post
-   Hacks Decoded: Seyi Akiwowo, Founder of Glitch appeared first on Mozilla Hacks - the Web developer blog.
-   
-   Posted Tuesday, November 30, 2021 by Xavier Harding
-
-
- * HACKS DECODED: THOMAS PARK, FOUNDER OF CODEPIP [https://hacks.mozilla.org/2021/10/hacks-decoded-thomas-park-founder-of-codepip/]
-   
-   Welcome to our Hacks: Decoded Interview series! We spoke with Thomas Park over email about coding, his favourite apps and his past life at Mozilla.
-   Thomas is the founder of Codepip, a platform he created for coding games that helps people learn HTML, CSS, JavaScript, etc. The most popular game
-   is Flexbox Froggy.The post Hacks Decoded: Thomas Park, Founder of Codepip appeared first on Mozilla Hacks - the Web developer blog.
-   
-   Posted Wednesday, October 20, 2021 by Xavier Harding
-
-
- * LOTS TO SEE IN FIREFOX 93! [https://hacks.mozilla.org/2021/10/lots-to-see-in-firefox-93/]
-   
-   Firefox 93 comes with lots of lovely updates including AVIF image format support, filling of XFA-based forms in its PDF viewer and protection
-   against insecure downloads by blocking downloads relying on insecure connections.The post Lots to see in Firefox 93! appeared first on Mozilla
-   Hacks - the Web developer blog.
-   
-   Posted Friday, October 8, 2021 by Ruth John
-
-
- * IMPLEMENTING FORM FILLING AND ACCESSIBILITY IN THE FIREFOX PDF VIEWER
-   [https://hacks.mozilla.org/2021/10/implementing-form-filling-and-accessibility-in-the-firefox-pdf-viewer/]
-   
-   Last year, during lockdown, many discovered the importance of PDF forms when having to deal remotely with administrations and large organizations
-   like banks. Firefox supported displaying PDF forms, but it didn’t support filling them: users had to print them, fill them by hand, and scan them
-   back to digital form. We decided it was time to reinvest in the PDF viewer (PDF.js) and support filling PDF forms within Firefox to make our users'
-   lives easier.The post Implementing form filling and accessibility in the Firefox PDF viewer appeared first on Mozilla Hacks - the Web developer
-   blog.
-   
-   Posted Thursday, October 7, 2021 by bdahl
-
-
- * CONTROL YOUR DATA FOR GOOD WITH RALLY [https://hacks.mozilla.org/2021/10/control-your-data-for-good-with-rally/]
-   
-   In a world where data and AI are reshaping society, people currently have no tangible way to put their data to work for the causes they believe in.
-   To address this, we built the Rally platform, a first-of-its-kind tool that enables you to contribute your data to specific studies and exercise
-   consent at a granular level. Mozilla Rally puts you in control of your data while building a better Internet and a better society. The post Control
-   your data for good with Rally appeared first on Mozilla Hacks - the Web developer blog.
-   
-   Posted Wednesday, October 6, 2021 by Melissa Thermidor
-
-
-HELP IMPROVE MDN WEB DOCS
-
-All parts of MDN (docs and the site itself) are created by an open community of developers. Please join us! Pick one of these ways to help:
-
- * Getting started [/en-US/docs/MDN/Getting_started]
- * Contributing to MDN content [/en-US/docs/MDN/Contribute]
- * Contributing to the MDN codebase [https://github.com/mdn/yari#readme]
- * Updating browser compatibility data [https://github.com/mdn/browser-compat-data]
-
-/en-US/
- * Web Technologies [/en-US/docs/Web]
- * Learn Web Development [/en-US/docs/Learn]
- * About MDN [/en-US/docs/MDN/About]
- * Feedback [/en-US/docs/MDN/Feedback]
-
- * About [https://www.mozilla.org/about/]
- * MDN Web Docs Store [https://shop.spreadshirt.com/mdn-store/]
- * Contact Us [https://www.mozilla.org/contact/]
- * Firefox [https://www.mozilla.org/firefox/?utm_source=developer.mozilla.org&utm_campaign=footer&utm_medium=referral]
-
-MDN
-
- * MDN on Twitter [https://twitter.com/mozdevnet]
- * MDN on Github [https://github.com/mdn/]
-
-MOZILLA
-
- * Mozilla on Twitter [https://twitter.com/mozilla]
- * Mozilla on Instagram [https://www.instagram.com/mozillagram/]
-
-© 2005-2021 Mozilla and individual contributors. Content is available under these licenses [/docs/MDN/About#Copyrights_and_licenses].
-
- * Terms [https://www.mozilla.org/about/legal/terms/mozilla]
- * Privacy [https://www.mozilla.org/privacy/websites/]
- * Cookies [https://www.mozilla.org/privacy/websites/#cookies]
-
+Back to ACME Labs. [./]
+email [/mailto/j.gif] [/mailto/?id=j]

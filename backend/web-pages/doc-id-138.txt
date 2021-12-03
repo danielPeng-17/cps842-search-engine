@@ -1,21 +1,21 @@
-ACME LABORATORIES
-
-cheesecake [images/acme_hanger.jpg]
-Dolphin safe.
+logo [../resources/images/atom_ani.gif]
 
 
-
-December 2021 SuMoTuWeThFrSa 1234 567891011 12131415161718 19202122232425 262728293031
-
+HELP SUPPORT ACME LABORATORIES
 
 
-<-- NOVEMBER 2021 [calendar.cgi?month=11&year=2021]
+While the web site supports itself via ads, I have no objection to people donating more directly. I get a lot of folks saying they owe me a beer if we
+ever meet up; well, now they can buy me that beer with a couple of mouse clicks.
 
-JANUARY 2022 --> [calendar.cgi?month=1&year=2022]
+I have a Patreon [https://www.patreon.com/acme_labs], with $1/$5/$25 per month tiers.
+
+You can also use PayPal [https://secure.paypal.com/affil/pal=jef%40mail.acme.com] to donate, either one time or monthly.
+
+[https://www.paypal.com/en_US/i/scr/pixel.gif]
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer]
-
-ACME Labs [../] / ACME Labs Calendar
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer] Back to ACME Labs. [../]
 email [/mailto/wa.gif] [/mailto/?id=wa]

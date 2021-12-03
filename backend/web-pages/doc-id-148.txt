@@ -1,75 +1,34 @@
-logo [/resources/images/atom_ani.gif]
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
-NETSCAPE STANDARD COLORMAP
+logo [logo.jpg]
 
-#----00 #----33 #----66 #----99 #----cc #----ff #0000-- #000000 [javascript:SetBG('#000000');] #000033 [javascript:SetBG('#000033');] #000066
-[javascript:SetBG('#000066');] #000099 [javascript:SetBG('#000099');] #0000cc [javascript:SetBG('#0000cc');] #0000ff [javascript:SetBG('#0000ff');]
-#0033-- #003300 [javascript:SetBG('#003300');] #003333 [javascript:SetBG('#003333');] #003366 [javascript:SetBG('#003366');] #003399
-[javascript:SetBG('#003399');] #0033cc [javascript:SetBG('#0033cc');] #0033ff [javascript:SetBG('#0033ff');] #0066-- #006600
-[javascript:SetBG('#006600');] #006633 [javascript:SetBG('#006633');] #006666 [javascript:SetBG('#006666');] #006699 [javascript:SetBG('#006699');]
-#0066cc [javascript:SetBG('#0066cc');] #0066ff [javascript:SetBG('#0066ff');] #0099-- #009900 [javascript:SetBG('#009900');] #009933
-[javascript:SetBG('#009933');] #009966 [javascript:SetBG('#009966');] #009999 [javascript:SetBG('#009999');] #0099cc [javascript:SetBG('#0099cc');]
-#0099ff [javascript:SetBG('#0099ff');] #00cc-- #00cc00 [javascript:SetBG('#00cc00');] #00cc33 [javascript:SetBG('#00cc33');] #00cc66
-[javascript:SetBG('#00cc66');] #00cc99 [javascript:SetBG('#00cc99');] #00cccc [javascript:SetBG('#00cccc');] #00ccff [javascript:SetBG('#00ccff');]
-#00ff-- #00ff00 [javascript:SetBG('#00ff00');] #00ff33 [javascript:SetBG('#00ff33');] #00ff66 [javascript:SetBG('#00ff66');] #00ff99
-[javascript:SetBG('#00ff99');] #00ffcc [javascript:SetBG('#00ffcc');] #00ffff [javascript:SetBG('#00ffff');] #3300-- #330000
-[javascript:SetBG('#330000');] #330033 [javascript:SetBG('#330033');] #330066 [javascript:SetBG('#330066');] #330099 [javascript:SetBG('#330099');]
-#3300cc [javascript:SetBG('#3300cc');] #3300ff [javascript:SetBG('#3300ff');] #3333-- #333300 [javascript:SetBG('#333300');] #333333
-[javascript:SetBG('#333333');] #333366 [javascript:SetBG('#333366');] #333399 [javascript:SetBG('#333399');] #3333cc [javascript:SetBG('#3333cc');]
-#3333ff [javascript:SetBG('#3333ff');] #3366-- #336600 [javascript:SetBG('#336600');] #336633 [javascript:SetBG('#336633');] #336666
-[javascript:SetBG('#336666');] #336699 [javascript:SetBG('#336699');] #3366cc [javascript:SetBG('#3366cc');] #3366ff [javascript:SetBG('#3366ff');]
-#3399-- #339900 [javascript:SetBG('#339900');] #339933 [javascript:SetBG('#339933');] #339966 [javascript:SetBG('#339966');] #339999
-[javascript:SetBG('#339999');] #3399cc [javascript:SetBG('#3399cc');] #3399ff [javascript:SetBG('#3399ff');] #33cc-- #33cc00
-[javascript:SetBG('#33cc00');] #33cc33 [javascript:SetBG('#33cc33');] #33cc66 [javascript:SetBG('#33cc66');] #33cc99 [javascript:SetBG('#33cc99');]
-#33cccc [javascript:SetBG('#33cccc');] #33ccff [javascript:SetBG('#33ccff');] #33ff-- #33ff00 [javascript:SetBG('#33ff00');] #33ff33
-[javascript:SetBG('#33ff33');] #33ff66 [javascript:SetBG('#33ff66');] #33ff99 [javascript:SetBG('#33ff99');] #33ffcc [javascript:SetBG('#33ffcc');]
-#33ffff [javascript:SetBG('#33ffff');] #6600-- #660000 [javascript:SetBG('#660000');] #660033 [javascript:SetBG('#660033');] #660066
-[javascript:SetBG('#660066');] #660099 [javascript:SetBG('#660099');] #6600cc [javascript:SetBG('#6600cc');] #6600ff [javascript:SetBG('#6600ff');]
-#6633-- #663300 [javascript:SetBG('#663300');] #663333 [javascript:SetBG('#663333');] #663366 [javascript:SetBG('#663366');] #663399
-[javascript:SetBG('#663399');] #6633cc [javascript:SetBG('#6633cc');] #6633ff [javascript:SetBG('#6633ff');] #6666-- #666600
-[javascript:SetBG('#666600');] #666633 [javascript:SetBG('#666633');] #666666 [javascript:SetBG('#666666');] #666699 [javascript:SetBG('#666699');]
-#6666cc [javascript:SetBG('#6666cc');] #6666ff [javascript:SetBG('#6666ff');] #6699-- #669900 [javascript:SetBG('#669900');] #669933
-[javascript:SetBG('#669933');] #669966 [javascript:SetBG('#669966');] #669999 [javascript:SetBG('#669999');] #6699cc [javascript:SetBG('#6699cc');]
-#6699ff [javascript:SetBG('#6699ff');] #66cc-- #66cc00 [javascript:SetBG('#66cc00');] #66cc33 [javascript:SetBG('#66cc33');] #66cc66
-[javascript:SetBG('#66cc66');] #66cc99 [javascript:SetBG('#66cc99');] #66cccc [javascript:SetBG('#66cccc');] #66ccff [javascript:SetBG('#66ccff');]
-#66ff-- #66ff00 [javascript:SetBG('#66ff00');] #66ff33 [javascript:SetBG('#66ff33');] #66ff66 [javascript:SetBG('#66ff66');] #66ff99
-[javascript:SetBG('#66ff99');] #66ffcc [javascript:SetBG('#66ffcc');] #66ffff [javascript:SetBG('#66ffff');] #9900-- #990000
-[javascript:SetBG('#990000');] #990033 [javascript:SetBG('#990033');] #990066 [javascript:SetBG('#990066');] #990099 [javascript:SetBG('#990099');]
-#9900cc [javascript:SetBG('#9900cc');] #9900ff [javascript:SetBG('#9900ff');] #9933-- #993300 [javascript:SetBG('#993300');] #993333
-[javascript:SetBG('#993333');] #993366 [javascript:SetBG('#993366');] #993399 [javascript:SetBG('#993399');] #9933cc [javascript:SetBG('#9933cc');]
-#9933ff [javascript:SetBG('#9933ff');] #9966-- #996600 [javascript:SetBG('#996600');] #996633 [javascript:SetBG('#996633');] #996666
-[javascript:SetBG('#996666');] #996699 [javascript:SetBG('#996699');] #9966cc [javascript:SetBG('#9966cc');] #9966ff [javascript:SetBG('#9966ff');]
-#9999-- #999900 [javascript:SetBG('#999900');] #999933 [javascript:SetBG('#999933');] #999966 [javascript:SetBG('#999966');] #999999
-[javascript:SetBG('#999999');] #9999cc [javascript:SetBG('#9999cc');] #9999ff [javascript:SetBG('#9999ff');] #99cc-- #99cc00
-[javascript:SetBG('#99cc00');] #99cc33 [javascript:SetBG('#99cc33');] #99cc66 [javascript:SetBG('#99cc66');] #99cc99 [javascript:SetBG('#99cc99');]
-#99cccc [javascript:SetBG('#99cccc');] #99ccff [javascript:SetBG('#99ccff');] #99ff-- #99ff00 [javascript:SetBG('#99ff00');] #99ff33
-[javascript:SetBG('#99ff33');] #99ff66 [javascript:SetBG('#99ff66');] #99ff99 [javascript:SetBG('#99ff99');] #99ffcc [javascript:SetBG('#99ffcc');]
-#99ffff [javascript:SetBG('#99ffff');] #cc00-- #cc0000 [javascript:SetBG('#cc0000');] #cc0033 [javascript:SetBG('#cc0033');] #cc0066
-[javascript:SetBG('#cc0066');] #cc0099 [javascript:SetBG('#cc0099');] #cc00cc [javascript:SetBG('#cc00cc');] #cc00ff [javascript:SetBG('#cc00ff');]
-#cc33-- #cc3300 [javascript:SetBG('#cc3300');] #cc3333 [javascript:SetBG('#cc3333');] #cc3366 [javascript:SetBG('#cc3366');] #cc3399
-[javascript:SetBG('#cc3399');] #cc33cc [javascript:SetBG('#cc33cc');] #cc33ff [javascript:SetBG('#cc33ff');] #cc66-- #cc6600
-[javascript:SetBG('#cc6600');] #cc6633 [javascript:SetBG('#cc6633');] #cc6666 [javascript:SetBG('#cc6666');] #cc6699 [javascript:SetBG('#cc6699');]
-#cc66cc [javascript:SetBG('#cc66cc');] #cc66ff [javascript:SetBG('#cc66ff');] #cc99-- #cc9900 [javascript:SetBG('#cc9900');] #cc9933
-[javascript:SetBG('#cc9933');] #cc9966 [javascript:SetBG('#cc9966');] #cc9999 [javascript:SetBG('#cc9999');] #cc99cc [javascript:SetBG('#cc99cc');]
-#cc99ff [javascript:SetBG('#cc99ff');] #cccc-- #cccc00 [javascript:SetBG('#cccc00');] #cccc33 [javascript:SetBG('#cccc33');] #cccc66
-[javascript:SetBG('#cccc66');] #cccc99 [javascript:SetBG('#cccc99');] #cccccc [javascript:SetBG('#cccccc');] #ccccff [javascript:SetBG('#ccccff');]
-#ccff-- #ccff00 [javascript:SetBG('#ccff00');] #ccff33 [javascript:SetBG('#ccff33');] #ccff66 [javascript:SetBG('#ccff66');] #ccff99
-[javascript:SetBG('#ccff99');] #ccffcc [javascript:SetBG('#ccffcc');] #ccffff [javascript:SetBG('#ccffff');] #ff00-- #ff0000
-[javascript:SetBG('#ff0000');] #ff0033 [javascript:SetBG('#ff0033');] #ff0066 [javascript:SetBG('#ff0066');] #ff0099 [javascript:SetBG('#ff0099');]
-#ff00cc [javascript:SetBG('#ff00cc');] #ff00ff [javascript:SetBG('#ff00ff');] #ff33-- #ff3300 [javascript:SetBG('#ff3300');] #ff3333
-[javascript:SetBG('#ff3333');] #ff3366 [javascript:SetBG('#ff3366');] #ff3399 [javascript:SetBG('#ff3399');] #ff33cc [javascript:SetBG('#ff33cc');]
-#ff33ff [javascript:SetBG('#ff33ff');] #ff66-- #ff6600 [javascript:SetBG('#ff6600');] #ff6633 [javascript:SetBG('#ff6633');] #ff6666
-[javascript:SetBG('#ff6666');] #ff6699 [javascript:SetBG('#ff6699');] #ff66cc [javascript:SetBG('#ff66cc');] #ff66ff [javascript:SetBG('#ff66ff');]
-#ff99-- #ff9900 [javascript:SetBG('#ff9900');] #ff9933 [javascript:SetBG('#ff9933');] #ff9966 [javascript:SetBG('#ff9966');] #ff9999
-[javascript:SetBG('#ff9999');] #ff99cc [javascript:SetBG('#ff99cc');] #ff99ff [javascript:SetBG('#ff99ff');] #ffcc-- #ffcc00
-[javascript:SetBG('#ffcc00');] #ffcc33 [javascript:SetBG('#ffcc33');] #ffcc66 [javascript:SetBG('#ffcc66');] #ffcc99 [javascript:SetBG('#ffcc99');]
-#ffcccc [javascript:SetBG('#ffcccc');] #ffccff [javascript:SetBG('#ffccff');] #ffff-- #ffff00 [javascript:SetBG('#ffff00');] #ffff33
-[javascript:SetBG('#ffff33');] #ffff66 [javascript:SetBG('#ffff66');] #ffff99 [javascript:SetBG('#ffff99');] #ffffcc [javascript:SetBG('#ffffcc');]
-#ffffff [javascript:SetBG('#ffffff');] #----00 #----33 #----66 #----99 #----cc #----ff
+
+ACME CHUMAKER
+
+Make a custom Frank Chu protest sign!
+
+Any lines you leave blank will be filled in with automatically-generated Chuglish.
+
+
+
+Recent signs. [signs.cgi]
+
+If you use signs from here on your web page (which is the whole point of the ChuMaker!), how about putting up a credit link back to here? Not a
+requirement, just something nice you could do if you feel like it and there's room on your page. Something like:
+
+Sign by ACME ChuMaker [http://acme.com/chumaker/].
+
+For which the HTML code is:
+
+<font size="-1">Sign by <a href="http://acme.com/chumaker/">ACME ChuMaker</a>.</font>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
-
-Back to ACME Labs. [./]
-email [/mailto/j.gif] [/mailto/?id=j]
+valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer] Who is Frank Chu?
+[http://en.wikipedia.org/wiki/Frank_Chu]
+The ACME Label Maker [http://acme.com/labelmaker/], License Maker [http://acme.com/licensemaker/], and Heart Maker [http://acme.com/heartmaker/].
+Ryland Sanders' Church Sign Generator [http://www.churchsigngenerator.com/].
+Tombstone Generator [http://tombstone.dogcrap.net/create.php].
+Windows Error Generator [http://atom.smasher.org/error/].
+ACME Labs [../] / ChuMaker
+email [/mailto/wa.gif] [/mailto/?id=wa]

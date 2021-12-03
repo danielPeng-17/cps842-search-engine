@@ -30,7 +30,7 @@
 Search MDN
 
  1. Web technology for developers [/en-US/docs/Web]
- 2. HTML: HyperText Markup Language [/en-US/docs/Web/HTML]
+ 2. JavaScript [/en-US/docs/Web/JavaScript]
 
  * Change language
 
@@ -38,408 +38,560 @@ Search MDN
 TABLE OF CONTENTS
 
 Table of contents
- * Key resources
- * Beginner's tutorials
- * Advanced topics
- * References
- * Related topics
+ * Tutorials
+ * Reference
+ * Tools & resources
 
 
-HTML: HYPERTEXT MARKUP LANGUAGE
+JAVASCRIPT
 
-HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies
-besides HTML are generally used to describe a web page's appearance/presentation (CSS [/en-US/docs/Web/CSS]) or functionality/behavior (JavaScript
-[/en-US/docs/Web/JavaScript]).
+JavaScript (JS) is a lightweight, interpreted, or just-in-time [https://en.wikipedia.org/wiki/Just-in-time_compilation] compiled programming language
+with first-class functions [/en-US/docs/Glossary/First-class_Function]. While it is most well-known as the scripting language for Web pages, many
+non-browser environments [https://en.wikipedia.org/wiki/JavaScript#Other_usage] also use it, such as Node.js [/en-US/docs/Glossary/Node.js], Apache
+CouchDB [https://couchdb.apache.org/] and Adobe Acrobat [https://www.adobe.com/devnet/acrobat/javascript.html]. JavaScript is a prototype-based
+[/en-US/docs/Glossary/Prototype-based_programming], multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and
+declarative (e.g. functional programming) styles. Read more about JavaScript [/en-US/docs/Web/JavaScript/About_JavaScript].
 
-"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect
-of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide
-Web.
+This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For
+information about API [/en-US/docs/Glossary/API] specifics to Web pages, please see Web APIs [/en-US/docs/Web/API] and DOM [/en-US/docs/Glossary/DOM].
 
-HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <head>
-[/en-US/docs/Web/HTML/Element/head], <title> [/en-US/docs/Web/HTML/Element/title], <body> [/en-US/docs/Web/HTML/Element/body], <header>
-[/en-US/docs/Web/HTML/Element/header], <footer> [/en-US/docs/Web/HTML/Element/footer], <article> [/en-US/docs/Web/HTML/Element/article], <section>
-[/en-US/docs/Web/HTML/Element/section], <p> [/en-US/docs/Web/HTML/Element/p], <div> [/en-US/docs/Web/HTML/Element/div], <span>
-[/en-US/docs/Web/HTML/Element/span], <img> [/en-US/docs/Web/HTML/Element/img], <aside> [/en-US/docs/Web/HTML/Element/aside], <audio>
-[/en-US/docs/Web/HTML/Element/audio], <canvas> [/en-US/docs/Web/HTML/Element/canvas], <datalist> [/en-US/docs/Web/HTML/Element/datalist], <details>
-[/en-US/docs/Web/HTML/Element/details], <embed> [/en-US/docs/Web/HTML/Element/embed], <nav> [/en-US/docs/Web/HTML/Element/nav], <output>
-[/en-US/docs/Web/HTML/Element/output], <progress> [/en-US/docs/Web/HTML/Element/progress], <video> [/en-US/docs/Web/HTML/Element/video], <ul>
-[/en-US/docs/Web/HTML/Element/ul], <ol> [/en-US/docs/Web/HTML/Element/ol], <li> [/en-US/docs/Web/HTML/Element/li] and many others.
+The standards for JavaScript are the ECMAScript Language Specification [https://tc39.es/ecma262/] (ECMA-262) and the ECMAScript Internationalization
+API specification [https://tc39.es/ecma402/] (ECMA-402). The JavaScript documentation throughout MDN is based on the latest draft versions of ECMA-262
+and ECMA-402. And in cases where some proposals for new ECMAScript features [https://github.com/tc39/proposals] have already been implemented in
+browsers, documentation and examples in MDN articles may use some of those new features.
 
-An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by "<" and ">".  The name of an
-element inside a tag is case insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the <title> tag can be
-written as <Title>, <TITLE>, or in any other way.
+Do not confuse JavaScript with the Java programming language [https://en.wikipedia.org/wiki/Java_(programming_language)]. Both "Java" and "JavaScript"
+are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax,
+semantics, and use.
 
-The articles below can help you learn more about HTML.
-
-
-KEY RESOURCES
-
-HTML Introduction
-
-If you're new to Web development, be sure to read our HTML Basics [/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics] article to learn what
-HTML is and how to use it.
-
-HTML Tutorials
-
-For articles about how to use HTML, as well as tutorials and complete examples, check out our HTML Learning Area [/en-US/docs/Learn/HTML].
-
-HTML Reference
-
-In our extensive HTML reference [/en-US/docs/Web/HTML/Reference] section, you'll find the details about every element and attribute in HTML.
-
-LOOKING TO BECOME A FRONT-END WEB DEVELOPER?
+Looking to become a front-end web developer?
 
 We have put together a course that includes all the essential information you need to work towards your goal.
 
 Get started [/en-US/docs/Learn/Front-end_web_developer]
 
 
-BEGINNER'S TUTORIALS
+TUTORIALS
 
-Our HTML Learning Area [/en-US/docs/Learn/HTML] features multiple modules that teach HTML from the ground up — no previous knowledge required.
-
-Introduction to HTML [/en-US/docs/Learn/HTML/Introduction_to_HTML]
-
-This module sets the stage, getting you used to important concepts and syntax such as looking at applying HTML to text, how to create hyperlinks, and
-how to use HTML to structure a web page.
-
-Multimedia and embedding [/en-US/docs/Learn/HTML/Multimedia_and_embedding]
-
-This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to
-embed video, audio, and even entire other webpages.
-
-HTML tables [/en-US/docs/Learn/HTML/Tables]
-
-Representing tabular data on a webpage in an understandable, accessible way can be a challenge. This module covers basic table markup, along with more
-complex features such as implementing captions and summaries.
-
-HTML forms [/en-US/docs/Learn/Forms]
-
-Forms are a very important part of the Web — these provide much of the functionality you need for interacting with websites, e.g. registering and
-logging in, sending feedback, buying products, and more. This module gets you started with creating the client-side/front-end parts of forms.
-
-Use HTML to solve common problems [/en-US/docs/Learn/HTML/Howto]
-
-Provides links to sections of content explaining how to use HTML to solve very common problems when creating a web page: dealing with titles, adding
-images or videos, emphasizing content, creating a basic form, etc.
+Learn how to program in JavaScript with guides and tutorials.
 
 
-ADVANCED TOPICS
+FOR COMPLETE BEGINNERS
 
-CORS enabled image [/en-US/docs/Web/HTML/CORS_enabled_image]
+Head over to our Learning Area JavaScript topic [/en-US/docs/Learn/JavaScript] if you want to learn JavaScript but have no previous experience with
+JavaScript or programming. The complete modules available there are as follows:
 
-The crossorigin [/en-US/docs/Web/HTML/Element/img#attr-crossorigin] attribute, in combination with an appropriate CORS [/en-US/docs/Glossary/CORS]
-header, allows images defined by the <img> [/en-US/docs/Web/HTML/Element/img] element to be loaded from foreign origins and used in a <canvas>
-[/en-US/docs/Web/HTML/Element/canvas] element as if they were being loaded from the current origin.
+JavaScript first steps [/en-US/docs/Learn/JavaScript/First_steps]
 
-CORS settings attributes [/en-US/docs/Web/HTML/Attributes/crossorigin]
+Answers some fundamental questions such as "what is JavaScript?", "what does it look like?", and "what can it do?", along with discussing key
+JavaScript features such as variables, strings, numbers, and arrays.
 
-Some HTML elements that provide support for CORS [/en-US/docs/Web/HTTP/CORS], such as <img> [/en-US/docs/Web/HTML/Element/img] or <video>
-[/en-US/docs/Web/HTML/Element/video], have a crossorigin attribute (crossOrigin property), which lets you configure the CORS requests for the
-element's fetched data.
+JavaScript building blocks [/en-US/docs/Learn/JavaScript/Building_blocks]
 
-Preloading content with rel="preload" [/en-US/docs/Web/HTML/Link_types/preload]
+Continues our coverage of JavaScript's key fundamental features, turning our attention to commonly-encountered types of code blocks such as
+conditional statements, loops, functions, and events.
 
-The preload value of the <link> [/en-US/docs/Web/HTML/Element/link] element's rel [/en-US/docs/Web/HTML/Element/link#attr-rel] attribute allows you to
-write declarative fetch requests in your HTML <head> [/en-US/docs/Web/HTML/Element/head], specifying resources that your pages will need very soon
-after loading, which you therefore want to start preloading early in the lifecycle of a page load, before the browser's main rendering machinery kicks
-in. This ensures that they are made available earlier and are less likely to block the page's first render, leading to performance improvements. This
-article provides a basic guide to how preload works.
+Introducing JavaScript objects [/en-US/docs/Learn/JavaScript/Objects]
 
+The object-oriented nature of JavaScript is important to understand if you want to go further with your knowledge of the language and write more
+efficient code, therefore we've provided this module to help you.
 
-REFERENCES
+Asynchronous JavaScript [/en-US/docs/Learn/JavaScript/Asynchronous]
 
-HTML reference [/en-US/docs/Web/HTML/Reference]
+Discusses asynchronous JavaScript, why it is important, and how it can be used to effectively handle potential blocking operations such as fetching
+resources from a server.
 
-HTML consists of elements, each of which may be modified by some number of attributes. HTML documents are connected to each other with links
-[/en-US/docs/Web/HTML/Link_types].
+Client-side web APIs [/en-US/docs/Learn/JavaScript/Client-side_web_APIs]
 
-HTML element reference [/en-US/docs/Web/HTML/Element]
-
-Browse a list of all HTML [/en-US/docs/Glossary/HTML] elements [/en-US/docs/Glossary/Element].
-
-HTML attribute reference [/en-US/docs/Web/HTML/Attributes]
-
-Elements in HTML have attributes. These are additional values that configure the elements or adjust their behavior in various ways.
-
-Global attributes [/en-US/docs/Web/HTML/Global_attributes]
-
-Global attributes may be specified on all HTML elements [/en-US/docs/Web/HTML/Element], even those not specified in the standard. This means that any
-non-standard elements must still permit these attributes, even though those elements make the document HTML5-noncompliant.
-
-Inline elements [/en-US/docs/Web/HTML/Inline_elements] and block-level elements [/en-US/docs/Web/HTML/Block-level_elements]
-
-HTML elements are usually "inline" or "block-level" elements. An inline element occupies only the space bounded by the tags that define it. A
-block-level element occupies the entire space of its parent element (container), thereby creating a "block".
-
-Link types [/en-US/docs/Web/HTML/Link_types]
-
-In HTML, various link types can be used to establish and define the relationship between two documents. Link elements that types can be set on include
-<a> [/en-US/docs/Web/HTML/Element/a], <area> [/en-US/docs/Web/HTML/Element/area] and <link> [/en-US/docs/Web/HTML/Element/link].
-
-Guide to media types and formats on the web [/en-US/docs/Web/Media/Formats]
-
-The <audio> [/en-US/docs/Web/HTML/Element/audio] and <video> [/en-US/docs/Web/HTML/Element/video] elements allow you to play audio and video media
-natively within your content without the need for external software support.
-
-HTML content categories [/en-US/docs/Web/Guide/HTML/Content_categories]
-
-HTML is comprised of several kinds of content, each of which is allowed to be used in certain contexts and is disallowed in others. Similarly, each
-has a set of other content categories they can contain and elements that can or can't be used in them. This is a guide to these categories.
-
-Quirks mode and standards mode [/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode]
-
-Historical information on quirks mode and standards mode.
+Explores what APIs are, and how to use some of the most common APIs you'll come across often in your development work.
 
 
-RELATED TOPICS
+JAVASCRIPT GUIDE
 
-Applying color to HTML elements using CSS [/en-US/docs/Web/HTML/Applying_color]
+JavaScript Guide [/en-US/docs/Web/JavaScript/Guide]
 
-This article covers most of the ways you use CSS to add color to HTML content, listing what parts of HTML documents can be colored and what CSS
-properties to use when doing so. Includes examples, links to palette-building tools, and more.
+A much more detailed guide to the JavaScript language, aimed at those with previous programming experience either in JavaScript or another language.
+
+
+INTERMEDIATE
+
+Understanding client-side JavaScript frameworks [/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks]
+
+JavaScript frameworks are an essential part of modern front-end web development, providing developers with proven tools for building scalable,
+interactive web applications. This module gives you some fundamental background knowledge about how client-side frameworks work and how they fit into
+your toolset, before moving on to tutorial series covering some of today's most popular ones.
+
+A re-introduction to JavaScript [/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript]
+
+An overview for those who think they know about JavaScript.
+
+JavaScript data structures [/en-US/docs/Web/JavaScript/Data_structures]
+
+Overview of available data structures in JavaScript.
+
+Equality comparisons and sameness [/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness]
+
+JavaScript provides three different value-comparison operations: strict equality using ===, loose equality using ==, and the Object.is()
+[/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is] method.
+
+Closures [/en-US/docs/Web/JavaScript/Closures]
+
+A closure is the combination of a function and the lexical environment within which that function was declared.
+
+
+ADVANCED
+
+Inheritance and the prototype chain [/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain]
+
+Explanation of the widely misunderstood and under-estimated prototype-based inheritance.
+
+Strict mode [/en-US/docs/Web/JavaScript/Reference/Strict_mode]
+
+Strict mode defines that you can not use any variable before initializing it. It is a restricted variant of ECMAScript 5, for faster performance and
+easier debugging.
+
+JavaScript typed arrays [/en-US/docs/Web/JavaScript/Typed_arrays]
+
+JavaScript typed arrays provide a mechanism for accessing raw binary data.
+
+Memory Management [/en-US/docs/Web/JavaScript/Memory_Management]
+
+Memory life cycle and garbage collection in JavaScript.
+
+Concurrency model and Event Loop [/en-US/docs/Web/JavaScript/EventLoop]
+
+JavaScript has a concurrency model based on an "event loop".
+
+
+REFERENCE
+
+Browse the complete JavaScript reference [/en-US/docs/Web/JavaScript/Reference] documentation.
+
+Standard objects [/en-US/docs/Web/JavaScript/Reference/Global_Objects]
+
+Get to know standard built-in objects Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array], Boolean
+[/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean], Date [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date], Error
+[/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error], Function [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function], JSON
+[/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON], Math [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math], Number
+[/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number], Object [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object], RegExp
+[/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp], String [/en-US/docs/Web/JavaScript/Reference/Global_Objects/String], Map
+[/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map], Set [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set], WeakMap
+[/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap], WeakSet [/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet], and others.
+
+Expressions and operators [/en-US/docs/Web/JavaScript/Reference/Operators]
+
+Learn more about the behavior of JavaScript's operators instanceof [/en-US/docs/Web/JavaScript/Reference/Operators/instanceof], typeof
+[/en-US/docs/Web/JavaScript/Reference/Operators/typeof], new [/en-US/docs/Web/JavaScript/Reference/Operators/new], this
+[/en-US/docs/Web/JavaScript/Reference/Operators/this], the operator precedence [/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence],
+and more.
+
+Statements and declarations [/en-US/docs/Web/JavaScript/Reference/Statements]
+
+Learn how do-while [/en-US/docs/Web/JavaScript/Reference/Statements/do...while], for-in [/en-US/docs/Web/JavaScript/Reference/Statements/for...in],
+for-of [/en-US/docs/Web/JavaScript/Reference/Statements/for...of], try-catch [/en-US/docs/Web/JavaScript/Reference/Statements/try...catch], let
+[/en-US/docs/Web/JavaScript/Reference/Statements/let], var [/en-US/docs/Web/JavaScript/Reference/Statements/var], const
+[/en-US/docs/Web/JavaScript/Reference/Statements/const], if-else [/en-US/docs/Web/JavaScript/Reference/Statements/if...else], switch
+[/en-US/docs/Web/JavaScript/Reference/Statements/switch], and more JavaScript statements and keywords work.
+
+Functions [/en-US/docs/Web/JavaScript/Reference/Functions]
+
+Learn how to work with JavaScript's functions to develop your applications.
+
+
+TOOLS & RESOURCES
+
+Helpful tools for writing and debugging your JavaScript code.
+
+Firefox Developer Tools [/en-US/docs/Tools]
+
+Web Console [/en-US/docs/Tools/Web_Console], JavaScript Profiler [/en-US/docs/Tools/Performance], Debugger [/en-US/docs/Tools/Debugger], and more.
+
+JavaScript Shells [/en-US/docs/Web/JavaScript/Shells]
+
+A JavaScript shell allows you to quickly test snippets of JavaScript code.
+
+Learn JavaScript [https://learnjavascript.online/]
+
+An excellent resource for aspiring web developers — Learn JavaScript in an interactive environment, with short lessons and interactive tests, guided
+by automated assessment. The first 40 lessons are free, and the complete course is available for a small one-time payment.
+
+TogetherJS [https://togetherjs.com/]
+
+Collaboration made easy. By adding TogetherJS to your site, your users can help each other out on a website in real-time!
+
+Stack Overflow [https://stackoverflow.com/questions/tagged/javascript]
+
+Stack Overflow questions tagged with "JavaScript".
+
+JSFiddle [https://jsfiddle.net/]
+
+Edit JavaScript, CSS, HTML and get live results. Use external resources and collaborate with your team online.
+
+Plunker [https://plnkr.co/]
+
+Plunker is an online community for creating, collaborating on and sharing your web development ideas. Edit your JavaScript, CSS, HTML files and get
+live results and file structure.
+
+JSBin [https://jsbin.com/]
+
+JS Bin is an open-source collaborative web development debugging tool.
+
+Codepen [https://codepen.io/]
+
+Codepen is another collaborative web development tool used as a live result playground.
+
+StackBlitz [https://stackblitz.com/]
+
+StackBlitz is another online playground/debugging tool, which can host and deploy full-stack applications using React, Angular, etc.
+
+RunJS [https://runjs.app/]
+
+RunJS is a desktop playground/scratchpad tool, which provides live results and access to both Node and Browser APIs.
 
 
 FOUND A PROBLEM WITH THIS PAGE?
 
- * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/html/index.md]
- * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/html/index.md]
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/javascript/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/javascript/index.md]
  * Report a problem with this content on GitHub
-   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FHTML%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fhtml%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FHTML%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fhtml%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F775662998e66813a612e3ff27e02f2ada867bc17%0A*+Document+last+modified%3A+2021-10-03T00%3A01%3A51.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22HTML%3A+HyperText+Markup+Language%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AHTML]
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fjavascript%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fjavascript%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fe42c2ec657da835d37974391a803497e5c110d40%0A*+Document+last+modified%3A+2021-07-28T21%3A15%3A50.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22JavaScript%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AJS]
  * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
 
-Last modified: Oct 3, 2021, by MDN contributors [/en-US/docs/Web/HTML/contributors.txt]
+Last modified: Jul 28, 2021, by MDN contributors [/en-US/docs/Web/JavaScript/contributors.txt]
 
 Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
 language
 
 RELATED TOPICS
 
- 1.  HTML [/en-US/docs/Web/HTML]
- 2.  Tutorials:
- 3.  HTML basics [/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics]
- 4.  Introduction to HTML
-      1.  Introduction to HTML overview [/en-US/docs/Learn/HTML/Introduction_to_HTML]
-      2.  Getting started with HTML [/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started]
-      3.  What's in the head? Metadata in HTML [/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML]
-      4.  HTML text fundamentals [/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals]
-      5.  Creating hyperlinks [/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks]
-      6.  Advanced text formatting [/en-US/docs/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting]
-      7.  Document and website structure [/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure]
-      8.  Debugging HTML [/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML]
-      9.  Assessment: Marking up a letter [/en-US/docs/Learn/HTML/Introduction_to_HTML/Marking_up_a_letter]
-      10. Assessment: Structuring a page of content [/en-US/docs/Learn/HTML/Introduction_to_HTML/Structuring_a_page_of_content]
+ 1.  JavaScript [/en-US/docs/Web/JavaScript]
+ 2.  Tutorials: [/en-US/docs/Web/JavaScript/Tutorials]
+ 3.  Complete beginners
+      1. JavaScript basics [/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics]
+      2. JavaScript first steps [/en-US/docs/Learn/JavaScript/First_steps]
+      3. JavaScript building blocks [/en-US/docs/Learn/JavaScript/Building_blocks]
+      4. Introducing JavaScript objects [/en-US/docs/Learn/JavaScript/Objects]
 
- 5.  Multimedia and embedding
-      1. Multimedia and embedding overview [/en-US/docs/Learn/HTML/Multimedia_and_embedding]
-      2. Images in HTML [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML]
-      3. Video and audio content [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content]
-      4. From object to iframe — other embedding technologies [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Other_embedding_technologies]
-      5. Adding vector graphics to the Web [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web]
-      6. Responsive images [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images]
-      7. Assessment: Mozilla splash page [/en-US/docs/Learn/HTML/Multimedia_and_embedding/Mozilla_splash_page]
+ 4.  JavaScript Guide
+      1.  Introduction [/en-US/docs/Web/JavaScript/Guide/Introduction]
+      2.  Grammar and types [/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types]
+      3.  Control flow and error handling [/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling]
+      4.  Loops and iteration [/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration]
+      5.  Functions [/en-US/docs/Web/JavaScript/Guide/Functions]
+      6.  Expressions and operators [/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators]
+      7.  Numbers and dates [/en-US/docs/Web/JavaScript/Guide/Numbers_and_dates]
+      8.  Text formatting [/en-US/docs/Web/JavaScript/Guide/Text_formatting]
+      9.  Regular expressions [/en-US/docs/Web/JavaScript/Guide/Regular_Expressions]
+      10. Indexed collections [/en-US/docs/Web/JavaScript/Guide/Indexed_collections]
+      11. Keyed collections [/en-US/docs/Web/JavaScript/Guide/Keyed_collections]
+      12. Working with objects [/en-US/docs/Web/JavaScript/Guide/Working_with_Objects]
+      13. Details of the object model [/en-US/docs/Web/JavaScript/Guide/Details_of_the_Object_Model]
+      14. Using promises [/en-US/docs/Web/JavaScript/Guide/Using_promises]
+      15. Iterators and generators [/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators]
+      16. Meta programming [/en-US/docs/Web/JavaScript/Guide/Meta_programming]
+      17. JavaScript modules [/en-US/docs/Web/JavaScript/Guide/Modules]
 
- 6.  References: [/en-US/docs/Web/HTML/Reference]
- 7.  HTML elements
-      1.   <a> [/en-US/docs/Web/HTML/Element/a]
-      2.   <abbr> [/en-US/docs/Web/HTML/Element/abbr]
-      3.   <acronym> [/en-US/docs/Web/HTML/Element/acronym]
-      4.   <address> [/en-US/docs/Web/HTML/Element/address]
-      5.   <applet> [/en-US/docs/Web/HTML/Element/applet]
-      6.   <area> [/en-US/docs/Web/HTML/Element/area]
-      7.   <article> [/en-US/docs/Web/HTML/Element/article]
-      8.   <aside> [/en-US/docs/Web/HTML/Element/aside]
-      9.   <audio> [/en-US/docs/Web/HTML/Element/audio]
-      10.  <b> [/en-US/docs/Web/HTML/Element/b]
-      11.  <base> [/en-US/docs/Web/HTML/Element/base]
-      12.  <basefont> [/en-US/docs/Web/HTML/Element/basefont]
-      13.  <bdi> [/en-US/docs/Web/HTML/Element/bdi]
-      14.  <bdo> [/en-US/docs/Web/HTML/Element/bdo]
-      15.  <bgsound> [/en-US/docs/Web/HTML/Element/bgsound]
-      16.  <big> [/en-US/docs/Web/HTML/Element/big]
-      17.  <blink> [/en-US/docs/Web/HTML/Element/blink]
-      18.  <blockquote> [/en-US/docs/Web/HTML/Element/blockquote]
-      19.  <body> [/en-US/docs/Web/HTML/Element/body]
-      20.  <br> [/en-US/docs/Web/HTML/Element/br]
-      21.  <button> [/en-US/docs/Web/HTML/Element/button]
-      22.  <canvas> [/en-US/docs/Web/HTML/Element/canvas]
-      23.  <caption> [/en-US/docs/Web/HTML/Element/caption]
-      24.  <center> [/en-US/docs/Web/HTML/Element/center]
-      25.  <cite> [/en-US/docs/Web/HTML/Element/cite]
-      26.  <code> [/en-US/docs/Web/HTML/Element/code]
-      27.  <col> [/en-US/docs/Web/HTML/Element/col]
-      28.  <colgroup> [/en-US/docs/Web/HTML/Element/colgroup]
-      29.  <content> [/en-US/docs/Web/HTML/Element/content]
-      30.  <data> [/en-US/docs/Web/HTML/Element/data]
-      31.  <datalist> [/en-US/docs/Web/HTML/Element/datalist]
-      32.  <dd> [/en-US/docs/Web/HTML/Element/dd]
-      33.  <del> [/en-US/docs/Web/HTML/Element/del]
-      34.  <details> [/en-US/docs/Web/HTML/Element/details]
-      35.  <dfn> [/en-US/docs/Web/HTML/Element/dfn]
-      36.  <dialog> [/en-US/docs/Web/HTML/Element/dialog]
-      37.  <dir> [/en-US/docs/Web/HTML/Element/dir]
-      38.  <div> [/en-US/docs/Web/HTML/Element/div]
-      39.  <dl> [/en-US/docs/Web/HTML/Element/dl]
-      40.  <dt> [/en-US/docs/Web/HTML/Element/dt]
-      41.  <em> [/en-US/docs/Web/HTML/Element/em]
-      42.  <embed> [/en-US/docs/Web/HTML/Element/embed]
-      43.  <fieldset> [/en-US/docs/Web/HTML/Element/fieldset]
-      44.  <figcaption> [/en-US/docs/Web/HTML/Element/figcaption]
-      45.  <figure> [/en-US/docs/Web/HTML/Element/figure]
-      46.  <font> [/en-US/docs/Web/HTML/Element/font]
-      47.  <footer> [/en-US/docs/Web/HTML/Element/footer]
-      48.  <form> [/en-US/docs/Web/HTML/Element/form]
-      49.  <frame> [/en-US/docs/Web/HTML/Element/frame]
-      50.  <frameset> [/en-US/docs/Web/HTML/Element/frameset]
-      51.  <head> [/en-US/docs/Web/HTML/Element/head]
-      52.  <header> [/en-US/docs/Web/HTML/Element/header]
-      53.  <h1> [/en-US/docs/Web/HTML/Element/Heading_Elements]
-      54.  <hgroup> [/en-US/docs/Web/HTML/Element/hgroup]
-      55.  <hr> [/en-US/docs/Web/HTML/Element/hr]
-      56.  <html> [/en-US/docs/Web/HTML/Element/html]
-      57.  <i> [/en-US/docs/Web/HTML/Element/i]
-      58.  <iframe> [/en-US/docs/Web/HTML/Element/iframe]
-      59.  <image> [/en-US/docs/Web/HTML/Element/image]
-      60.  <img> [/en-US/docs/Web/HTML/Element/img]
-      61.  <input> [/en-US/docs/Web/HTML/Element/input]
-      62.  <ins> [/en-US/docs/Web/HTML/Element/ins]
-      63.  <kbd> [/en-US/docs/Web/HTML/Element/kbd]
-      64.  <keygen> [/en-US/docs/Web/HTML/Element/keygen]
-      65.  <label> [/en-US/docs/Web/HTML/Element/label]
-      66.  <legend> [/en-US/docs/Web/HTML/Element/legend]
-      67.  <li> [/en-US/docs/Web/HTML/Element/li]
-      68.  <link> [/en-US/docs/Web/HTML/Element/link]
-      69.  <main> [/en-US/docs/Web/HTML/Element/main]
-      70.  <map> [/en-US/docs/Web/HTML/Element/map]
-      71.  <mark> [/en-US/docs/Web/HTML/Element/mark]
-      72.  <marquee> [/en-US/docs/Web/HTML/Element/marquee]
-      73.  <menu> [/en-US/docs/Web/HTML/Element/menu]
-      74.  <menuitem> [/en-US/docs/Web/HTML/Element/menuitem]
-      75.  <meta> [/en-US/docs/Web/HTML/Element/meta]
-      76.  <meter> [/en-US/docs/Web/HTML/Element/meter]
-      77.  <nav> [/en-US/docs/Web/HTML/Element/nav]
-      78.  <nobr> [/en-US/docs/Web/HTML/Element/nobr]
-      79.  <noembed> [/en-US/docs/Web/HTML/Element/noembed]
-      80.  <noframes> [/en-US/docs/Web/HTML/Element/noframes]
-      81.  <noscript> [/en-US/docs/Web/HTML/Element/noscript]
-      82.  <object> [/en-US/docs/Web/HTML/Element/object]
-      83.  <ol> [/en-US/docs/Web/HTML/Element/ol]
-      84.  <optgroup> [/en-US/docs/Web/HTML/Element/optgroup]
-      85.  <option> [/en-US/docs/Web/HTML/Element/option]
-      86.  <output> [/en-US/docs/Web/HTML/Element/output]
-      87.  <p> [/en-US/docs/Web/HTML/Element/p]
-      88.  <param> [/en-US/docs/Web/HTML/Element/param]
-      89.  <picture> [/en-US/docs/Web/HTML/Element/picture]
-      90.  <plaintext> [/en-US/docs/Web/HTML/Element/plaintext]
-      91.  <portal> [/en-US/docs/Web/HTML/Element/portal]
-      92.  <pre> [/en-US/docs/Web/HTML/Element/pre]
-      93.  <progress> [/en-US/docs/Web/HTML/Element/progress]
-      94.  <q> [/en-US/docs/Web/HTML/Element/q]
-      95.  <rb> [/en-US/docs/Web/HTML/Element/rb]
-      96.  <rp> [/en-US/docs/Web/HTML/Element/rp]
-      97.  <rt> [/en-US/docs/Web/HTML/Element/rt]
-      98.  <rtc> [/en-US/docs/Web/HTML/Element/rtc]
-      99.  <ruby> [/en-US/docs/Web/HTML/Element/ruby]
-      100. <s> [/en-US/docs/Web/HTML/Element/s]
-      101. <samp> [/en-US/docs/Web/HTML/Element/samp]
-      102. <script> [/en-US/docs/Web/HTML/Element/script]
-      103. <section> [/en-US/docs/Web/HTML/Element/section]
-      104. <select> [/en-US/docs/Web/HTML/Element/select]
-      105. <shadow> [/en-US/docs/Web/HTML/Element/shadow]
-      106. <slot> [/en-US/docs/Web/HTML/Element/slot]
-      107. <small> [/en-US/docs/Web/HTML/Element/small]
-      108. <source> [/en-US/docs/Web/HTML/Element/source]
-      109. <spacer> [/en-US/docs/Web/HTML/Element/spacer]
-      110. <span> [/en-US/docs/Web/HTML/Element/span]
-      111. <strike> [/en-US/docs/Web/HTML/Element/strike]
-      112. <strong> [/en-US/docs/Web/HTML/Element/strong]
-      113. <style> [/en-US/docs/Web/HTML/Element/style]
-      114. <sub> [/en-US/docs/Web/HTML/Element/sub]
-      115. <summary> [/en-US/docs/Web/HTML/Element/summary]
-      116. <sup> [/en-US/docs/Web/HTML/Element/sup]
-      117. <table> [/en-US/docs/Web/HTML/Element/table]
-      118. <tbody> [/en-US/docs/Web/HTML/Element/tbody]
-      119. <td> [/en-US/docs/Web/HTML/Element/td]
-      120. <template> [/en-US/docs/Web/HTML/Element/template]
-      121. <textarea> [/en-US/docs/Web/HTML/Element/textarea]
-      122. <tfoot> [/en-US/docs/Web/HTML/Element/tfoot]
-      123. <th> [/en-US/docs/Web/HTML/Element/th]
-      124. <thead> [/en-US/docs/Web/HTML/Element/thead]
-      125. <time> [/en-US/docs/Web/HTML/Element/time]
-      126. <title> [/en-US/docs/Web/HTML/Element/title]
-      127. <tr> [/en-US/docs/Web/HTML/Element/tr]
-      128. <track> [/en-US/docs/Web/HTML/Element/track]
-      129. <tt> [/en-US/docs/Web/HTML/Element/tt]
-      130. <u> [/en-US/docs/Web/HTML/Element/u]
-      131. <ul> [/en-US/docs/Web/HTML/Element/ul]
-      132. <var> [/en-US/docs/Web/HTML/Element/var]
-      133. <video> [/en-US/docs/Web/HTML/Element/video]
-      134. <wbr> [/en-US/docs/Web/HTML/Element/wbr]
-      135. <xmp> [/en-US/docs/Web/HTML/Element/xmp]
+ 5.  Intermediate
+      1. Client-side JavaScript frameworks [/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks]
+      2. Client-side web APIs [/en-US/docs/Learn/JavaScript/Client-side_web_APIs]
+      3. A re-introduction to JavaScript [/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript]
+      4. JavaScript data structures [/en-US/docs/Web/JavaScript/Data_structures]
+      5. Equality comparisons and sameness [/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness]
+      6. Closures [/en-US/docs/Web/JavaScript/Closures]
 
- 8.  Global attributes
-      1.  accesskey [/en-US/docs/Web/HTML/Global_attributes/accesskey]
-      2.  autocapitalize [/en-US/docs/Web/HTML/Global_attributes/autocapitalize]
-      3.  autofocus [/en-US/docs/Web/HTML/Global_attributes/autofocus]
-      4.  class [/en-US/docs/Web/HTML/Global_attributes/class]
-      5.  contenteditable [/en-US/docs/Web/HTML/Global_attributes/contenteditable]
-      6.  contextmenu [/en-US/docs/Web/HTML/Global_attributes/contextmenu]
-      7.  data-* [/en-US/docs/Web/HTML/Global_attributes/data-*]
-      8.  dir [/en-US/docs/Web/HTML/Global_attributes/dir]
-      9.  draggable [/en-US/docs/Web/HTML/Global_attributes/draggable]
-      10. enterkeyhint [/en-US/docs/Web/HTML/Global_attributes/enterkeyhint]
-      11. hidden [/en-US/docs/Web/HTML/Global_attributes/hidden]
-      12. id [/en-US/docs/Web/HTML/Global_attributes/id]
-      13. inputmode [/en-US/docs/Web/HTML/Global_attributes/inputmode]
-      14. is [/en-US/docs/Web/HTML/Global_attributes/is]
-      15. itemid [/en-US/docs/Web/HTML/Global_attributes/itemid]
-      16. itemprop [/en-US/docs/Web/HTML/Global_attributes/itemprop]
-      17. itemref [/en-US/docs/Web/HTML/Global_attributes/itemref]
-      18. itemscope [/en-US/docs/Web/HTML/Global_attributes/itemscope]
-      19. itemtype [/en-US/docs/Web/HTML/Global_attributes/itemtype]
-      20. lang [/en-US/docs/Web/HTML/Global_attributes/lang]
-      21. nonce [/en-US/docs/Web/HTML/Global_attributes/nonce]
-      22. part [/en-US/docs/Web/HTML/Global_attributes/part]
-      23. slot [/en-US/docs/Web/HTML/Global_attributes/slot]
-      24. spellcheck [/en-US/docs/Web/HTML/Global_attributes/spellcheck]
-      25. style [/en-US/docs/Web/HTML/Global_attributes/style]
-      26. tabindex [/en-US/docs/Web/HTML/Global_attributes/tabindex]
-      27. title [/en-US/docs/Web/HTML/Global_attributes/title]
-      28. translate [/en-US/docs/Web/HTML/Global_attributes/translate]
-      29. x-ms-acceleratorkey [/en-US/docs/Web/HTML/Global_attributes/x-ms-acceleratorkey]
-      30. x-ms-format-detection [/en-US/docs/Web/HTML/Global_attributes/x-ms-format-detection]
+ 6.  Advanced
+      1. Inheritance and the prototype chain [/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain]
+      2. Strict mode [/en-US/docs/Web/JavaScript/Reference/Strict_mode]
+      3. JavaScript typed arrays [/en-US/docs/Web/JavaScript/Typed_arrays]
+      4. Memory Management [/en-US/docs/Web/JavaScript/Memory_Management]
+      5. Concurrency model and Event Loop [/en-US/docs/Web/JavaScript/EventLoop]
 
- 9.  <input> types
-      1.  <input type="button"> [/en-US/docs/Web/HTML/Element/input/button]
-      2.  <input type="checkbox"> [/en-US/docs/Web/HTML/Element/input/checkbox]
-      3.  <input type="color"> [/en-US/docs/Web/HTML/Element/input/color]
-      4.  <input type="date"> [/en-US/docs/Web/HTML/Element/input/date]
-      5.  <input type="datetime-local"> [/en-US/docs/Web/HTML/Element/input/datetime-local]
-      6.  <input type="datetime"> [/en-US/docs/Web/HTML/Element/input/datetime]
-      7.  <input type="email"> [/en-US/docs/Web/HTML/Element/input/email]
-      8.  <input type="file"> [/en-US/docs/Web/HTML/Element/input/file]
-      9.  <input type="hidden"> [/en-US/docs/Web/HTML/Element/input/hidden]
-      10. <input type="image"> [/en-US/docs/Web/HTML/Element/input/image]
-      11. <input type="month"> [/en-US/docs/Web/HTML/Element/input/month]
-      12. <input type="number"> [/en-US/docs/Web/HTML/Element/input/number]
-      13. <input type="password"> [/en-US/docs/Web/HTML/Element/input/password]
-      14. <input type="radio"> [/en-US/docs/Web/HTML/Element/input/radio]
-      15. <input type="range"> [/en-US/docs/Web/HTML/Element/input/range]
-      16. <input type="reset"> [/en-US/docs/Web/HTML/Element/input/reset]
-      17. <input type="search"> [/en-US/docs/Web/HTML/Element/input/search]
-      18. <input type="submit"> [/en-US/docs/Web/HTML/Element/input/submit]
-      19. <input type="tel"> [/en-US/docs/Web/HTML/Element/input/tel]
-      20. <input type="text"> [/en-US/docs/Web/HTML/Element/input/text]
-      21. <input type="time"> [/en-US/docs/Web/HTML/Element/input/time]
-      22. <input type="url"> [/en-US/docs/Web/HTML/Element/input/url]
-      23. <input type="week"> [/en-US/docs/Web/HTML/Element/input/week]
+ 7.  References: [/en-US/docs/Web/JavaScript/Reference]
+ 8.  Built-in objects
+      1.  AggregateError [/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError]
+      2.  Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array]
+      3.  ArrayBuffer [/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer]
+      4.  AsyncFunction [/en-US/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction]
+      5.  Atomics [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics]
+      6.  BigInt [/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt]
+      7.  BigInt64Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt64Array]
+      8.  BigUint64Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigUint64Array]
+      9.  Boolean [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean]
+      10. DataView [/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView]
+      11. Date [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date]
+      12. decodeURI() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURI]
+      13. decodeURIComponent() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent]
+      14. encodeURI() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURI]
+      15. encodeURIComponent() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent]
+      16. Error [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error]
+      17. escape() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/escape]
+      18. eval() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval]
+      19. EvalError [/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError]
+      20. FinalizationRegistry [/en-US/docs/Web/JavaScript/Reference/Global_Objects/FinalizationRegistry]
+      21. Float32Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array]
+      22. Float64Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array]
+      23. Function [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function]
+      24. Generator [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator]
+      25. GeneratorFunction [/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction]
+      26. globalThis [/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis]
+      27. Infinity [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity]
+      28. Int16Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array]
+      29. Int32Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array]
+      30. Int8Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array]
+      31. InternalError [/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError]
+      32. Intl [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl]
+      33. isFinite() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/isFinite]
+      34. isNaN() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN]
+      35. JSON [/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON]
+      36. Map [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map]
+      37. Math [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math]
+      38. NaN [/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN]
+      39. null [/en-US/docs/Web/JavaScript/Reference/Global_Objects/null]
+      40. Number [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number]
+      41. Object [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object]
+      42. parseFloat() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat]
+      43. parseInt() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt]
+      44. Promise [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise]
+      45. Proxy [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy]
+      46. RangeError [/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError]
+      47. ReferenceError [/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError]
+      48. Reflect [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect]
+      49. RegExp [/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp]
+      50. Set [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set]
+      51. SharedArrayBuffer [/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer]
+      52. String [/en-US/docs/Web/JavaScript/Reference/Global_Objects/String]
+      53. Symbol [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol]
+      54. SyntaxError [/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError]
+      55. TypedArray [/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray]
+      56. TypeError [/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError]
+      57. Uint16Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array]
+      58. Uint32Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array]
+      59. Uint8Array [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array]
+      60. Uint8ClampedArray [/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray]
+      61. undefined [/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined]
+      62. unescape() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/unescape]
+      63. uneval() [/en-US/docs/Web/JavaScript/Reference/Global_Objects/uneval]
+      64. URIError [/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError]
+      65. WeakMap [/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap]
+      66. WeakRef [/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakRef]
+      67. WeakSet [/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet]
+      68. WebAssembly [/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly]
 
- 10. Documentation: [/en-US/docs/MDN]
- 11. Useful lists
-      1. All pages index [/en-US/docs/Web/HTML/Index]
+ 9.  Expressions & operators
+      1.  Addition assignment (+=) [/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment]
+      2.  Addition (+) [/en-US/docs/Web/JavaScript/Reference/Operators/Addition]
+      3.  Assignment (=) [/en-US/docs/Web/JavaScript/Reference/Operators/Assignment]
+      4.  async function expression [/en-US/docs/Web/JavaScript/Reference/Operators/async_function]
+      5.  await [/en-US/docs/Web/JavaScript/Reference/Operators/await]
+      6.  Bitwise AND assignment (&=) [/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND_assignment]
+      7.  Bitwise AND (&) [/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND]
+      8.  Bitwise NOT (~) [/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_NOT]
+      9.  Bitwise OR assignment (|=) [/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_OR_assignment]
+      10. Bitwise OR (|) [/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_OR]
+      11. Bitwise XOR assignment (^=) [/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR_assignment]
+      12. Bitwise XOR (^) [/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_XOR]
+      13. class expression [/en-US/docs/Web/JavaScript/Reference/Operators/class]
+      14. Comma operator (,) [/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator]
+      15. Conditional (ternary) operator [/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator]
+      16. Decrement (--) [/en-US/docs/Web/JavaScript/Reference/Operators/Decrement]
+      17. delete operator [/en-US/docs/Web/JavaScript/Reference/Operators/delete]
+      18. Destructuring assignment [/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment]
+      19. Division assignment (/=) [/en-US/docs/Web/JavaScript/Reference/Operators/Division_assignment]
+      20. Division (/) [/en-US/docs/Web/JavaScript/Reference/Operators/Division]
+      21. Equality (==) [/en-US/docs/Web/JavaScript/Reference/Operators/Equality]
+      22. Exponentiation assignment (**=) [/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation_assignment]
+      23. Exponentiation (**) [/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation]
+      24. function* expression [/en-US/docs/Web/JavaScript/Reference/Operators/function*]
+      25. Function expression [/en-US/docs/Web/JavaScript/Reference/Operators/function]
+      26. Greater than or equal (>=) [/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than_or_equal]
+      27. Greater than (>) [/en-US/docs/Web/JavaScript/Reference/Operators/Greater_than]
+      28. Grouping operator ( ) [/en-US/docs/Web/JavaScript/Reference/Operators/Grouping]
+      29. in operator [/en-US/docs/Web/JavaScript/Reference/Operators/in]
+      30. Increment (++) [/en-US/docs/Web/JavaScript/Reference/Operators/Increment]
+      31. Inequality (!=) [/en-US/docs/Web/JavaScript/Reference/Operators/Inequality]
+      32. instanceof [/en-US/docs/Web/JavaScript/Reference/Operators/instanceof]
+      33. Left shift assignment (<<=) [/en-US/docs/Web/JavaScript/Reference/Operators/Left_shift_assignment]
+      34. Left shift (<<) [/en-US/docs/Web/JavaScript/Reference/Operators/Left_shift]
+      35. Less than or equal (<=) [/en-US/docs/Web/JavaScript/Reference/Operators/Less_than_or_equal]
+      36. Less than (<) [/en-US/docs/Web/JavaScript/Reference/Operators/Less_than]
+      37. Logical AND assignment (&&=) [/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment]
+      38. Logical AND (&&) [/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND]
+      39. Logical NOT (!) [/en-US/docs/Web/JavaScript/Reference/Operators/Logical_NOT]
+      40. Logical nullish assignment (??=) [/en-US/docs/Web/JavaScript/Reference/Operators/Logical_nullish_assignment]
+      41. Logical OR assignment (||=) [/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment]
+      42. Logical OR (||) [/en-US/docs/Web/JavaScript/Reference/Operators/Logical_OR]
+      43. Multiplication assignment (*=) [/en-US/docs/Web/JavaScript/Reference/Operators/Multiplication_assignment]
+      44. Multiplication (*) [/en-US/docs/Web/JavaScript/Reference/Operators/Multiplication]
+      45. new.target [/en-US/docs/Web/JavaScript/Reference/Operators/new.target]
+      46. new operator [/en-US/docs/Web/JavaScript/Reference/Operators/new]
+      47. Nullish coalescing operator (??) [/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator]
+      48. Object initializer [/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer]
+      49. Operator precedence [/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence]
+      50. Optional chaining (?.) [/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining]
+      51. Property accessors [/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors]
+      52. Remainder assignment (%=) [/en-US/docs/Web/JavaScript/Reference/Operators/Remainder_assignment]
+      53. Remainder (%) [/en-US/docs/Web/JavaScript/Reference/Operators/Remainder]
+      54. Right shift assignment (>>=) [/en-US/docs/Web/JavaScript/Reference/Operators/Right_shift_assignment]
+      55. Right shift (>>) [/en-US/docs/Web/JavaScript/Reference/Operators/Right_shift]
+      56. Spread syntax (...) [/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax]
+      57. Strict equality (===) [/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality]
+      58. Strict inequality (!==) [/en-US/docs/Web/JavaScript/Reference/Operators/Strict_inequality]
+      59. Subtraction assignment (-=) [/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction_assignment]
+      60. Subtraction (-) [/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction]
+      61. super [/en-US/docs/Web/JavaScript/Reference/Operators/super]
+      62. this [/en-US/docs/Web/JavaScript/Reference/Operators/this]
+      63. typeof [/en-US/docs/Web/JavaScript/Reference/Operators/typeof]
+      64. Unary negation (-) [/en-US/docs/Web/JavaScript/Reference/Operators/Unary_negation]
+      65. Unary plus (+) [/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus]
+      66. Unsigned right shift assignment (>>>=) [/en-US/docs/Web/JavaScript/Reference/Operators/Unsigned_right_shift_assignment]
+      67. Unsigned right shift (>>>) [/en-US/docs/Web/JavaScript/Reference/Operators/Unsigned_right_shift]
+      68. void operator [/en-US/docs/Web/JavaScript/Reference/Operators/void]
+      69. yield* [/en-US/docs/Web/JavaScript/Reference/Operators/yield*]
+      70. yield [/en-US/docs/Web/JavaScript/Reference/Operators/yield]
 
- 12. Contribute
-      1. The MDN project [/en-US/docs/MDN]
+ 10. Statements & declarations
+      1.  async function [/en-US/docs/Web/JavaScript/Reference/Statements/async_function]
+      2.  block [/en-US/docs/Web/JavaScript/Reference/Statements/block]
+      3.  break [/en-US/docs/Web/JavaScript/Reference/Statements/break]
+      4.  class [/en-US/docs/Web/JavaScript/Reference/Statements/class]
+      5.  const [/en-US/docs/Web/JavaScript/Reference/Statements/const]
+      6.  continue [/en-US/docs/Web/JavaScript/Reference/Statements/continue]
+      7.  debugger [/en-US/docs/Web/JavaScript/Reference/Statements/debugger]
+      8.  do...while [/en-US/docs/Web/JavaScript/Reference/Statements/do...while]
+      9.  empty [/en-US/docs/Web/JavaScript/Reference/Statements/Empty]
+      10. export [/en-US/docs/Web/JavaScript/Reference/Statements/export]
+      11. for await...of [/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of]
+      12. for...in [/en-US/docs/Web/JavaScript/Reference/Statements/for...in]
+      13. for...of [/en-US/docs/Web/JavaScript/Reference/Statements/for...of]
+      14. for [/en-US/docs/Web/JavaScript/Reference/Statements/for]
+      15. function* [/en-US/docs/Web/JavaScript/Reference/Statements/function*]
+      16. function declaration [/en-US/docs/Web/JavaScript/Reference/Statements/function]
+      17. if...else [/en-US/docs/Web/JavaScript/Reference/Statements/if...else]
+      18. import.meta [/en-US/docs/Web/JavaScript/Reference/Statements/import.meta]
+      19. import [/en-US/docs/Web/JavaScript/Reference/Statements/import]
+      20. label [/en-US/docs/Web/JavaScript/Reference/Statements/label]
+      21. let [/en-US/docs/Web/JavaScript/Reference/Statements/let]
+      22. return [/en-US/docs/Web/JavaScript/Reference/Statements/return]
+      23. switch [/en-US/docs/Web/JavaScript/Reference/Statements/switch]
+      24. throw [/en-US/docs/Web/JavaScript/Reference/Statements/throw]
+      25. try...catch [/en-US/docs/Web/JavaScript/Reference/Statements/try...catch]
+      26. var [/en-US/docs/Web/JavaScript/Reference/Statements/var]
+      27. while [/en-US/docs/Web/JavaScript/Reference/Statements/while]
+      28. with [/en-US/docs/Web/JavaScript/Reference/Statements/with]
+
+ 11. Functions
+      1. The arguments object [/en-US/docs/Web/JavaScript/Reference/Functions/arguments]
+      2. Arrow function expressions [/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions]
+      3. Default parameters [/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters]
+      4. getter [/en-US/docs/Web/JavaScript/Reference/Functions/get]
+      5. Method definitions [/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions]
+      6. Rest parameters [/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters]
+      7. setter [/en-US/docs/Web/JavaScript/Reference/Functions/set]
+
+ 12. Classes
+      1. Class static initialization blocks [/en-US/docs/Web/JavaScript/Reference/Classes/Class_static_initialization_blocks]
+      2. constructor [/en-US/docs/Web/JavaScript/Reference/Classes/constructor]
+      3. extends [/en-US/docs/Web/JavaScript/Reference/Classes/extends]
+      4. Private class features [/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields]
+      5. Public class fields [/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields]
+      6. static [/en-US/docs/Web/JavaScript/Reference/Classes/static]
+
+ 13. Errors
+      1.  Warning: -file- is being assigned a //# sourceMappingURL, but already has one
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Already_has_pragma]
+      2.  TypeError: invalid Array.prototype.sort argument [/en-US/docs/Web/JavaScript/Reference/Errors/Array_sort_argument]
+      3.  Warning: 08/09 is not a legal ECMA-262 octal constant [/en-US/docs/Web/JavaScript/Reference/Errors/Bad_octal]
+      4.  RangeError: radix must be an integer [/en-US/docs/Web/JavaScript/Reference/Errors/Bad_radix]
+      5.  SyntaxError: invalid regular expression flag "x" [/en-US/docs/Web/JavaScript/Reference/Errors/Bad_regexp_flag]
+      6.  SyntaxError: return not in function [/en-US/docs/Web/JavaScript/Reference/Errors/Bad_return_or_yield]
+      7.  TypeError: X.prototype.y called on incompatible type [/en-US/docs/Web/JavaScript/Reference/Errors/Called_on_incompatible_type]
+      8.  ReferenceError: can't access lexical declaration`X' before initialization
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_lexical_declaration_before_init]
+      9.  TypeError: can't access property "x" of "y" [/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_property]
+      10. TypeError: can't assign to property "x" on "y": not an object [/en-US/docs/Web/JavaScript/Reference/Errors/Cant_assign_to_property]
+      11. TypeError: can't define property "x": "obj" is not extensible
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Cant_define_property_object_not_extensible]
+      12. TypeError: property "x" is non-configurable and can't be deleted [/en-US/docs/Web/JavaScript/Reference/Errors/Cant_delete]
+      13. TypeError: can't redefine non-configurable property "x" [/en-US/docs/Web/JavaScript/Reference/Errors/Cant_redefine_property]
+      14. TypeError: cyclic object value [/en-US/docs/Web/JavaScript/Reference/Errors/Cyclic_object_value]
+      15. TypeError: can't access dead object [/en-US/docs/Web/JavaScript/Reference/Errors/Dead_object]
+      16. SyntaxError: applying the 'delete' operator to an unqualified name is deprecated
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Delete_in_strict_mode]
+      17. ReferenceError: deprecated caller or arguments usage [/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_caller_or_arguments_usage]
+      18. Warning: expression closures are deprecated [/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_expression_closures]
+      19. SyntaxError: "0"-prefixed octal literals and octal escape seq. are deprecated [/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_octal]
+      20. SyntaxError: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_source_map_pragma]
+      21. Warning: String.x is deprecated; use String.prototype.x instead [/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_String_generics]
+      22. Warning: Date.prototype.toLocaleFormat is deprecated [/en-US/docs/Web/JavaScript/Reference/Errors/Deprecated_toLocaleFormat]
+      23. SyntaxError: test for equality (==) mistyped as assignment (=)? [/en-US/docs/Web/JavaScript/Reference/Errors/Equal_as_assign]
+      24. TypeError: setting getter-only property "x" [/en-US/docs/Web/JavaScript/Reference/Errors/Getter_only]
+      25. SyntaxError: Unexpected '#' used outside of class body [/en-US/docs/Web/JavaScript/Reference/Errors/Hash_outside_class]
+      26. SyntaxError: identifier starts immediately after numeric literal [/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number]
+      27. SyntaxError: illegal character [/en-US/docs/Web/JavaScript/Reference/Errors/Illegal_character]
+      28. TypeError: cannot use 'in' operator to search for 'x' in 'y' [/en-US/docs/Web/JavaScript/Reference/Errors/in_operator_no_object]
+      29. RangeError: invalid array length [/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_array_length]
+      30. ReferenceError: invalid assignment left-hand side [/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_assignment_left-hand_side]
+      31. TypeError: invalid assignment to const "x" [/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment]
+      32. RangeError: invalid date [/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_date]
+      33. SyntaxError: for-in loop head declarations may not have initializers
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-in_initializer]
+      34. SyntaxError: a declaration in the head of a for-of loop can't have an initializer
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_for-of_initializer]
+      35. TypeError: invalid 'instanceof' operand 'x' [/en-US/docs/Web/JavaScript/Reference/Errors/invalid_right_hand_side_instanceof_operand]
+      36. TypeError: 'x' is not iterable [/en-US/docs/Web/JavaScript/Reference/Errors/is_not_iterable]
+      37. SyntaxError: JSON.parse: bad parsing [/en-US/docs/Web/JavaScript/Reference/Errors/JSON_bad_parse]
+      38. SyntaxError: Malformed formal parameter [/en-US/docs/Web/JavaScript/Reference/Errors/Malformed_formal_parameter]
+      39. URIError: malformed URI sequence [/en-US/docs/Web/JavaScript/Reference/Errors/Malformed_URI]
+      40. SyntaxError: missing ] after element list [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_bracket_after_list]
+      41. SyntaxError: missing : after property id [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_colon_after_property_id]
+      42. SyntaxError: missing } after function body [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_function_body]
+      43. SyntaxError: missing } after property list [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_curly_after_property_list]
+      44. SyntaxError: missing formal parameter [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_formal_parameter]
+      45. SyntaxError: missing = in const declaration [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_initializer_in_const]
+      46. SyntaxError: missing name after . operator [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_name_after_dot_operator]
+      47. SyntaxError: missing ) after argument list [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_argument_list]
+      48. SyntaxError: missing ) after condition [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_parenthesis_after_condition]
+      49. SyntaxError: missing ; before statement [/en-US/docs/Web/JavaScript/Reference/Errors/Missing_semicolon_before_statement]
+      50. TypeError: More arguments needed [/en-US/docs/Web/JavaScript/Reference/Errors/More_arguments_needed]
+      51. RangeError: repeat count must be non-negative [/en-US/docs/Web/JavaScript/Reference/Errors/Negative_repetition_count]
+      52. TypeError: "x" is not a non-null object [/en-US/docs/Web/JavaScript/Reference/Errors/No_non-null_object]
+      53. TypeError: "x" has no properties [/en-US/docs/Web/JavaScript/Reference/Errors/No_properties]
+      54. SyntaxError: missing variable name [/en-US/docs/Web/JavaScript/Reference/Errors/No_variable_name]
+      55. TypeError: can't delete non-configurable array element [/en-US/docs/Web/JavaScript/Reference/Errors/Non_configurable_array_element]
+      56. RangeError: argument is not a valid code point [/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_codepoint]
+      57. TypeError: "x" is not a constructor [/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_constructor]
+      58. TypeError: "x" is not a function [/en-US/docs/Web/JavaScript/Reference/Errors/Not_a_function]
+      59. ReferenceError: "x" is not defined [/en-US/docs/Web/JavaScript/Reference/Errors/Not_defined]
+      60. RangeError: precision is out of range [/en-US/docs/Web/JavaScript/Reference/Errors/Precision_range]
+      61. Error: Permission denied to access property "x" [/en-US/docs/Web/JavaScript/Reference/Errors/Property_access_denied]
+      62. TypeError: "x" is read-only [/en-US/docs/Web/JavaScript/Reference/Errors/Read-only]
+      63. SyntaxError: redeclaration of formal parameter "x" [/en-US/docs/Web/JavaScript/Reference/Errors/Redeclared_parameter]
+      64. TypeError: Reduce of empty array with no initial value
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Reduce_of_empty_array_with_no_initial_value]
+      65. SyntaxError: "x" is a reserved identifier [/en-US/docs/Web/JavaScript/Reference/Errors/Reserved_identifier]
+      66. RangeError: repeat count must be less than infinity [/en-US/docs/Web/JavaScript/Reference/Errors/Resulting_string_too_large]
+      67. Warning: unreachable code after return statement [/en-US/docs/Web/JavaScript/Reference/Errors/Stmt_after_return]
+      68. SyntaxError: "use strict" not allowed in function with non-simple parameters
+          [/en-US/docs/Web/JavaScript/Reference/Errors/Strict_Non_Simple_Params]
+      69. InternalError: too much recursion [/en-US/docs/Web/JavaScript/Reference/Errors/Too_much_recursion]
+      70. ReferenceError: assignment to undeclared variable "x" [/en-US/docs/Web/JavaScript/Reference/Errors/Undeclared_var]
+      71. ReferenceError: reference to undefined property "x" [/en-US/docs/Web/JavaScript/Reference/Errors/Undefined_prop]
+      72. SyntaxError: Unexpected token [/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_token]
+      73. TypeError: "x" is (not) "y" [/en-US/docs/Web/JavaScript/Reference/Errors/Unexpected_type]
+      74. SyntaxError: function statement requires a name [/en-US/docs/Web/JavaScript/Reference/Errors/Unnamed_function_statement]
+      75. SyntaxError: unterminated string literal [/en-US/docs/Web/JavaScript/Reference/Errors/Unterminated_string_literal]
+
+ 14. Misc
+      1. JavaScript technologies overview [/en-US/docs/Web/JavaScript/JavaScript_technologies_overview]
+      2. Lexical grammar [/en-US/docs/Web/JavaScript/Reference/Lexical_grammar]
+      3. JavaScript data structures [/en-US/docs/Web/JavaScript/Data_structures]
+      4. Enumerability and ownership of properties [/en-US/docs/Web/JavaScript/Enumerability_and_ownership_of_properties]
+      5. Iteration protocols [/en-US/docs/Web/JavaScript/Reference/Iteration_protocols]
+      6. Strict mode [/en-US/docs/Web/JavaScript/Reference/Strict_mode]
+      7. Transitioning to strict mode [/en-US/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode]
+      8. Template literals [/en-US/docs/Web/JavaScript/Reference/Template_literals]
+      9. Deprecated features [/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features]
 
 /en-US/
  * Web Technologies [/en-US/docs/Web]

@@ -1,12 +1,19 @@
-LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] UNICODE TRANSFORMATIONS
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Type some text into the box, get some transformed versions.
+[/resources/images/atom_ani.gif]
 
+ACME JAVA
 
+Welcome to the ACME Java mines! ACME Labs is exploring the use of Java for fun and profit. We are happy to share our findings.
 
-
+ * Software. [software/]
+ * Common mistakes and questions. [faq.html]
+ * Some bugs. [bugs/]
+ * Other resources. [resources.html]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [/] / Unicode [./] / Transformations
-email [/mailto/j.gif] [/mailto/?id=j]
+Back to ACME Labs [../].
+
+
+[/mailto/wa.gif] [/mailto/?id=wa]

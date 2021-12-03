@@ -1,29 +1,45 @@
+anvil [../../resources/anvil.gif]
+
+
+GLOBE - SHOW AN ASCII GRAPHIC OF THE CURRENTLY-LIGHTED FACE OF THE EARTH
+
+Fetch the software. [globe_14Aug2014.tar.gz]
+
+A cute ASCII graphic hack. The pictures were converted from 256x256 bitmaps using pbmtoascii [../pbmplus/]. The bitmaps originally came from Sun. The
+wrapper program took 20 minutes to write, including documentation.
+
+Sample output (HTMLized via texttohtml [../texttohtml/]):
+
+
+             ._od#HMMMMMHM6&##o_
+          _dHMMMMMMMMMMMMMMH##9R'^~_
+       .dHMMMMMMMMMMMMMMMMMMH,`*   `"\.
+     .dMMMMMMMMMMMMMMMMMMM#*iD~'      `\.
+    dMMMMMMMMMMMMMMMMMM#`M\,dH          `\
+  .dMMMMMMMMMMMMMMMMMMMH  *"'             \
+  HMH#MMMMMMMMMMMMMMMMHb -                 $
+ dMM' $MMMH'`HMMMM\H"' :                    \
+|M?'  `MM'  .`TMMMH   -M\       `           `|
+MM'    Mb   ` |i`#'  ./!ML                   |
+M|      "    ?bM|  .oHr``'  `                |
+H             $MM_|MMM\#/ |o\\_            - |
+|              `*6??:'|*|`":9"MMHov+\       '|
+H.                """`"'*' __."9"*~ `"|      ?
+|H|                    .,##MML_Mb      | . `.|
+ 9b.                .,oHMMMMMMMMM?    \  `  /
+ `&                 |MMMMMMMMMMMMM|        |
+  `\                 9MMH##HMMMMMH'       /
+    \.    .          `"     `###'    ,| ,/
+     `\.                      "'  ,/^'./'
+       `~\                          ,/'
+          "-\_                  _.-"
+              ""\dHMMMMMMMMM=:-"
+    
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[/resources/images/atom_ani.gif]
+valid HTML [/resources/images/valid-html401-gold.png] [http://validator.w3.org/check?uri=referer]
 
-[/resources/gamelan_best.jpg] [http://java.developer.com/]
-
-PHOON - SHOW THE CURRENT PHASE OF THE MOON
-
-Shows the moon in its current phase, including the partial lighting of the dark side by reflected earthlight. A Java version of xphoon
-[http://www.acme.com/software/xphoon/], which is itself an X version of phoon [http://www.acme.com/software/phoon/].
-
-
-
-Phoon.java [/resources/classes/Phoon.java]
-See also: Acme.Phase [Acme.Phase.html], Acme.JPM.Filters.RGBBlockFilter [Acme.JPM.Filters.RGBBlockFilter.html].
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-[/resources/jars25s.gif] [http://www.jars.com/], March 1996
-The Gateway 2000 Moon Calendar [http://www.gw2k.com/cool/moon/mooncal.htm]
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Back to software [http://www.acme.com/java/software/].
-Back to ACME Java [http://www.acme.com/java/].
-Back to ACME Labs [http://www.acme.com/].
-
-
-[/mailto/wa.gif] [/mailto/?id=wa]
+See also: bigcal [../bigcal/], phoon [../phoon/].
+ACME Labs [http://www.acme.com/] / Software [http://www.acme.com/software/] / globe
+email [/mailto/wa.gif] [/mailto/?id=wa]

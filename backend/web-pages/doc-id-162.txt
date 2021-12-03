@@ -29,8 +29,8 @@
 
 Search MDN
 
- 1. Web technology for developers [/en-US/docs/Web]
- 2. Accessibility [/en-US/docs/Web/Accessibility]
+ 1. The MDN project [/en-US/docs/MDN]
+ 2. About MDN Web Docs [/en-US/docs/MDN/About]
 
  * Change language
 
@@ -38,115 +38,159 @@ Search MDN
 TABLE OF CONTENTS
 
 Table of contents
- * Key tutorials
- * Other documentation
- * See also
+ * Our mission
+ * How you can help
+ * Using MDN Web Docs content
+ * Reporting problems with MDN Web Docs
+ * History of MDN Web Docs
 
 
-ACCESSIBILITY
+ABOUT MDN WEB DOCS
 
-Accessibility (often abbreviated to A11y — as in "a" then 11 characters then "y") in Web development means enabling as many people as possible to use
-Web sites, even when those people's abilities are limited in some way.
-
-For many people, technology makes things easier. For people with disabilities, technology makes things possible. Accessibility means developing
-content to be as accessible as possible no matter an individual's physical and cognitive abilities and no matter how they access the web.
-
-"The Web is fundamentally designed to work for all people, whatever their hardware, software, language, culture, location, or physical or mental
-ability. When the Web meets this goal, it is accessible to people with a diverse range of hearing, movement, sight, and cognitive ability." (W3C -
-Accessibility [https://www.w3.org/standards/webdesign/accessibility])
+MDN Web Docs (previously known as MDN — the Mozilla Developer Network) is an evolving learning platform for Web technologies and the software that
+powers the Web, including CSS [/en-US/docs/Web/CSS], HTML [/en-US/docs/Web/HTML], and JavaScript [/en-US/docs/Web/JavaScript]. We also have a detailed
+set of beginner's learning material — see Learn Web development [/en-US/docs/Learn].
 
 
-KEY TUTORIALS
+OUR MISSION
 
-The MDN Accessibility Learning Area [/en-US/docs/Learn/Accessibility] contains modern, up-to-date tutorials covering accessibility essentials:
+MDN's mission is simple: provide developers with the information they need to easily build projects on the open Web [/en-US/docs/Web]. If it's an open
+technology exposed to the Web, we want to document it.
 
-What is accessibility? [/en-US/docs/Learn/Accessibility/What_is_accessibility]
-
-This article starts off the module with a good look at what accessibility actually is — this includes what groups of people we need to consider and
-why, what tools different people use to interact with the Web, and how we can make accessibility part of our web development workflow.
-
-HTML: A good basis for accessibility [/en-US/docs/Learn/Accessibility/HTML]
-
-A great deal of web content can be made accessible just by making sure the correct HTML elements are used for the correct purpose at all times. This
-article looks in detail at how HTML can be used to ensure maximum accessibility.
-
-CSS and JavaScript accessibility best practices [/en-US/docs/Learn/Accessibility/CSS_and_JavaScript]
-
-CSS and JavaScript, when used properly, also have the potential to allow for accessible web experiences ... or they can significantly harm
-accessibility if misused. This article outlines some CSS and JavaScript best practices that should be considered to ensure even complex content is as
-accessible as possible.
-
-WAI-ARIA basics [/en-US/docs/Learn/Accessibility/WAI-ARIA_basics]
-
-Following on from the previous article, sometimes making complex UI controls that involve unsemantic HTML and dynamic JavaScript-updated content can
-be difficult. WAI-ARIA is a technology that can help with such problems by adding in further semantics that browsers and assistive technologies can
-recognize and use to let users know what is going on. Here we'll show how to use it at a basic level to improve accessibility.
-
-Accessible multimedia [/en-US/docs/Learn/Accessibility/Multimedia]
-
-Another category of content that can create accessibility problems is multimedia — video, audio, and image content need to be given proper textual
-alternatives so they can be understood by assistive technologies and their users. This article shows how.
-
-Mobile accessibility [/en-US/docs/Learn/Accessibility/Mobile]
-
-With web access on mobile devices being so popular, and popular platforms such as iOS and Android having fully-fledged accessibility tools, it is
-important to consider the accessibility of your web content on these platforms. This article looks at mobile-specific accessibility considerations.
+If you're not sure whether a particular topic should be covered on MDN, read Does this belong on MDN?
+[/en-US/docs/MDN/Guidelines/Does_this_belong_on_MDN]
 
 
-OTHER DOCUMENTATION
+HOW YOU CAN HELP
 
-Understanding the Web Content Accessibility Guidelines [/en-US/docs/Web/Accessibility/Understanding_WCAG]
+Our community is a global one. We have amazing contributors all around the world who help us create content, fix bugs, review content changes, and add
+sample code.
 
-This set of articles provides quick explanations to help you understand the steps that need to be taken to conform to the recommendations outlined in
-the W3C Web Content Accessibility Guidelines 2.0 (WCAG 2.0 or just WCAG, for the purposes of this writing).
-
-Introduction to color and accessibility [/en-US/docs/Web/Accessibility/Understanding_Colors_and_Luminance]
-
-This article discusses our perception of light and color, provides a foundation for the use of color in accessible designs, and demonstrates best
-practices for visual and readable content.
-
-Keyboard-navigable JavaScript widgets [/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets]
-
-Until now, web developers who want to make their styled <div> and <span> based widgets accessible have lacked the proper techniques. Keyboard
-accessibility is part of the minimum accessibility requirements which a developer should be aware of.
-
-ARIA [/en-US/docs/Web/Accessibility/ARIA]
-
-A collection of articles to learn how to use ARIA to make your HTML documents more accessible.
-
-Mobile accessibility checklist [/en-US/docs/Web/Accessibility/Mobile_accessibility_checklist]
-
-This document provides a concise checklist of accessibility requirements for mobile app developers.
-
-Cognitive accessibility [/en-US/docs/Web/Accessibility/Cognitive_accessibility]
-
-When creating web content, be aware of how you can ensure that it is accessible to people with cognitive impairments.
-
-Accessibility for seizure disorders [/en-US/docs/Web/Accessibility/Seizure_disorders]
-
-Some types of visual web content can induce seizures in people with certain brain disorders. Understand the types of content that can be problematic,
-and find tools and strategies to help you avoid them.
+However, you don't need to be a professional coder or writer to help MDN! Head over to our Contribute [/en-US/docs/MDN/Contribute] pages to find
+something you can do to help, based on your expertise and how much time you have to spare.
 
 
-SEE ALSO
+USING MDN WEB DOCS CONTENT
 
- * WAI Interest Group [https://www.w3.org/WAI/IG/]
- * Developer guides [/en-US/docs/Web/Guide]
- * Accessibility and Mozilla [/en-US/docs/Mozilla/Accessibility]
+MDN's content is available free of charge, and under open source licenses.
+
+
+COPYRIGHTS AND LICENSES
+
+MDN's content is entirely available under various open source licenses. This section covers the types of content we provide and what licenses are in
+effect for each.
+
+DOCUMENTATION AND ARTICLES
+
+Note: MDN content has been prepared with the contributions of authors from both inside and outside Mozilla. Unless otherwise indicated, the content is
+available under the terms of the Creative Commons Attribution-ShareAlike license [https://creativecommons.org/licenses/by-sa/2.5/] (CC-BY-SA), v2.5 or
+any later version.
+
+When reusing MDN content, you need to ensure two things:
+
+ 1. Attribution is given to the original content. Please attribute "Mozilla Contributors" and include a hyperlink (online) or URL (in print) to the
+    specific wiki page for the content being sourced. For example, to provide attribution for this article, you can write:
+    
+    > About MDN [/en-US/docs/MDN/About] by Mozilla Contributors [/en-US/docs/MDN/About/contributors.txt] is licensed under CC-BY-SA 2.5
+    > [https://creativecommons.org/licenses/by-sa/2.5/].
+    
+    Note that in the example, "Mozilla Contributors" links to the history of the cited page. See Best practices for attribution
+    [https://wiki.creativecommons.org/Marking/Users] for further explanation.
+ 2. Your reuse is published under the same license as the original content—CC-BY-SA v2.5 or any later version.
+
+CODE SAMPLES AND SNIPPETS
+
+Code samples added on or after August 20, 2010 are in the public domain [https://creativecommons.org/publicdomain/zero/1.0/] (CC0
+[https://creativecommons.org/publicdomain/zero/1.0/]). No licensing notice is necessary, but if you need one, you can use: "Any copyright is dedicated
+to the Public Domain. http://creativecommons.org/publicdomain/zero/1.0/".
+
+Code samples added before August 20, 2010 are available under the MIT license [https://opensource.org/licenses/mit-license.php]; you should insert the
+following attribution information into the MIT template: "© <date of last wiki page revision> <name of person who put it in the wiki>".
+
+Since the launch of the new Yari MDN platform on December 14 2020, there is currently no way to determine which one you need. We are working on this
+and will update this content soon.
+
+CONTRIBUTIONS
+
+If you wish to contribute to this wiki, you must make your documentation available under the Attribution-ShareAlike license (or occasionally an
+alternative license already specified by the page you are editing), and your code samples available under Creative Commons CC-0
+[https://creativecommons.org/publicdomain/zero/1.0/] (a Public Domain dedication). Adding to this wiki means you agree that your contributions will be
+made available under those licenses.
+
+Some older content was made available under a license other than those described above; these are indicated at the bottom of each page by way of an
+Alternate License Block [/Archive/Meta_docs/Examples/Alternate_License_Block].
+
+Warning: No new pages may be created using alternate licenses.
+
+Copyright for contributed materials remains with the author unless the author assigns it to someone else.
+
+If you have any questions or concerns about anything discussed here, please contact the MDN administrators
+[mdn-admins@mozilla.org?subject=MDN%20licensing%20question].
+
+LOGOS, TRADEMARKS, SERVICE MARKS AND WORDMARKS
+
+The rights in the trademarks, logos, and service marks of the Mozilla Foundation, as well as the look and feel of this web site, are not licensed
+under the Creative Commons license, and to the extent they are works of authorship (like logos and graphic design), they are not included in the work
+that is licensed under those terms. If you use the text of documents, and wish to also use any of these rights, or if you have any other questions
+about complying with our licensing terms for this collection, you should contact the Mozilla Foundation here: licensing@mozilla.org
+[licensing@mozilla.org].
+
+
+LINKING TO MDN
+
+We regularly get users asking us questions about how to link to MDN, or even if doing so is allowed. The short answer is: yes, you can link to MDN!
+Not only is the hypertext link the essence of the Web, it is both a way to point your users to valuable resources and a show of trust toward the work
+our community does.
+
+
+REPORTING PROBLEMS WITH MDN WEB DOCS
+
+See How to report a problem on MDN [/en-US/docs/MDN/Contribute/Howto/Report_a_problem].
+
+
+HISTORY OF MDN WEB DOCS
+
+The MDN Web Docs (previously Mozilla Developer Network (MDN), previously Mozilla Developer Center (MDC), a.k.a. Devmo) project started in early 2005,
+when the Mozilla Foundation [https://foundation.mozilla.org] obtained a license from AOL to use the original Netscape DevEdge
+[https://web.archive.org/web/*/devedge.netscape.com] content. The DevEdge content was mined for still-useful material, which was then migrated by
+volunteers into this wiki so it would be easier to update and maintain.
+
+The name was changed to MDN Web Docs in June 2017. See The Future of MDN: A Focus on Web Docs
+[https://blog.mozilla.org/opendesign/future-mdn-focus-web-docs/] for the rationale behind this decision.
+
+You can find more history of MDN on our 10th anniversary celebration [/en-US/docs/MDN/At_ten] page, including an oral history by some of the people
+who were involved, and on our MDN Web Docs: 15 years young [https://hacks.mozilla.org/2020/07/mdn-web-docs-15-years-young/] blog post, which provides
+a report on our 15th anniversary!
+
+On December 14 2020, we went through another evolutionary step, migrating to our new Yari platform and storing all of our content in a GitHub repo
+[https://github.com/mdn/content]. Read Welcome Yari: MDN Web Docs has a new platform
+[https://hacks.mozilla.org/2020/12/welcome-yari-mdn-web-docs-has-a-new-platform/] for more details.
 
 
 FOUND A PROBLEM WITH THIS PAGE?
 
- * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/web/accessibility/index.md]
- * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/web/accessibility/index.md]
+ * Edit on GitHub [https://github.com/mdn/content/edit/main/files/en-us/mdn/about/index.md]
+ * Source on GitHub [https://github.com/mdn/content/blob/main/files/en-us/mdn/about/index.md]
  * Report a problem with this content on GitHub
-   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAccessibility%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Faccessibility%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAccessibility%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Faccessibility%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Faf5325ae8781a62a8fcff2919e41337e72a3ca68%0A*+Document+last+modified%3A+2021-10-23T04%3A16%3A44.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22Accessibility%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AAccessibility]
+   [https://github.com/mdn/content/issues/new?body=MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FAbout%0A%0A%23%23%23%23+What+information+was+incorrect%2C+unhelpful%2C+or+incomplete%3F%0A%0A%0A%23%23%23%23+Specific+section+or+headline%3F%0A%0A%0A%23%23%23%23+What+did+you+expect+to+see%3F%0A%0A%0A%23%23%23%23+Did+you+test+this%3F+If+so%2C+how%3F%0A%0A%0A%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EMDN+Content+page+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fmdn%2Fabout%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FAbout%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fmdn%2Fabout%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2Fa7261cd6aebb479bcc359216fe55f9267fa3a865%0A*+Document+last+modified%3A+2021-11-16T02%3A32%3A25.000Z%0A%0A%3C%2Fdetails%3E&title=Issue+with+%22About+MDN+Web+Docs%22%3A+%28short+summary+here+please%29&labels=needs-triage%2CContent%3AOther]
  * Want to fix the problem yourself? See our Contribution guide [https://github.com/mdn/content/blob/main/README.md].
 
-Last modified: Oct 23, 2021, by MDN contributors [/en-US/docs/Web/Accessibility/contributors.txt]
+Last modified: Nov 16, 2021, by MDN contributors [/en-US/docs/MDN/About/contributors.txt]
 
-Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어PolskiPortuguês (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
+Change your languageSelect your preferred language English (US)DeutschEspañolFrançais日本語한국어Português (do Brasil)Русский中文 (简体)正體中文 (繁體) Change
 language
+
+RELATED TOPICS
+
+ 1. About MDN [/en-US/docs/MDN/About]
+ 2. Contributing to MDN
+     1. Get started on MDN [/en-US/docs/MDN/Contribute/Getting_started]
+     2. Contributing to MDN [/en-US/docs/MDN/Contribute]
+     3. Things you can do [/en-US/docs/MDN/Contribute/Howto]
+     4. Localizing MDN [/en-US/docs/MDN/Contribute/Localize]
+     5. Guidelines [/en-US/docs/MDN/Guidelines]
+     6. Content structures [/en-US/docs/MDN/Structures]
+
 /en-US/
  * Web Technologies [/en-US/docs/Web]
  * Learn Web Development [/en-US/docs/Learn]

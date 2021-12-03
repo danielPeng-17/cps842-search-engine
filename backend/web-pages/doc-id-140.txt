@@ -1,36 +1,616 @@
-------------------------------------------------------------------------------------------------------------------------------------------------------
 
-atom [/resources/images/atom_ani.gif]
-
-
-LICENSE MAKER [LICENSEMAKER.JPG]
-
-Pretend you're in prison and make a license!
-
-California 1915 1939 1945 1956 1963 1969 1984 1987 1993 1998 AIDS UCLA
-
-Accepts letters, digits, ".+-/:;*#!", space, and a few special characters [special.html]. Some plates allow any number of characters; others allow
-seven characters max, or eight with at least one space. Graphics adapted from R.T. Brandon's Blank Plates page [http://www.blankplates.com/] and the
-CA DMV's search page [http://plates.ca.gov/search/]. The character colors for some plates may not be right, feel free to send corrections. There are
-currently a total of 505 different plate blanks available.
-
-Choose another state!
-Alabama Alaska Alberta Arizona Arkansas British Columbia California Colorado Connecticut DC Delaware Florida Georgia Hawaii Idaho Illinois Indiana
-Iowa Kansas Kentucky Louisiana Maine Manitoba Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Brunswick New
-Hampshire New Jersey New Mexico New York Newfoundland North Carolina North Dakota Northwest Territories Nova Scotia Nunavut Ohio Oklahoma Ontario
-Oregon Pennsylvania Prince Edward Island Quebec Rhode Island Saskatchewan South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington
-West Virginia Wisconsin Wyoming Yukon
+All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.html  PreviousAcme.Primes.html#_top_  NextAcme.Queue.html#_top_  IndexAllNames.html
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
 
-See recent licenses [licenses.cgi] made by other folks.
-Yahoo's license plate category [http://dir.yahoo.com/Recreation/Automotive/Licensing_and_Registration/License_Plates/].
-Tag Dr. [http://tagdr.com/] - license plate restoration and repaint.
-The ACME Label Maker [http://acme.com/labelmaker/], Heart Maker [http://acme.com/heartmaker/], and ChuMaker [http://acme.com/chumaker/].
-Ryland Sanders' Church Sign Generator [http://www.churchsigngenerator.com/].
-Tombstone Generator [http://tombstone.dogcrap.net/create.php].
-Windows Error Generator [http://atom.smasher.org/error/].
-Back to ACME Labs [http://www.acme.com/].
-email [/mailto/wa.gif] [/mailto/?id=wa]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[/resources/images/atom_ani.gif]
+
+
+CLASS ACME.PSG
+
+
+java.lang.Object
+   |
+   +----Acme.Psg
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+public class Psg extends Object [/resources/gamelan_best.jpg] [http://java.developer.com/] [/resources/gamelan_cool.gif]
+[http://www.developer.com/whatscool/] A PostScript-like alternative to the Graphics class.
+
+This class provides a functional equivalent of java.awt.Graphics, but with a very PostScript-like interface. It implements the following PostScript
+operators:
+
+> gsave grestore grestoreall initgraphics setlinewidth setcolor setgray sethsbcolor setrgbcolor translate scale rotate transform dtransform itransform
+> idtransform newpath moveto rmoveto lineto rlineto arc arcn curveto rcurveto closepath flattenpath clippath pathbbox erasepage fill stroke rectfill
+> rectstroke findfont scalefont setfont show stringwidth
+
+Not only is this a more powerful rendering idiom than the standard Graphics class, but it also makes it hellof easy to translate PostScript graphics
+hacks into Java. Here's a sample [/resources/classes/Yoyo.java]:
+
+> 
+
+JavaSoft and Adobe are said to be working on a 2-D rendering API similar to PostScript, and therefore similar to this. When that comes out this class
+will probably be obsolete, so I don't plan on doing any major improvements.
+
+Fetch the software. [/resources/classes/Acme/Psg.java]
+Fetch the entire Acme package. [/resources/classes/Acme.tar.gz]
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CONSTRUCTOR INDEX [IMAGES/CONSTRUCTOR-INDEX.GIF]
+
+o [images/yellow-ball-small.gif] Psg(Component) Constructor from Component. o [images/yellow-ball-small.gif] Psg(Graphics) Constructor from Graphics.
+
+
+METHOD INDEX [IMAGES/METHOD-INDEX.GIF]
+
+o [images/red-ball-small.gif] arc(double, double, double, double, double) Append counterclockwise arc. o [images/red-ball-small.gif] arcn(double,
+double, double, double, double) Append clockwise arc. o [images/red-ball-small.gif] clippath() Set the current path to the clipping path. o
+[images/red-ball-small.gif] closepath() Connect current path back to its starting point. o [images/red-ball-small.gif] curveto(double, double, double,
+double, double, double) Append a Bezier cubic section. o [images/red-ball-small.gif] dtransform_x(double, double) Transform (dx, dy) into a
+device-space x-distance. o [images/red-ball-small.gif] dtransform_y(double, double) Transform (dx, dy) into a device-space y-distance. o
+[images/red-ball-small.gif] erasepage() Paint the whole graphics area with the background color. o [images/red-ball-small.gif] fill() Fill current
+path with current color. o [images/red-ball-small.gif] flattenpath() Convert curves in the path to sequences of straight lines. o
+[images/red-ball-small.gif] grestore() Restore the last Save()ed graphics state. o [images/red-ball-small.gif] grestoreall() Pop to bottom-most
+graphics state. o [images/red-ball-small.gif] gsave() Save the current graphics state onto a stack. o [images/red-ball-small.gif] idtransform_x(int,
+int) Inverse transform (dx, dy) into a user-space x-distance. o [images/red-ball-small.gif] idtransform_y(int, int) Inverse transform (dx, dy) into a
+user-space y-distance. o [images/red-ball-small.gif] initgraphics() Reset graphics state. o [images/red-ball-small.gif] itransform_x(int, int) Inverse
+transform (x, y) into a user-space x-coordinate. o [images/red-ball-small.gif] itransform_y(int, int) Inverse transform (x, y) into a user-space
+y-coordinate. o [images/red-ball-small.gif] lineto(double, double) Add a line to the path. o [images/green-ball-small.gif] main(String[]) Test
+program. o [images/red-ball-small.gif] moveto(double, double) Set the current point. o [images/red-ball-small.gif] newpath() Start a new, empty path.
+o [images/red-ball-small.gif] pathbbox() Return the bounding box of the current path. o [images/red-ball-small.gif] rcurveto(double, double, double,
+double, double, double) Relative curveto. o [images/red-ball-small.gif] rectfill(double, double, double, double) Fill a rectangular path. o
+[images/red-ball-small.gif] rectstroke(double, double, double, double) Stroke a rectangular path. o [images/red-ball-small.gif] rlineto(double,
+double) Relative lineto(). o [images/red-ball-small.gif] rmoveto(double, double) Relative moveto(). o [images/red-ball-small.gif] rotate(double)
+Rotate graphics space. o [images/red-ball-small.gif] scale(double, double) Scale graphics space. o [images/red-ball-small.gif] setcolor(Color) Set the
+current color. o [images/red-ball-small.gif] setfont(String, int, double) Set the current font to the specified name, style, and size. o
+[images/red-ball-small.gif] setfontName(String) Set the current font to the specified name. o [images/red-ball-small.gif] setfontSize(double) Set the
+current font to the specified size. o [images/red-ball-small.gif] setfontStyle(int) Set the current font to the specified style. o
+[images/red-ball-small.gif] setgray(float) Set the color to the specified gray value (0=black, 1=white). o [images/red-ball-small.gif]
+sethsbcolor(float, float, float) Set the color from HSB coordinates. o [images/red-ball-small.gif] setlinewidth(double) Set the current line width. o
+[images/red-ball-small.gif] setrgbcolor(float, float, float) Set the color from RGB coordinates. o [images/red-ball-small.gif] show(String) Paint a
+string starting at the current point. o [images/red-ball-small.gif] stringwidth_x(String) Return the x-width of a string. o
+[images/red-ball-small.gif] stroke() Draw lines along the current path. o [images/red-ball-small.gif] transform_x(double, double) Transform (x, y)
+into a device-space x-coordinate. o [images/red-ball-small.gif] transform_y(double, double) Transform (x, y) into a device-space y-coordinate. o
+[images/red-ball-small.gif] translate(double, double) Translate graphics space.
+
+
+CONSTRUCTORS [IMAGES/CONSTRUCTORS.GIF]
+
+o [images/yellow-ball.gif] Psg
+
+
+ public Psg(Component component)
+
+
+Constructor from Component. This is the preferred way to make a Psg.
+
+
+
+o [images/yellow-ball.gif] Psg
+
+
+ public Psg(Graphics graphics)
+
+
+Constructor from Graphics. If you don't have a Component, you can create a Psg from a Graphics instead, but this is not as good.
+
+
+
+
+METHODS [IMAGES/METHODS.GIF]
+
+o [images/red-ball.gif] gsave
+
+
+ public void gsave()
+
+
+Save the current graphics state onto a stack.
+
+
+
+o [images/red-ball.gif] grestore
+
+
+ public void grestore()
+
+
+Restore the last Save()ed graphics state.
+
+
+
+o [images/red-ball.gif] grestoreall
+
+
+ public void grestoreall()
+
+
+Pop to bottom-most graphics state.
+
+
+
+o [images/red-ball.gif] initgraphics
+
+
+ public void initgraphics()
+
+
+Reset graphics state.
+
+
+
+o [images/red-ball.gif] setlinewidth
+
+
+ public void setlinewidth(double linewidth)
+
+
+Set the current line width.
+
+
+
+o [images/red-ball.gif] setcolor
+
+
+ public void setcolor(Color color)
+
+
+Set the current color.
+
+
+
+o [images/red-ball.gif] setgray
+
+
+ public void setgray(float grayVal)
+
+
+Set the color to the specified gray value (0=black, 1=white).
+
+
+
+o [images/red-ball.gif] sethsbcolor
+
+
+ public void sethsbcolor(float hue,
+                         float saturation,
+                         float brightness)
+
+
+Set the color from HSB coordinates.
+
+
+
+o [images/red-ball.gif] setrgbcolor
+
+
+ public void setrgbcolor(float r,
+                         float g,
+                         float b)
+
+
+Set the color from RGB coordinates.
+
+
+
+o [images/red-ball.gif] translate
+
+
+ public void translate(double tx,
+                       double ty)
+
+
+Translate graphics space.
+
+
+
+o [images/red-ball.gif] scale
+
+
+ public void scale(double sx,
+                   double sy)
+
+
+Scale graphics space.
+
+
+
+o [images/red-ball.gif] rotate
+
+
+ public void rotate(double degrees)
+
+
+Rotate graphics space.
+
+
+
+o [images/red-ball.gif] transform_x
+
+
+ public int transform_x(double x,
+                        double y)
+
+
+Transform (x, y) into a device-space x-coordinate.
+
+
+
+o [images/red-ball.gif] transform_y
+
+
+ public int transform_y(double x,
+                        double y)
+
+
+Transform (x, y) into a device-space y-coordinate.
+
+
+
+o [images/red-ball.gif] dtransform_x
+
+
+ public int dtransform_x(double dx,
+                         double dy)
+
+
+Transform (dx, dy) into a device-space x-distance.
+
+
+
+o [images/red-ball.gif] dtransform_y
+
+
+ public int dtransform_y(double dx,
+                         double dy)
+
+
+Transform (dx, dy) into a device-space y-distance.
+
+
+
+o [images/red-ball.gif] itransform_x
+
+
+ public double itransform_x(int x,
+                            int y) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Inverse transform (x, y) into a user-space x-coordinate.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
+
+o [images/red-ball.gif] itransform_y
+
+
+ public double itransform_y(int x,
+                            int y) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Inverse transform (x, y) into a user-space y-coordinate.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
+
+o [images/red-ball.gif] idtransform_x
+
+
+ public double idtransform_x(int dx,
+                             int dy) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Inverse transform (dx, dy) into a user-space x-distance.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
+
+o [images/red-ball.gif] idtransform_y
+
+
+ public double idtransform_y(int dx,
+                             int dy) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Inverse transform (dx, dy) into a user-space y-distance.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
+
+o [images/red-ball.gif] newpath
+
+
+ public void newpath()
+
+
+Start a new, empty path.
+
+
+
+o [images/red-ball.gif] moveto
+
+
+ public void moveto(double x,
+                    double y)
+
+
+Set the current point.
+
+
+
+o [images/red-ball.gif] rmoveto
+
+
+ public void rmoveto(double dx,
+                     double dy) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Relative moveto().
+
+Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
+
+o [images/red-ball.gif] lineto
+
+
+ public void lineto(double x,
+                    double y) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Add a line to the path.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
+
+o [images/red-ball.gif] rlineto
+
+
+ public void rlineto(double dx,
+                     double dy) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Relative lineto().
+
+Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
+
+o [images/red-ball.gif] arc
+
+
+ public void arc(double cx,
+                 double cy,
+                 double r,
+                 double ang1,
+                 double ang2)
+
+
+Append counterclockwise arc.
+
+
+
+o [images/red-ball.gif] arcn
+
+
+ public void arcn(double cx,
+                  double cy,
+                  double r,
+                  double ang1,
+                  double ang2)
+
+
+Append clockwise arc.
+
+
+
+o [images/red-ball.gif] curveto
+
+
+ public void curveto(double x1,
+                     double y1,
+                     double x2,
+                     double y2,
+                     double x3,
+                     double y3) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Append a Bezier cubic section.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
+
+o [images/red-ball.gif] rcurveto
+
+
+ public void rcurveto(double dx1,
+                      double dy1,
+                      double dx2,
+                      double dy2,
+                      double dx3,
+                      double dy3) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Relative curveto.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
+
+o [images/red-ball.gif] closepath
+
+
+ public void closepath()
+
+
+Connect current path back to its starting point.
+
+
+
+o [images/red-ball.gif] flattenpath
+
+
+ public void flattenpath()
+
+
+Convert curves in the path to sequences of straight lines.
+
+
+
+o [images/red-ball.gif] clippath
+
+
+ public void clippath() throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Set the current path to the clipping path.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
+
+o [images/red-ball.gif] pathbbox
+
+
+ public double[] pathbbox() throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Return the bounding box of the current path. The return is in the form of a four-element array - element 0 is llx, 1 is lly, 2 is urx, and 3 is ury.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
+
+o [images/red-ball.gif] erasepage
+
+
+ public void erasepage()
+
+
+Paint the whole graphics area with the background color.
+
+
+
+o [images/red-ball.gif] fill
+
+
+ public void fill()
+
+
+Fill current path with current color.
+
+
+
+o [images/red-ball.gif] stroke
+
+
+ public void stroke()
+
+
+Draw lines along the current path.
+
+
+
+o [images/red-ball.gif] rectfill
+
+
+ public void rectfill(double x,
+                      double y,
+                      double width,
+                      double height)
+
+
+Fill a rectangular path.
+
+
+
+o [images/red-ball.gif] rectstroke
+
+
+ public void rectstroke(double x,
+                        double y,
+                        double width,
+                        double height)
+
+
+Stroke a rectangular path.
+
+
+
+o [images/red-ball.gif] setfont
+
+
+ public void setfont(String name,
+                     int style,
+                     double size)
+
+
+Set the current font to the specified name, style, and size. Similar to a PostScript findfont scalefont setfont sequence.
+
+Parameters: name - the name of the font - Dialog, Helvetica, TimesRoman, Courier style - some combination of Font.PLAIN, Font.BOLD, and Font.ITALIC
+size - how tall the font should be
+
+o [images/red-ball.gif] setfontName
+
+
+ public void setfontName(String name)
+
+
+Set the current font to the specified name.
+
+Parameters: name - the name of the font - Dialog, Helvetica, TimesRoman, Courier
+
+o [images/red-ball.gif] setfontStyle
+
+
+ public void setfontStyle(int style)
+
+
+Set the current font to the specified style.
+
+Parameters: style - some combination of Font.PLAIN, Font.BOLD, and Font.ITALIC
+
+o [images/red-ball.gif] setfontSize
+
+
+ public void setfontSize(double size)
+
+
+Set the current font to the specified size.
+
+Parameters: size - how tall the font should be
+
+o [images/red-ball.gif] show
+
+
+ public void show(String str) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Paint a string starting at the current point. Doesn't do rotation yet.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "no current point"
+
+o [images/red-ball.gif] stringwidth_x
+
+
+ public double stringwidth_x(String str) throws PsgExceptionAcme.PsgException.html#_top_
+
+
+Return the x-width of a string. Doesn't do rotation yet.
+
+Throws: PsgException [Acme.PsgException.html#_top_] "undefined result"
+
+o [images/green-ball.gif] main
+
+
+ public static void main(String args[])
+
+
+Test program.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.html  PreviousAcme.Primes.html#_top_  NextAcme.Queue.html#_top_  IndexAllNames.html
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ACME Javahttp://www.acme.com/java/  ACME Labshttp://www.acme.com/
+
+[/mailto/wa.gif] [/mailto/?id=wa]

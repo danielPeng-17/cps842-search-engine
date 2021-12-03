@@ -1,316 +1,441 @@
+ANVIL [/RESOURCES/IMAGES/ANVIL.GIF] ACME LABS JAVASCRIPT UTILITIES
 
-All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.Serve.html  PreviousAcme.Serve.SampleServlet.html#_top_  NextAcme.Serve.ServeUtils.html#_top_  IndexAllNames.html
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-[/resources/images/atom_ani.gif]
-
-
-CLASS ACME.SERVE.SERVE
-
-
-java.lang.Object
-   |
-   +----Acme.Serve.Serve
-
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
-
-public class Serve extends Object implements ServletContext [Acme.Serve.servlet.ServletContext.html#_top_] Minimal Java HTTP server class.
-
-This class implements a very small embeddable HTTP server. It runs Servlets compatible with the API used by JavaSoft's JavaServer
-[http://java.sun.com/products/java-server/] server. It comes with default Servlets which provide the usual httpd services, returning files and
-directory listings.
-
-This is not in any sense a competitor for JavaServer. JavaServer is a full-fledged HTTP server and more. Acme.Serve is tiny, about 1500 lines, and
-provides only the functionality necessary to deliver an Applet's .class files and then start up a Servlet talking to the Applet. They are both written
-in Java, they are both web servers, and they both implement the Servlet API; other than that they couldn't be more different.
-
-This is actually the second HTTP server I've written. The other one is called thttpd [http://www.acme.com/software/thttpd/], it's written in C, and is
-also pretty small although much more featureful than this.
-
-Other Java HTTP servers:
-
- * The above-mentioned JavaServer [http://java.sun.com/products/java-server/].
- * W3C's Jigsaw [http://www.w3.org/pub/WWW/Jigsaw/].
- * David Wilkinson's Cascade [http://www.netlink.co.uk/users/cascade/http/].
- * Yahoo's list of Java web servers [http://www.yahoo.com/Computers_and_Internet/Software/Internet/World_Wide_Web/Servers/Java/].
-
-A June 1997 BYTE magazine article [http://www.byte.com/art/9706/sec8/art1.htm] mentioning this server.
-A December 1997 BYTE magazine article [http://www.byte.com/art/9712/sec6/art7.htm] giving it an Editor's Choice Award of Distinction.
-Fetch the software. [/resources/classes/Acme/Serve/Serve.java]
-Fetch the entire Acme package. [/resources/classes/Acme.tar.gz]
-
-
-
-
-
-See Also: HttpServlet [Acme.Serve.servlet.http.HttpServlet.html#_top_], FileServlet [Acme.Serve.FileServlet.html#_top_], CgiServlet
-[Acme.Serve.CgiServlet.html#_top_]
+ * Calendar - simple calendar widget
+ * Clusterer - display thousands of markers on a Google map
+ * ColorPicker - simple color-picker widget
+ * EditInPlace - enable editing a text field right on the page
+ * Menu - simple menu widget
+ * OverlayMessage - display a transparent message box
+ * References - simple Wikipedia-style references
+ * Blink - revives the late and not-very-lamented <blink> tag
+ * Suggestions - popup suggestions menu
+ * Tabs - simple HTML tabbed panes
+ * KeyNav - simple keypress handler
+ * Testbed [testbed.html] - try out JavaScript code
+ * Event Debugger [events.html] - see how DOM events fire
+ * Leaflet Zoom5 [acme.maps.zoom5.html] - an augmented zoom control for Leaflet.js
+ * Google Zoom5 [acme.maps_g3.zoom5.html] - an augmented zoom control for Google Maps API v3
+ * Google Type Control [acme.maps_g3.typecontrol.html] - a map type control for Google Maps API v3
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-VARIABLE INDEX [IMAGES/VARIABLE-INDEX.GIF]
-
-o [images/magenta-ball-small.gif] servlets
-
-
-CONSTRUCTOR INDEX [IMAGES/CONSTRUCTOR-INDEX.GIF]
-
-o [images/yellow-ball-small.gif] Serve() Constructor, default port and log stream. o [images/yellow-ball-small.gif] Serve(int) Constructor, default
-log stream. o [images/yellow-ball-small.gif] Serve(int, PrintStream) Constructor.
-
-
-METHOD INDEX [IMAGES/METHOD-INDEX.GIF]
-
-o [images/red-ball-small.gif] addDefaultServlets(boolean) Register a standard set of Servlets. o [images/red-ball-small.gif]
-addDefaultServlets(boolean, String) Register a standard set of Servlets, with throttles. o [images/red-ball-small.gif] addServlet(String, Servlet)
-Register a Servlet. o [images/red-ball-small.gif] addServlet(String, String) Register a Servlet by class name. o [images/red-ball-small.gif]
-destroyAllServlets() Destroys all currently-loaded servlets. o [images/red-ball-small.gif] getAttribute(String) Returns the value of the named
-attribute of the network service, or null if the attribute does not exist. o [images/red-ball-small.gif] getMimeType(String) Returns the MIME type of
-the specified file. o [images/red-ball-small.gif] getRealPath(String) Applies alias rules to the specified virtual path and returns the corresponding
-real path. o [images/red-ball-small.gif] getServerInfo() Returns the name and version of the web server under which the servlet is running. o
-[images/red-ball-small.gif] getServlet(String) Gets a servlet by name. o [images/red-ball-small.gif] getServletNames() Enumerates the names of the
-servlets in this context (server). o [images/red-ball-small.gif] getServlets() Enumerates the servlets in this context (server). o
-[images/red-ball-small.gif] log(Exception, String) Write a stack trace to the servlet log. o [images/red-ball-small.gif] log(String) Write information
-to the servlet log. o [images/green-ball-small.gif] main(String[]) Main routine, if you want to run this directly as an application. o
-[images/red-ball-small.gif] serve() Run the server.
-
-
-VARIABLES [IMAGES/VARIABLES.GIF]
-
-o [images/magenta-ball.gif] servlets
-
-
- protected Hashtable servlets
-
-
-
-CONSTRUCTORS [IMAGES/CONSTRUCTORS.GIF]
-
-o [images/yellow-ball.gif] Serve
-
-
- public Serve(int port,
-              PrintStream logStream)
-
-
-Constructor.
-
-
-
-o [images/yellow-ball.gif] Serve
-
-
- public Serve(int port)
-
-
-Constructor, default log stream.
-
-
-
-o [images/yellow-ball.gif] Serve
-
-
- public Serve()
-
-
-Constructor, default port and log stream. We don't use 80 as the default port because we don't want to encourage people to run a Java web server as
-root because Java currently has no way of giving up root privs! Instead, the current default port is 9090.
-
-
-
-
-METHODS [IMAGES/METHODS.GIF]
-
-o [images/green-ball.gif] main
-
-
- public static void main(String args[])
-
-
-Main routine, if you want to run this directly as an application.
-
-
-
-o [images/red-ball.gif] addServlet
-
-
- public void addServlet(String urlPat,
-                        String className)
-
-
-Register a Servlet by class name. Registration consists of a URL pattern, which can contain wildcards, and the class name of the Servlet to launch
-when a matching URL comes in. Patterns are checked for matches in the order they were added, and only the first match is run.
-
-
-
-o [images/red-ball.gif] addServlet
-
-
- public void addServlet(String urlPat,
-                        ServletAcme.Serve.servlet.Servlet.html#_top_ servlet)
-
-
-Register a Servlet. Registration consists of a URL pattern, which can contain wildcards, and the Servlet to launch when a matching URL comes in.
-Patterns are checked for matches in the order they were added, and only the first match is run.
-
-
-
-o [images/red-ball.gif] addDefaultServlets
-
-
- public void addDefaultServlets(boolean cgi)
-
-
-Register a standard set of Servlets. These will return files or directory listings, and run CGI programs, much like a standard HTTP server.
-
-Because of the pattern checking order, this should be called after you've added any custom Servlets.
-
-The current set of default servlet mappings:
-
- * If enabled, *.cgi goes to CgiServlet, and gets run as a CGI program.
- * * goes to FileServlet, and gets served up as a file or directory.
-
-Parameters: cgi - whether to run CGI programs
-
-o [images/red-ball.gif] addDefaultServlets
-
-
- public void addDefaultServlets(boolean cgi,
-                                String throttles) throws IOException
-
-
-Register a standard set of Servlets, with throttles.
-
-Parameters: cgi - whether to run CGI programs throttles - filename to read FileServlet throttle settings from
-
-o [images/red-ball.gif] serve
-
-
- public void serve()
-
-
-Run the server. Returns only on errors.
-
-
-
-o [images/red-ball.gif] getServlet
-
-
- public ServletAcme.Serve.servlet.Servlet.html#_top_ getServlet(String name)
-
-
-Gets a servlet by name.
-
-Parameters: name - the servlet name Returns: null if the servlet does not exist
-
-o [images/red-ball.gif] getServlets
-
-
- public Enumeration getServlets()
-
-
-Enumerates the servlets in this context (server). Only servlets that are accesible will be returned. This enumeration always includes the servlet
-itself.
-
-
-
-o [images/red-ball.gif] getServletNames
-
-
- public Enumeration getServletNames()
-
-
-Enumerates the names of the servlets in this context (server). Only servlets that are accesible will be returned. This enumeration always includes the
-servlet itself.
-
-
-
-o [images/red-ball.gif] destroyAllServlets
-
-
- public void destroyAllServlets()
-
-
-Destroys all currently-loaded servlets.
-
-
-
-o [images/red-ball.gif] log
-
-
- public void log(String message)
-
-
-Write information to the servlet log.
-
-Parameters: message - the message to log
-
-o [images/red-ball.gif] log
-
-
- public void log(Exception exception,
-                 String message)
-
-
-Write a stack trace to the servlet log.
-
-Parameters: exception - where to get the stack trace message - the message to log
-
-o [images/red-ball.gif] getRealPath
-
-
- public String getRealPath(String path)
-
-
-Applies alias rules to the specified virtual path and returns the corresponding real path. It returns null if the translation cannot be performed.
-
-Parameters: path - the path to be translated
-
-o [images/red-ball.gif] getMimeType
-
-
- public String getMimeType(String file)
-
-
-Returns the MIME type of the specified file.
-
-Parameters: file - file name whose MIME type is required
-
-o [images/red-ball.gif] getServerInfo
-
-
- public String getServerInfo()
-
-
-Returns the name and version of the web server under which the servlet is running. Same as the CGI variable SERVER_SOFTWARE.
-
-
-
-o [images/red-ball.gif] getAttribute
-
-
- public Object getAttribute(String name)
-
-
-Returns the value of the named attribute of the network service, or null if the attribute does not exist. This method allows access to additional
-information about the service, not already provided by the other methods in this interface.
-
-
+CALENDAR
+
+[View source code. [acme.calendar.js]] [View example. [acme.calendar.html]]
+
+This is a simple calendar widget. It puts a calendar onto your page in an HTML element you specify. When the user selects a date, the widget calls
+your callback routine.
+
+Using Calendar is very easy.
+
+ 1. In your HTML, make an element for the calendar to appear in:
+    
+    > <div id="calendar"></div>
+    >       
+
+ 2. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.utils.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.calendar.jsm" type="text/javascript"></script>
+    >       
+
+ 3. Declare your callback routine:
+    
+    > function Callback( day, month, year )
+    >     {  
+    >     alert( day + '-' + MonthName( month ) + '-' + year ); 
+    >     }
+    >       
+
+ 4. Create the calendar widget, passing it the HTML element and the callback:
+    
+    > acme.calendar.MakeCalendarCurrent( document.getElementById( 'calendar' ), Callback );
+    >       
+
+That's it! Everything else happens automatically.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
+CLUSTERER
 
-All Packagespackages.html  Class Hierarchytree.html  This PackagePackage-Acme.Serve.html  PreviousAcme.Serve.SampleServlet.html#_top_  NextAcme.Serve.ServeUtils.html#_top_  IndexAllNames.html
+[View source code. [Clusterer2.js]] [View example. [//acme.com/jef/hotsprings/]]
+
+This object is an add-on for the Google Maps API [http://www.google.com/apis/maps/]. It lets you handle large numbers of markers, thousands if you
+like, without the slow performance you'd get if you tried displaying them via the maps API directly. Clusterer uses two techniques to accomplish this:
+
+ * Only the markers currently visible actually get created.
+ * If too many markers would be visible, then they are grouped together into cluster markers.
+
+Using Clusterer is very easy.
+
+ 1. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/Clusterer2.jsm" type="text/javascript"></script>
+    >       
+    
+    (If your map is still using API v1, use Clusterer1.jsm instead.)
+
+ 2. Create a Clusterer object, passing it your map object:
+    
+    > var clusterer = new Clusterer(map);
+    >       
+
+ 3. Wherever you now do map.addOverlay(marker), instead call clusterer.AddMarker(marker, title). The title is just a short descriptive string to use
+    in the cluster info-boxes.
+
+ 4. If you are doing any map.removeOverlay(marker) calls, change those to clusterer.RemoveMarker(marker).
+
+That's it! Everything else happens automatically.
+
+There are also a few routines to change the default behavior:
+
+ 1. If you don't like the default large blue cluster icon, you can call clusterer.SetIcon(icon) to change it.
+ 2. clusterer.SetMaxVisibleMarkers(n) lets you change the threshold marker count where clustering kicks in. The default is 150 markers.
+ 3. clusterer.SetMinMarkersPerCluster(n) sets the minumum number of markers for a cluster. The default is five.
+ 4. clusterer.SetMaxLinesPerInfoBox(n) sets the maximum number of lines in an info box. The default is ten, but if your map is small this may be too
+    many.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-ACME Javahttp://www.acme.com/java/  ACME Labshttp://www.acme.com/
+COLORPICKER
 
-[/mailto/wa.gif] [/mailto/?id=wa]
+[View source code. [acme.colorpicker.js]] [View example. [acme.colorpicker.html]]
+
+This is a simple color-picker widget. It adds a little icon to your page in an HTML element you specify. Clicking on it brings up the picker. Clicking
+on that calls your callback routine.
+
+Using ColorPicker is very easy.
+
+ 1. In your HTML, make an element for the calendar to appear in:
+    
+    > <div id="colorPicker"></div>
+    >       
+
+ 2. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.utils.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.keynav.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.colorpicker.jsm" type="text/javascript"></script>
+    >       
+
+ 3. Declare your callback routine:
+    
+    > function Callback( color )
+    >     {  
+    >     alert( color ); 
+    >     }
+    >       
+
+ 4. Create the color-picker icon, passing it the HTML element and the callback:
+    
+    > acme.colorpicker.MakeColorPicker( document.getElementById( 'colorPicker' ), Callback );
+    >       
+
+That's it! Everything else happens automatically.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+EDITINPLACE
+
+[View source code. [acme.editinplace.js]] [View example. [acme.editinplace.html]]
+
+This object lets you make any text on the page editable. The user clicks on it and it turns into an input field, with Save and Cancel buttons. If the
+Save button gets clicked then the text is changed and you get a callback notifying you.
+
+Using EditInPlace is very easy.
+
+ 1. In your HTML, put the text you want to make editable into an identifiable HTML element. You can use an id, a name, or whatever identification
+    method you like. For example:
+    
+    > <div id="text">Here is the text.</div>
+    >       
+    
+    The element should have only text inside it, not other HTML elements.
+
+ 2. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.editinplace.jsm" type="text/javascript"></script>
+    >       
+
+ 3. Find the element you want to edit. For example, if you specified an id in the HTML then you could say:
+    
+    > var element = document.getElementById( 'text' );
+    >       
+
+ 4. Create an EditInPlace object, passing it the HTML element, the number of lines and columns you want in the editable field, and a callback
+    function:
+    
+    > var eip = new acme.editinplace.EditInPlace( element, lines, columns, callback );
+    >       
+    
+    If lines is one you get a text input field for editing; if lines is greater than one you get a textarea.
+
+ 5. The callback will probably a closure that you create, that knows which element it is getting called on. For example you might say:
+    
+    > function () { RealCallback( element ); }
+    >       
+    
+    That creates a closure that calls the real callback with the text element as argument.
+    
+    When the callback is called, the contents of the text element have already been changed to the new value. If you don't need to do anything else,
+    feel free to pass null as the callback.
+
+That's it! Everything else happens automatically.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MENU
+
+[View source code. [acme.menu.js]] [View example. [acme.menu.html]]
+
+This is a simple menu widget. You can add it to any other element on your page, and then add menu items into the menu. When the user opens the menu
+and clicks on an item, a callback routine gets called.
+
+Using Menu is very easy.
+
+ 1. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.utils.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.menu.jsm" type="text/javascript"></script>
+    >       
+
+ 2. Add the menu where you want it:
+    
+    > var menu = acme.menu.AppendMenu( container, null );
+    >       
+    
+    The optional second argument is any properties you want added to the menu icon.
+
+ 3. Add menu items to the menu:
+    
+    > acme.menu.AppendMenuItem( menu, Callback1, { innerHTML: 'Item 1' } );
+    > acme.menu.AppendMenuItem( menu, Callback2, { innerHTML: 'Item 2', style: { backgroundColor: 'red' } } );
+    > acme.menu.AppendMenuItem( menu, Callback3, { innerHTML: 'Item 3' } );
+    >       
+    
+    Here again the last argument is properties to be added to the new menu item. Setting the innerHTML property is how you put a name on the item. You
+    can also set CSS style properties with a nested object.
+
+And that's about it!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+OVERLAYMESSAGE
+
+[View source code. [acme.overlaymessage.js]] [View example. [acme.overlaymessage.html]]
+
+This object lets you display a semi-transparent message box over another HTML element. For instance you could use it to display a progress message
+while loading a Google Map. It's not specific to Google Maps, though - you can use it on anything.
+
+Using OverlayMessage is very easy.
+
+ 1. In your HTML, make an element for the message to appear over. Give it whatever style attributes you like:
+    
+    > <div id="container" style="width: 100%; height: 7in;"></div>
+    >       
+
+ 2. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.overlaymessage.jsm" type="text/javascript"></script>
+    >       
+
+ 3. Create an OverlayMessage object, passing it the HTML element:
+    
+    > var om = new acme.overlaymessage.OverlayMessage(document.getElementById('container'));
+    >       
+
+ 4. Call the Set method when you want a message to appear:
+    
+    > om.Set('Loading...');
+    >       
+
+ 5. Call the Clear method when you want the message to go away:
+    
+    > om.Clear();
+    >       
+
+That's it! Everything else happens automatically. You continue to use the container element in your own code, it does not get modified.
+
+You can also change the colors used, if you don't like the defaults:
+
+> om.SetBackgroundColor( color );
+> om.SetBorderColor( color );
+>   
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+REFERENCES
+
+[View source code. [acme.references.js]] [View example. [acme.references.html]]
+
+This object lets you add Wikipedia-style references / footnotes to an HTML page.
+
+Using References is very easy.
+
+ 1. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.utils.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.references.jsm" type="text/javascript"></script>
+    >       
+
+ 2. Add <ref>text</ref> elements to your HTML.
+
+ 3. Add one <references></references> element to your HTML where you want the footnotes to appear.
+
+That's it! Everything else happens automatically. If you prefer valid HTML over good-looking HTML, you can also use <span class="ref"> and <span
+class="references">. Either will work, and you can use any element, not just <span>.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BLINK
+
+[View source code. [acme.blink.js]] [View example. [acme.blink.html]]
+
+This object lets you use the <blink> tag again, even though browsers no longer support it directly.
+
+Using Blink is very easy.
+
+ 1. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.blink.jsm" type="text/javascript"></script>
+    >       
+
+ 2. Add <blink>text</blink> elements to your HTML. Or, if you want your page to pass validation, use <span class="blink">text</span> instead. Either
+    will work, and you can use any element, not just <span>.
+
+ 3. Optional step three, if you want to change the blink pattern: Call acme.blink.SetPattern( [ on, off ] ); On and off should be numbers in
+    milliseconds saying how long the blinking elements should be on and off. The default pattern is [500, 250] meaning on for 500 msec and off for 250
+    msec. You can specify more than two numbers if you want more complicated patterns.
+
+That's it! Everything else happens automatically. If you prefer valid HTML over good-looking HTML, you can also use <span class="blink">. Either will
+work, and you can use any element, not just <span>.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SUGGESTIONS
+
+[View source code. [acme.suggestions.js]] [View example. [acme.suggestions.html]]
+
+This is a popup suggestions menu. It attaches a menu to an HTML element you specify, generally an <input type="text"> element. When the user selects a
+menu item, the widget calls your callback routine.
+
+Using Suggestions is easy.
+
+ 1. In your HTML, choose the element that you want the menu to be attached to:
+    
+    > <input id="input" autocomplete="off" type="text" onchange="Suggest();" onkeyup="Suggest();" onfocus="Suggest();">
+    >       
+
+ 2. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.utils.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.suggestions.jsm" type="text/javascript"></script>
+    >       
+
+ 3. Any time the input field changes, compute a new list of suggestions strings and create the menu.
+    
+    > var inputElement = document.getElementById( 'input' );
+    > 
+    > function Suggest()
+    >     {  
+    >     var strs = [ ... ];
+    >     acme.suggestions.Make( inputElement, strs, Callback );
+    >     }
+    >       
+
+ 4. Declare your callback routine:
+    
+    > function Callback( str )
+    >     {  
+    >     inputElement.value = str;
+    >     }
+    >       
+
+ 5. If you want the menu to disappear, you can call acme.suggestions.Clear( inputElement ).
+
+That's it! Everything else happens automatically.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TABS
+
+[View source code. [acme.tabs.js]] [View example. [acme.tabs.html]]
+
+This object lets you put up a set of tabbed panes.
+
+Using Tabs is very easy.
+
+ 1. In your HTML, make an element for the tabs to appear in:
+    
+    > <div id="tabs"></div>
+    >       
+
+ 2. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.tabs.jsm" type="text/javascript"></script>
+    >       
+
+ 3. Create a Tabs object, passing it the HTML element:
+    
+    > var tabs = new acme.tabs.Tabs(document.getElementById('tabs'));
+    >       
+
+ 4. Call the Add method for each pane you want to add. The arguments are the name of the tab, and a routine to call when the tab gets activated:
+    
+    > tabs.Add('Tab One', TabOneActivate);
+    >       
+
+ 5. Declare the tab activation routines. They get passed the HTML element where the pane should go. The first time each routine is called, it should
+    create the pane's contents:
+    
+    > function TabOneActivate(paneElement)
+    >     {
+    >     if ( paneElement.innerHTML == '' )
+    >         paneElement.innerHTML = 'This is tab one.'
+    >     }
+    >       
+
+That's it! Everything else happens automatically.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+KEYNAV
+
+[View source code. [acme.keynav.js]]
+
+This is a simple package that lets you register handlers for keyboard events. It really doesn't do much. It's useful mainly for encapsulating
+knowledge of what event handler to register and what property of the event to look at. Rather than having N different programs know about that stuff,
+only this package has to know.
+
+Using KeyNav is very easy.
+
+ 1. Load the routines into your code:
+    
+    > <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+    > <script src="//acme.com/javascript/acme.keynav.jsm" type="text/javascript"></script>
+    >       
+
+ 2. Register callbacks for the keyCodes you want to handle:
+    
+    > acme.keynav.KeyDown( keyCode, callback );
+    > acme.keynav.KeyUp( keyCode, callback );
+    >       
+
+ 3. The package defines a few keyCodes you can use, or you can find them for yourself using e.g. HTML Events [http://acme.com/javascript/events.html].
+    Put your pointer in the tan area, press the key, and look for the "keydown" or "keyup" event. The number you want is called "which". Some of the
+    keyCodes are just the key's ASCII value, but others are not, so use the events page to check.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] Back to ACME Labs [/].
+
+email [/mailto/wa.gif] [/mailto/?id=wa]

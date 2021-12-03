@@ -1,15 +1,54 @@
-UNICODE CHARACTERS
+ATOM [/RESOURCES/IMAGES/ATOM_ANI.GIF] ACME COMMENTS WEBLET
+
+WHAT IT IS
+
+This little doohickey lets you add a commenting facility to any of your web pages. I wrote it to use on my own pages, but it's general enough to work
+for anyone. You don't have to run any special weblogging software to have commenting, you can just outsource it.
+
+When you set it up, you get a link on your page saying how many comments there are. If someone clicks on the link, they see the comments and get a
+form where they can enter a new comment. And if you have your email address on your page, then whenever someone enters a comment you get notification
+by mail.
+
+TRY IT
+
+Here's an example, for commenting on this page:
 
 
+HOW TO USE IT
+
+It's real easy. First add this HTML code to your page, to load the routines:
+
+> <script src="//acme.com/javascript/acme.namespace.jsm" type="text/javascript"></script>
+> <script src="//acme.com/javascript/acme.utils.jsm" type="text/javascript"></script>
+> <script src="//acme.com/comments/acme.comments.jsm" type="text/javascript"></script>
+>     
+
+Then, where you want the comments link to appear, add this HTML:
+
+> <comments></comments>
+>     
+
+That's it! Everything else happens automatically. If you prefer valid HTML over good-looking HTML, you can also use <span class="comments">. Either
+will work, and you can use any element, not just <span>. Also, if you want to refer to comments on another page, you can add a url="" attribute. This
+is unusual, typically you just let it figure out the URL by itself.
+
+QUESTIONS
+
+I don't want the emailed notifications, can I turn them off for me? Well, you could take your address off the page. Aside from that, no, sorry. Maybe
+I'll add a customization settings page later. For now I guess you could use a spam filter to get rid of the messages. I do want the emailed
+notifications, but I'm not getting them; why not? Maybe your email address on the page is not in the proper HTML format? It should be something like
+this:
+
+<address><a href="mailto:someone@some.where">Your Name Here</a></address>
+
+The key parts are "address", "href", and "mailto". Can I delete comments? No. Again, maybe I'll add that later. Is there any security on the names and
+email addresses? Nope. Anyone can pretend they are you. You can give a fake name and address, or none at all if you like. Don't believe anything you
+see here. Or anywhere else on the net, for that matter. Hey, it remembered my name and email from last time. Are you cookieing me??? You bet. This is
+exactly the kind of thing that cookies are supposed to be used for. What the heck is a weblet? I needed a name for a little web application that gets
+embedded in another page. I googled for 'weblet' and people were using the term, but not in any consistent way. So I decided to use it for this. Some
+people also call them 'pagelets', but I don't like that because the word looks ugly, plus there's more going on here than just a page.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer] Unicode Transformations [transformations.html]
-Unicode Decoder [decode.html]
-Official list of blocks [http://www.unicode.org/Public/UNIDATA/Blocks.txt]
-Shapecatcher [http://shapecatcher.com/]
-Unicode Table [https://thisisaaronland.github.io/unicode-table/]
-ACME Labs [/] / Unicode Characters
-
-
+valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [../] / Comments Weblet
 email [/mailto/wa.gif] [/mailto/?id=wa]

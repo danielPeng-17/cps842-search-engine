@@ -1,62 +1,35 @@
-face [face7.jpg]
+LOGO [/RESOURCES/IMAGES/ATOM_ANI.GIF] WEB API DEMONSTRATIONS
 
+Currently, if you're a software developer and want to create an app, you have to write the same program multiple times. Once for Android, once for
+iOS, maybe once in Chrome (although it looks like ChromeOS will be able to run Android apps soon), and once in HTML for desktop dinosaurs like me.
+Lots of developers skip that last one, locking desktop users out of their product. This situation profoundly annoys me, and I assume it annoys lots of
+other folks too. Not just being unable to use an app if the developer didn't bother with my platform, but as a developer myself I find the redundant
+effort offensive.
 
-JEF POSKANZER'S WEB PAGE
+Over the years lots of folks have attempted "write once, run anywhere" technology. None of the attempts have succeeded - obviously, since we're still
+writing the same app multiple times. Well guess what, it's time to make another run at this goal. The technology this time is: HTML/CSS/JavaScript.
+This combo has been around for a while, and works well but is limited. So why do I think it has a shot at replacing native apps? Because of Web APIs.
 
-I'm available for consulting; see my business page [//acme.com/] for details. This page is for personal stuff.
+The W3C has been defining a lot of new APIs for use in web pages. You can see a list of all the APIs here: https://www.w3.org/standards/techs/js
+[https://www.w3.org/standards/techs/js]. I made a few pages to demonstrate some of the APIs. They are directly applicable to writing web apps.
 
-Born: 1958, New York City
-Raised: Bellport [http://www.bellport.com/] Long Island [http://www.fordyce.org/long_island/], Berkeley [http://www.ci.berkeley.ca.us/], Paris
-[http://www.paris.org/]
-Calling in life: software engineering
-Housemates: just a few semi-feral cats [photos/2004_kitties/]
-Alignment: chaotic/neutral-good
-Favorite music: surf instrumentals [surf.html], and covers [http://www.devilmedia.com/covers.htm]
+ * Cryptography [crypto.html]
+ * Geolocation [geolocation.html]
+ * Media Capture [media_capture.html]
+ * Notification [notification.html]
+ * Page Visibility [visibility.html]
+ * Vibration [vibration.html]
 
+Draft APIs, probably not available yet:
 
-tripping hazard [/resources/triphazard.gif] Some fun and/or useful pages:
+ * Accelerometer Sensor [accelerometer.html]
+ * Ambient Light Sensor [ambientlight.html]
+ * Gyroscope Sensor [gyroscope.html]
+ * Magnetometer Sensor [magnetometer.html]
 
- * Berkeley creeks [creeks/].
- * Nike missiles [nike/].
- * Golden Gate Sunsets [ggs/].
- * Some river flow data [flow/].
- * flickr [fotostuff/flickr_thumbs/jef.JPG] [https://www.flickr.com/photos_user.gne?path=jef&details=1] My photography [photos/], including:
-   * friends & family [photos/friends_family.html], macro [photos/macro.html], industrial archaeology [photos/archaeology.html], metal
-     [photos/metal.html], deserts & cacti [photos/deserts_cacti.html], hiking [photos/hiking.html], camping [photos/camping.html], biking
-     [photos/biking.html], beaches [photos/beaches.html], hot springs [photos/hotsprings.html], whitewater [photos/whitewater.html], ultraviolet light
-     [photos/blacklight.html], crafts [photos/crafts.html], cats [photos/cats.html], trains [photos/trains.html], Bevatron [photos/bevatron.html],
-     burningman [photos/burningman.html], Red Oak Victory [photos/red_oak_victory.html], Bulb [photos/bulb.html]
-   
- * Singing Science records [singing_science/].
- * Bay Area weather [weather/].
- * Spare The Air Days [spare/].
- * Urbanist Manifesto [urbanist.html].
- * Astronomy Picture of the Day RSS feed [apod/].
-   
- * Jef's Mostly Mellow Mix [mix/].
- * Room 641A [room641a/].
- * I am a Twit. [https://twitter.com/jefposk]
- * Identifying scars and marks. [scars.html]
- * The Poskanzer Family Tree [http://lisa.poskanzer.org/PoskanzerTree/].
- * My mom's Berkeley [http://www-rnc.lbl.gov/Restaurants/] and Oakland [http://www-rnc.lbl.gov/RestOak/] restaurant guides.
- * The Under Construction Page. [construction/]
- * Sixth grade [sixth/].
- * Reviews [reviews/] of stuff I like.
- * My collection of net gems [netgems/].
- * My Universal Life Church ordination certificate [ulc/].
- * eyeNET [http://www.eye.net/] reveals that I am Santa Claus [eyenet1222.htm].
-   
- * Recommendations for California's November 2020 propositions [propositions/].
- * Religion and sexual ethics chart [religion_sex/].
- * Collected links to the Jon Carroll Xmas Quizzes [jrc_quiz/].
- * Nutrition Facts [nutrition.html].
- * My friends xyzzy23 [../xyzzy23/], plugh4711 [../plugh4711/], plover42 [../plover42/], and frobozz07 [../frobozz07/].
-
-"Long live freedom, and damn the ideologies!" -- Robinson Jeffers
+You are welcome to View Source and copy code.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
-valid HTML [/resources/images/valid-html401-gold.png] [https://validator.w3.org/check?uri=referer]
-
-ACME Labs main page [/].
+valid XHTML [/resources/images/valid-xhtml10-gold.png] [https://validator.w3.org/check?uri=referer] ACME Labs [/] / Web APIs
 email [/mailto/j.gif] [/mailto/?id=j]

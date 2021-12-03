@@ -1,44 +1,400 @@
-POLICY
-
-This outlines the policy of the W3 project [TheProject.html] at CERN. Whilst not legally binding, this attempts to explain my understanding of the
-CERN rules and the desires of the team at CERN.
+Skip to main content
+Search
 
 
-AIM
-
-The basic aim of the project is to promote communication and information availability for the High Energy Physics (HEP) community. The project is
-based at CERN, whose budget is provided by contributions of taxpayer's money from the European member states. It is in the interests of HEP, CERN, and
-the project itself that it should interwork with systems and information in many other fields, and so active collaboration with other groups is
-essential. To produce an information system isolating HEP from the rest of the world would be counter-productive, so the aim can be seen as furthering
-a global web of information.
-
-The WWW team are all enthusiastic that information of all types should be available as widely as possible.
+SEARCH THIS BLOG
 
 
-COLLABORATION
-
-We encourage collaboration by academic or commercial parties. There are always many things to be done, ports to be made to different environments, new
-browsers to be written, and additional data to be incorporated into the "web". There have already been many contributions in these terms, and also
-with hardware support from manufacturers.
-
-If you may be interested in extending the web or the software, please mail or phone us.
 
 
-CODE DISTRIBUTION
+STEVE'S COOKING
 
-Code written at CERN is covered by the CERN copyright. In practice the interpretation of this in the case of the W3 project is that the programs are
-freely available to academic bodies. To commercial organizations who are not reselling it, but are using it to participate in global information
-exchange, the charge is generally waived in order to cut administrative costs. Code is of course shared freely with all collaborators. Commercial
-organizations wishing to sell software based on W3 code should contact CERN.
-
-We are in the process of getting agreement to release certain parts of the WWW project code with the General Public License (and GP Library License).
-
-Where CERN code is included in otherwise public domain code, that CERN code becomes also public domain.
-
-Code not originating at CERN is of course covered by terms set by the copyright holder involved.
+Love restaurant food? Want to save money and calories? Make restaurant quality food in your own home!! Steve can help!!
 
 
-PROTOCOLS AND DATA FORMATS
 
-The definition of protocols such as HTTP [Protocols/HTTP/AsImplemented.html] and data formats such as HTML [MarkUp/MarkUp.html] are in the public
-domain and may be freely used by anyone. Tim BL [http://info.cern.ch./hypertext/TBL_Disclaimer.html]
+
+
+POSTS
+
+
+FEATURED
+
+
+http://stevescooking.blogspot.com/2018/12/air-fryer-salmon-with-brussels-sprouts.html
+December 18, 2018 [http://stevescooking.blogspot.com/2018/12/air-fryer-salmon-with-brussels-sprouts.html]
+
+
+AIR FRYER SALMON WITH BRUSSELS SPROUTS, POMEGRANATE AND WASABI VINAIGRETTE BY STEVEN DOLBY
+[http://stevescooking.blogspot.com/2018/12/air-fryer-salmon-with-brussels-sprouts.html]
+
+Serves 2-3 people SALAD 240g Brussels sprouts (thinly sliced) 2 Medium shallots (thinly sliced) 1/2 Cup pistachio nuts 7g Basil leaves 30g Watercress
+(tough stems trimmed) ½ Cup pomegranate seeds Salt (to taste) Wasabi Vinaigrette 1 Cup olive oil 1 Tsp dijon mustard 1/3 Cup apple cider vinegar 2
+Tbsp sugar 1 Tbsp wasabi paste Salt & pepper (to taste) Wet rub for salmon 1 Tbsp sesame oil 1 Tsp Chinese Five Spice Other ingredients 8 oz Salmon
+fillets ©  STEVEN DOLBY Watch video for method
+http://stevescooking.blogspot.com/2018/12/air-fryer-salmon-with-brussels-sprouts.html
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2018/12/air-fryer-salmon-with-brussels-sprouts.html#comments]
+Read more [http://stevescooking.blogspot.com/2018/12/air-fryer-salmon-with-brussels-sprouts.html#more]
+
+
+
+LATEST POSTS
+
+Image [https://3.bp.blogspot.com/-Ucw_3ak8wIo/W-29QTliNQI/AAAAAAAACo8/5n8S_smBsKoAsPwGMerPXu-PNn-1X1CiQCLcBGAs/s320/butcher%2B2.jpg]
+[http://stevescooking.blogspot.com/2018/11/wild-alaskan-sockeye-salmon-with.html]
+November 15, 2018 [http://stevescooking.blogspot.com/2018/11/wild-alaskan-sockeye-salmon-with.html]
+
+
+WILD ALASKAN SOCKEYE SALMON WITH CHICKPEAS IN A TOMATO TARRAGON COCONUT SAUCE, JASMINE RICE & LEMON YOGURT BY STEVEN DOLBY
+[http://stevescooking.blogspot.com/2018/11/wild-alaskan-sockeye-salmon-with.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2018/11/wild-alaskan-sockeye-salmon-with.html#comments]
+Image [https://1.bp.blogspot.com/-ergoWddBGFQ/W9dYqMKkIXI/AAAAAAAACos/W0yPlfvlhEAjNrqgOq-ols9-Gz91SgGYACLcBGAs/s320/shrimp%2B2.jpg]
+[http://stevescooking.blogspot.com/2018/10/bucatini-with-shrimp-smoky-roasted.html]
+October 29, 2018 [http://stevescooking.blogspot.com/2018/10/bucatini-with-shrimp-smoky-roasted.html]
+
+
+BUCATINI WITH SHRIMP, SMOKY ROASTED SWEET POTATOES & BABY KALE BY STEVEN DOLBY
+[http://stevescooking.blogspot.com/2018/10/bucatini-with-shrimp-smoky-roasted.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2018/10/bucatini-with-shrimp-smoky-roasted.html#comments]
+Image
+[https://2.bp.blogspot.com/-47wrseVmaRo/WVAUWBkXSYI/AAAAAAAAClQ/o6Yn1aQAP_omA8xd8VbJd7jMK3omsX-pACLcBGAs/s320/18836975_1443203592408950_171082932788354866_o.jpg]
+[http://stevescooking.blogspot.com/2017/06/pickled-shrimp-by-steven-dolby.html]
+June 25, 2017 [http://stevescooking.blogspot.com/2017/06/pickled-shrimp-by-steven-dolby.html]
+
+
+PICKLED SHRIMP BY STEVEN DOLBY [http://stevescooking.blogspot.com/2017/06/pickled-shrimp-by-steven-dolby.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2017/06/pickled-shrimp-by-steven-dolby.html#comments]
+Image
+[https://3.bp.blogspot.com/--CZinspOaeU/WR7k-aMzc7I/AAAAAAAACks/PD51YhzdIJwdHxVeSR-fLW-T4rRhh0RPgCLcB/s320/18238832_1419441268118516_2676808148236565388_o.jpg]
+[http://stevescooking.blogspot.com/2017/05/mustard-glazed-turkey-with-roasted.html]
+May 19, 2017 [http://stevescooking.blogspot.com/2017/05/mustard-glazed-turkey-with-roasted.html]
+
+
+MUSTARD GLAZED TURKEY WITH ROASTED GARLIC AIOLI BY STEVEN DOLBY [http://stevescooking.blogspot.com/2017/05/mustard-glazed-turkey-with-roasted.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2017/05/mustard-glazed-turkey-with-roasted.html#comments]
+
+Image
+[https://2.bp.blogspot.com/-gkUY3XqU47E/WPDO6e8y6gI/AAAAAAAACkQ/uEy3FQ_kmqAZuorPHvvF5e_f2qiueK_WgCLcB/s320/17880190_1388877614508215_2449046674075921961_o.jpg]
+[http://stevescooking.blogspot.com/2017/04/pan-fried-scallops-with-rutabaga.html]
+April 14, 2017 [http://stevescooking.blogspot.com/2017/04/pan-fried-scallops-with-rutabaga.html]
+
+
+PAN-FRIED SCALLOPS WITH RUTABAGA FONDANT AND PEA PUREE BY STEVEN DOLBY
+[http://stevescooking.blogspot.com/2017/04/pan-fried-scallops-with-rutabaga.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2017/04/pan-fried-scallops-with-rutabaga.html#comments]
+Image
+[https://1.bp.blogspot.com/-dSOkB-JOSk8/WLly6ohKpDI/AAAAAAAACj0/i20Fbzd6pJMbrYjB-ttHWVOyxgZ64ijmgCLcB/s320/15540747_1347165292012781_650760404005304525_o.jpg]
+[http://stevescooking.blogspot.com/2017/03/black-blue-mac-cheese-by-steve-dolby.html]
+March 03, 2017 [http://stevescooking.blogspot.com/2017/03/black-blue-mac-cheese-by-steve-dolby.html]
+
+
+BLACK & BLUE MAC & CHEESE BY STEVE DOLBY [http://stevescooking.blogspot.com/2017/03/black-blue-mac-cheese-by-steve-dolby.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2017/03/black-blue-mac-cheese-by-steve-dolby.html#comments]
+Image
+[https://2.bp.blogspot.com/-ihNRAnzio1o/WJj6dT8TOUI/AAAAAAAACjg/ToWWpPurP1AXzApvwCj9k9sN4-bljOOhwCLcB/s320/16422728_1325838754145435_3781744447692309312_o.jpg]
+[http://stevescooking.blogspot.com/2017/02/pork-chop-with-saffron-white-bean-stew.html]
+February 06, 2017 [http://stevescooking.blogspot.com/2017/02/pork-chop-with-saffron-white-bean-stew.html]
+
+
+PORK CHOP WITH SAFFRON WHITE BEAN STEW BY STEVEN DOLBY [http://stevescooking.blogspot.com/2017/02/pork-chop-with-saffron-white-bean-stew.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2017/02/pork-chop-with-saffron-white-bean-stew.html#comments]
+Image
+[https://2.bp.blogspot.com/-k9yI-faM-Og/WIEUgJQ-KFI/AAAAAAAACjI/Y-o0CS0qvN4IVdVmbxMIn55L99lEljadACLcB/s320/15972674_1307151746014136_6290176413767015825_o.jpg]
+[http://stevescooking.blogspot.com/2017/01/pan-fried-arctic-char-with-tarragon.html]
+January 19, 2017 [http://stevescooking.blogspot.com/2017/01/pan-fried-arctic-char-with-tarragon.html]
+
+
+PAN-FRIED ARCTIC CHAR WITH TARRAGON CREAM SAUCE, CRISPY KALE & MUSHROOMS BY STEVEN DOLBY
+[http://stevescooking.blogspot.com/2017/01/pan-fried-arctic-char-with-tarragon.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2017/01/pan-fried-arctic-char-with-tarragon.html#comments]
+Image [https://1.bp.blogspot.com/-TBBk4L4SPcc/WAa1fHqwz5I/AAAAAAAACg0/VU-w68615MgwdKuP6KvRVdNv9AGjJd7cACLcB/s320/crab%2Bpap3.jpg]
+[http://stevescooking.blogspot.com/2016/10/fresh-pappardelle-with-crab-mussels-by.html]
+October 18, 2016 [http://stevescooking.blogspot.com/2016/10/fresh-pappardelle-with-crab-mussels-by.html]
+
+
+FRESH PAPPARDELLE WITH CRAB & MUSSELS BY STEVEN DOLBY [http://stevescooking.blogspot.com/2016/10/fresh-pappardelle-with-crab-mussels-by.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2016/10/fresh-pappardelle-with-crab-mussels-by.html#comments]
+Image
+[https://4.bp.blogspot.com/-W6kwBeTuQas/WAaozE5FHyI/AAAAAAAACgY/ZB74_1hb2sc1B5NPV2s54aaA5rs6TXn6wCLcB/s320/14556780_1196424207086891_9045837052502995088_o.jpg]
+[http://stevescooking.blogspot.com/2016/10/soft-boiled-eggs-with-butternut-squash.html]
+October 18, 2016 [http://stevescooking.blogspot.com/2016/10/soft-boiled-eggs-with-butternut-squash.html]
+
+
+SOFT BOILED EGGS WITH BUTTERNUT SQUASH & FENUGREEK SAUCE BY STEVEN DOLBY
+[http://stevescooking.blogspot.com/2016/10/soft-boiled-eggs-with-butternut-squash.html]
+
+Share
+ * Get link
+ * Facebook
+ * Twitter
+ * Pinterest
+ * Email
+ * Other Apps
+
+Post a Comment [http://stevescooking.blogspot.com/2016/10/soft-boiled-eggs-with-butternut-squash.html#comments]
+Older Posts [http://stevescooking.blogspot.com/search?updated-max=2016-10-18T16:40:00-07:00&max-results=11]
+Powered by Blogger [https://www.blogger.com]
+Theme images by Gintare Marcel [http://www.offset.com/photos/287216]
+© StevesCooking
+My photo [//4.bp.blogspot.com/-O25Pq5h1UP8/UqjKitzzMEI/AAAAAAAABuM/FU9noWlVGI4/s120-pf/steve%2Bcooking.jpg]
+[https://www.blogger.com/profile/01378393064356544683]
+Steve Dolby [https://www.blogger.com/profile/01378393064356544683] Steven Dolby was born in Rotherham, England 1974. Even from a young age Steven
+enjoyed artistic pursuits like creating original artwork and music. However he lacked even a basic knowledge of food and cooking techniques until he
+was 21 years old. At this stage his passion for all things culinary was ignited as he began to train with chefs in restaurants first in England, then
+around Europe. Steven has since moved to the united states and began to explore the cuisine of the Americas. His mentor won his first Michelin star in
+2012 he currently lives in Atlanta, GA with his wife. Steve Dolby has been cooking professionally in restaurants for 17 years. Visit profile
+[https://www.blogger.com/profile/01378393064356544683]
+
+
+ARCHIVE
+
+ * 2018 3 [http://stevescooking.blogspot.com/2018/]
+    * December 1 [http://stevescooking.blogspot.com/2018/12/]
+       * Air Fryer Salmon with Brussels Sprouts, Pomegranat... [http://stevescooking.blogspot.com/2018/12/air-fryer-salmon-with-brussels-sprouts.html]
+   
+    * November 1 [http://stevescooking.blogspot.com/2018/11/]
+      
+    * October 1 [http://stevescooking.blogspot.com/2018/10/]
+      
+
+ * 2017 6 [http://stevescooking.blogspot.com/2017/]
+    * June 1 [http://stevescooking.blogspot.com/2017/06/]
+      
+    * May 1 [http://stevescooking.blogspot.com/2017/05/]
+      
+    * April 1 [http://stevescooking.blogspot.com/2017/04/]
+      
+    * March 1 [http://stevescooking.blogspot.com/2017/03/]
+      
+    * February 1 [http://stevescooking.blogspot.com/2017/02/]
+      
+    * January 1 [http://stevescooking.blogspot.com/2017/01/]
+      
+
+ * 2016 19 [http://stevescooking.blogspot.com/2016/]
+    * October 2 [http://stevescooking.blogspot.com/2016/10/]
+      
+    * September 3 [http://stevescooking.blogspot.com/2016/09/]
+      
+    * August 2 [http://stevescooking.blogspot.com/2016/08/]
+      
+    * July 4 [http://stevescooking.blogspot.com/2016/07/]
+      
+    * June 2 [http://stevescooking.blogspot.com/2016/06/]
+      
+    * May 3 [http://stevescooking.blogspot.com/2016/05/]
+      
+    * April 1 [http://stevescooking.blogspot.com/2016/04/]
+      
+    * February 1 [http://stevescooking.blogspot.com/2016/02/]
+      
+    * January 1 [http://stevescooking.blogspot.com/2016/01/]
+      
+
+ * 2015 26 [http://stevescooking.blogspot.com/2015/]
+    * December 1 [http://stevescooking.blogspot.com/2015/12/]
+      
+    * November 2 [http://stevescooking.blogspot.com/2015/11/]
+      
+    * October 1 [http://stevescooking.blogspot.com/2015/10/]
+      
+    * September 1 [http://stevescooking.blogspot.com/2015/09/]
+      
+    * July 3 [http://stevescooking.blogspot.com/2015/07/]
+      
+    * June 2 [http://stevescooking.blogspot.com/2015/06/]
+      
+    * May 2 [http://stevescooking.blogspot.com/2015/05/]
+      
+    * April 3 [http://stevescooking.blogspot.com/2015/04/]
+      
+    * March 4 [http://stevescooking.blogspot.com/2015/03/]
+      
+    * February 3 [http://stevescooking.blogspot.com/2015/02/]
+      
+    * January 4 [http://stevescooking.blogspot.com/2015/01/]
+      
+
+ * 2014 45 [http://stevescooking.blogspot.com/2014/]
+    * December 2 [http://stevescooking.blogspot.com/2014/12/]
+      
+    * November 4 [http://stevescooking.blogspot.com/2014/11/]
+      
+    * October 2 [http://stevescooking.blogspot.com/2014/10/]
+      
+    * September 4 [http://stevescooking.blogspot.com/2014/09/]
+      
+    * August 5 [http://stevescooking.blogspot.com/2014/08/]
+      
+    * July 3 [http://stevescooking.blogspot.com/2014/07/]
+      
+    * June 3 [http://stevescooking.blogspot.com/2014/06/]
+      
+    * May 4 [http://stevescooking.blogspot.com/2014/05/]
+      
+    * April 5 [http://stevescooking.blogspot.com/2014/04/]
+      
+    * March 3 [http://stevescooking.blogspot.com/2014/03/]
+      
+    * February 5 [http://stevescooking.blogspot.com/2014/02/]
+      
+    * January 5 [http://stevescooking.blogspot.com/2014/01/]
+      
+
+ * 2013 54 [http://stevescooking.blogspot.com/2013/]
+    * December 5 [http://stevescooking.blogspot.com/2013/12/]
+      
+    * November 5 [http://stevescooking.blogspot.com/2013/11/]
+      
+    * October 4 [http://stevescooking.blogspot.com/2013/10/]
+      
+    * September 5 [http://stevescooking.blogspot.com/2013/09/]
+      
+    * August 5 [http://stevescooking.blogspot.com/2013/08/]
+      
+    * July 5 [http://stevescooking.blogspot.com/2013/07/]
+      
+    * June 5 [http://stevescooking.blogspot.com/2013/06/]
+      
+    * May 4 [http://stevescooking.blogspot.com/2013/05/]
+      
+    * April 5 [http://stevescooking.blogspot.com/2013/04/]
+      
+    * March 4 [http://stevescooking.blogspot.com/2013/03/]
+      
+    * February 4 [http://stevescooking.blogspot.com/2013/02/]
+      
+    * January 3 [http://stevescooking.blogspot.com/2013/01/]
+      
+
+ * 2012 57 [http://stevescooking.blogspot.com/2012/]
+    * December 2 [http://stevescooking.blogspot.com/2012/12/]
+      
+    * November 2 [http://stevescooking.blogspot.com/2012/11/]
+      
+    * October 6 [http://stevescooking.blogspot.com/2012/10/]
+      
+    * September 7 [http://stevescooking.blogspot.com/2012/09/]
+      
+    * August 3 [http://stevescooking.blogspot.com/2012/08/]
+      
+    * July 5 [http://stevescooking.blogspot.com/2012/07/]
+      
+    * June 4 [http://stevescooking.blogspot.com/2012/06/]
+      
+    * May 8 [http://stevescooking.blogspot.com/2012/05/]
+      
+    * April 5 [http://stevescooking.blogspot.com/2012/04/]
+      
+    * March 5 [http://stevescooking.blogspot.com/2012/03/]
+      
+    * February 4 [http://stevescooking.blogspot.com/2012/02/]
+      
+    * January 6 [http://stevescooking.blogspot.com/2012/01/]
+      
+
+ * 2011 23 [http://stevescooking.blogspot.com/2011/]
+    * December 3 [http://stevescooking.blogspot.com/2011/12/]
+      
+    * November 3 [http://stevescooking.blogspot.com/2011/11/]
+      
+    * October 4 [http://stevescooking.blogspot.com/2011/10/]
+      
+    * September 5 [http://stevescooking.blogspot.com/2011/09/]
+      
+    * August 8 [http://stevescooking.blogspot.com/2011/08/]
+      
+
+Show more Show less
+
+
+REPORT ABUSE [https://www.blogger.com/go/report-abuse]
