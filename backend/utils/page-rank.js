@@ -89,7 +89,26 @@ const createMatrixTwo = () => {
 // - each cell in 3rd matrix is x * (1 - alpha)
 
 const createMatrixThree = () => {
+    let adjacencyMatrix = createAdjacencyMatrix()
     let matrixTwo = createMatrixTwo();
+    let totalLinks = adjacencyMatrix.length;
+
+    let newMatrix = matrixTwo.map((value) => {
+        // all zero check
+        if (value.index(1) == (1/totalLinks)) {
+            let evenSplit = 1 / totalLinks
+            return value.map(x => x = evenSplit);
+        }
+        //need to test --- check values in adjacencyMatrix using the same index that matrixTwo is iterating thru
+        value.forEach((value) => {
+            if (value != 0 && value != 1/totalLinks){
+                //do something
+            } 
+        });
+
+
+    });
+    return newMatrix;
 }
 createMatrixThree();
 
@@ -98,6 +117,19 @@ createMatrixThree();
 // - If the entire row has only '0' values in Adjacency matrix, cell value remains the same as 2nd matrix
 // - otherwise each cell is calculated based on values from 3rd matrix: P + (alpha / totalNumOfLinks)
 
+const createMatrixFour = () => {
+    let matrixThree = createMatrixThree();
+    let totalLinks = adjacencyMatrix.length;
+
+    //need to test
+    let newMatrix = matrixThree.map((value) => {
+        //value in matrixThree + (alpha / N)
+        let newValue = value.index(1) + (alpha/totalLinks)
+        return value.map(x => x = newValue);
+    });    
+}
+
+//createMatrixFour();
 
 
 // Calculating probability x0, x1, ..., xi
@@ -108,7 +140,13 @@ createMatrixThree();
 // x3 = x2 * P = (0.107 0.522 0.118 0.253) times 4th matrix = (0.150 0.442 0.180 0.229)
 // x4 = x3 * P = etc...
 
+const createProbabilityVector = () => {
+    let matrixFour = createMatrixFour();
+    let probabilityVector = matrixFour[0];
 
+}
+
+//createProbablityVector();
 
 
 // Set Convergence to stop Probability calculations
