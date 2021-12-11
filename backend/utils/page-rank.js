@@ -102,7 +102,6 @@ const createMatrixThree = () => {
     });
     return newMatrix;
 }
-createMatrixThree();
 
 // 4) Conditions for building 4th matrix:
 // - denoting each cell from 3rd matrix as P
@@ -111,18 +110,17 @@ createMatrixThree();
 
 const createMatrixFour = () => {
     let matrixThree = createMatrixThree();
-    let totalLinks = adjacencyMatrix.length;
+    let totalLinks = matrixThree.length;
 
-    //need to test
-    let newMatrix = matrixThree.map((value) => {
-        //value in matrixThree + (alpha / N)
-        let newValue = value.index(1) + (alpha/totalLinks)
-        return value.map(x => x = newValue);
-    });    
+    let newMatrix = matrixThree.map((value, index) => {
+        // all zero check
+        if (allZeroRows.indexOf(index) >= 0) {
+            return value;
+        }
+        return value.map(x => x + (alpha / totalLinks));
+    });
+    return newMatrix;
 }
-
-//createMatrixFour();
-
 
 // Calculating probability x0, x1, ..., xi
 // start off example x0 = (1 0 0 0): the number of zeroes is based on (totalNumOfLinks - 1)
