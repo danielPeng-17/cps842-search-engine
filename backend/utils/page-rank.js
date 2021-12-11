@@ -91,7 +91,7 @@ const createMatrixTwo = () => {
 const createMatrixThree = () => {
     let matrixTwo = createMatrixTwo();
 }
-matrixThree();
+createMatrixThree();
 
 // 4) Conditions for building 4th matrix:
 // - denoting each cell from 3rd matrix as P
