@@ -4,6 +4,7 @@ const { forEach } = require('lodash');
 var alpha = 0.16 //other common alpha values also 0.01 and 0.10, 0.05
 var totalNumOfLinks = 4 // N value
 var countOfOnesPerRow = [] // Counting # of 1s per row on Adjacency Matrix
+var allZeroRows = [];
 
 // 1) Build Adjacency matrix based on link in links.txt and outlinks associated with links.txt
 /*var adjacencyMatrix =  [[0,1,1,1],
@@ -67,9 +68,10 @@ const createMatrixTwo = () => {
         // do some stuff and add to newMatrix
     // }
 
-    let newMatrix = adjacencyMatrix.map((value) => {
+    let newMatrix = adjacencyMatrix.map((value, index) => {
         //all zero check
         if (value.indexOf(1) == -1) {
+            allZeroRows.push(index)
             let evenSplit = 1 / totalLinks
             return value.map(x => x = evenSplit);
         }
@@ -89,24 +91,14 @@ const createMatrixTwo = () => {
 // - each cell in 3rd matrix is x * (1 - alpha)
 
 const createMatrixThree = () => {
-    let adjacencyMatrix = createAdjacencyMatrix()
     let matrixTwo = createMatrixTwo();
-    let totalLinks = adjacencyMatrix.length;
 
-    let newMatrix = matrixTwo.map((value) => {
+    let newMatrix = matrixTwo.map((value, index) => {
         // all zero check
-        if (value.index(1) == (1/totalLinks)) {
-            let evenSplit = 1 / totalLinks
-            return value.map(x => x = evenSplit);
+        if (allZeroRows.indexOf(index) >= 0) {
+            return value;
         }
-        //need to test --- check values in adjacencyMatrix using the same index that matrixTwo is iterating thru
-        value.forEach((value) => {
-            if (value != 0 && value != 1/totalLinks){
-                //do something
-            } 
-        });
-
-
+        return value.map(x => x * (1 - alpha));
     });
     return newMatrix;
 }
