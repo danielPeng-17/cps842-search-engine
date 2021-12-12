@@ -6,6 +6,7 @@ var alpha = 0.16 //other common alpha values also 0.01 and 0.10, 0.05
 var totalNumOfLinks = 4 // N value
 var countOfOnesPerRow = [] // Counting # of 1s per row on Adjacency Matrix
 var allZeroRows = [];
+var matrixUrls = []
 
 // 1) Build Adjacency matrix based on link in links.txt and outlinks associated with links.txt
 /*var adjacencyMatrix =  [[0,1,1,1],
@@ -15,7 +16,6 @@ var allZeroRows = [];
 
 const createAdjacencyMatrix = () => {
     var adjacencyMatrix = [];
-    var matrixUrls = []
 
     let linkText = fs.readFileSync('../web-pages/links.txt');
     let rawData = JSON.parse(linkText);
@@ -147,9 +147,21 @@ const createProbabilityVector = (iterations) => {
         output = multiplyMatrices(vector, matrix);
         vector = [output[0]];
     }
-    return getTop(10, vector[0]);
+    top = getTop(10, vector[0]);
+    return createDisplay(top);
 }
-console.log(createProbabilityVector(3));
+
+console.log(createProbabilityVector(10));
+
+function createDisplay(top) {
+    var output = "";
+    top.forEach((element, index) => {
+        output += "Rank #" + (index + 1)
+            + "\nRanking value: " + element.value
+            + "\nURL: " + matrixUrls[element.index]+"\n";
+    });
+    return (output);
+}
 
 function getTop(numPositions, vector) {
     var topPosition = vector.map((value, index) => {
