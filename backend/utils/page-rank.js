@@ -161,20 +161,6 @@ function getTop(numPositions, vector) {
     return topPosition.slice(0, numPositions);
 }
 
-// function getTop(vector) {
-//     var topPositions = [vector[0]];
-//     var tempPositions = [vector[0]];
-//     vector.forEach((newValue) => {
-//         tempPositions.forEach((someTopValue, index) => {
-//             if (newValue > someTopValue) {
-//                 topPositions.splice(index, 0, newValue);
-//             }
-//         });
-//         tempPositions = topPositions;
-//     });
-//     return topPositions;
-// }
-
 function multiplyMatrices(m1, m2) {
     var result = [];
     for (var i = 0; i < m1.length; i++) {
