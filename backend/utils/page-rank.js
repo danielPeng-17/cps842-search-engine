@@ -150,18 +150,20 @@ const createProbabilityVector = (iterations) => {
 
 const getPageRankData = () => {
     let vectors = createProbabilityVector(3);
-    return vectors.map((element, index) => {
-        return {
+    var ret = {};
+    vectors.forEach((element, index) => {
+        let documentId = element.index + 1;
+        ret[documentId] = {
             rank: index + 1,
-            documentId: element.index + 1,
+            documentId: documentId,
             rankingValue: element.value,
             url: matrixUrls[element.index]
         }
     });
-
+    return ret;
 }
-
 console.log(getPageRankData());
+//console.log(getPageRankData()['5']);
 
 function createDisplay(top) {
     //return as an object instead of string
