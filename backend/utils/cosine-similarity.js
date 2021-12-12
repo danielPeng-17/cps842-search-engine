@@ -118,8 +118,7 @@ const getCosineSimilarityScore = (query, postingList, dictionaryList) => {
     for (let i in documentVectorData) {
         cosineSimilarityScores[i] = calculateProduct(queryWeightVector, normalizedQueryValue, documentVectorData[i]);
     }
-
-    return common.sortObjectByValue(cosineSimilarityScores, true);
+    return cosineSimilarityScores;
 };
 
 module.exports = {
