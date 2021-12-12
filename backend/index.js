@@ -28,8 +28,6 @@ app.get('/crawl_pages', async (req, res) => {
 
 app.get('/search', (req, res) => {
     let query = req.query.q;
-    // console.log(query);
-    // let tempQuery = 'double-click on the WorldWideWeb icon';
     let stopWords = fs.readFileSync('./files/stopword.txt').toString().split('\r\n');
     query = common.stemText(common.removeStopWord(common.parser(query), stopWords));
     if (!fs.existsSync('./files/postings.txt') || !fs.existsSync('./files/dictionary.txt')) {
@@ -59,6 +57,10 @@ app.get('/search', (req, res) => {
         return b[1].score - a[1].score;
     });
     
+    for (let i = 0; i < sortedRanks.length; i++) {
+        sortedRanks[i][1]['rank'] = i + 1
+    }
+
     res.json({data: sortedRanks});
 });
 

@@ -2,20 +2,32 @@
 import React from 'react';
 import ResultItem from '../components/result-item';
 import {useLocation} from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
+import { useNavigate } from 'react-router-dom';
+import { Button } from 'react-bootstrap/';
 
 function ResultsPage() {
+    const navigate = useNavigate();
     const { state } = useLocation();
-    console.log(Object.keys(state.data))
+
+    const handleClick = () => navigate('/');
+
     return (
         <div>
+            <Button
+                style={{
+                    marginLeft: '20px',
+                    marginTop: '20px'
+                }}
+                onClick={() => handleClick()}
+            >
+                Back
+            </Button>
             <h1 style={{textAlign:'center', fontSize: "3em", fontWeight: 'bold', marginBottom: "20px", marginTop: "20px"}}>Results Page</h1>
             <hr/>
             {
-                Object.keys(state.data).map(key => {
-                    return <ResultItem data={state.data[key]} />
+                state.data.data.map(element => {
+                    return <ResultItem data={element} />
                 })
-                // console.log(state.data)
             }
         </div>
     );

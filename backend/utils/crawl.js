@@ -68,7 +68,6 @@ const fetchData = async (url) => {
 
 const filterHtml = (html) => {
     const text = convert(html, { wordwrap: 150 });
-    console.log(text);
     return text;
 };
 
@@ -99,11 +98,6 @@ const crawl = async (url, depth, ignore) => {
             )
             // remove duplicate urls
             .filter((v, i, a) => a.indexOf(v) === i);
-
-        // for testing 
-        // filteredLinks.forEach(x => {
-        //     console.log(getUrl(protocol, host, x, url), ' ', x, ' ', host);
-        // })
 
         filteredLinks
             .forEach((link) => {
