@@ -27,7 +27,6 @@ function SearchPage() {
 
     useEffect(() => {
         if (data) {
-            // console.log('in effect')
             loading = false;
             navigate('/result', { state: { data }  });
         }
