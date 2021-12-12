@@ -1,3 +1,4 @@
+var matrixMultiplication = require('matrix-multiplication');
 const crawler = require('./crawl');
 const fs = require('fs');
 const { forEach } = require('lodash');
@@ -44,8 +45,8 @@ const createAdjacencyMatrix = () => {
         adjacencyMatrix.push(adjacencyRow);
     }
     let index = 0;
-    console.log("Adjacency Matrix for " + index);
-    console.log(adjacencyMatrix[index]);
+    // console.log("Adjacency Matrix for " + index);
+    // console.log(adjacencyMatrix[index]);
     return adjacencyMatrix;
 }
 
@@ -130,10 +131,63 @@ const createMatrixFour = () => {
 // x3 = x2 * P = (0.107 0.522 0.118 0.253) times 4th matrix = (0.150 0.442 0.180 0.229)
 // x4 = x3 * P = etc...
 
-const createProbabilityVector = () => {
+const createProbabilityVector = (iterations) => {
     let matrixFour = createMatrixFour();
     let probabilityVector = matrixFour[0];
+    let totalLinks = matrixFour.length;
 
+    // let vector = [[0.04, 0.32, 0.32, 0.32]];
+    // let matrix = [[0.04, 0.32, 0.32, 0.32], [0.25,0.25,0.25,0.25], [0.04,0.46,0.04,0.46], [0.04,0.88,0.04,0.04]];
+    // var mul = matrixMultiplication()(4);
+    // var output = mul(vector, matrix);
+    var vector = [matrixFour[0]];
+    let matrix = matrixFour;
+    var output;
+    for(var x=0; x<iterations; x++) {
+        output = multiplyMatrices(vector, matrix);
+        vector = [output[0]];
+    }
+    return getTop(10, vector[0]);
+}
+console.log(createProbabilityVector(3));
+
+function getTop(numPositions, vector) {
+    var topPosition = vector.map((value, index) => {
+        return {index: index, value: value}
+    });
+    topPosition.sort(function compare(a, b) {
+        return b.value - a.value;
+    });
+    return topPosition.slice(0, numPositions);
+}
+
+// function getTop(vector) {
+//     var topPositions = [vector[0]];
+//     var tempPositions = [vector[0]];
+//     vector.forEach((newValue) => {
+//         tempPositions.forEach((someTopValue, index) => {
+//             if (newValue > someTopValue) {
+//                 topPositions.splice(index, 0, newValue);
+//             }
+//         });
+//         tempPositions = topPositions;
+//     });
+//     return topPositions;
+// }
+
+function multiplyMatrices(m1, m2) {
+    var result = [];
+    for (var i = 0; i < m1.length; i++) {
+        result[i] = [];
+        for (var j = 0; j < m2[0].length; j++) {
+            var sum = 0;
+            for (var k = 0; k < m1[0].length; k++) {
+                sum += m1[i][k] * m2[k][j];
+            }
+            result[i][j] = sum;
+        }
+    }
+    return result;
 }
 
 //createProbablityVector();
