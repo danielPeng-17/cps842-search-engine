@@ -1,3 +1,4 @@
+const cors = require('cors');
 const express = require('express');
 const fs = require('fs');
 const bodyParser = require('body-parser');
@@ -15,7 +16,10 @@ if (port == null || port == "") {
     port = 8000;
 }
 
+app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.options('*', cors());
 
 app.get('/crawl_pages', async (req, res) => {
     await crawl.crawler('./files/seed.txt');

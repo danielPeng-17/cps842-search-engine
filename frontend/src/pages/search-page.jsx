@@ -7,10 +7,11 @@ function SearchPage() {
     const navigate = useNavigate();
     let loading = false;
     let [data,setData] = useState('');
+    let [query, setQuery] = useState('');
 
     const handleSearch = async (e) => {
         e.preventDefault();
-        await axios.get('/search')
+        await axios.get('/search?q=' + query)
             .then(res => {
                 setData(res.data);
                 loading = true;
@@ -21,6 +22,8 @@ function SearchPage() {
         );
        
     }
+
+    const stateUpdateQuery = ({target: {value}}) => setQuery(value);
 
     useEffect(() => {
         if (data) {
@@ -40,7 +43,20 @@ function SearchPage() {
                         <Form onSubmit={(e) => handleSearch(e)}>
                             <Form.Group controlId="formBasicQuery">
                                 <Form.Label style={{fontSize:"2em"}}>What would you like to search for?<br/></Form.Label>
-                                <Form.Control style={{marginLeft: "auto", marginRight:"auto", width:'50%', textAlign:'center', borderRadius:'1rem', fontSize:'2em'}} type="text" placeholder="Input query"/>
+                                <Form.Control 
+                                    style={{
+                                        marginLeft: "auto", 
+                                        marginRight:"auto", 
+                                        width:'50%', 
+                                        textAlign:'center', 
+                                        borderRadius:'1rem', 
+                                        fontSize:'2em'
+                                    }} 
+                                    type="text" 
+                                    placeholder="Input query"
+                                    onChange={stateUpdateQuery}
+                                    value={query}
+                                />
                             </Form.Group>
                             <Button style={{margin:'25px', fontSize:'2em'}} variant="primary" type="submit">
                                 Submit
