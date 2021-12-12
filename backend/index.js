@@ -5,6 +5,7 @@ const crawl = require('./utils/crawl');
 const invert = require('./utils/invert');
 const common = require('./utils/common');
 const cosine = require('./utils/cosine-similarity');
+const pageRank = require('./utils/page-rank');
 const constants = require('./constants/constants');
 
 const app = express();
@@ -22,35 +23,39 @@ app.get('/crawl_pages', async (req, res) => {
 });
 
 app.get('/search', (req, res) => {
-    // const query = req.query.search;
+    let query = req.query.q;
     // console.log(query);
     // let tempQuery = 'double-click on the WorldWideWeb icon';
-    // let stopWords = fs.readFileSync('./files/stopword.txt').toString().split('\r\n');
-    // tempQuery = common.stemText(common.removeStopWord(common.parser(tempQuery), stopWords));
-    // let postingList = {}
-    // let dictionaryList = {}
-
-    // if (!fs.existsSync('./files/postings.txt') || !fs.existsSync('./files/dictionary.txt')) {
+    let stopWords = fs.readFileSync('./files/stopword.txt').toString().split('\r\n');
+    query = common.stemText(common.removeStopWord(common.parser(query), stopWords));
+    if (!fs.existsSync('./files/postings.txt') || !fs.existsSync('./files/dictionary.txt')) {
         // call invert to generate posting list and dictionary
-        // invert.invert(constants.STOP_WORD, constants.STEMMING);
-    // }
-    // postingList = common.generateMap('./files/postings.txt');
-    // dictionaryList = common.generateMap('./files/dictionary.txt');
-    
-    // const cosineScore = cosine.getCosineSimilarityScore(tempQuery, postingList, dictionaryList);
-    // console.log(cosineScore);
-    // TODO: HELPER FUNCTION -> compute pageRank score
-
-    // TODO: combine cos-score and pageRank score into score(d, q) = w1*cos-score(d, q) + w2*pagerank(d) where w1+w2=1
-    // NOTE: w1 is WEIGHT_1 and w2 is WEIGHT_2 from constants.js
-
-    // return object of results -> ordered by ranking score
-    const testData = {
-        1: {'title': 'Google title', 'url': 'https://www.google.ca', "score": 0.885634},
-        2: {'title': 'Amazon title','url': 'https://www.amazon.com', "score": 0.55734},
-        3: {'title': 'Netflix title','url': 'https//www.netflix.com', "score": 0.14564}
+        invert.invert(constants.STOP_WORD, constants.STEMMING);
     }
-    res.json(testData);
+    let postingList = common.generateMap('./files/postings.txt');
+    let dictionaryList = common.generateMap('./files/dictionary.txt');
+    
+    const cosineScore = cosine.getCosineSimilarityScore(query, postingList, dictionaryList);
+
+    const pageRankScore = pageRank.getPageRankData();
+
+    let ranks = {}
+
+    for (let key in cosineScore) {
+        let score = common.combineScores(cosineScore[key], pageRankScore[key].rankingValue);
+        ranks[key] = {score, url: pageRankScore[key].url}
+    }
+
+    let sortedRanks = [];
+    for (let i in ranks) {
+        sortedRanks.push([i, ranks[i]]);
+    }
+
+    sortedRanks.sort(function(a, b) {
+        return b[1].score - a[1].score;
+    });
+    
+    res.json({data: sortedRanks});
 });
 
 app.listen(port, () => {

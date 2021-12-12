@@ -1,10 +1,5 @@
-var matrixMultiplication = require('matrix-multiplication');
-const crawler = require('./crawl');
 const fs = require('fs');
-const { forEach } = require('lodash');
 var alpha = 0.16 //other common alpha values also 0.01 and 0.10, 0.05
-var totalNumOfLinks = 0 // N value
-var countOfOnesPerRow = [] // Counting # of 1s per row on Adjacency Matrix
 var allZeroRows = []; //storing row indexes that contain only value '0'
 var matrixUrls = [] // all the URLs within the Web Graph
 var totalLinks = 0;
@@ -18,7 +13,7 @@ var totalLinks = 0;
 const createAdjacencyMatrix = () => {
     var adjacencyMatrix = [];
 
-    let linkText = fs.readFileSync('../web-pages/links.txt');
+    let linkText = fs.readFileSync('./web-pages/links.txt');
     let rawData = JSON.parse(linkText);
     let data = Object.entries(rawData)
     
@@ -45,9 +40,6 @@ const createAdjacencyMatrix = () => {
         adjacencyMatrix.push(adjacencyRow);
     }
     totalLinks = adjacencyMatrix.length;
-    // let index = 0;
-    // console.log("Adjacency Matrix for " + index);
-    // console.log(adjacencyMatrix[index]);
     return adjacencyMatrix;
 }
 
@@ -62,12 +54,6 @@ const createAdjacencyMatrix = () => {
 
 const createMatrixTwo = () => {
     let adjacencyMatrix = createAdjacencyMatrix();
-
-    //pseudo code for map
-    // var newMatrix [[]];
-    // foreach x in adjacencyMatrix {
-        // do some stuff and add to newMatrix
-    // }
 
     let newMatrix = adjacencyMatrix.map((value, index) => {
         //all zero check
@@ -132,12 +118,7 @@ const createMatrixFour = () => {
 
 const createProbabilityVector = (iterations) => {
     let matrixFour = createMatrixFour();
-    let probabilityVector = matrixFour[0];
 
-    // let vector = [[0.04, 0.32, 0.32, 0.32]];
-    // let matrix = [[0.04, 0.32, 0.32, 0.32], [0.25,0.25,0.25,0.25], [0.04,0.46,0.04,0.46], [0.04,0.88,0.04,0.04]];
-    // var mul = matrixMultiplication()(4);
-    // var output = mul(vector, matrix);
     var vector = [matrixFour[0]];
     let matrix = matrixFour;
     var output;
@@ -162,8 +143,6 @@ const getPageRankData = () => {
     });
     return ret;
 }
-console.log(getPageRankData());
-//console.log(getPageRankData()['5']);
 
 function createDisplay(top) {
     //return as an object instead of string
@@ -202,5 +181,9 @@ function multiplyMatrices(m1, m2) {
             result[i][j] = sum;
         }
     }
-    return result;
+    return result;   
+}
+
+module.exports = {
+    getPageRankData
 }

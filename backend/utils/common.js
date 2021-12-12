@@ -1,6 +1,7 @@
 const fs = require('fs');
 const natural = require('natural');
 const _ = require('lodash');
+const constants = require('../constants/constants');
 
 const generateMap = (file) => {
     let g_map = new Map();
@@ -61,10 +62,15 @@ const removeStopWord = (text, stopWords) => {
     return output.join(' ');
 }
 
+const combineScores = (s1, s2) => {
+    return constants.WEIGHT_1 * s1 + constants.WEIGHT_2 * s2;
+}
+
 module.exports = {
     generateMap,
     stemText,
     sortObjectByValue,
     parser,
-    removeStopWord
+    removeStopWord,
+    combineScores
 }
