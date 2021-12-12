@@ -3,10 +3,11 @@ const crawler = require('./crawl');
 const fs = require('fs');
 const { forEach } = require('lodash');
 var alpha = 0.16 //other common alpha values also 0.01 and 0.10, 0.05
-var totalNumOfLinks = 4 // N value
+var totalNumOfLinks = 0 // N value
 var countOfOnesPerRow = [] // Counting # of 1s per row on Adjacency Matrix
-var allZeroRows = [];
-var matrixUrls = []
+var allZeroRows = []; //storing row indexes that contain only value '0'
+var matrixUrls = [] // all the URLs within the Web Graph
+var totalLinks = 0;
 
 // 1) Build Adjacency matrix based on link in links.txt and outlinks associated with links.txt
 /*var adjacencyMatrix =  [[0,1,1,1],
@@ -29,7 +30,6 @@ const createAdjacencyMatrix = () => {
         var count = 0;
         var adjacencyRow = [];
         for (let url of matrixUrls) {
-            //TODO handle ../ aka relative paths
             let result = item.links.find(element => {
                 if (!element.startsWith("./") && element != "/") {
                     return url.includes(element)
@@ -44,7 +44,8 @@ const createAdjacencyMatrix = () => {
         }
         adjacencyMatrix.push(adjacencyRow);
     }
-    let index = 0;
+    totalLinks = adjacencyMatrix.length;
+    // let index = 0;
     // console.log("Adjacency Matrix for " + index);
     // console.log(adjacencyMatrix[index]);
     return adjacencyMatrix;
@@ -61,7 +62,6 @@ const createAdjacencyMatrix = () => {
 
 const createMatrixTwo = () => {
     let adjacencyMatrix = createAdjacencyMatrix();
-    let totalLinks = adjacencyMatrix.length;
 
     //pseudo code for map
     // var newMatrix [[]];
@@ -111,7 +111,6 @@ const createMatrixThree = () => {
 
 const createMatrixFour = () => {
     let matrixThree = createMatrixThree();
-    let totalLinks = matrixThree.length;
 
     let newMatrix = matrixThree.map((value, index) => {
         // all zero check
@@ -125,7 +124,7 @@ const createMatrixFour = () => {
 
 // Calculating probability x0, x1, ..., xi
 // start off example x0 = (1 0 0 0): the number of zeroes is based on (totalNumOfLinks - 1)
-//
+//EXAMPLE
 // x1 = x0 * P = (1 0 0 0) * P = (0.04 0.32 0.32 0.32):  x1 value is based on 1st row of of 4th matrix
 // x2 = x1 * P = (0.04 0.32 0.32 0.32) times 4th matrix (matrix mult) = (0.107 0.522 0.118 0.253)
 // x3 = x2 * P = (0.107 0.522 0.118 0.253) times 4th matrix = (0.150 0.442 0.180 0.229)
@@ -134,7 +133,6 @@ const createMatrixFour = () => {
 const createProbabilityVector = (iterations) => {
     let matrixFour = createMatrixFour();
     let probabilityVector = matrixFour[0];
-    let totalLinks = matrixFour.length;
 
     // let vector = [[0.04, 0.32, 0.32, 0.32]];
     // let matrix = [[0.04, 0.32, 0.32, 0.32], [0.25,0.25,0.25,0.25], [0.04,0.46,0.04,0.46], [0.04,0.88,0.04,0.04]];
@@ -147,18 +145,35 @@ const createProbabilityVector = (iterations) => {
         output = multiplyMatrices(vector, matrix);
         vector = [output[0]];
     }
-    top = getTop(10, vector[0]);
-    return createDisplay(top);
+    return getTop(totalLinks, vector[0]);    
 }
 
-console.log(createProbabilityVector(10));
+const getPageRankData = () => {
+    let vectors = createProbabilityVector(3);
+    return vectors.map((element, index) => {
+        return {
+            rank: index + 1,
+            documentId: element.index + 1,
+            rankingValue: element.value,
+            url: matrixUrls[element.index]
+        }
+    });
+
+}
+
+console.log(getPageRankData());
 
 function createDisplay(top) {
+    //return as an object instead of string
+    // the key has to be the document id
+    // return all documents
     var output = "";
     top.forEach((element, index) => {
         output += "Rank #" + (index + 1)
+            + "\nDocument id: " + (element.index + 1)
             + "\nRanking value: " + element.value
-            + "\nURL: " + matrixUrls[element.index]+"\n";
+            + "\nURL: " + matrixUrls[element.index]+"\n"
+            + "\n";
     });
     return (output);
 }
@@ -187,15 +202,3 @@ function multiplyMatrices(m1, m2) {
     }
     return result;
 }
-
-//createProbablityVector();
-
-
-// Set Convergence to stop Probability calculations
-// i) convergence difference is under a certain threshold or is 0 - Stop iteration
-// ii) stop Proability calculations after a certain # of calculations
-
-
-
-
-// determine ranking order after probability calcualtion stops on x iteration
